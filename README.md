@@ -1,5 +1,5 @@
 # Chess programming
-Source code for my YouTube videos from chess programming channel:
+Source code for my YouTube videos from chess programming channel:<br>
 https://www.youtube.com/channel/UCB9-prLkPwgvlKKqDgXhsMQ?view_as=subscriber
 
 
