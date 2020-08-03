@@ -944,25 +944,25 @@ int make_move(int move)
     {
         // switch target square
         switch(to_square) {
-            // white king side castling
+            // white castles king side
             case g1:
                 board[f1] = board[h1];
                 board[h1] = e;
                 break;
             
-            // white queen side castling
+            // white castles queen side
             case c1:
                 board[d1] = board[a1];
                 board[a1] = e;
                 break;
            
-           // black king side castling
+           // black castles king side
             case g8:
                 board[f8] = board[h8];
                 board[h8] = e;
                 break;
            
-           // black queen side castling
+           // black castles queen side
             case c8:
                 board[d8] = board[a8];
                 board[a8] = e;
