@@ -1400,36 +1400,159 @@ int search_position(int alpha, int beta, int depth)
     return alpha;
 }
 
+// parse move (from UCI)
+int parse_move(char *move_str)
+{
+    // init move list
+	moves move_list[1];
+	
+	// generate moves
+	generate_moves(move_list);
+
+    // parse move string
+	int parse_from = (move_str[0] - 'a') + (8 - (move_str[1] - '0')) * 16;
+	int parse_to = (move_str[2] - 'a') + (8 - (move_str[3] - '0')) * 16;
+	int prom_piece = 0;
+    
+    // init move to encode
+	int move;
+	
+	// loop over generated moves
+	for(int count = 0; count < move_list->count; count++)
+	{
+	    // pick up move
+		move = move_list->moves[count];
+        
+        // if input move is present in the move list
+		if(get_move_source(move) == parse_from && get_move_target(move) == parse_to)
+		{
+		    // init promoted piece
+			prom_piece = get_move_piece(move);
+			
+			// if promoted piece is present compare it with promoted piece from user input
+			if(prom_piece)
+			{	
+				if((prom_piece == N || prom_piece == n) && move_str[4] == 'n')
+					return move;
+					
+				else if((prom_piece == B || prom_piece == b) && move_str[4] == 'b')
+					return move;
+					
+				else if((prom_piece == R || prom_piece == r) && move_str[4] == 'r')
+					return move;
+					
+				else if((prom_piece == Q || prom_piece == Q) && move_str[4] == 'q')
+					return move;
+					
+				continue;
+			}
+            
+            // return move to make on board
+			return move;
+		}
+	}
+	
+	// return illegal move
+	return 0;
+}
+
+/********************************************
+ ******************* UCI ********************
+ ********************************************/
+ 
+#define inputBuffer (400 * 6)
+
+void uci()
+{
+	char line[inputBuffer];
+
+	printf("id name chess_0x88\n");
+	printf("id author Code Monkey King\n");
+	printf("uciok\n");
+	
+	while(1)
+	{
+		memset(&line[0], 0, sizeof(line));
+		fflush(stdout);
+		
+		if(!fgets(line, inputBuffer, stdin))
+			continue;
+			
+		if(line[0] == '\n')
+			continue;
+			
+		if (!strncmp(line, "uci", 3))
+		{
+			printf("id name chess_0x88\n");
+			printf("id author Code Monkey King\n");
+			printf("uciok\n");
+		}
+		
+		else if(!strncmp(line, "isready", 7))
+		{
+			printf("readyok\n");
+			continue;
+		}
+		
+		else if (!strncmp(line, "ucinewgame", 10))
+		{
+			parse_fen(start_position);
+		}
+		
+		else if(!strncmp(line, "position startpos moves", 23))
+		{
+			parse_fen(start_position);
+			print_board();
+			
+			char *moves = line;
+			moves += 23;
+			
+			int countChar = -1;
+			
+			while(*moves)
+			{
+				if(*moves == ' ')
+				{
+					*moves++;
+					make_move(parse_move(moves), all_moves);
+					print_board();
+				}
+				
+				*moves++;
+			}
+		}
+		
+		else if(!strncmp(line, "position startpos", 17))
+		{
+			parse_fen(start_position);
+			print_board();
+		}
+		
+		else if (!strncmp(line, "go depth", 8))
+		{
+			char *go = line;
+			go += 9;
+			
+			int depth = *go - '0';
+			
+			search_position(-50000, 50000, depth);
+	        
+            if (best_move)
+	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
+                                            square_to_coords[get_move_target(best_move)],
+                                              promoted_pieces[get_move_piece(best_move)]);
+		}
+		
+		else if(!strncmp(line, "quit", 4))
+			break;
+	}
+}
+
 // main driver
 int main()
 {
-    // parse FEN string
-    parse_fen("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-    
-    // engine plays versus itself
-    while(1)
-    {
-        // search position
-        int score = search_position(-50000, 50000, 3);
-        
-        make_move(best_move, all_moves);
-        print_board();
-        printf("Best score: %d\n", score);
-        printf("Best move: %s%s\n", square_to_coords[get_move_source(best_move)],
-                                    square_to_coords[get_move_target(best_move)]);
-        getchar();
-        
-        // when side is mated
-        if (score == -49000)
-        {
-            search_position(-50000, 50000, 4);
-            make_move(best_move, all_moves);
-            print_board();
-            printf("GAME OVER!");
-            break;
-        }
-    }
-    
+    // run engine in UCI mode
+    uci();    
     return 0;
 }
 

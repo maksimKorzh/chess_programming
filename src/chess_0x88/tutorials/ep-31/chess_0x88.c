@@ -1248,12 +1248,71 @@ int evaluate_position()
 // init best move
 int best_move = 0;
 
+// quiescence search
+int quiescence_search(int alpha, int beta)
+{
+    // evaluate position
+    int eval = evaluate_position();
+    
+    //  fail hard beta-cutoff
+    if (eval >= beta)
+         return beta;
+
+    // alpha acts like max in MiniMax
+    if (eval > alpha)
+        alpha = eval;
+
+    // create move list variable
+    moves move_list[1];
+    
+    // generate moves
+    generate_moves(move_list);
+    
+    // loop over the generated moves
+    for (int move_count = 0; move_count < move_list->count; move_count++)
+    {
+        // define board state variable copies
+        int board_copy[128], king_square_copy[2];
+        int side_copy, enpassant_copy, castle_copy;
+        
+        // copy board state
+        memcpy(board_copy, board, 512);
+        side_copy = side;
+        enpassant_copy = enpassant;
+        castle_copy = castle;
+        memcpy(king_square_copy, king_square,8);
+        
+        // make only legal moves
+        if (!make_move(move_list->moves[move_count], only_captures))
+            // skip illegal move
+            continue;
+        
+        // recursive call
+        int score = -quiescence_search(-beta, -alpha);
+        
+        // restore board position
+        memcpy(board, board_copy, 512);
+        side = side_copy;
+        enpassant = enpassant_copy;
+        castle = castle_copy;
+        memcpy(king_square, king_square_copy,8);
+        
+        //  fail hard beta-cutoff
+        if (score >= beta)
+             return beta;
+        
+        // alpha acts like max in MiniMax
+        if (score > alpha)
+            alpha = score;
+    }
+        
+    // return alpha score
+    return alpha;
+}
+
 // search position
 int search_position(int alpha, int beta, int depth)
 {
-    // init score
-    int score = -50000;
-    
     // legal moves
     int legal_moves = 0;
     
@@ -1265,11 +1324,8 @@ int search_position(int alpha, int beta, int depth)
 
     // escape condition
     if  (!depth)
-        // return position score (debug)
-        return evaluate_position();
-        
         // search for calm position before evaluation
-        //return quiescence_search(alpha, beta);
+        return quiescence_search(alpha, beta);
 
     // create move list variable
     moves move_list[1];
@@ -1300,7 +1356,7 @@ int search_position(int alpha, int beta, int depth)
         legal_moves++;
         
         // recursive call
-        score = -search_position(-beta, -alpha, depth - 1);
+        int score = -search_position(-beta, -alpha, depth - 1);
         
         // restore board position
         memcpy(board, board_copy, 512);
@@ -1310,11 +1366,11 @@ int search_position(int alpha, int beta, int depth)
         memcpy(king_square, king_square_copy,8);
         
         //  fail hard beta-cutoff
-        if( score >= beta )
+        if (score >= beta)
              return beta;
         
         // alpha acts like max in MiniMax
-        if( score > alpha )
+        if (score > alpha)
         {
             // set alpha score
             alpha = score;
@@ -1354,7 +1410,7 @@ int main()
     while(1)
     {
         // search position
-        int score = search_position(-50000, 50000, 4);
+        int score = search_position(-50000, 50000, 3);
         
         make_move(best_move, all_moves);
         print_board();

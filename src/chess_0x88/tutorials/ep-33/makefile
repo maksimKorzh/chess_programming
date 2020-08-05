@@ -1,2 +1,0 @@
-all:
-	gcc chess_0x88.c -o chess_0x88
