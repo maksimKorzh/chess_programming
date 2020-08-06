@@ -1384,7 +1384,7 @@ int search_position(int alpha, int beta, int depth)
     if (!legal_moves)
     {
         // check mate detection
-        if (is_square_attacked(!side ? king_square[white] : king_square[black], side ^ 1))
+        if (is_square_attacked(king_square[side], side ^ 1))
             return -49000;
         
         // stalemate detection
@@ -1428,10 +1428,10 @@ int parse_move(char *move_str)
 		{
 		    // init promoted piece
 			prom_piece = get_move_piece(move);
-			
+			printf("prom: %d\n", p);
 			// if promoted piece is present compare it with promoted piece from user input
 			if(prom_piece)
-			{	
+			{
 				if((prom_piece == N || prom_piece == n) && move_str[4] == 'n')
 					return move;
 					
@@ -1441,7 +1441,7 @@ int parse_move(char *move_str)
 				else if((prom_piece == R || prom_piece == r) && move_str[4] == 'r')
 					return move;
 					
-				else if((prom_piece == Q || prom_piece == Q) && move_str[4] == 'q')
+				else if((prom_piece == Q || prom_piece == q) && move_str[4] == 'q')
 					return move;
 					
 				continue;
@@ -1451,7 +1451,7 @@ int parse_move(char *move_str)
 			return move;
 		}
 	}
-	
+
 	// return illegal move
 	return 0;
 }
@@ -1459,90 +1459,195 @@ int parse_move(char *move_str)
 /********************************************
  ******************* UCI ********************
  ********************************************/
- 
+
+// input buffer size
 #define inputBuffer (400 * 6)
 
+// UCI driver
 void uci()
 {
+    // init input buffer
 	char line[inputBuffer];
 
+    // print engine info
 	printf("id name chess_0x88\n");
 	printf("id author Code Monkey King\n");
 	printf("uciok\n");
 	
+	// main loop
 	while(1)
 	{
+	    // reset input buffer
 		memset(&line[0], 0, sizeof(line));
+		
+		// flush stdout
 		fflush(stdout);
 		
+		// skip on no user input
 		if(!fgets(line, inputBuffer, stdin))
 			continue;
-			
+	    
+	    // skip on empty user input
 		if(line[0] == '\n')
 			continue;
-			
+	    
+	    // pares "uci" command
 		if (!strncmp(line, "uci", 3))
 		{
+		    // print engine info
 			printf("id name chess_0x88\n");
 			printf("id author Code Monkey King\n");
 			printf("uciok\n");
 		}
 		
+		// parse "isready" command
 		else if(!strncmp(line, "isready", 7))
 		{
+		    // return engine is ready
 			printf("readyok\n");
 			continue;
 		}
 		
+		// parse "ucinewgame" command
 		else if (!strncmp(line, "ucinewgame", 10))
 		{
+		    // init board with initial position
 			parse_fen(start_position);
 		}
 		
+		// parse GUI input moves after initial position
 		else if(!strncmp(line, "position startpos moves", 23))
 		{
+			// init board with initial position
 			parse_fen(start_position);
 			print_board();
 			
+			// init move string
 			char *moves = line;
+			
+			// init offset where the moves start
 			moves += 23;
 			
+			// init character counter
 			int countChar = -1;
 			
+			// loop over move strings
 			while(*moves)
 			{
+			    // pick next move in the GUI input
 				if(*moves == ' ')
 				{
+				    // go to next move
 					*moves++;
+					
+					// parse move and make it on board
 					make_move(parse_move(moves), all_moves);
-					print_board();
 				}
 				
+				// go to next move
 				*moves++;
 			}
 		}
 		
+		// parse initial position
 		else if(!strncmp(line, "position startpos", 17))
 		{
+		    // init board with initial position
 			parse_fen(start_position);
 			print_board();
 		}
 		
+		// init board from FEN
+		else if(!strncmp(line, "position fen", 12))
+		{
+		    // parse FEN input
+			char *fen = line;
+			fen += 13;
+			
+			// init board with current FEN
+			parse_fen(fen);
+			
+			// parse moves after "position fen" command
+			char *moves = line;
+			
+			// parse "moves" command after "position fen"
+			while(strncmp(moves, "moves", 5))
+			{
+			    // increment moves' string pointer
+				*moves++;
+				
+				// break when no more moves available
+				if(*moves == '\0')
+					break;
+			}
+			
+			// go to moves
+			moves += 4;
+			
+			// parse moves
+			if(*moves == 's')
+			{
+			    // init character counter
+				int countChar = -1;
+			    
+			    // loop over input moves
+				while(*moves)
+				{
+				    // pick up next move
+					if(*moves == ' ')
+					{
+					    // go to next move
+						*moves++;
+						
+						// parse current move and make it on board
+						make_move(parse_move(moves), all_moves);
+					}
+				    
+				    // go to next move
+					*moves++;
+				}
+			}
+			
+			// print position
+			print_board();
+		}
+		
+		// parse fixed depth "go" command
 		else if (!strncmp(line, "go depth", 8))
 		{
+		    // parse "go" command
 			char *go = line;
 			go += 9;
 			
+			// parse depth
 			int depth = *go - '0';
 			
-			search_position(-50000, 50000, depth);
+			// serch position with carrent depth
+			int score = search_position(-50000, 50000, depth);
 	        
+	        // output best move
             if (best_move)
+	            printf("info score cp %d depth %d\n", score, depth);
 	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
                                             square_to_coords[get_move_target(best_move)],
                                               promoted_pieces[get_move_piece(best_move)]);
 		}
 		
+		// use fixed depth 3 for all the other modes but fixed depth, e.g. in blitz mode
+		else if (!strncmp(line, "go", 2))
+		{			
+			// search position with current depth 3
+			int score = search_position(-50000, 50000, 3);
+	        
+	        // output best move
+            if (best_move)
+	            printf("info score cp %d depth 3\n", score);
+	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
+                                            square_to_coords[get_move_target(best_move)],
+                                              promoted_pieces[get_move_piece(best_move)]);
+		}
+		
+		// parse "quit" command
 		else if(!strncmp(line, "quit", 4))
 			break;
 	}
@@ -1552,7 +1657,8 @@ void uci()
 int main()
 {
     // run engine in UCI mode
-    uci();    
+    uci();
+    
     return 0;
 }
 
