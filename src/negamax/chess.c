@@ -12,7 +12,6 @@
 // headers
 #include <stdio.h>
 #include <string.h>
-//#include <sys/time.h>
 
 // FEN dedug positions
 char start_position[] = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
@@ -254,6 +253,13 @@ typedef struct {
     int count;
 } moves;
 
+
+/********************************************\
+    
+                BOARD FUNCTIONS
+    
+\********************************************/
+
 // print board
 void print_board()
 {
@@ -443,6 +449,13 @@ void parse_fen(char *fen)
         enpassant = no_sq;   
 }
 
+
+/********************************************\
+    
+                MOVE GENERATION
+    
+\********************************************/
+
 // is square attacked
 int is_square_attacked(int square, int side)
 {
@@ -599,7 +612,6 @@ void add_move(moves *move_list, int move)
     // increment move count
     move_list->count++;
 }
-
 
 // move generator
 void generate_moves(moves *move_list)
@@ -1089,17 +1101,14 @@ int make_move(int move, int capture_flag)
     }
 }
 
+/********************************************\
+    
+                     PERFT
+    
+\********************************************/
+
 // count nodes
 long nodes = 0;
-
-/* get time in milliseconds
-int get_time_ms()
-{
-	struct timeval t;
-	gettimeofday(&t, NULL);
-	return t.tv_sec * 1000 + t.tv_usec / 1000;
-}
-*/
 
 // perft driver
 void perft_driver(int depth)
@@ -1153,9 +1162,6 @@ void perft_driver(int depth)
 void perft_test(int depth)
 {
     printf("\n    Performance test:\n\n");
-    
-    // init start time
-    //int start_time = get_time_ms();
 
     // create move list variable
     moves move_list[1];
@@ -1211,8 +1217,14 @@ void perft_test(int depth)
     // print results
     printf("\n    Depth: %d", depth);
     printf("\n    Nodes: %ld\n", nodes);
-    //printf("\n     Time: %d ms\n\n", get_time_ms() - start_time);
 }
+
+
+/********************************************\
+    
+                  EVALUATION
+    
+\********************************************/
 
 // evaluation of the position
 int evaluate_position()
@@ -1246,160 +1258,28 @@ int evaluate_position()
     return !side ? score : -score;
 }
 
-// init best move
+
+/********************************************\
+    
+                    SEARCH
+    
+\********************************************/
+
+// best move
 int best_move = 0;
 
-// quiescence search
-int quiescence_search(int alpha, int beta)
+// run search from UCI
+int search(int depth)
 {
-    // evaluate position
-    int eval = evaluate_position();
-    
-    //  fail hard beta-cutoff
-    if (eval >= beta)
-         return beta;
-
-    // alpha acts like max in MiniMax
-    if (eval > alpha)
-        alpha = eval;
-
-    // create move list variable
-    moves move_list[1];
-    
-    // generate moves
-    generate_moves(move_list);
-    
-    // loop over the generated moves
-    for (int move_count = 0; move_count < move_list->count; move_count++)
-    {
-        // define board state variable copies
-        int board_copy[128], king_square_copy[2];
-        int side_copy, enpassant_copy, castle_copy;
-        
-        // copy board state
-        memcpy(board_copy, board, 512);
-        side_copy = side;
-        enpassant_copy = enpassant;
-        castle_copy = castle;
-        memcpy(king_square_copy, king_square,8);
-        
-        // make only legal moves
-        if (!make_move(move_list->moves[move_count], only_captures))
-            // skip illegal move
-            continue;
-        
-        // recursive call
-        int score = -quiescence_search(-beta, -alpha);
-        
-        // restore board position
-        memcpy(board, board_copy, 512);
-        side = side_copy;
-        enpassant = enpassant_copy;
-        castle = castle_copy;
-        memcpy(king_square, king_square_copy,8);
-        
-        //  fail hard beta-cutoff
-        if (score >= beta)
-             return beta;
-        
-        // alpha acts like max in MiniMax
-        if (score > alpha)
-            alpha = score;
-    }
-        
-    // return alpha score
-    return alpha;
+    best_move = encode_move(d2, d4, 0, 0, 0, 0, 0);
+    return 0;
 }
 
-// search position
-int search_position(int alpha, int beta, int depth)
-{
-    // legal moves
-    int legal_moves = 0;
+/********************************************\
     
-    // best move
-    int best_so_far = 0;
+                     UCI
     
-    // old alpha
-    int old_alpha = alpha;
-
-    // escape condition
-    if  (!depth)
-        // search for calm position before evaluation
-        return quiescence_search(alpha, beta);
-
-    // create move list variable
-    moves move_list[1];
-    
-    // generate moves
-    generate_moves(move_list);
-    
-    // loop over the generated moves
-    for (int move_count = 0; move_count < move_list->count; move_count++)
-    {
-        // define board state variable copies
-        int board_copy[128], king_square_copy[2];
-        int side_copy, enpassant_copy, castle_copy;
-        
-        // copy board state
-        memcpy(board_copy, board, 512);
-        side_copy = side;
-        enpassant_copy = enpassant;
-        castle_copy = castle;
-        memcpy(king_square_copy, king_square,8);
-        
-        // make only legal moves
-        if (!make_move(move_list->moves[move_count], all_moves))
-            // skip illegal move
-            continue;
-        
-        // increment legal moves
-        legal_moves++;
-        
-        // recursive call
-        int score = -search_position(-beta, -alpha, depth - 1);
-        
-        // restore board position
-        memcpy(board, board_copy, 512);
-        side = side_copy;
-        enpassant = enpassant_copy;
-        castle = castle_copy;
-        memcpy(king_square, king_square_copy,8);
-
-        //  fail hard beta-cutoff
-        if (score >= beta)
-            return beta;
-        
-        // alpha acts like max in MiniMax
-        if (score > alpha)
-        {
-            // set alpha score
-            alpha = score;
-            
-            // store current best move
-            best_so_far = move_list->moves[move_count];
-        }
-    }
-    
-    // if no legal moves
-    if (!legal_moves)
-    {
-        // check mate detection
-        if (is_square_attacked(king_square[side], side ^ 1))
-            return -49000;
-        
-        // stalemate detection
-        else
-            return 0;
-    }
-    
-    // associate best score with best move
-    if (alpha != old_alpha)
-        best_move = best_so_far;
-    
-    // return alpha score
-    return alpha;
-}
+\********************************************/
 
 // parse move (from UCI)
 int parse_move(char *move_str)
@@ -1456,10 +1336,6 @@ int parse_move(char *move_str)
 	// return illegal move
 	return 0;
 }
-
-/********************************************
- ******************* UCI ********************
- ********************************************/
 
 // input buffer size
 #define inputBuffer (400 * 6)
@@ -1624,28 +1500,26 @@ void uci()
 			int depth = *go - '0';
 			
 			// serch position with carrent depth
-			int score = search_position(-50000, 50000, depth);
+			int score = search(depth);
 	        
 	        // output best move
-            if (best_move)
-	            printf("info score cp %d depth %d\n", score, depth);
-	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
-                                            square_to_coords[get_move_target(best_move)],
-                                              promoted_pieces[get_move_piece(best_move)]);
+            printf("info score cp %d depth %d\n", score, depth);
+            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
+                                        square_to_coords[get_move_target(best_move)],
+                                          promoted_pieces[get_move_piece(best_move)]);
 		}
 		
 		// use fixed depth 3 for all the other modes but fixed depth, e.g. in blitz mode
 		else if (!strncmp(line, "go", 2))
 		{			
 			// search position with current depth 3
-			int score = search_position(-50000, 50000, 3);
+			int score = search(1);
 	        
 	        // output best move
-            if (best_move)
-	            printf("info score cp %d depth 3\n", score);
-	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
-                                            square_to_coords[get_move_target(best_move)],
-                                              promoted_pieces[get_move_piece(best_move)]);
+            printf("info score cp %d depth 3\n", score);
+            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
+                                        square_to_coords[get_move_target(best_move)],
+                                          promoted_pieces[get_move_piece(best_move)]);
 		}
 		
 		// parse "quit" command
