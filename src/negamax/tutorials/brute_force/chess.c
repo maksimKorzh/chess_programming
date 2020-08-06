@@ -1259,12 +1259,63 @@ int evaluate_position()
 
 // best move
 int best_move = 0;
+int ply = 0;
 
 // run search from UCI
 int search(int depth)
 {
-    best_move = encode_move(d2, d4, 0, 0, 0, 0, 0);
-    return 0;
+
+    if (!depth)
+        return evaluate_position();
+
+    int best_score = -50000;
+    int best_so_far;
+    int legal_moves = 0;
+    
+    moves move_list[1];
+    generate_moves(move_list);
+    
+    for (int count = 0; count < move_list->count; count++)  {
+        
+        copy_board();
+        ply++;
+        if(!make_move(move_list->moves[count], all_moves))
+        {
+            ply--;
+            continue;
+        }
+        
+        
+        legal_moves++;
+        int score = -search(depth - 1);
+        take_back();
+        
+        if (score > best_score)
+        {
+            best_so_far = move_list->moves[count];
+            best_score = score;
+            printf("best so far: %s%s  score: %d  ply: %d\n", square_to_coords[get_move_source(move_list->moves[count])],
+                                          square_to_coords[get_move_target(move_list->moves[count])],
+                                          best_score, ply);
+        }
+        
+        ply--;
+    }
+    
+    best_move = best_so_far;
+    
+    if (!legal_moves)
+    {
+        if (is_square_attacked(king_square[side], side ^ 1))
+        {
+            printf("mate found!\n");
+            return -49000 + ply;
+        }
+        else
+            return 0;
+    }
+    
+    return best_score;
 }
 
 /********************************************\
@@ -1301,7 +1352,7 @@ int parse_move(char *move_str)
 		{
 		    // init promoted piece
 			prom_piece = get_move_piece(move);
-			printf("prom: %d\n", p);
+
 			// if promoted piece is present compare it with promoted piece from user input
 			if(prom_piece)
 			{
@@ -1524,9 +1575,8 @@ void uci()
 int main()
 {
     // run engine in UCI mode
-    //uci();
-    parse_fen(tricky_position);
-    perft_test(4);
+    uci();
+    
     return 0;
 }
 

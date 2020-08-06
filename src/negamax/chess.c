@@ -1301,7 +1301,7 @@ int parse_move(char *move_str)
 		{
 		    // init promoted piece
 			prom_piece = get_move_piece(move);
-			printf("prom: %d\n", p);
+
 			// if promoted piece is present compare it with promoted piece from user input
 			if(prom_piece)
 			{
