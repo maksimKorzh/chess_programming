@@ -1255,6 +1255,10 @@ int ply = 0;
 // quiescence search
 int quiescence_search(int alpha, int beta)
 {
+    // return if reached max depth
+    if (ply > 5)
+        return evaluate_position();
+    
     // evaluate position
     int eval = evaluate_position();
     
@@ -1286,10 +1290,18 @@ int quiescence_search(int alpha, int beta)
         castle_copy = castle;
         memcpy(king_square_copy, king_square,8);
         
+        // increment ply
+        ply++;
+        
         // make only legal moves
         if (!make_move(move_list->moves[move_count], only_captures))
+        {
+            // decrement ply
+            ply--;
+            
             // skip illegal move
             continue;
+        }
         
         // recursive call
         int score = -quiescence_search(-beta, -alpha);
@@ -1300,6 +1312,9 @@ int quiescence_search(int alpha, int beta)
         enpassant = enpassant_copy;
         castle = castle_copy;
         memcpy(king_square, king_square_copy,8);
+        
+        // decrement ply
+        ply--;
         
         //  fail hard beta-cutoff
         if (score >= beta)
@@ -1444,7 +1459,7 @@ int parse_move(char *move_str)
 		{
 		    // init promoted piece
 			prom_piece = get_move_piece(move);
-			printf("prom: %d\n", p);
+
 			// if promoted piece is present compare it with promoted piece from user input
 			if(prom_piece)
 			{
@@ -1653,11 +1668,11 @@ void uci()
 		else if (!strncmp(line, "go", 2))
 		{			
 			// search position with current depth 3
-			int score = search_position(-50000, 50000, 3);
+			int score = search_position(-50000, 50000, 4);
 	        
 	        // output best move
             if (best_move)
-	            printf("info score cp %d depth 3\n", score);
+	            printf("info score cp %d depth 4\n", score);
 	            printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
                                             square_to_coords[get_move_target(best_move)],
                                               promoted_pieces[get_move_piece(best_move)]);
