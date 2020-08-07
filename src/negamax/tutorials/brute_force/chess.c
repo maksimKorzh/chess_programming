@@ -1260,11 +1260,109 @@ int evaluate_position()
 // best move
 int best_move = 0;
 
+// half move
+int ply = 0;
+
+// negamax search function
+int negamax(int depth)
+{
+    // escape condition
+    if (!depth)
+    {
+        // update nodes count
+        nodes++;
+        
+        // return position score
+        return evaluate_position();
+    }
+    
+    // best score
+    int best_score = -50000;
+    
+    // best move found so far
+    int bestmove_sofar = 0;
+    
+    // legal moves
+    int legal_moves = 0;
+    
+    // create move list
+    moves movelist[1];
+    
+    // generate moves for given side to move
+    generate_moves(movelist);
+    
+    // loop over generated moves
+    for (int count = 0; count < movelist->count; count++)
+    {
+        // snapshote current board position
+        copy_board();
+        
+        // init move
+        int move = movelist->moves[count];
+        
+        // increment ply
+        ply++;
+        
+        // make only legal moves
+        if (!make_move(move, all_moves))
+        {
+            // decrement ply
+            ply--;
+            continue;
+        }
+        // increment legal moves count
+        legal_moves++;
+          
+        // recursive negamax call
+        int score = -negamax(depth - 1);
+        
+        // take move back
+        take_back();
+        
+        // decrement ply
+        ply--;
+        
+        // found better move
+        if (score > best_score)
+        {
+            // update the score
+            best_score = score;
+            
+            // associate
+            if (!ply)
+            {
+                bestmove_sofar = move;
+            
+                printf("best move so far: %s%s  best score: %d\n", square_to_coords[get_move_source(bestmove_sofar)],
+                                                                   square_to_coords[get_move_target(bestmove_sofar)],
+                                                                   best_score);
+            }
+        }
+    }
+    
+    // pick up best move
+    best_move = bestmove_sofar;
+    
+    // if no legal moves
+    if (!legal_moves)
+    {
+        // checkmate
+        if (is_square_attacked(king_square[side], side ^ 1))
+            return -49000 + ply;
+        
+        // stalemate
+        else
+            return 0;
+    }
+    
+    // return best score
+    return best_score;
+}
+
 // run search from UCI
 int search(int depth)
 {
-    best_move = encode_move(d2, d4, 0, 0, 0, 0, 0);
-    return 0;
+    return negamax(depth);
 }
 
 /********************************************\
