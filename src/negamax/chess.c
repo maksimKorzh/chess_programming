@@ -1495,7 +1495,7 @@ void uci()
 			int score = search(depth);
 	        
 	        // output best move
-            printf("info score cp %d depth %d\n", score, depth);
+            printf("info score cp %d depth %d\n", score, depth, nodes);
             printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
                                         square_to_coords[get_move_target(best_move)],
                                           promoted_pieces[get_move_piece(best_move)]);
@@ -1508,7 +1508,7 @@ void uci()
 			int score = search(1);
 	        
 	        // output best move
-            printf("info score cp %d depth 3\n", score);
+            printf("info score cp %d depth 3 nodes %ld\n", score, nodes);
             printf("bestmove %s%s%c\n", square_to_coords[get_move_source(best_move)],
                                         square_to_coords[get_move_target(best_move)],
                                           promoted_pieces[get_move_piece(best_move)]);

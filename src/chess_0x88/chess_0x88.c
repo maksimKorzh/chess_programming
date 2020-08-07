@@ -1391,7 +1391,8 @@ int search_position(int alpha, int beta, int depth)
             alpha = score;
             
             // store current best move
-            best_so_far = move_list->moves[move_count];
+            if(!ply)
+                best_so_far = move_list->moves[move_count];
         }
     }
     
