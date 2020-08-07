@@ -1263,6 +1263,74 @@ int best_move = 0;
 // half move
 int ply = 0;
 
+// quiescence search
+int quiescence()
+{
+    // escape condition
+    if (ply > 3)
+    {
+        // increment nodes
+        nodes++;
+        
+        // return static evaluation
+        return evaluate_position();
+    }
+    
+    // best score
+    int best_score = -50000;
+    
+    // get static evaluation
+    int eval = evaluate_position();
+    
+    // update best score
+    if (best_score < eval)
+        best_score = eval;
+    
+    // create move list
+    moves movelist[1];
+    
+    // generate moves for given side to move
+    generate_moves(movelist);
+    
+    // loop over generated moves
+    for (int count = 0; count < movelist->count; count++)
+    {
+        // snapshot current board position
+        copy_board();
+        
+        // init move
+        int move = movelist->moves[count];
+        
+        // increment ply
+        ply++;
+        
+        // make only legal moves
+        if (!make_move(move, only_captures))
+        {
+            // decrement ply
+            ply--;
+            continue;
+        }
+
+        // recursive negamax call
+        int score = -quiescence();
+        
+        // take move back
+        take_back();
+        
+        // decrement ply
+        ply--;
+        
+        // found better move
+        if (score > best_score)
+            // update the score
+            best_score = score;
+    }
+    
+    // return best score
+    return best_score;
+}
+
 // negamax search function
 int negamax(int depth)
 {
@@ -1273,7 +1341,7 @@ int negamax(int depth)
         nodes++;
         
         // return position score
-        return evaluate_position();
+        return quiescence();
     }
     
     // best score
