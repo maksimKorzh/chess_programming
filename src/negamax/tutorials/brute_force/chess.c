@@ -1307,10 +1307,8 @@ int search(int depth)
     if (!legal_moves)
     {
         if (is_square_attacked(king_square[side], side ^ 1))
-        {
-            printf("mate found!\n");
             return -49000 + ply;
-        }
+
         else
             return 0;
     }

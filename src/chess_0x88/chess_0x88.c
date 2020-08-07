@@ -1249,6 +1249,9 @@ int evaluate_position()
 // init best move
 int best_move = 0;
 
+// half move
+int ply = 0;
+
 // quiescence search
 int quiescence_search(int alpha, int beta)
 {
@@ -1348,10 +1351,18 @@ int search_position(int alpha, int beta, int depth)
         castle_copy = castle;
         memcpy(king_square_copy, king_square,8);
         
+        // increment ply
+        ply++;
+        
         // make only legal moves
         if (!make_move(move_list->moves[move_count], all_moves))
+        {
+            // decrement ply
+            ply--;
+            
             // skip illegal move
             continue;
+        }
         
         // increment legal moves
         legal_moves++;
@@ -1365,6 +1376,9 @@ int search_position(int alpha, int beta, int depth)
         enpassant = enpassant_copy;
         castle = castle_copy;
         memcpy(king_square, king_square_copy,8);
+        
+        // decrement ply
+        ply--;
 
         //  fail hard beta-cutoff
         if (score >= beta)
@@ -1386,7 +1400,7 @@ int search_position(int alpha, int beta, int depth)
     {
         // check mate detection
         if (is_square_attacked(king_square[side], side ^ 1))
-            return -49000;
+            return -49000 + ply;
         
         // stalemate detection
         else
