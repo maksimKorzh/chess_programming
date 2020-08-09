@@ -8,3 +8,6 @@ https://www.youtube.com/channel/UCB9-prLkPwgvlKKqDgXhsMQ?view_as=subscriber
 
 # Negamax search algorithm
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/d_EBXpZVvKU/0.jpg)](https://www.youtube.com/watch?v=d_EBXpZVvKU&list=PLmN0neTso3JxacZemhS-H-E86nIQiy5Ze)
+
+# Static evaluation
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Hy6WB2ilYds/0.jpg)](https://www.youtube.com/watch?v=Hy6WB2ilYds&list=PLmN0neTso3JzuBEMUufQlwCoYjpv1g9xi)
