@@ -1263,6 +1263,73 @@ int best_move = 0;
 // half move counter
 int ply = 0;
 
+// quiescence search
+int quiescence(int alpha, int beta)
+{
+    // increment nodes count
+    nodes++;
+    
+    // evaluate position
+    int eval = evaluate_position();
+    
+    // fail hard beta cutoff
+    if (eval >= beta)
+        return beta;
+    
+    // alpha increasing
+    if (eval > alpha)
+        alpha = eval;
+    
+    // create move list
+    moves move_list[1];
+    
+    // generate moves
+    generate_moves(move_list);
+    
+    // loop over move list
+    for (int count = 0; count < move_list->count; count++)
+    {        
+        // preserve board position
+        copy_board();
+        
+        // increment ply
+        ply++;
+        
+        // make only legal moves
+        if (!make_move(move_list->moves[count], only_captures))
+        {
+            // decrement ply
+            ply--;
+            
+            // skip to the next move
+            continue;
+        }
+        
+        // recursive negamax call
+        int score = -quiescence(-beta, -alpha);
+        
+        // decrement ply
+        ply--;
+        
+        // take move back
+        take_back();
+        
+        // fail hard beta cutoff
+        if (score >= beta)
+        {
+            return beta;
+        }
+        
+        // found a better move
+        if (score > alpha)
+        {
+            // increase lower bound
+            alpha = score;            
+        }
+    }
+    
+    return alpha;
+}
 
 // negamax serach with alpha-beta pruning
 int negamax(int alpha, int beta, int depth)
@@ -1270,9 +1337,9 @@ int negamax(int alpha, int beta, int depth)
     // escape condition
     if (!depth)
         // evaluate position
-        return evaluate_position();
+        return quiescence(alpha, beta);
  
-     // increment nodes
+    // increment nodes
     nodes++;
     
     // legal moves counter
