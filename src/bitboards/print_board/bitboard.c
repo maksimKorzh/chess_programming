@@ -1,6 +1,7 @@
 /***************************************\
 
-    Bit manipulations within bitboard
+            Print chess board
+         represented as bitboards
     
                    by
                   

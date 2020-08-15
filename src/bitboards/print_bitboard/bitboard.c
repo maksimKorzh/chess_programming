@@ -1,6 +1,6 @@
 /***************************************\
 
-    Bit manipulations within bitboard
+             Print bitboard
     
                    by
                   
