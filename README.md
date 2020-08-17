@@ -6,7 +6,7 @@ https://www.youtube.com/channel/UCB9-prLkPwgvlKKqDgXhsMQ?view_as=subscriber
 # 0x88 MOVE GENERATOR YouTube tutorial  
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g1b80b8DGJM/0.jpg)](https://www.youtube.com/watch?v=rrLZVaQood0&list=PLmN0neTso3JzhJP35hwPHJi4FZgw5Ior0)
 
-# Bitboards
+# Standalone BITBOARD Tutorials
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A6Eu8xhwMkY/0.jpg)](https://www.youtube.com/watch?v=A6Eu8xhwMkY&list=PLmN0neTso3JzD-qPIDU1RUbmDvqEpeuBg)
 
 # Negamax search algorithm
