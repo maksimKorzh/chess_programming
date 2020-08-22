@@ -3,10 +3,13 @@ Source code for my YouTube videos from chess programming channel:<br>
 https://www.youtube.com/channel/UCB9-prLkPwgvlKKqDgXhsMQ?view_as=subscriber
 
 
-# 0x88 MOVE GENERATOR YouTube tutorial  
+# 0x88 MOVE GENERATOR YouTube 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g1b80b8DGJM/0.jpg)](https://www.youtube.com/watch?v=rrLZVaQood0&list=PLmN0neTso3JzhJP35hwPHJi4FZgw5Ior0)
 
-# Standalone BITBOARD Tutorials
+# Bitboard CHESS ENGINE in C
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/QUNP-UjujBM/0.jpg)](https://www.youtube.com/watch?v=QUNP-UjujBM&list=PLmN0neTso3Jxh8ZIylk74JpwfiWNI76Cs)
+
+# Standalone BITBOARD
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A6Eu8xhwMkY/0.jpg)](https://www.youtube.com/watch?v=A6Eu8xhwMkY&list=PLmN0neTso3JzD-qPIDU1RUbmDvqEpeuBg)
 
 # Negamax search algorithm
