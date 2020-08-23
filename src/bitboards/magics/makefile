@@ -1,6 +1,6 @@
 all:
-	gcc -Ofast magics.c -o ../../bin/magics
+	gcc -Ofast magics.c -o ./magics
 
 debug:
-	gcc magics.c -o ../../bin/magics
+	gcc magics.c -o ./magics
 

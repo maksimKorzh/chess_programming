@@ -149,7 +149,7 @@ int get_ls1b_index(U64 bitboard) {
 }
 
 // set occupancy
-U64 set_occupancy(int square, int bit_count, U64 attack_mask) {
+U64 set_occupancy(int index, int bit_count, U64 attack_mask) {
     
     // init occupancy bitboard
 	U64 occupancy = 0ULL;
@@ -158,11 +158,11 @@ U64 set_occupancy(int square, int bit_count, U64 attack_mask) {
 	for (int count = 0; count < bit_count; count++)
 	{
 		// get index (square) of LS1B of attack mask
-		int bit_index = get_ls1b_index(attack_mask);
-		pop_bit(attack_mask, bit_index);
+		int square = get_ls1b_index(attack_mask);
+		pop_bit(attack_mask, square);
 		
-		if (square & (1 << count)) 
-			occupancy |= (1ULL << bit_index);
+		// populate occupancy map
+		if (index & (1 << count)) occupancy |= (1ULL << square);
 	}
 	
 	return occupancy;
@@ -617,7 +617,7 @@ U64 get_rook_attacks(int square, U64 occupancy) {
 int main()
 {  
     // init magics
-    //init_magics();
+    init_magics();
 
     // init attack tables
     init_sliders_attacks(bishop);
