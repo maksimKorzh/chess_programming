@@ -99,10 +99,10 @@ void print_bitboard(U64 bitboard)
 unsigned int state = 1804289383;
 
 // 32-bit number pseudo random generator
-int generate_random_number()
+unsigned int generate_random_number()
 {
 	// XOR shift algorithm
-	int x = state;
+	unsigned int x = state;
 	x ^= x << 13;
 	x ^= x >> 17;
 	x ^= x << 5;
