@@ -187,7 +187,7 @@ U64 set_occupancy(int index, int bit_count, U64 attack_mask) {
 U64 mask_bishop_attacks(int square)
 {
     // attack bitboard
-    U64 attacks = 0;
+    U64 attacks = 0ULL;
     
     // init files & ranks
     int f, r;
@@ -233,7 +233,7 @@ U64 mask_rook_attacks(int square)
 U64 bishop_attacks_on_the_fly(int square, U64 block)
 {
     // attack bitboard
-    U64 attacks = 0;
+    U64 attacks = 0ULL;
     
     // init files & ranks
     int f, r;
@@ -321,7 +321,7 @@ U64 rook_attacks_on_the_fly(int square, U64 block)
 \**************************************/
 
 // find magic number
-U64 find_magic(int square, int rellevant_bits, int bishop) {
+U64 find_magic(int square, int relevant_bits, int bishop) {
     // define occupancies array
     U64 occupancies[4096];
 
@@ -333,17 +333,14 @@ U64 find_magic(int square, int rellevant_bits, int bishop) {
     
     // mask piece attack
     U64 mask_attack = bishop ? mask_bishop_attacks(square) : mask_rook_attacks(square);
-    
-    // count number of bits in attack mask
-    int bit_count = count_bits(mask_attack);
 
     // occupancy variations
-    int occupancy_variations = 1 << bit_count;
+    int occupancy_variations = 1 << relevant_bits;
 
     // loop over the number of occupancy variations
     for(int count = 0; count < occupancy_variations; count++) {
         // init occupancies
-        occupancies[count] = set_occupancy(count, bit_count, mask_attack);
+        occupancies[count] = set_occupancy(count, relevant_bits, mask_attack);
         
         // init attacks
         attacks[count] = bishop ? bishop_attacks_on_the_fly(square, occupancies[count]) :
@@ -365,13 +362,10 @@ U64 find_magic(int square, int rellevant_bits, int bishop) {
         // init count & fail flag
         int count, fail;
         
-        // occupancy variation
-        int occupancy_variation = 1 << bit_count;
-        
         // test magic index
-        for (count = 0, fail = 0; !fail && count < occupancy_variation; count++) {
+        for (count = 0, fail = 0; !fail && count < occupancy_variations; count++) {
             // generate magic index
-            int magic_index = (int)((occupancies[count] * magic) >> (64 - rellevant_bits));
+            int magic_index = (int)((occupancies[count] * magic) >> (64 - relevant_bits));
           
             // if got free index
             if(used_attacks[magic_index] == 0ULL)
@@ -671,7 +665,7 @@ int main()
     
     // get rook attacks
     print_bitboard(get_rook_attacks(d4, rook_occupancy));
-    
+
     return 0;
 }
 
