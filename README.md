@@ -9,9 +9,6 @@ https://www.youtube.com/channel/UCB9-prLkPwgvlKKqDgXhsMQ?view_as=subscriber
 # Bitboard CHESS ENGINE in C
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/QUNP-UjujBM/0.jpg)](https://www.youtube.com/watch?v=QUNP-UjujBM&list=PLmN0neTso3Jxh8ZIylk74JpwfiWNI76Cs)
 
-# Standalone BITBOARD
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A6Eu8xhwMkY/0.jpg)](https://www.youtube.com/watch?v=A6Eu8xhwMkY&list=PLmN0neTso3JzD-qPIDU1RUbmDvqEpeuBg)
-
 # Negamax search algorithm
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/d_EBXpZVvKU/0.jpg)](https://www.youtube.com/watch?v=d_EBXpZVvKU&list=PLmN0neTso3JxacZemhS-H-E86nIQiy5Ze)
 
