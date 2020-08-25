@@ -106,7 +106,8 @@ unsigned int generate_random_number()
 	x ^= x << 13;
 	x ^= x >> 17;
 	x ^= x << 5;
-	return state = x;
+	state = x;
+	return x;
 }
 
 // generate random U64 number
@@ -670,7 +671,7 @@ int main()
     
     // get rook attacks
     print_bitboard(get_rook_attacks(d4, rook_occupancy));
-
+    
     return 0;
 }
 
