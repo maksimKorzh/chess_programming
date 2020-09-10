@@ -2208,6 +2208,81 @@ void perft_test(int depth)
 /**********************************\
  ==================================
  
+             Evaluation
+ 
+ ==================================
+\**********************************/
+
+// material scrore
+
+/*
+    ♙ =   100   = ♙
+    ♘ =   300   = ♙ * 3
+    ♗ =   350   = ♙ * 3 + ♙ * 0.5
+    ♖ =   500   = ♙ * 5
+    ♕ =   1000  = ♙ * 10
+    ♔ =   10000 = ♙ * 100
+    
+*/
+
+int material_score[12] = {
+    100,      // white pawn score
+    300,      // white knight scrore
+    350,      // white bishop score
+    500,      // white rook score
+   1000,      // white queen score
+  10000,      // white king score
+   -100,      // black pawn score
+   -300,      // black knight scrore
+   -350,      // black bishop score
+   -500,      // black rook score
+  -1000,      // black queen score
+ -10000,      // black king score
+};
+
+// position evaluation
+static inline int evaluate()
+{
+    // static evaluation score
+    int score = 0;
+    
+    // current pieces bitboard copy
+    U64 bitboard;
+    
+    // init piece & square
+    int piece, square;
+    
+    // loop over piece bitboards
+    for (int bb_piece = P; bb_piece <= k; bb_piece++)
+    {
+        // init piece bitboard copy
+        bitboard = bitboards[bb_piece];
+        
+        // loop over pieces within a bitboard
+        while (bitboard)
+        {
+            // init piece
+            piece = bb_piece;
+            
+            // init square
+            square = get_ls1b_index(bitboard);
+            
+            // score material weights
+            score += material_score[piece];
+            
+            // pop ls1b
+            pop_bit(bitboard, square);
+        }
+    }
+    
+    // return final evaluation based on side
+    return (side == white) ? score : -score;
+}
+
+
+/**********************************\
+ ==================================
+ 
                Search
  
  ==================================
@@ -2523,8 +2598,21 @@ int main()
     // init all
     init_all();
 
-    // connect to the GUI
-    uci_loop();
+    // debug mode variable
+    int debug = 1;
+    
+    // if debugging
+    if (debug)
+    {
+        // parse fen
+        parse_fen("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1 ");
+        print_board();
+        printf("score: %d\n", evaluate());
+    }
+    
+    else
+        // connect to the GUI
+        uci_loop();
 
     return 0;
 }
