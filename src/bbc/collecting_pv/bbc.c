@@ -2447,10 +2447,10 @@ int history_moves[12][64];
       5    0    0    0    0    0    m6
 */
 
-// PV length [ply]
+// PV length
 int pv_length[64];
 
-// PV table [ply][ply]
+// PV table
 int pv_table[64][64];
 
 // half move counter
@@ -2558,9 +2558,6 @@ void print_move_scores(moves *move_list)
 // quiescence search
 static inline int quiescence(int alpha, int beta)
 {
-    // init PV length
-    pv_length[ply] = ply;
-    
     // increment nodes count
     nodes++;
 
@@ -2628,17 +2625,6 @@ static inline int quiescence(int alpha, int beta)
         // found a better move
         if (score > alpha)
         {
-            // strore PV move
-            pv_table[ply][ply] = move_list->moves[count];
-            
-            // loop over the next ply
-            for (int next_ply = 0; next_ply < pv_length[ply + 1]; next_ply++)
-                // copy move from deeper ply into a current ply's line
-                pv_table[ply][next_ply] = pv_table[next_ply][next_ply];
-            
-            // adjust PV length
-            pv_length[ply] = pv_length[ply + 1];
-
             // PV node (move)
             alpha = score;
             
@@ -2654,8 +2640,8 @@ static inline int negamax(int alpha, int beta, int depth)
 {
     // init PV length
     pv_length[ply] = ply;
-    
-    // recursion escape condition
+
+    // recursion escapre condition
     if (depth == 0)
         // run quiescence search
         return quiescence(alpha, beta);
@@ -2717,9 +2703,13 @@ static inline int negamax(int alpha, int beta, int depth)
         // fail-hard beta cutoff
         if (score >= beta)
         {
-            // store killer moves
-            killer_moves[1][ply] = killer_moves[0][ply];
-            killer_moves[0][ply] = move_list->moves[count];
+            // on quiet moves
+            if (get_move_capture(move_list->moves[count]) == 0)
+            {
+                // store killer moves
+                killer_moves[1][ply] = killer_moves[0][ply];
+                killer_moves[0][ply] = move_list->moves[count];
+            }
             
             // node (move) fails high
             return beta;
@@ -2728,22 +2718,24 @@ static inline int negamax(int alpha, int beta, int depth)
         // found a better move
         if (score > alpha)
         {
-            // store history moves
-            history_moves[get_move_piece(move_list->moves[count])][get_move_target(move_list->moves[count])] += depth;
+            // on quiet moves
+            if (get_move_capture(move_list->moves[count]) == 0)
+                // store history moves
+                history_moves[get_move_piece(move_list->moves[count])][get_move_target(move_list->moves[count])] += depth;
             
             // PV node (move)
             alpha = score;
             
-            // strore PV move
+            // write PV move
             pv_table[ply][ply] = move_list->moves[count];
             
             // loop over the next ply
-            for (int next_ply = 0; next_ply < pv_length[ply + 1]; next_ply++)
+            for (int next_ply = ply + 1; next_ply < pv_length[ply + 1]; next_ply++)
                 // copy move from deeper ply into a current ply's line
-                pv_table[ply][next_ply] = pv_table[next_ply][next_ply];
+                pv_table[ply][next_ply] = pv_table[ply + 1][next_ply];
             
             // adjust PV length
-            pv_length[ply] = pv_length[ply + 1];
+            pv_length[ply] = pv_length[ply + 1];            
         }
     }
     
@@ -2773,10 +2765,10 @@ void search_position(int depth)
     
     printf("info score cp %d depth %d nodes %ld pv ", score, depth, nodes);
     
-    // loop over the PV moves
+    // loop over the moves within a PV line
     for (int count = 0; count < pv_length[0]; count++)
     {
-        // print move
+        // print PV move
         print_move(pv_table[0][count]);
         printf(" ");
     }
@@ -2784,7 +2776,7 @@ void search_position(int depth)
     // print new line
     printf("\n");
 
-    // retrieve best move from PV table
+    // best move placeholder
     printf("bestmove ");
     print_move(pv_table[0][0]);
     printf("\n");
