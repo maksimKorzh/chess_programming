@@ -520,6 +520,56 @@ static inline int get_ls1b_index(U64 bitboard)
 /**********************************\
  ==================================
  
+            Zobrist keys
+ 
+ ==================================
+\**********************************/
+
+// random piece keys [piece][square]
+U64 piece_keys[12][64];
+
+// random enpassant keys [square]
+U64 enpassant_keys[64];
+
+// random castling keys
+U64 castle_keys[16];
+
+// random side key
+U64 side_key;
+
+// init random hash keys
+void init_random_keys()
+{
+    // update pseudo random number state
+    random_state = 1804289383;
+
+    // loop over piece codes
+    for (int piece = P; piece <= k; piece++)
+    {
+        // loop over board squares
+        for (int square = 0; square < 64; square++)
+            // init random piece keys
+            piece_keys[piece][square] = get_random_U64_number();
+    }
+    
+    // loop over board squares
+    for (int square = 0; square < 64; square++)
+        // init random enpassant keys
+        enpassant_keys[square] = get_random_U64_number();
+    
+    // loop over castling keys
+    for (int index = 0; index < 16; index++)
+        // init castling keys
+        castle_keys[index] = get_random_U64_number();
+        
+    // init random side key
+    side_key = get_random_U64_number();
+}
+
+
+/**********************************\
+ ==================================
+ 
            Input & Output
  
  ==================================
@@ -3498,49 +3548,6 @@ void init_all()
     // init random keys for hashing purposes
     init_random_keys();
 }
-
-
-// random piece keys [piece][square]
-U64 piece_keys[12][64];
-
-// random enpassant keys [square]
-U64 enpassant_keys[64];
-
-// random castling keys
-U64 caslte_keys[16];
-
-// random side key
-U64 side_key;
-
-// init random hash keys
-void init_random_keys()
-{
-    // update pseudo random number state
-    random_state = 1804289383;
-
-    // loop over piece codes
-    for (int piece = P; piece <= k; piece++)
-    {
-        // loop over board squares
-        for (int square = 0; square < 64; square++)
-            // init random piece keys
-            piece_keys[piece][square] = get_random_U64_number();
-    }
-    
-    // loop over board squares
-    for (int square = 0; square < 64; square++)
-        // init random enpassant keys
-        enpassant_keys[square] = get_random_U64_number();
-    
-    // loop over castling keys
-    for (int index = 0; index < 16; index++)
-        // init castling keys
-        castle_keys[index] = get_random_U64_number();
-        
-    // init random side key
-    side_key = get_random_U64_number();
-}
-
 
 
 /**********************************\
