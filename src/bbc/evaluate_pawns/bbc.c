@@ -2697,7 +2697,6 @@ const int bishop_score[64] =
      0,  10,   0,   0,   0,   0,  10,   0,
      0,  30,   0,   0,   0,   0,  30,   0,
      0,   0, -10,   0,   0, -10,   0,   0
-
 };
 
 // rook positional score
@@ -2791,7 +2790,7 @@ const int double_pawn_penalty = -10;
 const int isolated_pawn_penalty = -10;
 
 // passed pawn bonus
-const int passed_pawn_bonus[8] = { 0, 5, 10, 20, 35, 60, 100, 200 }; 
+const int passed_pawn_bonus[8] = { 0, 10, 30, 50, 75, 100, 150, 200 }; 
 
 
 // set file or rank mask
@@ -2925,7 +2924,7 @@ void init_evaluation_masks()
             // loop over redudant ranks
             for (int i = 0; i < rank + 1; i++)
                 // reset redudant bits 
-                black_passed_masks[square] &= ~rank_masks[i * 8 + file];
+                black_passed_masks[square] &= ~rank_masks[i * 8 + file];            
         }
     }
 }
@@ -3013,7 +3012,7 @@ static inline int evaluate()
                         score -= isolated_pawn_penalty;
                     
                     // on passed pawn
-                    if ((white_passed_masks[square] & bitboards[P]) == 0)
+                    if ((black_passed_masks[square] & bitboards[P]) == 0)
                         // give passed pawn bonus
                         score -= passed_pawn_bonus[get_rank[mirror_score[square]]];
 
@@ -4242,7 +4241,7 @@ int main()
     // if debugging
     if (debug)
     {
-        parse_fen("8/8/8/P1P4/8/5p1p/8/8 w - - ");
+        parse_fen("k7/2P5/1P6/3Pp3/3pP3/6p1/5p2/K7 w - - 0 1 ");
         print_board();
         printf("score: %d\n", evaluate());
         //search_position(10);
