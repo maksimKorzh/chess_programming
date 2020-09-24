@@ -4187,7 +4187,11 @@ void parse_go(char *command)
 
         // set up timing
         time /= movestogo;
-        time -= 50;
+        
+        // "illegal" (empty) move bug fix
+        if (time > 1500) time -= 50;
+        
+        // init stoptime
         stoptime = starttime + time + inc;
     }
 
@@ -4336,9 +4340,9 @@ int main()
     // if debugging
     if (debug)
     {
-        parse_fen("6k1/ppppprbp/8/8/8/8/PPPPPRBP/6K1 w - - 0 1 ");
+        parse_fen("8/8/5Q2/4K3/2k5/8/6B1/8 w - - 11 77 ");
         print_board();
-        printf("score: %d\n", evaluate());
+        //printf("score: %d\n", evaluate());
         //search_position(10);
     }
     
