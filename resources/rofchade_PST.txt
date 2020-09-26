@@ -14,7 +14,7 @@ Depending on the phase of the game you interpolate the the MG and EG values,
 thus depending on how far you are in MG/EG. This is so called "tapered evaluation".
 
 The phase of the game can be calculated in multiple ways, but is usually derived
-from the pieces (not counting pawns) that are still on the board.
+from the pieces (not counting pawns [and kings - CMK]) that are still on the board.
 A Queen has a higher "MG" weight than Rooks etc.
 In PeSTO the phase is calculated with the MG material value as weight for the pieces.
 The max. phase (full MG) is : 4 * Knights +... + = 4* 337 + ... = 6.766, the minimum (full EG) is 0.
