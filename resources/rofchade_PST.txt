@@ -26,6 +26,22 @@ All values are calculated with my first/primitive Texel tuning implementation.
 
 ==================================================
 
+Below are the PST values which work best for rofchade.
+As you can see very asymmetric. They are defined as if looking to the board from white
+(so I can understand them better..). The first square in the table [0] is square A8 and
+the last square [63] is H1. This means that it can be used directly for black,
+for white you have flip it vertically so you cant take the square XOR 56 for white.
+
+So if you want to calculate the MG PST value of a rook on square 'sq',
+if the rook is WHITE you take value pieceSquareScore[MG][ROOK][sq ^ 56],
+if the rook is BLACK you take pieceSquareScore[MG][ROOK][sq].
+
+I'm interested in how well they perform in other engines with full evaluation compared
+to your own PST and if possible stand alone without further eval elements compared to
+the regular version. Because all rofchade's evaluation elements are inside the PST maybe
+some evaluation parts are more emphasized when used together
+(like rook on 7th rank bonus which also shows a little bit in the PST).
+
 const eval pieceValue[2][6] =
 { 82, 337, 365, 477, 1025, 12000,
   94, 281, 297, 512,  936, 12000 };
