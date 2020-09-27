@@ -1,0 +1,44 @@
+TalkChess post by Harald Leussen
+==================================
+
+See https://en.wikipedia.org/wiki/Linear_interpolation
+We have a mathematical function f(x) = y and we know it exactly at two arguments
+x1 and x1 with the values f(x1) = y1 and f(x2) = y2
+
+In our case the function f is the evaluation that depends on the game stage.
+We know the evaluation for the opening/midgame and for the endgame.
+This is what we store in our program as extreme values of bonusses and penalties.
+Therefore we know this.
+But what is between is not so clear.
+We just assume that the values changes slowly in a linear way (on a straight line if you draw it).
+
+eval(some_feature_in_mg) = ...known
+eval(some_feature_in game_phase) = ...wanted
+eval(some_feature_in_eg) = ...known
+
+Now comes the formula for a game phase in between mg and eg
+
+
+value = (value_mg * game_phase + value_eg * (1000 - game_phase)) / 1000;
+
+Note for game phase = mg = 1000 this becomes
+value = (value_mg * 1000 + value_eg * (1000 - 1000)) / 1000;
+value = (value_mg * 1000 + value_eg * 0) / 1000;
+value = (value_mg * 1000) / 1000;
+value = value_mg;
+
+For game phase = eg = 0 this becomes
+value = (value_mg * 0 + value_eg * (1000 - 0)) / 1000;
+value = (value_eg * 1000) / 1000;
+value = value_eg;
+
+For game phase = 70%mg_and_30%eg = 700 this becomes
+value = (value_mg * 700 + value_eg * (1000 - 700)) / 1000;
+value = (value_mg * 700 + value_eg * 300) / 1000;
+value = value_mg___7_______eg; // something in between but more to the mg than to the eg
+
+This is not the simple average (50% or game_phase = 500) but a weighted average.
+
+If for some reason the game phase is > 1000 or < 0 then the formula also works
+but it is an extrapolation.
+

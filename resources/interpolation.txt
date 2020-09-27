@@ -1,0 +1,74 @@
+TalkChess post by Marcel Vanthoor
+=======================================
+
+Let's say you're a freelance software engineer,
+who wants to make money by creating web scrapers for customers.
+Just a hypothetical situation, as an example.
+You would like to know how much you will earn, so you ask around.
+After some asking and prodding, you come to the conclusion:
+
+"When I just start out, I can't ask more than 10 dollars per hour because I'm a rookie."
+"But at the end of my carreer, after 40 years, I'll be able to ask 200 dollars/hour
+because of my massive experience."
+
+But... I want to know what I will earn after 25 years. Or after 10 years.
+
+So we make this into a formula.
+(And we assume that your asking price can raise with the same amount each year.)
+
+years -> x
+dollars -> y
+
+When you just start out, you have 0 years of experience and you will earn 10 dollars per hour.
+
+So: (0, 10)
+
+At the end of your career you have 40 years of experience, and you will earn 200 dollars per hour.
+
+So: (40, 200)
+
+How much will you earn after 24 years of working?
+We don't know, but we can interpolate it.
+If you would plot the points (0, 10) and (40, 200) on an xy-axis,
+you can draw a straight line through them.
+The formula for this line is
+(and this formula can be solved for any straight line for which you know two points):
+
+y = (a * x) + b
+
+The first point is (0, 10); so if x = 0, y must be 10:
+
+10 = a * 0 + b (<- if x is 0, the result is 0 for any 'a')
+10 = 0 + b (<- and thus 'b' must be 10)
+
+y = ax + 10... so what must 'a' be? We know both x and y, and we also know b, so...
+
+200 = (a * 40) + 10
+200 - 10 = a * 40
+190 = a * 40
+190 / 40 = a
+a = 4.75
+
+Therefore:
+
+y = (4.75 * x) + 10
+
+Let's check, with x = 0, when you start out:
+y = 4.75 * 0 + 10
+y = 0 + 10
+y = 10 dollars/hour.
+
+And when you are working 40 years:
+y = 4.75 * 40 + 10
+y = 190 + 10
+y = 200 dollars/hour.
+
+Cool. Seems to work.
+
+So now we can interpolate how much you will earn when you're working for 24 years:
+
+y = 4.75 * 24 + 10
+y = 114 + 10
+y = 124 dollars/hour
+
+This is interpolation.
