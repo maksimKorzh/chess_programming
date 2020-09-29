@@ -1,0 +1,28 @@
+Dynamic hash calculation by Pedro Castro
+==========================================
+
+Size of your hash table:
+You have defined 800,000 entries -- > #define hash_size 800000
+
+The size of your hash table structure is:
+
+// transposition table data structure
+typedef struct {
+    U64 hash_key;   // "almost" unique chess position identifier
+    int depth;      // current search depth
+    int flag;       // flag the type of node (fail-low/fail-high/PV) 
+    int score;      // score (alpha/beta/PV)
+} tt;               // transposition table (TT aka hash table)
+
+size of tt = 8 (U64) + 4 (int) + 4 (int) + 4(int) = 20 bytes
+
+Hash table (Mb) = 800000*20 = 16.000.000  almost 16 Mb
+(The other Mb up to 20 will be from other tables)
+
+Surely the first thing that users will ask you is that they can modify
+the value of the hash table so that in tournaments it is the same as in other engines.
+So you should have in the UCI protocol the Hash option to accept from the GUI
+the size of the hash table in Mbytes. 
+
+Once you have this your hash_size would be:
+ hash_size = hash (Mb) * 1024 * 1024 / sizeof(tt)
