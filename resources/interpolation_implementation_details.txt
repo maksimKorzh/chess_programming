@@ -1,0 +1,29 @@
+Pedro Castro commented on YouTube
+=====================================
+
+Your evaluation here consists of material and positional (now only pst).
+To perform tapered evaluation you have interpolated the material once and 12 times
+(for each kind of piece) when calculating pst.
+
+If you keep adding new evaluation values you will have to keep interpolating.
+All this talking about code, because if I am not wrong if at the beginning of
+the game there are 32 pieces, you end up "interpolating 64 times",
+2 times for each piece  (material + pst).
+
+You can do everything with only "one interpolation",
+maybe the result will be the same and surely you will not gain much in speed
+(for the moment because imagine that you keep adding up evaluation terms),
+but your code will be much easier.
+
+You could do it:
+1. Calculate values for each piece:
+     calculate score_opening_material and score_endgame_material
+     calculate score_opening_positional(pst+...) and score_endgame_positional(pst+...)
+
+2. After going through all the pieces we can simply calculate the total:
+    score_opening = score_opening_material + score_opening_positional
+    score_endgame = score_endgame_material + score_endgame_positional
+
+3. Before leaving the evaluation you make the interpolation between score_opening
+   and score_endgame if you are in the middle game and if not you return score_opening
+   or score_endgame as the case may be.
