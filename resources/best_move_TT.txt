@@ -1,0 +1,15 @@
+Pedro Castro commented on YouTube
+=====================================
+Another improvement would be to save the best move on the tables hash.
+At this moment your tables hash allow you to cut the search,
+but you don't have the advantage of having saved the best move.
+To save the best move you simply have to create a bestmove variable
+at the beginning of the search, when you find a value that improves alpha
+then you simply make bestmove as the move you are currently making.
+Then when you write in the tables you send bestmove as you send for example the score.
+If you have saved a move in the position you want to check,
+even if it doesn't reach the required depth, you can simply return it with a return or a pointer.
+This move can then be sorted in the first position of the list in a similar
+way to what you do with follow_pv. I don't know how much you lose by not saving
+the best move for sorting, but maybe 50% of the profit from the hash tables.
+

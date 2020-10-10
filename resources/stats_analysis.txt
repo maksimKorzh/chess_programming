@@ -1,0 +1,30 @@
+Youtube comment by Harald
+============================
+
+A few years ago a tried something similar.
+I wrote a python script that read millions of games from PGN files
+and put them into one single game tree counting win/draw/loss on every node.
+
+See http://www.talkchess.com/forum3/viewtopic.php?t=17791
+
+Python PGN reader and opening databases
+But I stopped the development because I had too much to do at work.
+
+I cannot answer your question directly but I have some ideas.
+Go through all PGN games and every quiet position.
+A position is quiet if both following moves are quiet.
+
+For each piece (both colors) on each square increment win/draw/loss counters
+if the piece is on that square in this position.
+
+You know the wdl result from the PGN header.
+You can also do this for different game phases.
+
+In the end ignore counters below 10 (or any other threshold).
+Then you have a win percentage (w + 0.5*d) / (w+d+l) for each entry.
+You could transform this backward to score values in centipawns using
+the inverse of the logistic curve from here
+https://www.chessprogramming.org/Point_Value_by_Regression_Analysis
+and may be restrict the bandwidth to +-100cp. Or something like that.
+At least you could draw nice "chess piece heat maps" (->Google) from the data.
+May be that gives you some ideas.
