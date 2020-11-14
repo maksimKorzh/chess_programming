@@ -1,0 +1,109 @@
+
+#	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+#
+#	Gerbil
+#
+#	Copyright (c) 2001, Bruce Moreland.  All rights reserved.
+#
+#	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+#
+#	This file is part of the Gerbil chess program project.
+#
+#	Gerbil is free software; you can redistribute it and/or modify it under
+#	the terms of the GNU General Public License as published by the Free
+#	Software Foundation; either version 2 of the License, or (at your option)
+#	any later version.
+#
+#	Gerbil is distributed in the hope that it will be useful, but WITHOUT ANY
+#	WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+#	FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+#	details.
+#
+#	You should have received a copy of the GNU General Public License along
+#	with Gerbil; if not, write to the Free Software Foundation, Inc.,
+#	59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+#	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+
+!include "paths.mak"
+
+!if "$(DEBUG)" == ""
+CFLAGS = -WX -W3 -Oax2
+OUTD = $(ROOT)\ship
+!else
+CFLAGS = -WX -W3 -Od -DDEBUG -Zi
+OUTD = $(ROOT)\debug
+!endif
+
+GOAL =	$(OUTD)\gerbil.exe $(OUTD)\epd2wb.exe
+
+OBJ =	$(OUTD)\engine.obj $(OUTD)\initcon.obj $(OUTD)\debug.obj \
+		$(OUTD)\static.obj $(OUTD)\gen.obj $(OUTD)\attack.obj \
+		$(OUTD)\makemove.obj $(OUTD)\eval.obj $(OUTD)\search.obj \
+		$(OUTD)\winboard.obj $(OUTD)\ethread.obj $(OUTD)\hash.obj \
+		$(OUTD)\prot_e.obj $(OUTD)\prot_i.obj $(OUTD)\book.obj
+
+goal:						$(GOAL)
+
+ENGINE = $(SRC)\engine
+WINBOARD = $(SRC)\winboard
+UTIL = $(SRC)\util
+
+$(OUTD)\engine.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\initcon.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\debug.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\static.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\gen.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\attack.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\makemove.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\eval.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\search.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\winboard.obj:	$(WINBOARD)\$$(@B).c $(SRC)\protocol.h $(WINBOARD)\winboard.h
+	cl -c $(CFLAGS) $(WINBOARD)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\ethread.obj:	$(WINBOARD)\$$(@B).c $(SRC)\protocol.h $(WINBOARD)\winboard.h
+	cl -c $(CFLAGS) $(WINBOARD)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\prot_e.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\prot_i.obj:	$(WINBOARD)\$$(@B).c $(WINBOARD)\winboard.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(WINBOARD)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\book.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\hash.obj:	$(ENGINE)\$$(@B).c $(ENGINE)\engine.h $(SRC)\protocol.h
+	cl -c $(CFLAGS) $(ENGINE)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\gerbil.exe:	$(OBJ)
+	link $(OBJ) -subsystem:console -out:$(OUTD)\gerbil.exe /DEBUG /DEBUGTYPE:CV
+
+$(OUTD)\epd2wb.obj:	$(UTIL)\$$(@B).c
+	cl -c $(CFLAGS) $(UTIL)\$(@B).c /Fo$(OUTD)\$(@B)
+
+$(OUTD)\epd2wb.exe:	$(OUTD)\$$(@B).obj
+	link $(OUTD)\$(@B).obj -subsystem:console -out:$(OUTD)\$(@B).exe /DEBUG /DEBUGTYPE:CV
+
+clean:
+	-del $(OUTD)\*.obj $(OUTD)\*.ilk $(OUTD)\*.opt
+	-del $(OUTD)\*.map $(OUTD)\*.pdb
+	-del $(GOAL)

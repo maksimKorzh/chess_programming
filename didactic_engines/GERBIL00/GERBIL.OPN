@@ -1,0 +1,110 @@
+
+//	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+//
+//	Gerbil
+//
+//	Copyright (c) 2001, Bruce Moreland.  All rights reserved.
+//
+//	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+//
+//	This file is part of the Gerbil chess program project.
+//
+//	Gerbil is free software; you can redistribute it and/or modify it under
+//	the terms of the GNU General Public License as published by the Free
+//	Software Foundation; either version 2 of the License, or (at your option)
+//	any later version.
+//
+//	Gerbil is distributed in the hope that it will be useful, but WITHOUT ANY
+//	WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+//	FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+//	details.
+//
+//	You should have received a copy of the GNU General Public License along
+//	with Gerbil; if not, write to the Free Software Foundation, Inc.,
+//	59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+//
+//	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+//
+//	This opening book was derived from the opening book distributed with the
+//	SCP chess proram, written by John Stanback, and is used by his permission.
+//
+//	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+
+1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e4 Bb4 5. d3 d6 6. Be2 O-O 7. O-O Bxc3 8. bxc3 Qe7                                            (English Opening)
+            4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. d3 O-O 9. Be3 f5                                                     (English Opening)
+  1. ... Nf6 2. Nc3 d5 3. cxd5 Nxd5 4. e4 Nf4 5. Bc4 Be6 6. Bxe6 fxe6                                                           (English Opening)
+1. d4 d5 2. c4 c6 3. Nc3 e6                                                                                                     (Queens Gambit Declined -- Slav (Marshall Gambit))
+        3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8. Bg5 h6 9. Bxf6 Qxf6 10. e4 Bh7                                  (Queens Gambit --Slav (Krause))
+      2. ... dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. Qe2 b5 8. Bd3 cxd4 9. exd4 Nc6                                    (Queens Gambit Accepted)
+      2. ... e6 3. g3 Nf6 4. Nf3 Be7 5. Bg2 O-O 6. O-O Nfd7 7. Qc2 c6 8. Nbd2 b6 9. e4 Bb7                                      (Queens Gambit -- Catalan)
+        3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O                                                       (Queens Gambit Declined -- Tarrasch)
+          3. ... Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7 7. Rc1 c6                                                                 (Queens Gambit Declined -- Orthodox)
+              4. ... Nbd7 5. cxd5 exd5 6. e3 c6 7. Bd3 Be7 8. Qc2 O-O 9. Nge2 Re8                                               (Queens Gambit Declined -- Exchange Var.)
+                5. e3 c6 6. Nf3 Qa5 7. Nd2 Bb4 8. Qc2 O-O 9. Bh4 c5                                                             (Queens Gambit Declined -- Cambridge Springs)
+            4. Nf3 c5 5. cxd5 cxd4 6. Qxd4 exd5 7. e4 Nc6 8. Bb5 Nxe4                                                           (Queens Gambit Declined -- Semi-Tarrasch)
+        3. Nf3 Nf6                                                                                                              (Queens Gambit Declined -- Vienna)
+    2. Nf3 Nf6 3. Bf4 c5 4. e3 Nc6 5. c3 Qb6 6. Qc1 Bf5 7. dxc5 Qxc5 8. Nbd2 Rc8 9. Nd4 Nxd4 10. exd4 Qb6                       (Queens Pawn Game)
+  1. ... d6 2. e4 Nf6 3. Nc3 g6 4. Bc4 c6 5. Qe2 Bg7 6. Nf3 O-O 7. Bg5 b5 8. Bd3 Qc7                                            (Pirc-Robatsch Defense)
+            4. Bg5 Bg7 5. Qd2 Nbd7 6. O-O-O e5 7. dxe5 dxe5 8. Nf3 h6 9. Bh4 g5 10. Bg3 Qe7                                     (Pirc-Robatsch Defense)
+  1. ... f5 2. g3 e6 3. Bg2 Nf6 4. Nf3 Be7 5. O-O O-O 6. c4 d6 7. Nc3 Qe8 8. Qc2 Qh5 9. b3 Nc6 10. Ba3 a5                       (Dutch Defense)
+  1. ... Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. e4 g6 7. Bd3 Bg7 8. Nge2 O-O 9. O-O a6 10. a4 Qc7                      (Modern Benoni Counter Gambit)
+      2. ... e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 O-O 6. f3 d5 7. cxd5 exd5 8. e3 Bf5 9. Ne2 Nbd7 10. Ng3 Bg6                      (Nimzo-Indian Defense -- Samisch)
+            4. Bd2 O-O 5. e3 d5 6. Nf3 c5 7. a3 Bxc3 8. Bxc3 Ne4 9. Rc1 Nxc3 10. Rxc3 cxd4                                      (Nimzo-Indian Defense)
+            4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O Nc6 8. a3 Bxc3 9. bxc3 dxc4 10. Bxc4 Qc7                                       (Nimzo-Indian Defense (Rubenstein))
+            4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3 Nc6 7. Nf3 Ne4 8. Qb3 Na5 9. Qa4+ c6                                                  (Nimzo-Indian Defense)
+        3. Nf3 b6 4. e3 Bb7 5. Bd3 Be7 6. Nc3 d5 7. O-O O-O 8. Qe2 Nbd7                                                         (Queens Indian Defense)
+            4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Qc2 Nxc3 9. Qxc3 d6 10. Qc2 f5                                        (Queens Indian Defense)
+      2. ... g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nbd7 7. O-O e5 8. e4 c6 9. h3 Qb6                                         (Kings Indian Defense -- Main Line)
+        3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5 7. d5 c6 8. Nge2 cxd5 9. Nxd5 Nxd5                                              (Kings Indian Defense -- Samisch)
+                5. f4 c5 6. Nf3 O-O 7. d5 e6 8. Bd3 exd5 9. cxd5 Qb6                                                            (Kings Indian Defense -- 4 pawns attack)
+                5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. Be3 Re8 9. dxe5 dxe5                                                         (Kings Indian Defense -- Classical)
+            4. Nf3 O-O 5. Bf4 d6 6. h3 Nbd7 7. e3 c6                                                                            (Kings Indian Defense)
+          3. ... d5 4. Bf4 Bg7                                                                                                  (Grunfeld Defense)
+            4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Bc4 Bg7 8. Ne2 O-O 9. O-O cxd4 10. cxd4 Nc6                                   (Grunfeld Defense)
+            4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Bg4 8. Be3 Nfd7 9. O-O-O Nc6                                               (Grunfeld Defense -- Smyslov)
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 e6 6. Be3 d6 7. Nge2 Nd4 8. Qd2 Qh4                                               (Sicilian Defense -- Closed)
+    2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O O-O 9. f4 b5 10. a3 Bb7                              (Sicilian Defense -- Najdorf)
+                    6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O                                                                           (Sicilian Defense -- Najdorf)
+                    6. g3 e5 7. Nde2 Be6 8. Bg2 b5 9. O-O Nbd7                                                                  (Sicilian Defense -- Najdorf)
+      2. ... Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7 6. Be3 Nf6 7. Bc4 O-O                                                         (Sicilian Defense -- Dragon Variation)
+              4. ... Nf6 5. Nc3 d6 6. Be2 e5 7. Nb3 Be7 8. O-O O-O 9. Be3 Be6                                                   (Sicilian Defense -- Boleslavsky Variation)
+                      6. ... g6 7. Be3 Bg7 8. O-O O-O 9. Nb3 Be6 10. f4 Na5 11. f5 Bc4                                          (Sicilian Defense -- Dragon Variation)
+  1. ... c6 2. d4 d5 3. e5 Bf5 4. Bd3 Bxd3 5. Qxd3 e6 6. Nc3 Qb6                                                                (Caro-Kann Defense)
+        3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. c5 Be7 8. Bb5 O-O 9. Nf3 Ne4                                             (Caro-Kann Defense)
+    2. Nc3 d5 3. Nf3 Bg4 4. h3 Bxf3 5. Qxf3 e6 6. d4 Nf6 7. Bd3 dxe4 8. Nxe4 Qxd4 9. c3 Qd8                                     (Caro-Kann Defense)
+  1. ... d5? 2. exd5 Qxd5? 3. Nc3                                                                                               (Center-Counter Defense)
+  1. ... e5 2. Bc4? Nf6 3. d4? exd4 4. Nf3? Nxe4 5. Qxd4? Nc5 6. O-O? Ne6 7. Re1? c6 8. Nc3? d5 9. Bd3? Be7                     (Bishop's Opening)
+    2. d4? exd4 3. Qxd4? Nc6                                                                                                    (Center Game)
+    2. f4? exf4 3. Nf3? d6 4. Bc4? h6 5. d4? g5 6. O-O? Bg7 7. c3? Nc6 8. Qb3? Qe7                                              (Kings Gambit Accepted)
+    2. Nc3 Bc5 3. Nf3 d6 4. d4 exd4 5. Nxd4 Nf6 6. Bg5 h6                                                                       (Vienna Game)
+      2. ... Nc6 3. Nf3 g6 4. d4 exd4 5. Nd5 Bg7 6. Bg5 Nce7 7. Nxd4 c6 8. Nc3 h6                                               (Three Knights Game)
+      2. ... Nf6 3. Bc4 Nc6 4. d3 Bb4 5. Bg5 h6 6. Bxf6 Bxc3+ 7. bxc3 Qxf6 8. Ne2 d6                                            (Vienna Game)
+    2. Nf3 d6 3. d4 Nf6                                                                                                         (Philidor's Defense)
+      2. ... Nc6 3. Bb5 a6 4. Ba4 d6 5. d4 b5 6. Bb3 Nxd4 7. Nxd4 exd4 8. c3 dxc3 9. Nxc3 Bb7                                   (Ruy Lopez -- Modern Steinitz Defense)
+              4. ... Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7                               (Ruy Lopez -- Open Defense)
+                  5. ... Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. c3 Bc5 10. Nbd2 O-O                                             (Ruy Lopez -- Open Defense)
+            4. Bxc6 dxc6 5. d4 exd4 6. Qxd4 Qxd4 7. Nxd4 Bd7 8. Be3 O-O-O 9. Nd2 Ne7                                            (Ruy Lopez)
+          3. ... Bc5 4. c3 Nf6 5. d4 exd4 6. e5 Ne4 7. O-O d5                                                                   (Ruy Lopez -- Classical Defense)
+          3. ... d6 4. d4 Bd7 5. Nc3 Nf6 6. Bxc6 Bxc6 7. Qd3 exd4 8. Nxd4 Be7 9. Bg5 Bd7                                        (Ruy Lopez -- Old Steinitz Defense)
+                    6. O-O Be7 7. Re1 exd4 8. Nxd4 O-O 9. Nf5 Re8                                                               (Ruy Lopez -- Old Steinitz Defense)
+          3. ... f5 4. Nc3 fxe4 5. Nxe4 d5 6. Nxe5 dxe4 7. Nxc6 Qd5 8. c4 Qd6 9. Nxa7+ Bd7                                      (Ruy Lopez -- Schliemann Defense)
+          3. ... Nd4 4. Ba4 Bc5 5. O-O Nxf3+ 6. Qxf3 Ne7 7. d3 O-O 8. Be3 Bb6 9. Nc3 d6                                         (Ruy Lopez -- Birds Defense)
+        3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Nc3 Nxe4 8. O-O Bxc3                                                    (Giuoco Piano)
+            4. d3 Nf6 5. Nc3 d6 6. Bg5 h6 7. Bxf6 Qxf6 8. Nd5 Qd8                                                               (Giuoco Piano)
+          3. ... Nf6 4. d4 exd4 5. O-O Bc5 6. e5 d5 7. exf6 dxc4 8. fxg7 Rg8                                                    (Two Knights Defense -- Max Lange Attack)
+            4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 h6                                                             (Two Knights Defense)
+        3. c3 d5 4. Qa4 Nf6 5. Nxe5 Bd6 6. Nxc6 bxc6 7. d3 O-O 8. Bg5 h6                                                        (Ponziani's Opening)
+        3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 7. Nd2 d6                                                                  (Scotch Game)
+        3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 Bxc3 7. bxc3 d6 8. Bg5 Qe7 9. Re1 Nd8 10. d4 Ne6                                 (Four Knight's Game)
+      2. ... Nf6 3. d4 exd4 4. e5 Ne4 5. Qxd4 d5                                                                                (Petrov's Defense)
+        3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. c4 Bg4 9. cxd5 f5 10. Nc3 Nd7                                  (Petrov's Defense)
+  1. ... e6? 2. d4 d5? 3. Nc3 Bb4? 4. e5 c5? 5. a3 Bxc3+? 6. bxc3 Nd7?                                                          (French Defense -- Winawer)
+          3. ... dxe4? 4. Nxe4 Nd7? 5. Nf3 Ngf6? 6. Nxf6+ Nxf6? 7. Bd3 b6? 8. Qe2 Bb7? 9. Bg5 Be7?                              (French Defense -- Rubenstein)
+          3. ... Nf6? 4. Bg5 Be7? 5. e5 Nfd7? 6. Bxe7 Qxe7? 7. Qd2 O-O? 8. f4 c5? 9. Nf3 Nc6? 10. O-O-O c4?                     (French Defense -- Classical)
+        3. Nd2 Nc6? 4. Ngf3 Nf6? 5. e5 Nd7? 6. Nb3 f6? 7. Bb5 Be7? 8. Bf4 O-O?                                                  (French Defense -- Tarrasch)
+  1. ... Nc6? 2. d4 d5? 3. e5 f6?                                                                                               (Nimzowitsch Defense)
+  1. ... Nf6? 2. e5 Nd5? 3. c4 Nb6? 4. d4 d6? 5. f4 dxe5? 6. fxe5 Nc6? 7. Be3 Bf5? 8. Nc3 e6? 9. Nf3 Be7?                       (Alekhine's Defense)
+        3. d4 d6? 4. Nf3 Bg4? 5. Be2 e6? 6. O-O Be7? 7. h3 Bh5? 8. c4 Nb6?                                                      (Alekhine's Defense)
+1. Nf3 d5 2. c4 dxc4 3. e3 c5 4. Bxc4 e6 5. O-O Nf6 6. b3 Nc6 7. Bb2 a6 8. a4 Be7                                               (Reti -- Accepted)
+      2. ... e6 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. b3 c5 7. cxd5 Nxd5 8. Bb2 Nc6 9. d4 b6 10. Nc3 Nxc3                          (Reti -- Neo Catalan)
+    2. g3 Nf6 3. Bg2 g6 4. O-O Bg7 5. d3 O-O 6. Nbd2 Nc6 7. e4 e5 8. c3 a5 9. Re1 dxe4 10. dxe4 Nd7                             (Reti -- Barcza)

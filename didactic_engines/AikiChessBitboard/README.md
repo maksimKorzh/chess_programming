@@ -1,0 +1,5 @@
+# AikiChessBitboard
+
+Hi all! This is my very first programming project and also my first github experience as well)) I'm publishing it to get some feedbacks and in hope that it would be useful at least for somebody. AikiChessBitboard is a complete move generator for a chess engine. It's structure is inspired by BlueFever's youtube chess engine in C series. In AikiChessBitboard I've implemented so called "plain" magic bitboard technique. This move generator is for about two times faster than the original one in vice engine by BlueFever. It solves so called "tricky position" for debugging chess engines for about 1.8 - 2,1 secs which is probably too slow, but this is the best result after about half a year research. I'm pretty new to programming (for about a year) and this was one of my first introductions to C programming language as well. Any feedbacks would be greatly appreciated. 
+
+PLEASE FEEL FREE TO CONTACT ME VIA EMAIL rozovenkoe66@gmail.com IF YOU HAVE ISSUES WITH COMPILING THE CODE OR ANY QUESTIONS

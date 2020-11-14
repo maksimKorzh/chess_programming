@@ -1,0 +1,119 @@
+
+A Quick Lesson in Hungarian
+
+Bruce Moreland (brucemo@seanet.com)
+14-Jun-2001
+
+Hungarian is a variable naming convention developed by Charles Simonyi, who is
+a Microsoft developer whose chief accomplishment that I know if is that he
+wrote Microsoft Word.
+
+Hungarian is in very common usage at Microsoft, and since I worked there for
+some time, I use Hungarian.  I will use it until I'm dead -- I will never
+change.  The usage of Hungarian is inconsistent even within Microsoft.  My own
+dialect is use by precisely one person that I know of -- me.
+
+Hungarian involves prefixing your variable names with short bits of gibberish.
+
+Primitive types:
+
+    ch  char
+    b   unsigned char
+    i   integer
+    u   unsigned
+    l   long
+    dw  unsigned long
+
+I sometimes abuse the "b" data type by using it on signed chars.  Another
+important primitive type is:
+
+    sz  char *, specifically a null-terminated string
+
+If you have a pointer, it is prefixed by "p", leading for example to
+"char * pch".  A pointer to pointer to char is a "char ** ppch".  A "pch" is
+supposed to be a pointer to a character that's not meant to be part of a
+null-terminated string, otherwise you'd just use "char * sz".
+
+If you have a pointer that you aren't going to increment (a pointer to an
+array of bytes or something), you use "rg" rather than "p".
+
+Another prefix is "a", which I abuse terribly.  I believe that it was supposed
+to denote a pointer that was allocated dynamically on the *stack* via the
+"alloca" call, in some weird Microsoft p-code compiler from the mid-80's, but
+I never figured it out for sure, and by the time I got an inkling that this
+was what the prefix was for, I was using "a" all the time and I was not going
+to stop.
+
+I use "a" to to prefix arrays, including "sz", that are declared using [N],
+where N is some constant, rather than as pointers.  An "sz" is a "char *", but
+in my world an "asz" is a "char[N]".  I will also use "argb" when I mean an
+array of bytes that I'm declaring as "unsigned char argb[N]".
+
+So I might have:
+
+    char asz[32];
+    char * sz = asz;
+
+I remind you again that the "a" seems to be terribly non-standard.
+
+An array of char * is "char ** rgsz" or "char * rgsz[]", or "char * argsz[N]".
+
+Ignoring what is in the Microsoft Windows include files, a "psz" is a pointer
+to an array of null-terminated strings ("char **"), not a pointer to one
+string ("char *").
+
+A pointer to void ("void *") is "pv" in my world.  I can't remember if this is
+non-standard or not.
+
+"i" is also used to mean "index", so an "int ib" is an index into an array of
+bytes, or a string.  An "isz" is not an index into a string, it's an index
+into an array of strings ("rgsz[isz]").  A pointer to a variable that will
+hold an index into a byte array (or a string) is an "int * pib".
+
+"c" means "count".  It's the number of things you have.  For example:
+
+    cb = strlen(sz);                    // Count of bytes in the string.
+    for (ib = cb - 1; ib >= 0; ib--)    // Back through it.
+        ...
+
+Another rarely used prefix is "d", meaning "difference".
+
+But speaking of "i", "i" and "j" are the two variables I'll use without
+worrying about the Hungarian.  I use these as loop indexes.  So in my previous
+code fragment I probably would have used "i" instead of "ib", which is kind of
+bad.
+
+If you typedef a struct, it has a name, and the name is shortened down (if
+necessary) to make a Hungarian prefix.
+
+My "square" data type is a struct typedef'd as "SQ", so a "psq" is a pointer
+to a square.
+
+A multi-dimensional array is supposed to use "mp" to start it, but the usage
+seemed complicated so I use "rg" instead, which is improper.
+
+In another burst of non-standardness, I use "s_" to indicate a variable that
+is declared statically, and "c_" to indicate one that is static and is either
+"const" or may as well be (it's only initialized once).  This has absolutely
+nothing to do with real Hungarian, it's just something I do, because I got
+tired of confusing globals with locals.  No more.
+
+Functions are also supposed to use Hungarian.  There was mention made in a
+document I saw long ago about using Hungarian types to specify parameters, but
+since the introduction of Ansi prototypes this seems to be overkill.
+
+I still do use them to indicate return type.  A function that returns a count
+of bytes will be "CbFunc", and a function that returns a pointer to a square
+will be "PsqFunc".
+
+Function names is the only place you'll see the leading character of a
+Hungarian datatype capitalized.  I do not capitalize the prefix in #defined
+constants, such as "cbMAX".  Others may write this as "CB_MAX" or "CBMAX",
+but not me.
+
+For my final non-standardness, I use "V" to indicate a function returning
+void.  You aren't supposed to do this, but I could never figure out why.
+
+--
+Copyright (C) Bruce Moreland, 2001.  All rights reserved.
+Please look in "gpl.txt" for information on the GNU General Public License.

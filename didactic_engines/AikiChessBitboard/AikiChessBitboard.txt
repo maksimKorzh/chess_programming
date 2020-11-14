@@ -1,0 +1,409 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 18.59      0.66     0.66  4248664     0.00     0.00  MakeMove
+ 12.68      1.11     0.45  4185552     0.00     0.00  TakeMove
+  9.30      1.44     0.33  9267333     0.00     0.00  queenMagicAttacks
+  9.30      1.77     0.33  4539743     0.00     0.00  Is_Square_Attacked
+  4.79      1.94     0.17  4690026     0.00     0.00  rookMagicAttacks
+  3.66      2.07     0.13  9372698     0.00     0.00  bitScanForward
+  3.10      2.18     0.11 10491224     0.00     0.00  GenerateAllMoves
+  2.54      2.27     0.09      268     0.34     0.34  count_1s
+  2.54      2.36     0.09       48     1.88     1.88  Print_move
+  2.25      2.44     0.08       48     1.67     1.67  PerftTest
+  2.25      2.52     0.08                             MovePiece
+  0.85      2.55     0.03                             AddWhitePawnCaptureMove
+  0.85      2.58     0.03                             AddWhitePawnMove
+  0.85      2.61     0.03                             Print_square
+  0.56      2.63     0.02   102400     0.00     0.00  ratt
+  0.56      2.65     0.02                             bishopMagicAttacks
+  0.28      2.66     0.01   107648     0.00     0.00  setOccupancy
+  0.28      2.67     0.01        1    10.00    10.00  Reset_Board
+  0.28      2.68     0.01                             AddEnPassantMove
+  0.28      2.69     0.01                             ClearPiece
+  0.28      2.70     0.01                             InputWaiting
+  0.00      2.70     0.00  4553368     0.00     0.00  Print_MoveList
+  0.00      2.70     0.00  1143712     0.00     0.00  scan_bitboard
+  0.00      2.70     0.00     5248     0.00     0.00  batt
+  0.00      2.70     0.00      128     0.00     0.00  bmask
+  0.00      2.70     0.00      128     0.00     0.00  pawnMask
+  0.00      2.70     0.00      128     0.00     0.00  rmask
+  0.00      2.70     0.00       64     0.00     0.00  kingMask
+  0.00      2.70     0.00       64     0.00     0.00  knightMask
+  0.00      2.70     0.00        2     0.00    57.99  Generate_hashKey
+  0.00      2.70     0.00        2     0.00    26.25  Init_Sliders_Masks_Shifts_Occupancies
+  0.00      2.70     0.00        2     0.00    31.74  Init_Sliders_moveDatabase
+  0.00      2.70     0.00        2     0.00     0.00  Perft
+  0.00      2.70     0.00        1     0.00     0.00  InitHashKeys
+  0.00      2.70     0.00        1     0.00     0.00  Init_BitMasks
+  0.00      2.70     0.00        1     0.00     0.00  Init_Files_and_Ranks_Board
+  0.00      2.70     0.00        1     0.00     0.00  Init_NonSliders_Attacks
+  0.00      2.70     0.00        1     0.00    10.00  Parse_FEN
+  0.00      2.70     0.00        1     0.00    62.01  Print_Board
+  0.00      2.70     0.00        1     0.00     4.03  Setup_Board_Position
+  0.00      2.70     0.00        1     0.00     0.00  Setup_Pieces_and_Occupancy
+  0.00      2.70     0.00        1     0.00     0.00  mingw_onexit
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.37% of 2.70 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     84.1    0.01    2.26                 ClearPiece [1]
+                1.43    0.83  203873/203873      bitScanForward <cycle 1> [9]
+                0.00    0.00  203873/4553368     Print_MoveList [31]
+-----------------------------------------------
+[2]     83.7    1.43    0.83  203873+28094314 <cycle 1 as a whole> [2]
+                0.45    0.76 4185552+63112       TakeMove <cycle 1> [3]
+                0.66    0.00 4248664             MakeMove <cycle 1> [5]
+                0.11    0.07 10491224+413127      GenerateAllMoves <cycle 1> [7]
+                0.13    0.00 9372698             bitScanForward <cycle 1> [9]
+                0.08    0.00      48+4185504     PerftTest <cycle 1> [15]
+                0.00    0.00       1             mingw_onexit <cycle 1> [45]
+-----------------------------------------------
+                               63112             TakeMove <cycle 1> [3]
+                                  48             mingw_onexit <cycle 1> [45]
+                             4185504             PerftTest <cycle 1> [15]
+[3]     44.8    0.45    0.76 4185552+63112   TakeMove <cycle 1> [3]
+                0.31    0.45 4248664/4539743     Is_Square_Attacked [4]
+                             5195637             GenerateAllMoves <cycle 1> [7]
+                             4248664             bitScanForward <cycle 1> [9]
+                               63112             TakeMove <cycle 1> [3]
+-----------------------------------------------
+                0.02    0.03  291079/4539743     GenerateAllMoves <cycle 1> [7]
+                0.31    0.45 4248664/4539743     TakeMove <cycle 1> [3]
+[4]     30.1    0.33    0.48 4539743         Is_Square_Attacked [4]
+                0.32    0.00 8967910/9267333     queenMagicAttacks [6]
+                0.16    0.00 4494187/4690026     rookMagicAttacks [8]
+-----------------------------------------------
+                                  48             mingw_onexit <cycle 1> [45]
+                             4248616             PerftTest <cycle 1> [15]
+[5]     24.4    0.66    0.00 4248664         MakeMove <cycle 1> [5]
+                             5195637             GenerateAllMoves <cycle 1> [7]
+-----------------------------------------------
+                0.01    0.00  299423/9267333     GenerateAllMoves <cycle 1> [7]
+                0.32    0.00 8967910/9267333     Is_Square_Attacked [4]
+[6]     12.2    0.33    0.00 9267333         queenMagicAttacks [6]
+-----------------------------------------------
+                              413127             GenerateAllMoves <cycle 1> [7]
+                                   1             mingw_onexit <cycle 1> [45]
+                               99949             PerftTest <cycle 1> [15]
+                             5195637             MakeMove <cycle 1> [5]
+                             5195637             TakeMove <cycle 1> [3]
+[7]      6.7    0.11    0.07 10491224+413127  GenerateAllMoves <cycle 1> [7]
+                0.02    0.03  291079/4539743     Is_Square_Attacked [4]
+                0.01    0.00  299423/9267333     queenMagicAttacks [6]
+                0.01    0.00  195839/4690026     rookMagicAttacks [8]
+                0.00    0.00 4047428/4553368     Print_MoveList [31]
+                             4920161             bitScanForward <cycle 1> [9]
+                              413127             GenerateAllMoves <cycle 1> [7]
+-----------------------------------------------
+                0.01    0.00  195839/4690026     GenerateAllMoves <cycle 1> [7]
+                0.16    0.00 4494187/4690026     Is_Square_Attacked [4]
+[8]      6.3    0.17    0.00 4690026         rookMagicAttacks [8]
+-----------------------------------------------
+                             4248664             TakeMove <cycle 1> [3]
+                             4920161             GenerateAllMoves <cycle 1> [7]
+                1.43    0.83  203873/203873      ClearPiece [1]
+[9]      4.8    0.13    0.00 9372698         bitScanForward <cycle 1> [9]
+                                   1             mingw_onexit <cycle 1> [45]
+-----------------------------------------------
+                                                 <spontaneous>
+[10]     4.8    0.00    0.13                 main [10]
+                0.00    0.06       1/1           Print_Board [18]
+                0.00    0.06       1/2           Generate_hashKey [11]
+                0.00    0.01       1/1           Parse_FEN [26]
+-----------------------------------------------
+                0.00    0.06       1/2           main [10]
+                0.00    0.06       1/2           Print_Board [18]
+[11]     4.3    0.00    0.12       2         Generate_hashKey [11]
+                0.00    0.06       2/2           Init_Sliders_moveDatabase [17]
+                0.00    0.05       2/2           Init_Sliders_Masks_Shifts_Occupancies [19]
+                0.00    0.00       1/1           Init_BitMasks [41]
+                0.00    0.00       1/1           Init_Files_and_Ranks_Board [42]
+                0.00    0.00       1/1           Init_NonSliders_Attacks [43]
+                0.00    0.00       1/1           InitHashKeys [40]
+-----------------------------------------------
+                0.00    0.00      12/268         Setup_Board_Position [30]
+                0.04    0.00     128/268         Init_Sliders_Masks_Shifts_Occupancies [19]
+                0.04    0.00     128/268         Init_Sliders_moveDatabase [17]
+[12]     3.3    0.09    0.00     268         count_1s [12]
+-----------------------------------------------
+                0.09    0.00      48/48          atexit [14]
+[13]     3.3    0.09    0.00      48         Print_move [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     3.3    0.00    0.09                 atexit [14]
+                0.09    0.00      48/48          Print_move [13]
+-----------------------------------------------
+                             4185504             PerftTest <cycle 1> [15]
+                                  48             mingw_onexit <cycle 1> [45]
+[15]     3.0    0.08    0.00      48+4185504 PerftTest <cycle 1> [15]
+                             4248616             MakeMove <cycle 1> [5]
+                             4185504             TakeMove <cycle 1> [3]
+                               99949             GenerateAllMoves <cycle 1> [7]
+                             4185504             PerftTest <cycle 1> [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     3.0    0.08    0.00                 MovePiece [16]
+-----------------------------------------------
+                0.00    0.06       2/2           Generate_hashKey [11]
+[17]     2.4    0.00    0.06       2         Init_Sliders_moveDatabase [17]
+                0.04    0.00     128/268         count_1s [12]
+                0.02    0.00  102400/102400      ratt [23]
+                0.00    0.00    5248/107648      setOccupancy [25]
+                0.00    0.00    5248/5248        batt [33]
+-----------------------------------------------
+                0.00    0.06       1/1           main [10]
+[18]     2.3    0.00    0.06       1         Print_Board [18]
+                0.00    0.06       1/2           Generate_hashKey [11]
+                0.00    0.00       1/1           Setup_Board_Position [30]
+                0.00    0.00       1/1           Setup_Pieces_and_Occupancy [44]
+-----------------------------------------------
+                0.00    0.05       2/2           Generate_hashKey [11]
+[19]     1.9    0.00    0.05       2         Init_Sliders_Masks_Shifts_Occupancies [19]
+                0.04    0.00     128/268         count_1s [12]
+                0.01    0.00  102400/107648      setOccupancy [25]
+                0.00    0.00     128/128         rmask [36]
+                0.00    0.00     128/128         bmask [34]
+                0.00    0.00      64/64          knightMask [38]
+                0.00    0.00      64/64          kingMask [37]
+-----------------------------------------------
+                                                 <spontaneous>
+[20]     1.1    0.03    0.00                 AddWhitePawnCaptureMove [20]
+-----------------------------------------------
+                                                 <spontaneous>
+[21]     1.1    0.03    0.00                 AddWhitePawnMove [21]
+                0.00    0.00    7880/4553368     Print_MoveList [31]
+-----------------------------------------------
+                                                 <spontaneous>
+[22]     1.1    0.03    0.00                 Print_square [22]
+-----------------------------------------------
+                0.02    0.00  102400/102400      Init_Sliders_moveDatabase [17]
+[23]     0.7    0.02    0.00  102400         ratt [23]
+-----------------------------------------------
+                                                 <spontaneous>
+[24]     0.7    0.02    0.00                 bishopMagicAttacks [24]
+-----------------------------------------------
+                0.00    0.00    5248/107648      Init_Sliders_moveDatabase [17]
+                0.01    0.00  102400/107648      Init_Sliders_Masks_Shifts_Occupancies [19]
+[25]     0.4    0.01    0.00  107648         setOccupancy [25]
+                0.00    0.00 1143680/1143712     scan_bitboard [32]
+-----------------------------------------------
+                0.00    0.01       1/1           main [10]
+[26]     0.4    0.00    0.01       1         Parse_FEN [26]
+                0.01    0.00       1/1           Reset_Board [27]
+-----------------------------------------------
+                0.01    0.00       1/1           Parse_FEN [26]
+[27]     0.4    0.01    0.00       1         Reset_Board [27]
+-----------------------------------------------
+                                                 <spontaneous>
+[28]     0.4    0.01    0.00                 AddEnPassantMove [28]
+-----------------------------------------------
+                                                 <spontaneous>
+[29]     0.4    0.01    0.00                 InputWaiting [29]
+-----------------------------------------------
+                0.00    0.00       1/1           Print_Board [18]
+[30]     0.1    0.00    0.00       1         Setup_Board_Position [30]
+                0.00    0.00      12/268         count_1s [12]
+-----------------------------------------------
+                0.00    0.00    4212/4553368     AddBlackPawnCaptureMove [46]
+                0.00    0.00    7880/4553368     AddWhitePawnMove [21]
+                0.00    0.00  203873/4553368     ClearPiece [1]
+                0.00    0.00  289975/4553368     AddBlackPawnMove [47]
+                0.00    0.00 4047428/4553368     GenerateAllMoves <cycle 1> [7]
+[31]     0.0    0.00    0.00 4553368         Print_MoveList [31]
+-----------------------------------------------
+                0.00    0.00      32/1143712     Update_Lists_of_Material [55]
+                0.00    0.00 1143680/1143712     setOccupancy [25]
+[32]     0.0    0.00    0.00 1143712         scan_bitboard [32]
+-----------------------------------------------
+                0.00    0.00    5248/5248        Init_Sliders_moveDatabase [17]
+[33]     0.0    0.00    0.00    5248         batt [33]
+-----------------------------------------------
+                0.00    0.00     128/128         Init_Sliders_Masks_Shifts_Occupancies [19]
+[34]     0.0    0.00    0.00     128         bmask [34]
+-----------------------------------------------
+                0.00    0.00     128/128         Init_NonSliders_Attacks [43]
+[35]     0.0    0.00    0.00     128         pawnMask [35]
+-----------------------------------------------
+                0.00    0.00     128/128         Init_Sliders_Masks_Shifts_Occupancies [19]
+[36]     0.0    0.00    0.00     128         rmask [36]
+-----------------------------------------------
+                0.00    0.00      64/64          Init_Sliders_Masks_Shifts_Occupancies [19]
+[37]     0.0    0.00    0.00      64         kingMask [37]
+-----------------------------------------------
+                0.00    0.00      64/64          Init_Sliders_Masks_Shifts_Occupancies [19]
+[38]     0.0    0.00    0.00      64         knightMask [38]
+-----------------------------------------------
+                0.00    0.00       1/2           mingw_onexit <cycle 1> [45]
+                0.00    0.00       1/2           __do_global_dtors [70]
+[39]     0.0    0.00    0.00       2         Perft [39]
+-----------------------------------------------
+                0.00    0.00       1/1           Generate_hashKey [11]
+[40]     0.0    0.00    0.00       1         InitHashKeys [40]
+-----------------------------------------------
+                0.00    0.00       1/1           Generate_hashKey [11]
+[41]     0.0    0.00    0.00       1         Init_BitMasks [41]
+-----------------------------------------------
+                0.00    0.00       1/1           Generate_hashKey [11]
+[42]     0.0    0.00    0.00       1         Init_Files_and_Ranks_Board [42]
+-----------------------------------------------
+                0.00    0.00       1/1           Generate_hashKey [11]
+[43]     0.0    0.00    0.00       1         Init_NonSliders_Attacks [43]
+                0.00    0.00     128/128         pawnMask [35]
+-----------------------------------------------
+                0.00    0.00       1/1           Print_Board [18]
+[44]     0.0    0.00    0.00       1         Setup_Pieces_and_Occupancy [44]
+-----------------------------------------------
+                                   1             bitScanForward <cycle 1> [9]
+[45]     0.0    0.00    0.00       1         mingw_onexit <cycle 1> [45]
+                0.00    0.00       1/2           Perft [39]
+                                  48             MakeMove <cycle 1> [5]
+                                  48             PerftTest <cycle 1> [15]
+                                  48             TakeMove <cycle 1> [3]
+                                   1             GenerateAllMoves <cycle 1> [7]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [28] AddEnPassantMove       [16] MovePiece              [34] bmask
+  [20] AddWhitePawnCaptureMove [26] Parse_FEN             [12] count_1s
+  [21] AddWhitePawnMove       [39] Perft                  [37] kingMask
+   [1] ClearPiece             [15] PerftTest              [38] knightMask
+   [7] GenerateAllMoves       [18] Print_Board            [45] mingw_onexit
+  [11] Generate_hashKey       [31] Print_MoveList         [35] pawnMask
+  [40] InitHashKeys           [13] Print_move              [6] queenMagicAttacks
+  [41] Init_BitMasks          [22] Print_square           [23] ratt
+  [42] Init_Files_and_Ranks_Board [27] Reset_Board        [36] rmask
+  [43] Init_NonSliders_Attacks [30] Setup_Board_Position   [8] rookMagicAttacks
+  [19] Init_Sliders_Masks_Shifts_Occupancies [44] Setup_Pieces_and_Occupancy [32] scan_bitboard
+  [17] Init_Sliders_moveDatabase [3] TakeMove             [25] setOccupancy
+  [29] InputWaiting           [33] batt                    [2] <cycle 1>
+   [4] Is_Square_Attacked     [24] bishopMagicAttacks
+   [5] MakeMove                [9] bitScanForward

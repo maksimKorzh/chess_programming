@@ -1,0 +1,40 @@
+﻿body
+{
+    width: 960px;
+}
+
+.ProjectDiv
+{
+    padding: 20px;
+    margin: 10px 20px 40px 20px;
+    background-color: #F0F0F0;
+}
+
+.ProjectTitle
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #003399;
+}
+
+.ProjectLogo
+{
+    width: 128px;
+    height: 42px;
+}
+
+.AppLogoHeader
+{
+	width: 184px;
+}
+
+.MobileScreenShot
+{
+    margin: 0px 10px 20px 0px;
+}
+
+.CodeTable th, tr
+{
+    padding: 5px;
+    text-align: left;
+}

@@ -1,0 +1,439 @@
+[White "OliThink 5.3.2 64-bit"]
+[Black "Lozza 1.16 64-bit"]
+[Result "1-0"]
+[ECO "A00"]
+[Opening "Benko's opening"]
+[PlyCount "118"]
+
+1. g3 e5 2. c4 Nc6 3. Nc3 Bc5 4. Nf3 d6 5. Bg2 Nf6 6. O-O O-O 7. e3 Bb6 8. a3 Be6 9. d3
+
+[White "Waxman 2011"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "A07"]
+[Opening "Reti"]
+[Variation "King's Indian attack, Keres variation"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 Nd7 4. O-O c6 5. d3 e5 6. e4 dxe4 7. dxe4 Ngf6 8. Qe2 Be7 9. h3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Rhetoric 1.0 64-bit"]
+[Result "0-1"]
+[ECO "A04"]
+[Opening "Reti opening"]
+
+1. Nf3 g6 2. e4 Bg7 3. d4 c6 4. c3 Nf6 5. Bd3 d6 6. O-O O-O 7. h3 Qc7 8. a4 e5 9. dxe5
+
+[White "iCE 0.3"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "1/2-1/2"]
+[ECO "A20"]
+[Opening "English opening"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 Bc5 4. Nc3 Nc6 5. a3 a6 6. e3 O-O 7. Nge2 d6 8. h3 Ba7 9. d3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "K2 0.75"]
+[Result "1-0"]
+[ECO "A22"]
+[Opening "English"]
+[Variation "Bremen, Smyslov system"]
+
+1. c4 Nf6 2. Nc3 e5 3. g3 Bb4 4. Bg2 O-O 5. Qc2 c6 6. e4 Bc5 7. Nge2 Ng4 8. f3 Nf6 9. Na4
+
+[White "Myrddin 0.86 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "A27"]
+[Opening "English"]
+[Variation "three knights system"]
+
+1. c4 e5 2. Nc3 Nc6 3. Nf3 Bb4 4. Nd5 e4 5. Nd4 Nxd4 6. Nxb4 Nf6 7. e3 Nc6 8. Nxc6 dxc6 9. d4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Nemeton 1.51"]
+[Result "1-0"]
+[ECO "A33"]
+[Opening "English"]
+[Variation "symmetrical variation"]
+
+1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nf6 6. Ndb5 d6 7. Bf4 e5 8. Bg5 a6 9. Na3
+
+[White "TJchess 1.1 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "A34"]
+[Opening "English"]
+[Variation "symmetrical, three knights system"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 d5 4. cxd5 Nxd5 5. e3 Nxc3 6. bxc3 g6 7. Qa4+ Nd7 8. Ba3 Qc7 9. h4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Bagatur 1.4d 64-bit"]
+[Result "1-0"]
+[ECO "A40"]
+[Opening "Modern defence"]
+
+1. d4 g6 2. Nf3 Bg7 3. g3 c5 4. d5 d6 5. c4 b5 6. cxb5 a6 7. bxa6 Qa5+ 8. Bd2 Qxa6 9. Bc3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Dorky 4.3 64-bit"]
+[Result "0-1"]
+[ECO "A41"]
+[Opening "Queen's Pawn"]
+
+1. d4 d6 2. g3 f5 3. Bg2 g6 4. Nc3 Nf6 5. Bg5 Bg7 6. Qd2 h6 7. Bxf6 Bxf6
+
+[White "CyberPagno 2.3 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "1-0"]
+[ECO "A45"]
+[Opening "Trompovsky attack (Ruth, Opovcensky opening)"]
+
+1. d4 Nf6 2. Bg5 g6 3. Bxf6 exf6 4. h4 f5 5. h5 Bg7 6. e3 d6 7. Bc4 Nd7 8. Ne2 Nb6 9. Qd3
+
+[White "Waxman 2014"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "A46"]
+[Opening "Queen's pawn"]
+[Variation "Torre attack"]
+
+1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e3 Qb6 5. Nbd2 Qxb2 6. Bxf6 gxf6 7. Be2 Nc6 8. O-O cxd4 9. Nc4 Qb4 10. Nxd4
+
+[White "Myrddin 0.86 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "1-0"]
+[ECO "B01"]
+[Opening "Scandinavian"]
+[Variation "Marshall variation"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. c4 Nb6 5. Nf3 Bg4 6. c5 N6d7 7. Bc4 e6 8. h3 Bxf3 9. Qxf3
+
+[White "Cheese 1.4 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B06"]
+[Opening "Robatsch defence"]
+
+1. e4 g6 2. d4 Bg7 3. Nc3 c6 4. f4 Qb6 5. Nf3 d5 6. e5 Bg4 7. Be2 Nh6
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Ifrit m1.8 64-bit"]
+[Result "1-0"]
+[ECO "B10"]
+[Opening "Caro-Kann"]
+[Variation "Goldman (Spielmann) variation"]
+
+1. Nc3 c6 2. e4 d5 3. Qf3 dxe4 4. Nxe4 Nh6 5. Bc4 Bf5 6. d3 Bg6 7. Bg5 Nf5
+
+[White "Ares 1.005.2.1 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B12"]
+[Opening "Caro-Kann"]
+[Variation "advance variation"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be3 Ne7 6. Nbd2 Bg6 7. Nh4 Nf5 8. Nxf5 Bxf5 9. Nf3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Carballo 1.3"]
+[Result "1-0"]
+[ECO "B22"]
+[Opening "Sicilian"]
+[Variation "Alapin's variation (2.c3)"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 g6 7. d4 cxd4 8. Ng5 d5 9. cxd4 Bg7
+
+[White "Bagatur 1.4d 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B23"]
+[Opening "Sicilian"]
+[Variation "closed"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 a6 4. g3 b5 5. Bg2 Bb7 6. d4 cxd4 7. Nxd4 b4 8. Na4 Nf6 9. O-O Bxe4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Giraffe 20150828 64-bit"]
+[Result "1-0"]
+[ECO "B30"]
+[Opening "Sicilian"]
+[Variation "Nimzovich-Rossolimo attack (without ...d6)"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Nc3 Nd4 5. O-O a6 6. Bd3 Ne7 7. Nxd4 cxd4 8. Ne2 Nc6 9. c3
+
+[White "Betsabe II 1.30 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B42"]
+[Opening "Sicilian"]
+[Variation "Kan, Polugaievsky variation"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Bc5 6. Nb3 Ba7 7. Qe2 Nc6 8. Be3 d6 9. O-O Bxe3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Pawny 0.3.1 64-bit"]
+[Result "1-0"]
+[ECO "B46"]
+[Opening "Sicilian"]
+[Variation "Taimanov variation"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 a6 6. Nxc6 bxc6 7. Bd3 d5 8. O-O Nf6 9. Bf4
+
+[White "MadChess 2.0 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B50"]
+[Opening "Sicilian"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Bd3 g6 5. O-O Bg7 6. Bb5+ Bd7 7. Bxd7+ Nbxd7 8. Re1 O-O 9. Na3 Qb6
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Rhetoric 1.0 64-bit"]
+[Result "1-0"]
+[ECO "B66"]
+[Opening "Sicilian"]
+[Variation "Richter-Rauzer, Rauzer attack, 7...a6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Bg5 e6 7. Qd2 a6 8. O-O-O Be7 9. h3
+
+[White "Diablo 0.5.1"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "B90"]
+[Opening "Sicilian"]
+[Variation "Najdorf, Byrne (English) attack"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 b5 8. g4 h6 9. Bd3 Bb7
+
+[White "Eeyore 1.52 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "1-0"]
+[ECO "C00"]
+[Opening "French defence"]
+
+1. e4 e6 2. Nf3 b6 3. d4 Bb7 4. Nc3 d6 5. Bd3 Nd7 6. O-O g6 7. Bg5 Ne7
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Plisk 0.2.7d 64-bit"]
+[Result "0-1"]
+[ECO "C09"]
+[Opening "French"]
+[Variation "Tarrasch, open variation, main line"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 Nc6 6. Be2 Nf6 7. dxc5 Bxc5
+
+[White "nanoSzachy 4.0 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "1-0"]
+[ECO "C10"]
+[Opening "French"]
+[Variation "Rubinstein variation"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Bd3 Be7 6. Be3 Ngf6 7. Qf3 a5
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "nanoSzachy 4.0 64-bit"]
+[Result "0-1"]
+[ECO "C11"]
+[Opening "French"]
+[Variation "Steinitz, Boleslavsky variation"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 8. Qd2 b5 9. a3 Be7
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Giraffe 20150828 64-bit"]
+[Result "1-0"]
+[ECO "C19"]
+[Opening "French"]
+[Variation "Winawer, advance, poisoned pawn variation"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 O-O 8. Bd3 Nbc6 9. Nf3
+
+[White "Galjoen 0.39 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "C42"]
+[Opening "Petrov"]
+[Variation "Paulsen attack"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nc4 Nxe4 5. Qe2 Qe7 6. Ne3 c6 7. d3 Nf6 8. Nc3 d5
+
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Gaia 3.5 32-bit"]
+[Result "1-0"]
+[ECO "C90"]
+[Opening "Ruy Lopez"]
+[Variation "closed (with ...d6)"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. a4 Bg4 10. h3
+
+[White "Gaia 3.5 32-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "C91"]
+[Opening "Ruy Lopez"]
+[Variation "closed, 9.d4"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. d4 exd4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Carballo 1.2"]
+[Result "1-0"]
+[ECO "D00"]
+[Opening "Queen's pawn game"]
+
+1. d4 d5 2. e3 Nf6 3. Nd2 c5 4. c3 e6 5. Bd3 Nbd7 6. f4 Qc7 7. Ngf3 b6 8. Ne5 Be7 9. O-O
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "nanoSzachy 4.0 64-bit"]
+[Result "0-1"]
+[ECO "D15"]
+[Opening "QGD Slav"]
+[Variation "4.Nc3"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. b3 b5 6. c5 Nbd7 7. a3 Qc7
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Nemeton 1.51"]
+[Result "1-0"]
+[ECO "D21"]
+[Opening "QGA"]
+[Variation "3.Nf3"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 c6 4. e3 Be6 5. Nc3 b5 6. a4 b4 7. Ne4 Nf6 8. Nc5 Bd5 9. Qe2 Nbd7 10. Nxd7 Qxd7 11. Ne5 Qc7 12. f3 Rd8 13. Nxc4
+
+[White "Giraffe 20150828 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "D30"]
+[Opening "QGD"]
+[Variation "Hastings variation"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 Nd7 8. e3 Qg6 9. O-O-O Be7
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "RomiChess P3L 64-bit"]
+[Result "1-0"]
+[ECO "D38"]
+[Opening "QGD"]
+[Variation "Ragozin variation"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Bb4 5. cxd5 exd5 6. Bg5 Nbd7 7. Qc2 c5 8. Bd2 
+
+[White "Waxman 2016"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "D41"]
+[Opening "QGD"]
+[Variation "Semi-Tarrasch, 5.cd"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Nc6 9. Bc4 b5 10. Bd3 Bb4+ 11. Bd2 Bxd2+ 12. Qxd2 a6 13. a4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Plisk 0.2.7d 64-bit"]
+[Result "1-0"]
+[ECO "D53"]
+[Opening "QGD"]
+[Variation "4.Bg5 Be7"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. cxd5 exd5 7. e3 h6
+
+[White "Muse 0.899b"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "D85"]
+[Opening "Gruenfeld"]
+[Variation "modern exchange variation"]
+
+1. Nf3 Nf6 2. d4 g6 3. c4 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8. Rb1 O-O 9. Qd2 Qc7
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Bagatur 1.4c 64-bit"]
+[Result "1-0"]
+[ECO "E00"]
+[Opening "Catalan opening"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. Nf3 cxd4 5. Nxd4 Qc7 6. Nd2 a6 7. Bg2 Nc6 8. N2b3 Be7 9. O-O
+
+[White "Lozza 1.16 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "E04"]
+[Opening "Catalan"]
+[Variation "open, 5.Nf3"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 dxc4 5. Bg2 a6 6. O-O Nc6 7. Be3 Nd5 8. Qc1 Bd6 9. Nfd2 Nxe3
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Carballo 1.2"]
+[Result "1-0"]
+[ECO "E10"]
+[Opening "Queen's pawn game"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Bd6 6. Nc3 O-O 7. Bg5 c6 8. Bg2 Nbd7 9. e4
+
+[White "Hussar 0.4"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "E15"]
+[Opening "Queen's Indian"]
+[Variation "Nimzovich variation (exaggerated fianchetto)"]
+
+1. Nf3 Nf6 2. c4 e6 3. d4 b6 4. g3 Ba6 5. Qa4 Bb7 6. Bg2 c5 7. dxc5 Bxc5 8. O-O O-O 9. Nc3 Bc6
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "CyberPagno 2.3 64-bit"]
+[Result "1-0"]
+[ECO "E21"]
+[Opening "Nimzo-Indian"]
+[Variation "three knights variation"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 Nc6 6. Bg2 d5 7. cxd5 Nxd5 8. Bd2 cxd4 9. Nxd4
+
+[White "Eeyore 1.52 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "E32"]
+[Opening "Nimzo-Indian"]
+[Variation "classical variation"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 d5 6. Bg5 h6 7. Bh4 dxc4
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Dorky 4.3 64-bit"]
+[Result "1-0"]
+[ECO "E60"]
+[Opening "King's Indian"]
+[Variation "3.g3"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nf3 c6 6. Nc3 d5 7. Qb3 dxc4 8. Qxc4 Bf5 9. Qb4
+
+[White "EveAnn 1.72"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "E81"]
+[Opening "King's Indian"]
+[Variation "Saemisch, 5...O-O"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Qa5 8. Nc1 cxd4 9. Nb3 Qh5 10. Qxd4 Qh4+ 11. Bf2 Qh6 12. Qe3 Nc6 13. O-O-O Qh5
+
+[White "OliThink 5.3.2 64-bit"]
+[Black "Bagatur 1.3a 64-bit"]
+[Result "1-0"]
+[ECO "E90"]
+[Opening "King's Indian"]
+[Variation "5.Nf3"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 e5 7. d5 Na6 8. Be3 Nc5 9. Nd2
+
+[White "Alex 2.14a 64-bit"]
+[Black "OliThink 5.3.2 64-bit"]
+[Result "0-1"]
+[ECO "E97"]
+[Opening "King's Indian"]
+[Variation "orthodox, Aronin-Taimanov variation (Yugoslav attack / Mar del Plata variation)"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ng5 h6

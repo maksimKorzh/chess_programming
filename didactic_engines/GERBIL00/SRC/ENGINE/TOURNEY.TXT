@@ -1,0 +1,24 @@
+GERBIL IN CHESS TOURNAMENTS
+
+Bruce Moreland
+15-Jun-2001
+
+There are many formal and informal competitions between chess programs and
+other chess programs, and between chess programs and people.
+
+I have no objection if you want to enter Gerbil in any tournament, with a few
+exceptions:
+
+1) If the organizers of a tournament have specified that the program is
+supposed to be entered by the author only, that's me, so you should talk to me
+about it rather than trying to enter it yourself.
+
+2) There have been cases where people have modified other free chess programs,
+replaced the author's copyright, made zero or more other modifications, and
+entered the program in a tournament under a different name.  This is
+indefensible on a number of levels, very notably the legal level.  I am still
+an author and copyright holder of this program, no matter what you do to it.
+
+--
+Copyright (C) Bruce Moreland, 2001.  All rights reserved.
+Please look in "gpl.txt" for information on the GNU General Public License.

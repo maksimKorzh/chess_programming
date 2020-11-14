@@ -1,0 +1,27 @@
+
+-----------------------
+Release 00: 15-Jun-2001
+-----------------------
+
+First released version.
+
+Contains "gerbil.exe", a winboard chess engine, and "epd2wb.exe", an EPD test
+suite harness for winboard engines, along will full source.
+
+The release includes a simple opening book containing under a thousand unique
+positions.
+
+The chess engine does not contain much of an evaluation function.  It
+understands material, it likes central occupation, it thinks that pushing
+pawns is good, and that's about it.  It's missing a lot of very obvious
+things, like pawn structure evaluation.
+
+The search is a simple null-move (R=2) search without anything fancy like PVS.
+The only extension is a check extension.
+
+The release version has played on ICC (on a 450 mhz processor) and seems to be
+rated 2150-2350 when playing 5 0 blitz against all (mostly human) challengers.
+
+--
+Copyright (C) Bruce Moreland, 2001.  All rights reserved.
+Please look in "gpl.txt" for information on the GNU General Public License.

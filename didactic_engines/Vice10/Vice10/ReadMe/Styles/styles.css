@@ -1,0 +1,35 @@
+﻿body {
+	background-image:url('BluePaperBG.png');
+	color: #787878; 
+}
+
+#Container
+{
+	width: 800px;   
+	left: 50%;
+	top: 10%;
+	position: relative;
+	margin-left: -400px;
+	margin-top: 60px;
+	margin-bottom: 120px;
+}
+
+.EntryDiv 
+{ 
+    background-color: #F4F4F4;
+	box-shadow: 10px 10px 8px #888888;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+.EntryTitle
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #444444;
+}
+
+.EntryDetail 
+{
+}
+

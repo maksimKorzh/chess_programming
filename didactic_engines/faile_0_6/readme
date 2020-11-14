@@ -1,0 +1,164 @@
+     __        __           __                         __
+    / /\      / /\         / /\                       / /\
+   / / /     / /  \       / / /                      / / /
+  / / /_    / / /\ \     / / /       __             / / /_
+ / / / /\  / / /-/  \   / /  \  _   /_/\      _    / / / /\__
+/_/ / / / /_/ / / /\ \ /_/ /\ \/ /\ \ \ \    / /\ /_/ / / / /\
+\ \ \/ /  \ \ \/ /__\/ \_\/\ \ \/ /  \ \ \  / / / \ \ \/ / / /
+ \ \  /    \ \  /           \_\  /    \ \ \/ / /   \ \  / / /
+  \ \ \     \ \ \           / / /      \ \ \/ /     \ \ \/ /
+   \ \ \     \ \ \         /_/ /        \ \  /       \ \  /
+    \_\/      \_\/         \_\/          \_\/         \_\/
+
+----------------------------------------------------------
+Faile version 0.6
+Readme.txt
+Author: Adrien Regimbald
+E-mail: adrien@ualberta.ca
+Web Page: http://www.ualberta.ca/~adrien
+Faile's Page: http://www.ualberta.ca/~adrien/chessprog.htm
+----------------------------------------------------------
+
+----------------------------------------------------------
+INSTALLATION
+
+For the installation, I will assume you will be using Faile with
+Winboard (see section on Graphical Interface).
+
+If you downloaded the binary distribution, all you have to do is
+unzip faileb.zip into your Winboard directory.
+
+If you downloaded the source, you will need to compile the program
+on your own.  I have included a sample Makefile, but I can't guarantee
+that it will work for you.  Faile should compile on nearly any
+compiler.  If you have any difficulties, please e-mail me.
+----------------------------------------------------------
+
+----------------------------------------------------------
+GRAPHICAL INTERFACE
+
+Faile currently does not have its own graphical interface.  However,
+it does support the use of Winboard as an interface.  To run Faile
+with Winboard, use the following command:
+winboard.exe -zp -fcp "faile.exe -xboard"
+
+Note: you will have to use Winboard version 4.0 or better, or Faile
+will not function correctly.  Faile should run with Xboard, as long
+as you re-compile the program using GCC.  If you have any difficulties
+with this, please e-mail me.
+----------------------------------------------------------
+
+----------------------------------------------------------
+GAMEPLAY
+
+I recommend that you use Winboard to play against Faile.  Then all
+you have to do is open up Winboard with Faile, then play!  Not all
+Winboard features are supported yet, so if something doesn't work,
+it's probably just not implemented yet ;)
+
+If for some reason you are using the text interface, you should know
+the following:
+
+Game input is in coordinate notation.  Some examples:
+g1f3
+e1g1
+a7a8q
+
+Faile accepts the following commands:
+quit/exit : exits the program
+file: outputs a log of the game, plus a diagram of current position to
+Failelog.txt
+nps: outputs the nodes / second
+nodes: outputs the total number of nodes searched on this move
+new: starts a new game
+resign: resigns the game for you
+level: allows input of a Winboard style time control command.  (uses
+the format implemented by Winboard for communicating time controls
+to the program)
+refresh: refreshes the screen.
+----------------------------------------------------------
+
+----------------------------------------------------------
+FEATURES
+
+Faile is a near expert strength program, and it's FREE! :)  Faile
+also now has a small opening book library.  You can change it, if you'd
+like, but you must follow the format Faile uses for its book.  (See
+the section on Opening Book for more details)
+
+For the programmer - Faile's source code will be especially usefull to
+those starting out in computer chess programming, since it is small,
+a complete chess playing program, and well documented.  If you have
+any questions on the topic of computer chess programming or Faile, be
+sure to contact me!
+----------------------------------------------------------
+
+----------------------------------------------------------
+OPENING BOOK
+
+Faile's opening book is basically collected from World Championship
+games, and I filled in any gaps in the book from my BCO.
+
+To add your own lines, or change lines:
+First, there shouldn't be more than 5000 lines in the opening book (I
+used this limit, since I am doing a very rudimentary method of using
+the book.  Besides, 5000 lines is plenty ;)  This may change in the
+future though.)
+Second, each line should have no more than 20 ply in it (10 moves for
+each side).
+Third, each move should have no spaces in-between, and should be
+in coordinate notation.
+
+Feel free to change the opening book, and be sure to contact me if you
+have created a good book! :)
+----------------------------------------------------------
+
+----------------------------------------------------------
+CURRENT WORK
+
+Faile is an ongoing project, and I'd like to do many things with it!
+Here's a list of things I have planned for Faile:
+
+- Fine-tune it's evaluation function, especially for King safety and
+end-game play.
+- Use null-move!  This should improve the search drastically! :)
+- Implement hashing.  This will help the search, the opening book,
+and keeping track of threefold repetition.
+
+- After making these changes, I intend on re-writing Faile.  Some
+motivations for this are cleaning up the code, cleaning up the
+representations of the chess board, and making everything in general
+more efficient.  After the re-write of the existing program is done,
+I intend to start on new things, such as tablebase support, and
+possibly it's own interface.  Stay tuned for more developments!
+----------------------------------------------------------
+
+----------------------------------------------------------
+FICS
+
+You can use Winboard to have an account for Faile on FICS!!  Please
+see the winboard documentation for how to do this.  If you do make
+an account on FICS, please let me know! :)
+----------------------------------------------------------
+
+----------------------------------------------------------
+BUGS
+
+Faile seems to be relatively bug-free, but if you notice any bugs, be
+sure to contact me!
+
+There are some potential trouble spots though:
+
+Faile does not parse for input during its search (I was trying to make
+this ANSI compliant, with little success.  I may have to just give up,
+and use peek.)  Some potential trouble with this is that if you reset
+the game during Faile's search, it may get confused.  Simply reset the
+game again to remedy any problems with this.  I will fix this ASAP.
+
+Faile only measures in seconds, so it may have difficulty with super
+fast time controls.  (I have been avoiding using non-ANSI functions,
+but may have to scrap that to fix this problem)
+
+Faile is not perfect, so it may play some real lemons from time to
+time... so don't be surprised if this happens ;)
+----------------------------------------------------------
