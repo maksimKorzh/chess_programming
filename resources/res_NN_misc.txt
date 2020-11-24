@@ -1,0 +1,62 @@
+Bratko Koez test
+https://gist.github.com/niklasf/73c9565719d124af64ff
+
+# 9 lines NN
+https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
+
+# single layer perceptron
+https://www.educba.com/single-layer-perceptron/
+
+# slp easy stack overflow
+https://stackoverflow.com/questions/44419906/neural-network-xor-python
+
+# mcts tictactoe
+https://gist.github.com/qpwo/c538c6f73727e254fdc7fab81024f6e1
+
+#mcts + nn
+http://matthewdeakos.me/2018/07/03/integrating-monte-carlo-tree-search-and-neural-networks/
+
+#mcts lecture by John Levine
+https://www.youtube.com/watch?v=UXW2yZndl7U
+
+#uct ucb
+https://cs.stackexchange.com/questions/113473/difference-between-ucb1-and-uct
+
+# UCT
+https://int8.io/monte-carlo-tree-search-beginners-guide/#Policy_network_training_in_Alpha_Go_and_Alpha_Zero
+
+# hidden layers 1
+https://towardsdatascience.com/beginners-ask-how-many-hidden-layers-neurons-to-use-in-artificial-neural-networks-51466afa0d3e
+
+# hidden layers 2
+https://www.allaboutcircuits.com/technical-articles/how-many-hidden-layers-and-hidden-nodes-does-a-neural-network-need/
+
+# java NN book
+https://books.google.com.ua/books?id=Swlcw7M4uD8C&printsec=frontcover&redir_esc=y#v=onepage&q&f=false
+
+# alphago zero in one diagram
+https://medium.com/applied-data-science/alphago-zero-explained-in-one-diagram-365f5abf67e0
+
+# alphago zero yuotube tutorial
+https://www.youtube.com/watch?v=NjeYgIbPMmg
+
+# alphazero tutoril
+https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
+
+# tic tac toe NN
+https://programmerbackpack.com/python-neural-network-tutorial/
+
+# quora tic tac toe NN question
+https://www.quora.com/How-should-I-design-a-neural-network-that-can-play-ultimate-tic-tac-toe?share=1
+
+# alpha go zero paper
+https://www.nature.com/articles/nature24270.epdf?author_access_token=VJXbVjaSHxFoctQQ4p2k4tRgN0jAjWel9jnR3ZoTv0PVW4gB86EEpGqTRDtpIz-2rmo8-KG06gqVobU5NSCFeHILHcVFUeMsbvwS-lxjqQGg98faovwjxeTUgZAUMnRQ
+
+# alphazero tictactoe
+https://github.com/suragnair/alpha-zero-general/tree/master/tictactoe
+
+# XOR in C
+https://towardsdatascience.com/simple-neural-network-implementation-in-c-663f51447547
+
+#flask + socketio
+https://www.includehelp.com/python/implementation-of-websocket-using-flask-socket-io-in-python.aspx
