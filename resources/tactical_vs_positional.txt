@@ -1,0 +1,92 @@
+Karlo Balla Jr. from talk chess
+
+Fritz5 is "tactical" because it is a plain broad searcher. Simple eval (preprocessor in early versions) + null move + few tricks like futility, razoring, a few extensions, and that's all. Aggressive LMR + null move + fancy pruning techniques like Probcut etc. can eat up 6-7 plays at once.
+
+I'm going to quote the author of Rybka. Hope it would be interesting to read what he thought about the best engines some 15 years ago...
+
+"What exactly the "Big Three" engines do is not 100% clear, however after
+considerable playing around I can make some observations/hypotheses.
+
+Shredder is the most aggressively tuned, and the "deepest" searcher. It's
+possible that it is not reporting its NPS rates truthfully, but assuming that it
+is, I believe that it shapes the search tree using aggressive pruning based on
+static tactical analysis. Of course, in principle there is no difference between
+selective search via pruning and selective search via extensions, the two
+approaches could be equivalent. In practice, however (and also for purposes of
+what I write here), selective search via pruning means that most moves get more
+or less the same depth, while "special" moves are tagged for a reduction, even
+if (as in Shredder's case) there are a lot of special moves.
+
+Shredder's evaluation, given its NPS rate, is not especially good - not better
+for example than Junior's, despite the huge difference in NPS rate. It's harder
+to compare with Fritz's, because unlike Junior and Shredder, Fritz is much less
+aggressively tuned. Furthermore, Shredder, unlike Junior and Fritz, does
+considerable pre-processing. (By considerable I mean that it has a notable
+impact on the scores, of course there is no way to know the term count.)
+
+What is notable is that Shredder, despite its huge pruning, and despite its low
+NPS rate, is very strong tactically. SMK's static analysis seems to be working.
+
+Incidentally, Gothmog, in both evaluation and search, is closest to Shredder.
+One nice thing about settling for a lower NPS rate is that you no longer need to
+worry about a whole slew of "minor" optimizations.
+
+Junior also appears to have an extremely selective search, combined with an
+aggressively tuned evaluation function. Somehow these two are a logical
+combination. Aggressive pruning necessarily means overlooking some quieter
+positional moves - it's not always easy to avoid pruning those. It's much easier
+to avoid pruning positional moves which attack the king.
+
+Junior, however, appears to come at the problem of selective search via
+extensions rather than reductions. There are some extremely interesting
+discussions about this in the CCC archives. Amir has claimed that the best way
+to search selectively is via extensions. To complete the reductions vs
+extensions thought from above, an extension strategy will have the profile that
+most moves have the same basic search depth, while certain special moves will
+have a higher search depth. The profile of a search based on reductions compared
+to a search based on extensions will be different.
+
+One benefit of having a selective search based on extensions is that they are
+much cheaper to compute, you don't really need any huge static analysis to make
+sure you're not doing anything wrong. You just tune some basic extensions
+revolving around the basic themes: king attack, passed pawn, more forcing moves,
+etc. Junior takes advantage of this by emphasizing speed in the engine,
+apparently everywhere. Once you start emphasizing speed, it's hard to stop -
+every new optimization reveals a new bottleneck. The claim is that Junior spends
+10% of its time in eval, and Amir has posted a number of times about various
+optimizations.
+
+Fritz is the most plain of these engines, I think it's more or less an optimized
+and tuned crafty, although with some slight pruning. Its evaluation is also much
+more quiet, which makes sense given its search strategy. When your search is
+more balanced (ie less selective), your engine will be better at finding and
+considering the subtle positional moves, but it will be at a huge disadvantage
+in the king-attack free-for-alls, where you just need to look deep and it's
+usually clear which moves you should be looking at. When Rybka plays against
+Shredder and Junior, it often just gets crushed, maybe somewhere in the
+neighborhood of half of the games. (At least, what a human would consider
+getting crushed.) Almost all games against Fritz go into the ending, where Fritz
+is, at least for a computer, quite strong.
+
+One interesting thing to note about all three engines is that they are all very
+congruent. Their search strategies, evaluation strategies, and NPS rates make a
+logical package. Of course, this is important in every sport, not only computer
+chess. The best teams find some approach, and take it to the bank, game after
+game - while the weaker teams are stuck in various dilemnas.
+
+Another, more debatable, conclusion is that, given the margin between Shredder
+and the other two engines, Shredder's approach is best for computer chess.
+What's important is the basic broad search depth, and you maximize it by
+pruning, which has to be backed up by extensive static analysis in order to
+minimize mistakes.
+
+Anyway, I hope the above is interesting. It's just my impressions, probably the
+authors would correct me on some points. Also, I don't have Tiger and Hiarcs, it
+would be interesting to understand what they are doing as well. In addition,
+many amateurs have very good ideas, although the overall package isn't as good
+so it's more difficult to prove.
+
+Furthermore, it would be interesting if somebody made a very thorough
+investigation. I started to do a little of this, taking various tactical
+problems and seeing at what exact "depths" they were solved, however it was just
+to get a feel. Some hard numbers would be good."
