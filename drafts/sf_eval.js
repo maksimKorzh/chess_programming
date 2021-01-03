@@ -5,14 +5,14 @@
 
 pos = {
   // chessboard
-  b: [["r","p","-","-","-","-","P","R"],
-      ["n","p","-","-","-","-","P","N"],
-      ["b","p","-","-","-","-","P","B"],
-      ["q","p","-","-","-","-","P","Q"],
-      ["k","p","-","-","-","-","P","K"],
-      ["b","p","-","-","-","-","P","B"],
-      ["n","p","-","-","-","-","P","N"],
-      ["r","p","-","-","-","-","P","R"]],
+  b: [["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"],
+      ["-","-","-","-","-","-","-","-"]],
 
   // castling rights
   c: [true,true,true,true],
@@ -140,8 +140,8 @@ function end_game_evaluation(pos, nowinnable) {
 
 function middle_game_evaluation(pos, nowinnable) {
   var v = 0;
-  v += piece_value_mg(pos) - piece_value_mg(colorflip(pos));
-  //v += psqt_mg(pos) - psqt_mg(colorflip(pos));
+  //v += piece_value_mg(pos) - piece_value_mg(colorflip(pos));
+  v += psqt_mg(pos) - psqt_mg(colorflip(pos));
   /*v += imbalance_total(pos);
   v += pawns_mg(pos) - pawns_mg(colorflip(pos));
   v += pieces_mg(pos) - pieces_mg(colorflip(pos));
