@@ -1,0 +1,39 @@
+repeat while sum of errors still lowers
+	for each tunable parameter
+		increase parameter by one
+		for each testposition
+			calc eval
+			calc error
+			sum error			
+		fe
+		if sum error is lowered then next parameter
+		else
+			decrease parameter by one
+			for each testposition
+				calc eval
+				calc error
+				sum error			
+			fe
+		end else	
+	fe
+end repeat	
+
+So you increase the parameter by one and see if it's better,
+if not lower it by one and see it's better.
+If still not better then keep the original value.
+Because some parameters are dependent on other parameters,
+it can happen that a parameter doesn't change anymore,
+but a few iterations later changes again.
+
+Finally your question about positions.
+You can get positions from multiple sources,
+including generating your own.
+2 things are very important concerning the positions:
+- diversity (to cover as many parameters as possible)
+- Correctness of the final outcomes of the game of the position (Win/Draw/Loss)
+It might take some time to calculate the final outcome of the positions
+(the longer time control the better the outcome will be).
+
+
+
+
