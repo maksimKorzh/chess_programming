@@ -1,0 +1,85 @@
+#!/usr/bin/perl -w
+#
+# Announce a move from Crafty using some soundfiles
+#
+
+# The move sent by crafty
+my $move      = $ARGV[0];
+
+# First check some specials
+if ($move eq "O-O") {
+  system("say castle king side");
+}
+elsif ($move eq "O-O-O") {
+  system("say castle queen side");
+}
+elsif ($move eq "Stalemate") {
+  system("say stalemate");
+}
+elsif ($move eq "Drawaccept") {
+  system("say I accept your draw offer");
+}
+elsif ($move eq "Drawdecline") {
+  system("say I decline your draw offer");
+}
+elsif ($move eq "Drawoffer") {
+  system("say I offer a draw");
+}
+elsif ($move eq "Resign") {
+  system("say I resign");
+}
+elsif ($move eq "Checkmate") {
+  system("say checkmate");
+}
+# Handle all normal moves. All that needs to be done is announce
+# each character sent by crafty alone. Set some pause beteween each
+# char for clearer understanding.
+#
+# NOTE 1: Crafty uses short notation, so short notation is
+# announced. For long notation announcements the crafty engine has
+# to be hacked and pgn output as well as logging would get broken.
+#
+# NOTE 2: There has to exist a sound file named for each row,
+# column and piece. That is there has to be sound files like a.wav,
+# 1.wav, R.wav and so on. One can easily rename the files
+# distributed for free eg. at the "Arena" Website
+# (http://www.playwitharena.com). Soundfiles from Fritz are not
+# suitable, at the moment, but the script can easily be rewritten
+# to handle them as well.
+else {
+  for (my $i=0; $i<length($move); $i++) {
+    my $char = substr $move, $i, 1;
+    if ($char =~ /[^=]/) {
+      if ($char =~ /x/) {
+        system("say takes");
+      }
+      elsif ($char =~ /#/) {
+        system("say checkmate");
+      }
+      elsif ($char =~ /\+/) {
+        system("say check");
+      }
+      elsif ($char eq "B") {
+        system("say bishop");
+      }
+      elsif ($char eq "K") {
+        system("say king");
+      }
+      elsif ($char eq "N") {
+        system("say knight");
+      }
+      elsif ($char eq "P") {
+        system("say pawn");
+      }
+      elsif ($char eq "Q") {
+        system("say queen");
+      }
+      elsif ($char eq "R") {
+        system("say rook");
+      }
+      else {
+        system("say $char");
+      }
+    }
+  }
+}

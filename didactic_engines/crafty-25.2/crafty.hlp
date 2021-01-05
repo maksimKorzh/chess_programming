@@ -1,0 +1,996 @@
+command synopsis
+
+!command....................... passes command to a shell.
+adaptive NPS a b c d........... enables adaptive hash mode.
+alarm on|off................... turns audible alarm on/off.
+analyze........................ analyze a game in progress.
+annotate....................... annotate game
+autotune....................... SMP search tuning (help autotune for details)
+batch on|off................... on disables async I/O for batch file usage
+bench.......................... runs performance benchmark.
+black.......................... sets black to move.
+book........................... controls book
+cache=n........................ sets tablebase cache size.
+clock.......................... displays/adjusts chess clock times.
+display........................ displays chess board.
+display [n].................... sets display options
+draw accept|decline............ decline always declines.
+draw offer|nooffer............. nooffer never offers a draw.
+draw dynamic <0|1>............. enables/disables dynamic draw scores.
+echo........................... echos output to display.
+edit........................... edit board position.
+egtb........................... enables endgame database probes.
+egtbd.......................... set min remaining depth to allow probes.
+epdhelp........................ info about EPD facility.
+end............................ terminates program.
+evaluation..................... adjust evaluation terms.
+exit........................... restores STDIN to keyboard.
+force move..................... forces specific move.
+hash n......................... sets transposition table size.
+                                 (n bytes, nK bytes or nM bytes).
+hashp n........................ sets pawn hash table size.
+history........................ display game moves.
+import filename................ imports learning data (.lrn files).
+info........................... displays program settings.
+input filename................. sets STDIN to filename, reverts back on exit.
+kibitz n....................... sets kibitz mode n on ICS.
+learn n|clear.................. enables/disables learning (100 = default).
+                                 clear clears all learned information
+level moves time inc........... sets ICS time controls.
+linelength n................... sets line length to n.  A really large value
+                                will produce 1 line PVs, making parsing easier
+list........................... update/display GM/IM/computer lists.
+lmp base scale................. LMP pruning move counts
+lmr min max bias moves scale... LMR reduction matrix generator
+load file title................ load a position from problem file, starting
+                                with line containing title, ending on exit.
+log on|off..................... turn logging on/off.
+mode normal|tournament......... toggles tournament mode.
+move........................... initiates search (same as go).
+name........................... sets opponent's name.
+new............................ initialize and start new game.
+null m n....................... null move R = M + depth / n.
+noise n........................ no status until n nodes searched.
+operator seconds............... sets operator time per move.
+output long|short.............. sets move display format to long or SAN
+perf........................... times the move generator/make_move.
+perft.......................... tests the move generator/make_move.
+personality save|load fn....... saves/loads a personality file.
+pgn option value............... set PGN header information.
+phash n........................ sets path hash table size.
+ponder on|off.................. toggle pondering off/on.
+ponder move.................... ponder "move" as predicted move.
+rating a b..................... sets Crafty rating to a, opponent to b
+                                (affects draw score/contempt)
+read [filename]................ read moves in (from [filename] if given.)
+reada [filename]............... read moves in (from [filename]]) and append.
+                                 (appends to current game history.)
+reset n........................ reset game to move n.
+resign......................... ends current game recording Crafty as winner.
+resign m n..................... set resign threshold to m pawns.
+                                 n = # of moves before resigning.
+savegame [filename]............ saves game in PGN format (to filename).
+savepos [filename]............. saves position in FEN string (to filename).
+score.......................... print evaluation of position.
+screen [filename] margin....... screen a file of EPD positions by searching them
+                                and culling positions with score outside the
+                                window {-margin, margin} (use st=n to set time)
+sd n........................... sets absolute search depth.
+search move.................... search specified move only.
+selective min max.............. set null move depths.
+setboard FEN................... sets board position to FEN position.
+settc.......................... set time controls.
+show book...................... toggle book statistics.
+skill n........................ set skill level to n
+smp............................ sets SMP parameters (help smp for details)
+sn n........................... sets absolute search node limit.
+speech on|off.................. enables (disables) audio output.
+st n........................... sets absolute search time.
+swindle on|off................. enables/disables swindle mode.
+tags........................... list PGN header tags.
+test file [N].................. test a suite of problems.
+time........................... time controls.
+timebook....................... out of book time adjustment
+trace n........................ display search tree below depth n.
+usage percentage............... adjusts Crafty's time usage up or down.
+whisper n...................... sets ICS whisper mode n.
+white.......................... sets white to move.
+wild n......................... sets ICS wild position (7 for now).
+xboard......................... sets xboard compatibility mode.
+
+Type "help command" to see more detailed help information, if it is
+available.  Note that help is not available for all possible commands.
+<end>
+
+<analyze>
+The analyze command puts Crafty into a mode where it will search forever
+in the current position.  When a move is entered, crafty will make that
+move, switch sides, and again compute, printing analysis as it searches.
+You can back up a move by entering "back" or you can back up several
+moves by entering "back n".  Note that n is the number of moves, counting
+each player's move as one (ie n plies, not n full moves).
+<end>
+
+<annotate>
+annotate[h|t] filename side moves margin time [n]
+
+Filename is the input file with game moves, while the output will be
+written to filename.can.  The input file is PGN-compatible with one
+addition, the ability to request that alternative moves also be
+analyzed at any point.  To do this at the point where you have
+alternative moves, simply include them in braces {move1, move2},
+and Crafty will then search them also.
+
+Side can be b/w/bw to indicate whether to annotate only the white
+side (w), the black side (b) or both (bw).  Side can also be the
+players name, where Crafty will then use the players name and the
+PGN tags to discover which you want the annotation done for.
+
+Moves indicates which moves to annotate.  A single value says start
+at the indicated move and go through the entire game.  A range (20-30)
+annotates the given range only.
+
+Margin is the difference between the search value for the move played
+in the game, and the best move crafty found, before a comment is
+generated (pawn=1.0).
+
+Time is the time limit per move in seconds.
+
+If the optional "n" is appended, this produces N best moves/scores/PV's,
+rather than just the very best move.  It won't display any move that
+is worse than the actual game move played, but you can use -N to force
+Crafty to produce N PV's regardless of how bad they get.
+
+Using 'annotateh' produces an HTML file with bitmapped board displays
+where analysis was displayed.
+
+Using "annotatet" will cause the output to be written in a LaTex (.tex)
+format.
+<end>
+
+<autotune>
+The autotune command can be used to configure various SMP search parameters 
+for your specific hardware and target time limit.  Note that before you run
+this command, you MUST set the max number of threads you want to use (most
+likely the number of physical processor cores on your machine.)  Crafty 
+actually runs a parallel search over a small set of positions repeatedly, and
+to properly tune things, it needs to use the max configuration you will ever
+want to use.  If you forget, autotune will refuse to run.  The command is:
+
+autotune <time> <accuracy>
+
+The <time> argument tunes the parallel search stuff for this time limit.  The
+only real place where this might be useful is for very fast vs very slow time
+limits, since a fast search probably needs to be a bit more aggressive if it
+is going to have any hope of using multiple threads.  Once you get to a time
+limit of 30 - 60 seconds, going further wont help at all and can GREATLY
+increase the run-time of the automatic tuning code.
+
+<accuracy> is simply a number that tells Crafty how many times to run a test
+for a specific tuning option.  It will run this many tests and then use the
+average of the run times for the timing value.  Four (4) provides pretty
+good accuracy, anything less than four often runs afoul of SMP non-determinism
+and it can make wrong decisions.  8-16 are better but these will take some time
+to run so be prepared.  Crafty will give you an estimate of the expected run-
+time once it calibrates the benchmark to the time limit you specified.
+
+Once AutoTune() finishes, it will append the necessary commands to the .craftyrc
+file to set the optimal values for each option.  If you run this multiple times,
+you will accumulate cruft at the bottom of the .craftyrc file.  Since the last
+commands override the earlier ones, it will work, but if you do run it more than
+once you might consider an edit to clean it up.
+
+This can burn some time so it is an ideal command to run overnight where you can
+crank up accuracy and get pretty optimal settings.
+
+Note:  This is more effective for larger numbers of threads/cores.  On a machine
+with 8 or fewer cores, the default values are probably as good as anything.  But
+as the number of cores climbs, autotune can find better settings depending on 
+the hardware.
+<end>
+
+<book>
+You can use the following commands to customize how the program uses
+the opening book(book.bin and books.bin).  Typically, book.bin contains
+a large opening database made from GM games.  Books.bin is a short,
+customized book that contains selected lines that are well-suited to
+Crafty's style of play.  The flags can further refine how this small
+book file is used to encourage/avoid specific lines.
+
+binfile create filename [maxply] [mp] [wpc]
+
+This command creates a new book by first removing the old binary file.
+it then will parse filename and add the moves to the binary book
+filename given as binfile.
+
+maxply is the max length of book moves stored from any single PGN
+game in the input file.
+
+mp means a particular move must appear in at least that many games
+to be stored in the book file.
+
+wpc is the relative winning percentage.  50 means exclude any book move
+that doesn't have at least 50% as many wins as losses.
+
+book mask accept chars
+
+Sets the accept mask to the flag characters in chars (see flags below.)
+Any flags set in this mask will include either (a) moves with the flag
+set, or (b) moves with no flags set.
+
+book mask reject chars
+
+Sets the reject mask to the flag characters in chars (see flags below.)
+Any flags set in this mask will reject any moves with the flag set (in
+the opening book.)
+
+book off turns the book completely off.
+
+book random 0|1 disables/enables randomness.  Book random 0 takes the set
+of book moves and searches them for about 1/10th of the normal search time
+and lets the search choose which move to play.  Any move not in the book
+file will not be considered or played.
+
+bookw weight v
+
+Sets weight for book ordering.  (Weights are freq (frequency), eval
+(evaluation) and learn (learned scores).
+
+book width n
+
+Specifies how many moves from the sorted set of book moves are to be
+considered.  1 produces the best move from the set, but provides little
+randomness.  99 includes all moves in the book move set.
+
+Flags are one (or more) members of the following set of characters:  {?? ?
+= ! !! 0 1 2 3 4 5 6 7 8 9 A B C D E F} Normally, ?? means never play, ?
+means rarely play, = means drawish opening, ! means good move, !! means
+always play, and 0-F are user flags that a user can add to any move in the
+book, and by setting the right mask (above) can force the program to either
+always play the move or never play the move.  The special character * means
+all flags and is probably dangerous to use.  Flags are added to a move by
+entering the move and a / or \ followed by the flags.  / means add the flags
+to the move preserving other flags already there while \ means replace any
+flags with those following the \.
+
+The format of the book text (raw data) is as follows:
+
+[title information] (required)
+1. e4 e5 2. Nf3 Nc6 3. ... (a sequence of moves)
+[title information for next line] (required)
+1. e4 e6 ...
+end (optional)
+<end>
+
+<clock>
+clock crafty-time [opponent-time]
+
+clock is primarily intended to be used in a computer chess tournament 
+where the games are played on a real chess board using a real chess
+clock, rather than through some automatic interface that manages the
+time automatically.
+
+crafty-time is the amount of time left on Crafty's clock, expressed in
+minutes, or in hh:mm format.  Crafty will convert this to its internal
+representation correctly.
+
+opponent-time is the amount of time left on the opponent's clock, 
+expressed in the same way.  This is option and is not required as
+Crafty does not use this information during the game although it
+does keep up with it.
+
+After entering this command, you should probably type "clock" to be
+sure things look correct.
+
+Note that the "operator" command sets a time per move overhead for the
+operator, and that this affects the actual time used as expected.  IE in
+the above clock setting, assuming the operator has allowed 10 seconds per
+move, crafty will "hide" 35 * 10 seconds and not use it for searching, which
+gives the operator time to actually make the moves and press the real clock
+button.  It is CRITICAL that the clock command be used from time to time to
+keep Crafty's internal clock in sync with the real clock.  If you use the
+operator command, the clock value should match the real chess clock exactly,
+if you choose to not use the operator time and fudge the chess clock time
+yourself, that will work as well, but it is more prone to errors.
+<end>
+
+
+<display>
+display moveinfo  -> display move time/results/etc.
+display pv        -> display principal variation.
+display fail      -> display fail high / low moves.
+display stats     -> display search statistics.
+display moves     -> display root moves as they are searched.
+display info      -> display general information messages.
+display ply1      -> display ply-1 move list/sorting info.
+display movelist  -> display move list after each iteration.
+
+For the above options, they can be preceded by a "no" to disable them, or
+omit the "no" to enable them.  "display all" will show all current display
+settings
+<end>
+
+<draw>
+draw offer|nooffer determines whether Crafty will automatically offer
+draws when it believes that result is appropriate.
+
+draw accept|decline determines whether Crafty will automatically accept
+draw offers when they are made, or if it will automatically decline them
+no matter what the current score is.
+
+draw dynamic 1|0 enables(disables) dynamic draw score computation based on
+the rating difference between Crafty and the opponent (usually obtained by
+the "rating" command from xboard.  If set to 0, this is disabled and the
+default draw score (aka contempt factor) is set to zero (0).
+<end>
+
+<lists>
+list name +name -name ...
+
+The lists are as follows:
+
+AK  Auto-Kibitz list.  If crafty plays any opponent named in this list
+while playing on a chess server, it will kibitz the usual analysis as
+the game is played.  Not advised for human opponents as they do not
+like the "noise".
+
+B  Blocker list.  If you notice a player repeatedly trying to block the
+position to get easy draws, put his name in this list.  Players in this
+list get special "anti-human" scoring turned up louder than usual to 
+combat this strategy.
+
+C  Computer list.  This is not needed on ICC as xboard/winboard both
+tell crafty it is playing a computer opponent.  However, if your GUI
+does not do this, you can put the name of the computer opponents you
+frequently play in this list and if the GUI sends the "name" command
+properly, crafty will figure out that it is playing a computer.
+
+GM/IM lists are obvious.  This identifies players that are strong 
+enough that Crafty should resign or offer draws sooner than normal,
+rather than hoping for a blunder in lost or drawn positions.
+
+SP  Special Player list.  Names in this list can be used to specify 
+a unique opening book (to replace books.bin, not book.bin) for this
+particular opponent, as well as specifying a personality file to use
+rather than the default crafty.cpf.  The format of this particular
+list is:
+
+list SP +name [book=filename] [personality=filename]
+
+<end>
+
+<lmp>
+
+lmp base scale
+
+This commands tunes the LMP move count thresholds.  The array it produces
+is indexed by depth, and defines the number of moves at that remaining
+depth that must be searched before late move pruning can kick in.
+
+The basic formula looks like this:
+
+moves = base + depth ^ scale
+
+Bigger valuse for base and scale make LMP more conservative, smaller values
+make it more aggressive and risky.
+
+<lmr>
+
+lmr min max dscale mscale scale
+
+This command tunes the LMR reduction matrix.  The values are used to
+set the reduction matrix, which is indexed by depth remaining and moves
+searched so far at this ply.  This is an array of 32 rows, 64 columns, 
+where the rows correspond to remaining depth and the columns correspond
+to total moves searched so far at this ply.
+
+The basic calculation looks like this:
+
+  r[depth][moves] = (log(depth) * dscale + log(moves) * mscale) / scale
+
+Increasing dscale makes the reduction amount favor depth more, increasing
+mscale makes the reduction amount favor moves searched more.  The "scale"
+value is used to limit the speed at which the reductions grow.
+
+Note that NO reduction can be less than min nor greater than max, from
+the lmr command.  When you use this command, it will display a compressed
+version of the 32x64 array like this:
+
+
+
+                 LMR reductions[depth][moves]
+  ----------------------moves searched-----------------
+ |       2  6 10 14 18 22 26 30 34 38 42 46 50 54 58 62
+ |  3:   1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2
+ |  5:   1  1  2  2  2  2  2  2  3  3  3  3  3  3  3  3
+ d  7:   1  1  2  2  2  3  3  3  3  3  3  3  3  3  4  4
+ e  9:   1  1  2  2  3  3  3  3  3  3  4  4  4  4  4  4
+ p 11:   1  2  2  3  3  3  3  3  4  4  4  4  4  4  4  4
+ t 13:   1  2  2  3  3  3  4  4  4  4  4  4  4  4  4  5
+ h 15:   1  2  2  3  3  3  4  4  4  4  4  4  5  5  5  5
+   17:   1  2  3  3  3  4  4  4  4  4  4  5  5  5  5  5
+ l 19:   1  2  3  3  3  4  4  4  4  4  5  5  5  5  5  5
+ e 21:   1  2  3  3  4  4  4  4  4  5  5  5  5  5  5  5
+ f 23:   1  2  3  3  4  4  4  4  5  5  5  5  5  5  5  5
+ t 25:   1  2  3  3  4  4  4  5  5  5  5  5  5  5  5  6
+ | 27:   1  2  3  3  4  4  4  5  5  5  5  5  5  6  6  6
+ | 29:   1  2  3  4  4  4  4  5  5  5  5  5  5  6  6  6
+ | 31:   1  2  3  4  4  4  5  5  5  5  5  5  6  6  6  6
+
+Notice that the depth (# of rows) only displays every other row to make
+the display fit on a normal screen.  The moves searched show every fourth
+value since there are 2x as many columns as rows.  However, even though
+you don't see the missing rows/columns, the values are there.
+<end>
+
+<mode>
+
+This command influences how the book is used.
+
+mode normal is the default.
+
+mode tournament tells crafty to behave differently while in book.
+Specifically, when it is pondering, it generates all of the opponent
+moves and looks them up in the opening book.  If it finds a book
+reply, it eliminates that opponent move from the list.  It then does
+a 1/10th normal time search for the opponent, but ONLY considers those
+moves it did not have a book reply for.  It then takes the result of
+that search and ponders that move, so that hopefully if the opponent
+plays a move not in our book, we will already be thinking.
+
+The more useful place, however, is where we play a book move that takes
+the opponent out of book, and he spends a significant amount of time
+thinking and plays a pretty obvious move.  Since we ponder the best move
+of his that we don't have a book move for, we have a good chance of 
+pondering the right move and saving time on our clock.
+<end>
+
+<mode>
+null <min> <divisor>
+
+This command allows you to customize the null-move search parameters.  The
+formula Crafty uses is as follows:
+
+  R = <min> + depth / <divisor>
+
+The default values are 3 and 10.  When remaining depth is < 10, the R value
+is 3.  If remaining depth is > 10 and < 19, R=4, and so forth.  Smaller
+divisor values make R ramp up quicker and the null-move pruning will become
+more aggressive.  Overall depth will increase pretty quickly, but this can
+also hide certain types of tactics as well, so going too far turns out to
+be dangerous.
+<end>
+
+<personality>
+personality load|save filename <or> personality n v
+
+perspath path-to-personality-directory
+
+Crafty "personality" files (.cpf files) contain information that 
+affects three components of Crafty.
+
+You can use the "selective" command to adjust the null-move R (min
+and max) values.  The default values are 2 and 3, and reducing them
+will reduce Crafty's playing strength to some fairly significant
+degree.
+
+You can use the "extension" command to adjust the search extension
+values.  Reducing these will "dumb down" the search and make crafty
+tactically (but not positionally) weaker.  They can be set all the
+way down to 0.00 if you choose.
+
+You can use the evaluation command to adjust some global evaluation
+weights (ie turn down total pawn scoring, or king safety, etc.) or
+you can use this command to adjust individual scoring values, from
+the value of pieces, to specific scoring terms for each piece such 
+as the value of a doubled pawn or whatever.
+
+Once you find settings you like, you can use "personality save 
+filename" to save all of the above settings in one file.  Later you
+can use "personality load filename" to restore those settings prior
+to playing a game.
+
+One final note is that you can save to the specific file "crafty.cpf"
+and your settings will become the _default_ each time you start
+Crafty, until you either remove the file, load another personality,
+or save a new default personality.
+
+You can have as many different personality files as you want, and to
+keep them from getting jumbled up, you can put them in a separate
+directory and add the "perspath" to your .craftyrc/crafty.rc file to
+point Crafty to the directory where the personality files belong.
+
+personality item# value [value ... value]
+
+The personality command allows you to change specific evaluation
+or search numbers when you want.  The first thing you should do is
+type "personality list" to show all the possible values.  The format
+looks like this when displayed:
+
+White(1): personality list
+
+
+==================================================
+=         search options                         =
+==================================================
+  1  check extension                             1
+  2  null-move reduction                         3
+  3  null-move adaptive divisor                 10
+  4  LMR min distance to frontier                1
+  5  LMR min reduction                           1
+  6  LMR max reduction                           7
+  7  LMR formula depth bias                   2.00
+  8  LMR formula moves searched bias          1.00
+  9  LMR scale factor                         2.65
+==================================================
+=         search options (continued)             =
+==================================================
+ 11  prune depth                                 6
+ 12  prune margin [remain_depth]          
+      0  100  100  200  200  300  300  400 
+==================================================
+=         raw piece values                       =
+==================================================
+ 21  pawn value                               -100 (mg)     100 (eg)
+ 22  knight value                             -325 (mg)     325 (eg)
+ 23  bishop value                             -325 (mg)     325 (eg)
+ 24  rook value                               -500 (mg)     500 (eg)
+ 25  queen value                             -1050 (mg)    1050 (eg)
+==================================================
+=         miscellaneous scoring values           =
+==================================================
+ 31  wtm bonus                                   5 (mg)       8 (eg)
+ 32  draw score                                  1
+ ... etc
+
+The first number is the personality term ID #.  To change the
+value of a pawn from the default 100 to 50, you would type
+the following command:
+
+pers 21 50 50
+
+
+And now pawns are worth 1/2 of what they were prior to the
+command.  Note that unless you specifically save the setting
+with the "personality save" command, once you exit Crafty
+the pawn value will return to 100 the next time you start it
+up.  You can, of course, put such commands in the .craftyrc/
+crafty.rc file, but it is simpler to use the personality
+command instead (type "help personality" for more information).
+
+Note that some evaluation terms have a list of numbers as they
+are indexed by something.  When you change one of these terms,
+you must give _exactly_ the correct number of values, or the
+command will produce an error without changing anything. 
+
+Some of the values are 8 X 8 matrices of values, where the
+values correspond to the chess board as viewed with square
+a1 on the bottom left.  You must type the values in in order
+as they appear on the screen.  Crafty will shift things as
+needed.  IE for a piece/square table for knights, the first
+value displayed is for a8, so the first value you enter must
+also be for a8.  Many of these matrices have black/white 
+counter-parts.  You enter the white values, Crafty will
+mirror those to reflect the _same_ values but from the black
+side of the board.  This will be done automatically.
+
+Non 8 X 8 matrices are just dumped in order from element zero
+to N.  You enter those the same way.  IE the way it prints them
+out is the way you enter them, reading from top-to-bottom, and
+left-to-right.
+
+If you come up with an interesting personality, feel free to make
+it available to everyone, and if it is particularly attractive, it
+can become part of the "distributed" crafty personalities once this
+has been released.
+<end>
+
+<settc>
+settc moves crafty-time opponent-time
+
+settc is primarily intended to be used in a computer chess tournament 
+where the games are played on a real chess board using a real chess
+clock, rather than through some automatic interface that manages the
+time automatically.
+
+moves is the number of moves left to the next time control from Crafty's
+perspective.  IE if the time control is 60 moves in 120 minutes (a normal
+time control for the WCCC) and crafty has actually made 25 moves in the
+current game, then the correct "moves" value would be 35, as there are
+exactly 35 moves to be made before the next time control is reached.
+
+crafty-time is the amount of time left on Crafty's clock, expressed in
+minutes, or in hh:mm format.  Crafty will convert this to its internal
+representation correctly.
+
+opponent-time is the amount of time left on the opponent's clock, 
+expressed in the same way.
+
+After entering this command, you should probably type "clock" to be
+sure things look correct.
+
+Note that the "operator" command sets a time per move overhead for the
+operator, and that this affects the actual time used as expected.  IE in
+the above clock setting, assuming the operator has allowed 10 seconds per
+move, crafty will "hide" 35 * 10 seconds and not use it for searching, which
+gives the operator time to actually make the moves and press the real clock
+button.  It is CRITICAL that the clock command be used from time to time to
+keep Crafty's internal clock in sync with the real clock.  If you use the
+operator command, the settc value should match the real chess clock exactly,
+if you choose to not use the operator time and fudge the chess clock time
+yourself, that will work as well, but it is more prone to errors.
+<end>
+
+<smp>
+smp commands are used to control the SMP search.  
+
+smpaffinity <n> <p> is used to enable or disable processor affinity.  "-1"
+disables affinity and lets threads run on any available core.  If you use an
+integer <n> then thread zero will bind itself to cpu <n> and each additional
+thread will bind to the next higher cpu number.  This is useful if you try to
+run two copies of crafty on the same machine, now you can cause one to bind
+to the first <n> cores, and the second to the last <n> cores.  For the first
+instance of Crafty, you would use smpaffinity=0, and for the second
+smpaffinity=8, assuming you are running 8 threads per copy on a 16 cpu machine.
+If you get this wrong, you can have more than one thread on the same cpu which
+will significantly impact performance.              
+
+The second parameter is used to help Crafty identify physical vs logical cores.
+On a typical 20 core intel machine, processors 0 - 19 are on physical cores,
+then 20-39 map back to those same physical cores, but different logical
+(hyperthreaded) processors.  "1" is the correct value for this system.  For an
+IBM Power 8 machine with dual 10-core chips, processors 0 through 7 are on
+physical core 0, then 8 through 15 are on physical core 1, etc.  A value of "8"
+will map threads to physical cores correctly as each thread is spaced on the
+current processor core + 8, which is correct.
+
+smpmt <n> sets the total number of allowable threads for the search.  The
+default is one (1) as Crafty does not assume it should use all available
+resources.  For optimal performance this should be set to the number of
+physical cores your machine has, which does NOT include hyperthreaded cores.
+                            
+smpgroup <n> sets the maximum number of threads at any single split point to
+<n>, with the exception of split points fairly close to the root  where ALL
+threads are allowed to split together ignoring this limit.  Note that this is
+ignored in the first 1/2 of the tree (the nodes closer to the root).  There
+it is actually good to split and get all active threads involved.
+
+smpmin <n> avoids splitting when remaining depth < n.  This is used to balance
+splitting overhead cost against the speed gain the parallel search produces.
+The default is currently 5 (which could change with future generations of
+Intel hardware) but values between 4 and 8 will work.  Larger values allow
+somewhat fewer splits, which reduces overhead, but it also increases the
+percentage of the time where a thread is waiting on work.
+
+smpnuma <n> enables (a) or disables (0) NUMA mode.  This defaults to zero, 
+which is best for most users.  If you have a multiple-socket machine, or one
+that is NUMA even though it only has one socket, you should enable this.  This
+will cause Crafty to split the hash tables across all NUMA nodes to prevent
+the formation of "hot spots" that would cause unnecessary conflicts.
+                   
+smproot <n> enables (1) or disables (0) splitting the tree at the root.  This
+defaults to 1 which produces the best performance by a signficiant margin. 
+But it can be disabled if you are playing with code changes.
+
+smpnice <1/0> enables or disables the "nice facility".  With smpnice=1, at the
+end of a search (non-pondering) the extra threads will terminate rather than sit
+in a busy spin loop burning cpu cycles.  smpnice=0 is slightly more efficient
+but will result in 100% of the machine being used whether the search is running
+or waiting on input.
+
+smpnodes <n> sets the number of NUMA nodes on your hardware.  This is used to
+try to split with threads on the same node when practical, to improve memory
+access time.
+
+smpgsd sets the minimum depth required to allow a gratuitous split.  A
+gratuitous split is a split done when no threads are idle, and is a sort of
+preemptive attempt to have work ready for processors as they become idle.  If
+this value is set too small, overhead will climb, if it is set too large, then
+gratuitous splits will be rare and thread wait time will climb.
+
+smpgsl sets the maximum number of gratuitous splits allowed per thread.  There
+is little point in having many split points that are not really being used, it
+adds to overhead without any real benefit.  If you are running on 32 cores, 
+then setting this beyond 4 will really be massive overkill since any of the 32
+threads will be able to spontaneously split up to N times each, for a total of
+32 * N gratuitous splits.  That's probably excessive.
+<end>
+
+<test>
+test filename [N] [unsolved_file]
+
+Test is used to run a suite of test positions in a batch run.  filename is
+the name of the file in crafty test format.  [N] is an optional parameter
+that is used to shorten the test time.  If crafty likes the solution move
+for [N] consecutive iterations, it will stop searching that position and
+consider it correct.  This makes a Win At Chess 60 second run take just a few
+minutes, for example.  
+
+The "crafty format" requires three lines per position.  The first line must
+be a "title" line and is used to identify each position.  The second line is
+a "setboard" command to set the position.  The third line is a line that
+begins with "solution", and then is followed by one or more solution moves.
+If a position is correct only if a particular move or moves is *not* played,
+enter the move followed by a "?", as in Nf3?, which means that this position
+will be counted as correct only if Nf3 is not played.
+
+Note that this command may refer to a normal EPD test file as well and 
+Crafty will run that test in the same way, but Crafty will notice it is an
+EPD test file rather than a "crafty" test file and handle it appropriately.
+
+A new option to this command is of the form "test filename <margin>" where
+<margin> is greater than 10 (which means it will not be an early exit counter.)
+In this case, Crafty takes that value as a score margin.  It will read in the
+FEN/EPD records silently, do a search, and if the absolute value of the final
+score is less than <margin>, the FEN/EPD is written to a new file,
+"filename.screened".  I use this to create an opening position file for
+cluster testing where I can create a set of positions using the -DPOSITIONS
+compile option, and then test the resulting "openings.epd" file that creates
+to cull those that are too unbalanced so that the same side wins no matter
+what the skill level.
+
+The [unsolved_file] parameter is optional.  If specified, any position that is
+not solved is written to this file so that you can extract "hard" positions and
+use just those for testing later to save time.  At one second per move on a
+slow machine, the WAC test positions (300) will produce maybe 15 unsolved
+positions.  On good hardware, it might miss five or less.  At 5 seconds per 
+move, it will usually miss maybe 2-3.  At 60 seconds per move, it will 
+generally only miss #230 which appears to have no solution after much computer
+analysis (the supposed winning move also draws).
+<end>
+
+<time>
+Time controls whether the program uses CPU time or wall-clock time for
+timing.  For tournament play, it is safer to use wall-clock timing, for
+testing it may be more consistent to use CPU timing if the machine is
+used for other things concurrently with the tests being run.  (Note that
+this is not recommended when using a multiprocessor machine, CPU time in
+a parallel search increases at N times the normal time rate where N is the
+number of processors being used).
+
+Time is also used to set the basic search timing controls.  The general
+form of the command is as follows:
+
+time nmoves/ntime/[nmoves/ntime]/[increment]
+
+nmoves/ntime represents a traditional first time control when nmoves is
+an integer representing the number of moves and ntime is the total time
+allowed for these moves.  The [optional] nmoves/ntime is a traditional
+secondary time control.  Increment is a feature related to ICS play and
+emulates the Fischer clock where increment is added to the time left
+after each move is made.
+
+As an alternative, nmoves can be "sd" which represents a sudden death
+time control of the remainder of the game played in ntime.  The optional
+secondary time control can be a sudden-death time control, as in the
+following example:
+
+time 60/30/sd/30
+
+This sets 60 moves in 30 minutes, then game in 30 additional minutes.
+An increment can be added if desired.
+<end>
+
+<timebook>
+This command is used to adjust the time crafty uses for the first few
+moves out of book.  The first few non-book moves are often critical,
+but the usual search time limit will be somewhat short since Crafty
+wants to average the time left over the moves remaining until the
+next time control.  This command allows the user to influence how the
+time is allocated on the first few moves out of book.
+
+timebook <factor> <moves>
+
+factor is a number expressed as a percentage, and specifies how much
+extra time (in terms of the normal target time) to use.  For example,
+a value of 100 says use 100% extra time, which essentially doubles
+the target time limit.  A value of 50 says use 50% extra time, or
+1.5X the normal target time.  This applies to the first move out of
+book.
+
+moves indicates the number of moves this extra time will be used.  The
+extra time is uniformly "decayed" over those moves.  For example a value
+of 10 says use the "factor" extra time on the first non-book move, then
+9/10 of that extra time on the next move, 8/10 on the next move, until
+after 10 moves out of book, where this is turned off.
+
+timebook 100 10 therefore says use 200% of the normal time target for
+the first move out of book, 190% for the next move out of book, until
+it drops back to 100% where it will stick for the remainder of the
+game after the first ten non-book move searches have been completed.
+<end>
+
+<tournament>
+playing in a manually-operated tournament
+
+1.  Starting Crafty.  This is the easiest part of the whole process.
+All that's needed is to simply type the command "crafty".
+
+2.  display.  This command displays the chess board using the standard
+chess server style#1 board display.
+
+This is most often used to confirm that the board has been set to the
+proper position in the event that you can't continue an old game and
+have to set up the position from scratch (explained later).  Note that
+white is always at the bottom, regardless of whether Crafty is playing
+black or white.
+
+3.  read.  This command is used to read in a list of moves and make them
+on the game board prior to using crafty to play that game.  There are 
+two ways this can be used:  (a) read.  This will prompt you for a
+white move, a black move, over and over until you type "exit" to terminate
+read mode.  The side to move will be set according to the number of moves
+entered, so that the next move will be for the correct side.  (b) read file.
+This command reads, but the input comes from "file" rather than from the
+keyboard.  Note that superfluous text is ignored, as is line numbers, times,
+etc.  This will read in a PGN game and cull everything but the moves.
+
+4.  setboard.  This command is used to set up a specific board position
+when it's impossible to restart a game using the "crafty c" command, and
+too many moves have been made, making the read command an unattractive
+alternative.  This command parses a FEN-like position description (a
+Forsythe-like notation) and sets the current board to that position.
+
+The notation uses a string of alpha characters to represent the chess
+position.  In this notation, uppercase K Q R B N P represents a white
+piece, lowercase k q r b n p represents a black piece.  for empty
+squares, you can use numbers 1-8 to indicate consecutive empty squares.
+A "/" must terminate each rank after defining at most 8 square on that
+rank, and the ranks are entered in descending order 8..1.  In this 
+notation, then, the first square you enter is a8, then b8, .., h8, 
+followed by a "/", then back to a7 and repeating.  After all 8 ranks
+are entered, you need to indicate whether or not one side can castle
+kingside or queenside by inserting at least one space character, followed
+by a K (white can castle kingside) Q (white can castle queenside) k (black
+can castle kingside) or Q (black can castle queenside).  After this, add
+one more space, followed by the square of a pawn that just moved two ranks
+and is subject to an en passant capture.  Note that if there is no
+en passant capture possible, you do not enter this field.
+
+For the above board position (display command), here's the setboard
+command to set that position up:
+
+setboard r2q1knr/pp2bppp/4b3/1BPp4/6PP/2N1P3/PP3P2/2RQK1NR/ K
+
+Note that after entering the last piece on a rank, a number for the
+remaining empty squares is *not* needed, so this could be shortened
+to:
+
+setboard r2q1knr/pp2bppp/4b/1BPp/6PP/2N1P/PP3P/2RQK1NR/ K
+
+One unfortunate effect of this command is that you have just lost the
+ability to detect repetitions of prior positions in the game, which can
+be a critical issue.  It is _always_ better to use the read command to
+re-enter the moves if the hardware crashes.  If you accidentally type
+^C and terminate Crafty, you can type "crafty c" and it will continue
+the last game, although you will need to set the time control information,
+and anything else that is not in the .craftyrc file.
+
+5.  reset <n>.  This command is used to back the game up if a different
+move is to be tried, or if an incorrect move was entered by mistake.  It
+depends on the current side to move, and the command "reset 13" will back
+the game up to move 13, where the current side on move is still on move,
+and Crafty will be positioned to read in move 13 for that side.  Note
+that this affects the game, but not the clock or time or level, so that if
+you back up more than a move or two, you also need to adjust the clock.
+
+If you want to first change the side to move, use the "white" or "black"
+command to set the side to move, then use the reset command to back up
+to the move for that side.
+
+6.  time.  This command is used to set the time control.  There are
+several ways to use it, depending on the type of time control desired.
+(a) time sd/n sets the game to sudden-death in n minutes. such as
+game/10, game/30.  time sd/30 would set game in 30 time control.
+(b) time moves/time smoves/stime sets the game to "moves" in "time"
+minutes, then "smoves" in "stime" minutes.  A common setting is
+time 40/120/20/60 for 40 moves in 2 hours, then 20 moves in one hour.
+(c) time moves/time/sd/sdtime sets a standard first time control,
+followed by a sudden death time control.  For example time 60/60/sd/30
+is 60 moves in 60 minutes followed by game in 30 minutes.  (d) for any
+of these, an optional 5th parameter can be added, which is the famous
+"Fischer clock" increment that is added to each players time remaining
+after he makes a move.  The increment is given in seconds rather than
+minutes.  Note that the default should be right unless the tournament
+modifies the T/C after the tournament starts for some reason.
+
+7.  settc.  This command is used to correct time-control info after a
+restart.  it will prompt you for how much time is left on both Crafty's
+and the opponent's clock, and for how many more moves until crafty makes
+the next time control.  Again, usually not needed, but there for serious
+circumstances.  After restarting, type "clock" to display this info and
+if it's wrong in any way, this settc command is the quickest way to fix
+it up.
+
+8.  clock.  This command is used to adjust the internal clock time as it
+drifts away from the real chess clock as a game progresses.  The format
+is simply "clock mins" to adjust Crafty's clock.  Or "clock cmins omins"
+to adjust both Crafty's time and Crafty's internal time that the opponent
+has left.  Since the current version doesn't really need the opponent's
+clock time, it can be ignored with no side-effects.
+
+Common problems and how to solve them:
+
+1.  Is crafty searching or pondering?  I was not watching the screen,
+and the window size is small enough that all I see is analysis scrolling 
+up the screen.  This is easy.  Look at the bottom line on the screen, and
+you will see a line that keeps changing, showing the depth, time used so
+far, how many moves have been searched and the PV.  Look at the third
+column what shows something like 12/30, which says that at the current
+depth crafty has already searched 12 of the 30 legal moves at the root.
+You will notice that there is an extra character after the 30, either a
+"*" or "?".  If an "*" is showing, Crafty is thinking about its move.  If
+a "?" is showing, crafty is pondering and thinks it is the opponent's move.
+
+If it shows a "?" but you know it is Crafty's move, you simply missed it.
+Scroll back up using whatever scroll mechanism your text window uses, to
+find the move Crafty made.  Hopefully this won't happen often, but on the
+occasional "emergency" men's room break, anything can happen.  Just remember
+that "?" means I am pondering and it is my opponent's move, "*" means I
+am searching and it is my move.
+
+2.  I entered the wrong move, how do I fix this?  You are playing in a
+game and at move 37, you enter Rfe1 rather than Rae1.  To correct this,
+you have to do a couple of things.  First, Crafty is now searching, and
+if you try to reset the position, it won't accept this command.  To stop
+the search, type ? (followed by a <RETURN> of course) to tell Crafty to
+"move now".  Once it displays the move it would play in response to the
+incorrect move, it will start its "ponder search" but now the reset
+command will work.  Simply type "r 37" to back up to move 37, then type
+Rae1 and Crafty will continue as though nothing happened.  Pay attention
+to the clock time after it moves and adjust if necessary (if you lost any
+time while correcting an incorrect move.)
+
+Note:  You can also use the "remove" command, which will unmake the last
+move by each side.  Crafty has to be pondering or waiting on input for
+this to work, just like the reset command, so if *you* typed the wrong
+move, type "?" to make it move, then "remove" which backs up one move
+for each side, followed by the opponent's move.  If the opponent makes
+the wrong move on the board, and you enter it, do this same thing.  Note,
+if the opponent screws up, you should notice whether or not crafty had
+predicted the right move.  If it had, you should probably call the TD
+over, back the game up one move with the remove command, then use the
+"ponder xxx" command to tell crafty to ponder "xxx" (the move it was
+pondering before the wrong move was made by the opponent) and then it
+should be allowed to "sit" until the same amount of time elapses before
+you enter the correct move.  The idea is that if the opponent screws up,
+it should not wipe out any searching crafty did while waiting.
+
+3.  The machine dies (power failure maybe).  How do I recover?  First, you
+can stop the clock for such failures, so do that *first*.  Then, reboot the
+machine and start crafty by typing "crafty c".  Next, type the "history"
+command and carefully check the last move it displays against the score
+sheet you are maintaining by hand.  If they are the same, you are ready to
+enter a move and continue.  If there are moves missing, use the "reada"
+command to re-enter these moves and append them to the moves already 
+present.
+
+If the continue option won't work due to a corrupted history file, you have
+two choices.  The best choice is to restart crafty without the "c" option,
+and then use the "read" command and enter the moves by hand so that if you
+screw up later, the "reset" command will work correctly to let you back up.
+If you are 100 moves into a game, this might not be practical.  In this
+case, use the "setboard" command to enter the position.  Be careful to
+check the position after entry using the display command, and be careful
+to not enter the wrong move since you can't use the "reset" command to
+back up after using the setboard command.
+
+After either of the above problems, you need to set the proper time
+control (if this is in your .craftyrc this is not needed) and then you
+need to adjust the clock to show the proper amount of time remaining.
+The command to display the clock is "clock".  To adjust the clock
+use the command form "clock c-time o-time" where c-time is Crafty's
+time remaining, and o-time is the opponent's time remaining.  These
+can be entered as simply the number of minutes left, or in the hh:mm
+format if preferred.  "clock 60 50" sets Crafty's clock to 60 minutes
+left, opponent's clock to 50 minutes left.  "clock 1:15 45" sets 
+Crafty's clock to 75 minutes remaining, opponent's clock to 45.
+Crafty pays attention to how much time the opponent has used,
+so be sure and get them both correct.   You should subtract 5 minutes
+from the actual time left on the clock to give yourself a cushion.  Of
+course, you should *never* enter "0" time left, or even worse, a negative
+number, because Crafty will go south for the Winter if you do.  :)
+
+Note that there is a "settc" command that simplifies getting the time
+control right after a restart...  It's explained above.
+<end>
