@@ -1,0 +1,27 @@
+Hi Maksim,
+
+First some elements of the tuning: Your evaluation function returns a value between for instance -320 and 320, The result of the game of the position is 0, 1/2 or 1 (black wins, draw, white wins), so they are very different. The sigmoid function maps the eval function value on the result, so -320 maps onto 0, and 320 maps onto 1. By choosing the K variable (in your case 0.20) you can define how "fast" an eval value goes to 0 or 1.
+
+So if you calculate the eval of a position, which results for instance in + 2.5 this will result in a sigmoid of for instance 0.75. If the outcome of the game in this position is 1 (win for white) the error of your evaluation is 1 - 0.75 = 0.25 for this position. Instead of calculating the error, you calculate the square of the error which is (0.25)2.
+
+If you calculate the squared error for every position in your tuning set and Sum the squared errors you get the total squared error of the eval over all the tuning positions. When you divide the total error by the number of positions you get the mean error.
+
+This is the basic idea of it all. When you are doing Texel tuning, what you do is:First calculate the mean error with current values of the eval parameters. Then Increase the first parameter by one and calculate the mean error (so over ALL positions) and check if the mean error is lower than the initial error. If so, this means the value of this eval parameter is BETTER than the original value (when considered over all the positions. If its higher however, you try to lower the original eval parameter by 1 and calc the mean error again. If its lower, that value is better so we keep it. If its not, the original value must be the best, so we don't change it anymore.
+
+You do this for every eval parameter you want to tune. After you've calculated this for every parameter, and at least one change in parameter value has occurred, you do the whole procedure again. This is the kernal idea of Texel tuning.
+
+As you already concluded, this can take a LOT of time.. In the beginning I used the Texel tuning set of zurichess which contains 750.000 positions, Now I use the "lichess" set which contains somewhere around 2.500.000 positions. There are links in talkchess topics to these position sets.
+
+With the lichess set u usually do 40 iterations of all the parameters and then use the results. After 40 iterations the mean error is still getting less but the end result in elo is worse in my case.
+
+You can use multiple speedups to make it more manageable, but it also gets more complex then:D
+
+First: You now use your quiescence function for the eval score, it is much faster to calculate the eval directly. This can only be done if the position you calc the eval for is a quiet position (which means no capture in previous move or simple captures which directly win a piece etc.), otherwise the eval calc results in a bullshit result. The zurichess and lichess positions are already quiet. Andrew Grant first does a depth x search for the position and follows a part of the PV in order to reach a quiet position also.
+
+Then you can try to make a smarter change to the parameters than to simply increment/decrement them by 1. Most used is the "gradient descent" method, which calculates the gradient of each parameter in each position, and changes the parameter in relation to the gradient. With that you can change parameters with higher/better values and also change all parameters at once, which makes things much faster (but also more complex).
+
+Andrew Grant goes even further and translates the evaluation function into a lineair function for EVERY position. With this lineair function the eval function can be calculated much faster than the original eval function. How does that work: Position X contains only 1 white pawn on E6, than the only pawn PST value for square E6 results in a value in the eval function, all the other PST values are not used in that position. A change of X of the pawn PST value for square E6 results in a change of X in the eval. The problem is however that not all eval parameters are lineair in the eval function. To be specific usually king safety is not a lineair property in the eval. This is why Andrew needs to make a lot of effort to get the king safety element beside the lineair function. You need to store the lineair properties of every parameter together with every position, so that can take some space...
+
+I hope this explanation of Texel Tuning (and gradient descent..) is clear enough and helps you further.
+
+Ronald
