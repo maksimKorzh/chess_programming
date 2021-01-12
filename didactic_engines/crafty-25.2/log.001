@@ -1,0 +1,106 @@
+
+Crafty v25.2
+
+machine has 2 processors
+
+White(1): uci
+Illegal move: uci
+White(1): d2d4
+              time used:  22.99
+        time surplus   0.00  time limit 30.00 (2:30)
+        depth     time       score   variation (1)
+         16->   1.04/30.30    0.25   1. ... Nf6 2. Nf3 e6 3. e3 Bd6 4. Bd3 Nc6
+                                     5. O-O Nb4 6. Be2 O-O 7. Nc3 Nbd5 8. Nb5
+                                     Ne4 9. Nxd6 cxd6
+         17     1.49/30.30    0.17   1. ... Nf6 2. Nf3 e6 3. e3 Nc6 4. Bd3 d5
+                                     5. Nc3 Bd6 6. Nb5 O-O 7. Nxd6 Qxd6 8. O-O
+                                     Nb4 9. Ne5 Nxd3 10. Qxd3
+         17->   1.61/27.00    0.17   1. ... Nf6 2. Nf3 e6 3. e3 Nc6 4. Bd3 d5
+                                     5. Nc3 Bd6 6. Nb5 O-O 7. Nxd6 Qxd6 8. O-O
+                                     Nb4 9. Ne5 Nxd3 10. Qxd3
+         18     3.91/27.00    0.17   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5 O-O
+                                     9. O-O Bxc3 10. bxc3
+         18->   4.10/24.30    0.17   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5 O-O
+                                     9. O-O Bxc3 10. bxc3
+         19     5.68/24.30    0.14   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5
+                                     Bxc3+ 9. bxc3 Ne4 10. O-O O-O 11. c4
+         19->   5.98/21.60    0.14   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5
+                                     Bxc3+ 9. bxc3 Ne4 10. O-O O-O 11. c4
+         20     7.32/21.60    0.21   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5 O-O
+                                     9. O-O Qd7 10. Bd3 Bxc3 11. bxc3
+         20->   8.15/19.20    0.21   1. ... Nf6 2. Nf3 Nc6 3. Nc3 d5 4. Bf4 Bg4
+                                     5. e3 e6 6. h3 Bxf3 7. Qxf3 Bb4 8. Bb5 O-O
+                                     9. O-O Qd7 10. Bd3 Bxc3 11. bxc3
+         21    14.58/19.20    0.16   1. ... Nf6 2. Nc3 d5 3. Bg5 h6 4. Bxf6
+                                     exf6 5. e3 Nc6 6. Nf3 Be6 7. Bd3 Bb4
+                                     8. O-O O-O 9. a3 Bxc3 10. bxc3 Qd6 11. Rb1
+                                     b6
+         21->  15.70/18.00    0.16   1. ... Nf6 2. Nc3 d5 3. Bg5 h6 4. Bxf6
+                                     exf6 5. e3 Nc6 6. Nf3 Be6 7. Bd3 Bb4
+                                     8. O-O O-O 9. a3 Bxc3 10. bxc3 Qd6 11. Rb1
+                                     b6
+        time=18.06(100%)  nodes=33913431(33.9M)  fh1=91%  pred=0  nps=1.9M
+        chk=290.7K  qchk=449.3K  fp=10.4M  mcp=7.6M  50move=1
+        LMReductions:  1/1.2M  2/903.4K  3/662.3K  4/222.7K  5/13.3K  6/17
+        null-move (R):  3/1.6M  4/115.0K  5/3.1K  6/36
+Black(1): Nf6
+              time used:  18.06
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|   |<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|<P>|<P>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   |<N>|   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   |-P-|   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-| . |-P-|-P-|-P-|-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........   0.08  |   -0.58   -0.58    0.39  |    0.66    0.66   -0.42  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........  -0.48  |   -0.58   -0.58   -0.58  |    0.10    0.10    0.10  |
+bishops........   0.14  |    0.02    0.02    0.20  |    0.12    0.12   -0.06  |
+rooks..........  -0.10  |   -0.38   -0.38   -0.38  |    0.28    0.28    0.28  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.31
+White(2): Nc3 [pondering]
+        time surplus  11.94  time limit 30.20 (2:31)
+        depth     time       score   variation (20)
+         20->   1.32/18.12    0.18   2. (Nc3) d5 3. Bg5 h6 4. Bxf6 exf6 5. e3
+                                     Nc6 6. Nf3 Be6 7. Bd3 Bb4 8. O-O O-O 9. a3
+                                     Bxc3 10. bxc3 Qd6 11. Qe2 b6 12. c4 dxc4
+                                     13. Bxc4
+         21    15.14/18.12    0.19   2. (Nc3) d5 3. Nf3 e6 4. Bg5 Nc6 5. e3 h6
+                                     6. Bf4 Bb4 7. Bd3 Nh5 8. O-O Nxf4 9. exf4
+                                     O-O 10. a3 Bxc3 11. bxc3 Bd7 12. Rb1 b6
+         21->  17.07/18.12    0.19   2. (Nc3) d5 3. Nf3 e6 4. Bg5 Nc6 5. e3 h6
+                                     6. Bf4 Bb4 7. Bd3 Nh5 8. O-O Nxf4 9. exf4
+                                     O-O 10. a3 Bxc3 11. bxc3 Bd7 12. Rb1 b6
+         22    36.14/18.12    0.10   2. (Nc3) d5 3. Nf3 Nc6 4. Bf4 Bf5 5. Nh4
+                                     e6 6. Nxf5 exf5 7. Qd3 Bb4 8. f3 O-O
+                                     9. O-O-O Bxc3 10. Qxc3 Qe7 11. a3 Nh5
+                                     12. Bd2 Nf6 13. e3
+White(2): quit
+        time=36.42(100%)  nodes=74420048(74.4M)  fh1=91%  pred=0  nps=2.0M
+        chk=681.9K  qchk=985.9K  fp=25.7M  mcp=14.9M  50move=0
+        LMReductions:  1/2.2M  2/1.6M  3/1.2M  4/482.2K  5/34.2K  6/154
+        null-move (R):  3/3.2M  4/233.8K  5/6.0K  6/74
