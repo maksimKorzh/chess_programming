@@ -1,0 +1,31 @@
+It is true that I usually don't study source codes of other engines, but I don't think I can take any credit for this as an invention of mine. I was under the impression that this is a very old method for doing things, known as 'king-capture engine'.
+
+I was triggered by your remark that bitboards brought you so much speedup, because of IsSquareAttacked(). Now the speed of any engine is above all determined by branching ratio, which heavily depends on move ordering. So if you would have used the IsSquareAttacked() for move ordering purposes, I would believe everything. But if it is just doing a fixed amount of work, like checking the generated moves for legality, it just sounds wrong that it could ever consume so much time that you could get savings like you mention, even when it could be made infinitely faster.
+
+The 'dumbest' way to make an IsInCheck() would be something like
+CODE: SELECT ALL
+
+IsInCheck(player)
+{
+  GenerateMoves(OPPONENT(player));
+  MVV = ExtractBestCapture();
+  return (MVV == KING);
+}
+It has the advantage that it is guaranteed to be fundamentally correct, as it basically rephrases the definition of 'in check'. So it works even in the presence of fairy pieces that can turn corners or jump over others, for which is can be expensive and error prone to find a dedicated method. And it happens to be exactly how your Search() routine would start as well, which makes it possible to mitigate the cost through the micro-Max trick. It would be expensive, but even if you are not in check, you would not have done the work in vain.
+
+But even if you want to test all moves for legality at generation time, it should be very easy to do that with mailbox. There are 3 reasons a move could be illegal:
+1) You moved a pinned piece
+2) Your King stepped to an attacked square
+3) Your King was already under attack, and you did not do anything about it.
+
+Now (2) can obviously only happen on King moves, and (1) only of moves on other pieces, so you would never have to test for both. As to (1), there is a very fast mailbox test for whether a piece could be pinned; it would be something like
+
+if(alignment[fromSqr - kingSqr]) ...
+
+where alignment[] is a prepared table that for each possible board step indicates whether a Queen could make it or not. This test should be much cheaper than any bitboard attack getter, and it would almost always be the only thing you have to do, as most pieces would not be aligned with your King. Only when a piece happens to be aligned you have to do more; in particular scan the board from your King in the corresponding direction (which you could have put as non-zero elements in the alignment[] table), ignoring the moved piece, to see if you hit an enemy slider that can move in that direction. And since during most of the game your King will be safely tucked away behind a Pawn shield, scanning the board usually ends on the fist step, where you bump into the shield, so even that is not as expensive as it sounds.
+
+But there is more: once you have established whether the piece was pinned or not, this information can be used for all the other moves of that same piece, without redoing it. So you should not test in the order REPEAT(GenerateMove -> TestLegality), but in the order LiftPiece -> TestLegality -> REPEAT(GenerateMove). Where you would only generate the moves in the unrestricted way when the legality test showed the piece was not pinned, and you could use an alternative generator that only generates moves along a given ray in the case it was pinned.
+
+For the King moves the problem is more precarious, (but fortunately there are few...), as attacks could come from anywhere by any piece. Mailbox engines usually keep track of where every piece is located, in a 'piece list', and the usual implementation of IsAttacked() is to run through that piece list, and do the alignment test. In this case a more specific one that takes the piece type into account, so that Rooks are checked only for orthogonal alignment, etc. For Pawn attacks it s better to just check the two board squares from which they could come, as there might be 8 Pawns in the piece list, so you only test alignment for the non-Pawn section of the list. Again, most pieces would not be aligned, and for those you wouldn't have to do anything extra.
+
+Also here there is the possibility for 'bulk checking', though: you could tabulate (for each piece type of the potential checker) whether a certain location relative to King would make its moves intersect the King neighborhood, and where (e.g. as a 'mini bitboard' of the 3x3 area around the King). Each new hit on the King neighborhood that way would first have to be validated for not being blocked through a ray scan over the board, but again most pieces would not even be aligned with the king neighborhood. This would give you a map of all attacked squares near the King in one swoop through the piece list, which you can then use to only generate the King moves to non-attacked squares.
