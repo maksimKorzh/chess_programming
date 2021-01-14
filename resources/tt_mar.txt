@@ -1,0 +1,21 @@
+Martin Sedlak
+
+I see. have you tried to mask it to 32 bits (or 31) first, like hashKey &= 0xffffffff? then use %?
+still - if you round number of entries to nearest power of two and then mask with num_entries-1, it should work as is
+
+
+HGM
+
+I suppose you use separate 32-bit keys for the signature and the index, since JavaScript doesn't have a 64-bit type. For the signature you don't care what the sign is, it is only used for a comparison of numbers. You want the index to be within the range of the TT, though, which also means non-negative.
+Note that the fact that the index key can be negative is self-inflicted. In Zobrist hashing the key is an XOR of all the Zobrist keys. If you had defined all Zobrist keys with the sign bit zero (i.e. positive), their XOR would also be positive. In fact there is no need to do any masking during TT access; you could have done the masking on the Zobrist keys, so that the bits you want to mask away would always be zero to start with.
+
+
+
+hashKey &= 0x7fffffff
+
+If that size is 20 bytes (5 32-bit integers)
+then your hash table size in bytes should be some
+(2^N) * 20 where hashEntries := 2^N.
+So for a 320 MB hash table you would need N=24, for instance.
+
+
