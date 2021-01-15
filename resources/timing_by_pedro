@@ -1,0 +1,20 @@
+Let's assume that white plays, you get wtime and winc.
+At wtime I take a security time to avoid problems with the GUI or Internet.
+
+time_total = wtime - time_safety (time_safety is a user configurable option, default is 50 ms)
+inc = winc
+
+To calculate the time I have for the move, as we are in a game where we don't
+know how many moves are necessary for the time control, I suppose we still have
+to make 30 moves (movestogo).
+
+time_move = time_total / 30 + inc
+
+The problem is that the engine does not go out fast enough from the search and
+usually exceeds the time per move, so when it takes many moves it ends up losing.
+To avoid this I do:
+
+if (inc > 0 && time_total < 5*inc) time_move = 75*inc/100
+
+In this case if the total time is less than 5s I only use 75% of the time of the increment,
+so the engine would always have a reserve time of about 5s and it would be complicated to lose.
