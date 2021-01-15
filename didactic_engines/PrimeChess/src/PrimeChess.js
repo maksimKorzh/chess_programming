@@ -465,7 +465,75 @@ function takeback() {
         }
     }
 }
+
+var attTime = 0;
+
+// piece move offsets
+var knightOffsets = [33, 31, 18, 14, -33, -31, -18, -14];
+var bishopOffsets = [15, 17, -15, -17];
+var rookOffsets = [16, -16, 1, -1];
+var kingOffsets = [16, -16, 1, -1, 15, 17, -15, -17];
+
+// slider piece to offset mapping
+var sliderPieces = {
+  bishop: { offsets: bishopOffsets, side: [[WHITE_BISHOP, WHITE_QUEEN], [BLACK_BISHOP, BLACK_QUEEN]] },
+  rook: { offsets: rookOffsets, side: [[WHITE_ROOK, WHITE_QUEEN], [BLACK_ROOK, BLACK_QUEEN]] }
+};
+
+// leaper piece to offset mapping
+var leaperPieces = {
+  knight: { offsets: knightOffsets, side: [WHITE_KNIGHT, BLACK_KNIGHT] },
+  king: { offsets: kingOffsets, side: [WHITE_KING, BLACK_KING] }
+};
+
+// pawn directions to side mapping
+var pawnDirections = {
+  offsets: [[17, 15], [-17, -15]],
+  pawn: [WHITE_PAWN, BLACK_PAWN]
+}
+
 function isSquareAttacked(square, color) {
+    /* by pawns
+    for (let index = 0; index < 2; index++) {
+      let targetSquare = square + pawnDirections.offsets[color][index] 
+      if (((targetSquare) & 0x88) == 0 &&
+           (BOARD[targetSquare] == pawnDirections.pawn[color])) return 1;
+    }
+    
+    // by leaper pieces
+    for (let piece in leaperPieces) {      
+      for (let index = 0; index < 8; index++) {
+        let targetSquare = square + leaperPieces[piece].offsets[index];
+        let targetPiece = BOARD[targetSquare];
+        if ((targetSquare & 0x88) == 0)
+          if (targetPiece == leaperPieces[piece].side[color]) return 1;
+      }
+    }
+    
+    // by slider pieces
+    for (let piece in sliderPieces) {
+      for (let index = 0; index < 4; index++) {
+        let targetSquare = square + sliderPieces[piece].offsets[index];
+        while ((targetSquare & 0x88) == 0) {
+          var targetPiece = BOARD[targetSquare];
+          if (sliderPieces[piece].side[color].includes(targetPiece)) return 1;
+          if (targetPiece) break;
+          targetSquare += sliderPieces[piece].offsets[index];
+        }
+      }
+    }*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //let startTime = Date.now();
     for (let pieceType = QUEEN; pieceType >= KING; pieceType--) {
         let piece = makePiece(color, pieceType);
         if (pieceType == PAWN) {
@@ -496,6 +564,7 @@ function isSquareAttacked(square, color) {
             }
         }
     }
+    //attTime += Date.now() - startTime;
     return false;
 }
 function perft(depth) {
@@ -638,7 +707,7 @@ function perftTest(depth) {
 
 initBoardFromFen('r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1');
 perftTest(4);
-
+console.log('attTime:', attTime);
 
 
 
