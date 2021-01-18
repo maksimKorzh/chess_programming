@@ -1,6 +1,6 @@
 //
 //    +-----------------------------------------------+
-//    |           0x88 BOARD REPRESENTATION           |
+//    |           0x88 REPRESENTATION           |
 //    +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 //  8 |00|01|02|03|04|05|06|07|08|09|0A|0B|0C|0D|0E|0F|
 //  7 |10|11|12|13|14|15|16|17|18|19|1A|1B|1C|1D|1E|1F|
@@ -706,9 +706,9 @@ function perftTest(depth) {
 }
 
 initBoardFromFen('r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1');
-perftTest(4);
-console.log('attTime:', attTime);
-
+//perftTest(4);
+//console.log('attTime:', attTime);
+console.log(BOARD[0x77]);
 
 
 
