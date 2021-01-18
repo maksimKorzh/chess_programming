@@ -1,0 +1,53 @@
+YouTube comment by Pedro Castro
+
+nps
+
+Sometimes as the number of Nodes/sec is large it usually shows something like KN/sec (Nodes/sec divided by 1000).
+
+UCI protocol output:
+
+info score cp 29 depth 1 nodes 3393 time 118 pv e2a6 b4c3 
+info score cp 29 depth 2 nodes 6825 time 198 pv e2a6 b4c3 
+info score cp 22 depth 3 nodes 11363 time 236 pv e2a6 b4c3 d2c3 h3g2 f3g2 e6d5 
+info score cp 22 depth 4 nodes 16187 time 287 pv e2a6 b4c3 d2c3 h3g2 f3g2 e6d5 
+info score cp 25 depth 5 nodes 39579 time 529 pv d5e6 e7e6 e2a6 e6e5 d2f4 
+info score cp 17 depth 6 nodes 81890 time 862 pv d5e6 e7e6 e2a6 e6e5 d2f4 e5c5 
+info score cp -10 depth 7 nodes 327777 time 2502 pv e2a6 b4c3 d2c3 e6d5 e5g4 h3g2 f3g2 d5e4 g4f6 g7f6 c3f6 e7f6 g2e4 
+info score cp -14 depth 8 nodes 657806 time 5157 pv e2a6 b4c3 d2c3 e6d5 e5g4 h3g2 f3g2 e8g8 g4f6 g7f6 c3f6 e7f6 e4d5 f6b2 
+bestmove e2a6
+
+In this information you have to have an account, the UCI protocol indicates the time elapsed in milisec (not sec). To avoid using decimals and dividing time by 1000, you can instead simply multiply the number of end nodes by 1000.
+
+You could calculate Nodes/sec for each of the depths (or iterations):
+
+depth 1 --> Nodes/sec = 3393 * 1000 / 118 = 28754 --> KN/sec = 28
+depth 2 --> Nodes/sec = 6825 * 1000 / 198 = 34469 --> KN/sec = 34
+depth 3 --> Nodes/sec = 11363 * 1000 / 236 = 48148 --> KN/sec = 48
+....
+depth 7 --> Nodes/sec = 327777 * 1000 / 2502 = 131005 --> KN/sec = 131
+depth 8 --> Nodes/sec = 657806 * 1000 / 5157 = 127555 --> KN/sec = 127
+
+As you can see the number of nodes/sec at low depths is usually lower and unstable, that's why some engines don't start calculating nodes/sec until some time or depths have passed. In my case for example I don't start calculating until 16 milliseconds have passed and in this time it is possible that the first 6 or 7 depths indicate 0 nodes/sec. From this depth it is possible for Nodes/sec to remain more or less stable and not vary much from one depth to another.
+
+You can compare Nodes/sec of 2 versions simply by comparing the difference obtained from the last depth you have calculated. At that last depth you will have the best information.
+
+DanaSah 7.0:
+FEN: r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 10
+
+DanaSah 7.0:
+ 1	00:00	 257	0	+1,90	10.Axa6 bxc3
+ 2	00:00	 571	0	+1,90	10.Axa6 bxc3
+ 3-	00:00	 3k	        0	+1,36	10.Axa6 bxc3 11.Axc3 hxg2 12.Dxg2 exd5
+ 4-	00:00	 10k	0	+0,41	10.Axa6 bxc3 11.Axc3 exd5 12.gxh3 Cxe4
+ 5	00:00	 13k	0	+0,41	10.Axa6 bxc3 11.Axc3 exd5 12.gxh3 Cxe4
+ 6-	00:00	 29k	950k	+0,17	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.Cxf6+ Axf6 15.Axf6 Dxf6 16.Dxe4+ De6
+ 7	00:00	 41k	870k	+0,17	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.Cxf6+ Axf6 15.Axf6 Dxf6 16.Dxe4+ De6
+ 8	00:00	 71k	765k	+0,04	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.0-0-0 0-0
+ 9+	00:00	 153k	702k	+0,18	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.0-0-0 Ch5 15.Ab7 Axc3 16.Axa8
+ 10	00:00	 307k	726k	+0,14	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.0-0-0 Th4 15.Cxf6+ Axf6 16.Ab7 Axc3 17.Axa8
+ 11-	00:01	 875k	727k	-0,01	10.Axa6 bxc3 11.Axc3 exd5 12.Cg4 hxg2 13.Dxg2 dxe4 14.Cxf6+ Axf6 15.Axf6 Dxf6 16.Dxe4+ De7 17.Dxe7+ Rxe7 18.0-0-0 d5 19.The1+ Rd6
+Mejor Jugada: Axa6, Valoración: -0,01, Profundidad: 12, Duración: 00:01,808, 874.698 Nodos, 727 kN/seg.
+
+This is an output of an old version of my engine in Arena, in the fourth column you can see KN/sec.
+
+So wukongjs searches around 127 KN/sec and danasah around 727 KN/sec, about 5 times faster danasah, but we can't compare Nodes/sec from different engines as each programmer counts Nodes differently. But it does help you to compare between 2 versions of your engine.
