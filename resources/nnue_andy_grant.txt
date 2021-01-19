@@ -1,0 +1,91 @@
+Stockfish now uses a neural network for position evaluation. The structure of this neural network was introduced for Shogi by Yu Nasu in the paper dubbed "Efficiently updatable neural network - NNUE". Unfortunately it is in Japanese.
+
+It is a fully connected neural network with four layers. The first layer receives an encoded chess position. The second and third are hidden layers and then there is final output layer that gives the evaluation.
+
+The input layer receives a chess position encoded as a "HalfKP" structure, and this is where I am completely lost. A picture is available here.
+
+The encoding seems to work like this. Suppose we have the starting position. We first consider only the white pieces. We encode the position by always considering the position of the white king together with a white non-king piece for each square. The resulting value is then either '1' or '0'.
+
+Consider the starting position. We have
+
+King on a1, Pawn on a1 -> 0
+King on a1, Pawn on a2 -> 0
+...
+King on e1, Pawn on a2 -> 1
+...
+King on e1, Pawn on e2 -> 1
+...
+and so on. This input is fully connected to the next layer. Then we do the same for the black pieces.
+
+Question 1.) Is my understanding correct?
+
+Suppose we have the move e2e4. There are only two inputs which change:
+
+King on e1, Pawn on e2 changes from 1 to 0
+King on e1, Pawn on e4 changes from 0 to 1
+There is apparently some efficiency gain here claimed in the original paper, but I do not see where. After all, the two nodes above are connected to every node in the second layer, so we have to update all second layer nodes.
+
+Question 2.) Why is this efficient?
+
+An encoding that would be much more straight-forward would be to simply use bits to indicate positions of the pieces, similar to bitboards.
+
+King on a1 -> 0 
+...
+King on e1 -> 1
+...
+Pawn on e2 -> 1
+Pawn on e4 -> 0
+If we use such an input encoding, we have less input nodes. Also updating for the move e2e4 just changes two input nodes. Such input seems to be common in other approaches, like AlphaZero and Lc0.
+
+Question 3.) Why does one not use such a much easier encoding? Why do we use combinations of King + Piece? What do we gain here?
+
+Question 4.) The first layer uses 16 bit integers, the next layers 8 bit integers. What is the reason for this choice? Obviously we need to limit the range to operate with fixed-point arithmetic due to memory constraints, but why 16 and 8, and not 16 and 16, or 32bit and 32bit?
+
+The first half of the input layer (for white) is fully connected to the first 256 nodes of the second layer; the second half of the input (for black) is fully connected to the latter 256 nodes of the second layer.
+
+Question 5.) Why do we consider the white and black pieces separately? What is the benefit? What is the so-called (full) KP, and what is the relation to HalfKP?
+
+Question 6.) Is it possible to illustrate the update and efficiency gain with the above e2e4 example?
+
+software
+stockfish
+programming
+shogi
+Share
+Improve this question
+Follow
+edited Jan 8 at 14:06
+
+Rewan Demontay
+11.5k33 gold badges4747 silver badges7373 bronze badges
+asked Jan 8 at 11:45
+
+ndbd
+43922 silver badges99 bronze badges
+add a comment
+1 Answer
+
+6
+
++50
+[1] Your understanding is correct, with one slight adjustment. Instead of thinking about it as "King on a1, Pawn on a2", you should think of it as two things: "King on a1, Friendly Pawn on a2", and "King on a1, Enemy Pawn on a2". The input layer knows the colors of the pieces. Note that I do not say White/Black, but Friendly/Enemy, which are relative. This is because the weights are the same for both sides, but flipped around and rotated a bit (depends on the engine)
+
+[2] Suppose we have a full board. All 32 pieces on the board. To compute the first layer of neurons (but not apply an activation), we will in essence perform 30 (we don't care about the king's directly) vector additions. You pointed out rightly that the inputs are 0s and 1s, so we use addition and not multiplication.
+
+I now take a record of the values in each neuron (before activation). Now you make the move e2e4. You correctly point out that (for each side) two things change. Turn one bit off (King on X, Friendly Pawn on E2) and turn on (King on X, Friendly Pawn on E4). To update the remembered neurons, we only need to take the original values, subtract a vector of E2 pawn weights, and add a vector of E4 pawn weights. 31 additions (operations) now becomes 2.
+
+[3] As to your comments about using a simple input system. Your example is 768(=6x2x64) input bits. "Is piece A of colour B on square C". This works just fine. There is a chess engine named Halogen using this scheme, and I've trained networks for it. It is strong, but not as strong as the halfkp style networks. The theory is that the overspecialization allows for more knowledge, but without additional computation cost.
+
+[4] This one is a technical question, and it (in my view) relates to the first comment where the inputs are 0s and 1s, so really we use addition and not multiplication. Suppose you have two numbers, both of which are stored in 8-bits. If you multiply them, the result will need upto 16-bits to be represented.
+
+Now consider the later layers of the network (ignoring the input for now). You take an 8-bit input, multiply by an 8-bit weight, sum a whole bunch of these up, and then output an 8-bit weight. In the intermediate steps you are dealing with 16-bit types, but later that information is packed down into 8-bits.
+
+Multiple times I typed (before the activation) in my earlier answers. This is important. The intermediate data for computing the next layer of neurons is 16-bits. And since we are constantly adding and subtracting little pieces (from your e2e4 move), we are dealing with the intermediate data, and thus we want it available in 16 bits. For technical reasons, you might as well use 16-bits for the input weights, even though they are actually going to be within an 8-bit range. This is all subjective, and you or anyone else could use another scheme and be fine.
+
+[5] HalfKP allows us to reuse the same weights for both sides. Some engines will flip, some will rotate. For example, the weight for (White King on A1, White Pawn on A2) will be the same as the weight for (Black King on H1, Black Pawn on H2). This makes training much easier, as it "halves" the number of weights to be trained, which is akin to having more data.
+
+Other solutions like HalfKA (accounts for the enemy King) are also viable, and are being used in an engine named Seer. The halfkp paradigm has some other ramifications to something called I call factorizorss, during training, but that is a much more complex discussion.
+
+[6] I'm not one for making big graphics, but I suppose "Yes" does answer your question :)
+
+Source: I programmed all of this at one point https://github.com/AndyGrant/EtherealDev/tree/openbench_nnue/src/nnue which involved me going through each of your questions. I happen to have a different setup than Stockfish, but I considered the same issues and came to my own solutions while understanding the alternatives.
