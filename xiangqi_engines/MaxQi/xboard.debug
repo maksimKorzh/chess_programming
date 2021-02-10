@@ -1,0 +1,2998 @@
+locale = LC_CTYPE=en_US.UTF-8;LC_NUMERIC=uk_UA.UTF-8;LC_TIME=en_US.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=uk_UA.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=uk_UA.UTF-8;LC_NAME=uk_UA.UTF-8;LC_ADDRESS=uk_UA.UTF-8;LC_TELEPHONE=uk_UA.UTF-8;LC_MEASUREMENT=uk_UA.UTF-8;LC_IDENTIFICATION=uk_UA.UTF-8
+recognized 'xiangqi' (-1) as variant xiangqi
+recognized 'xiangqi' (-1) as variant xiangqi
+recognized 'xiangqi' (-1) as variant xiangqi
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + uci2wb ()
+Reset(1, 0) from gameMode 0
+recognized 'xiangqi' (-1) as variant xiangqi
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") uci2wb debug wukong
+678 >first : xboard
+protover 2
+688 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+696 <first : # 'protover' think=0 pause=0 log=0 sent=0
+696 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+696 >first : accepted setboard
+696 >first : accepted usermove
+696 >first : accepted debug
+696 >first : accepted ping
+696 >first : accepted name
+696 >first : accepted reuse
+696 >first : accepted exclude
+696 >first : accepted pause
+696 >first : accepted sigint
+696 >first : accepted sigterm
+696 >first : accepted done
+696 <first : feature option="UCI2WB debug output -check 1"
+696 >first : accepted option
+696 <first : # uci
+1871 <first : # engine said: 
+1871 <first : # engine said:   Wukong Xiangqi - UCI mode - v1.0
+1871 <first : # engine said: 
+1871 <first : # engine said: 
+1891 <first : # engine said: id name WukongJS 1.0
+1891 <first : feature myname="WukongJS 1.0 (UCI2WB)"
+1891 >first : accepted myname
+1891 <first : # engine said: id author Code Monkey King
+1891 <first : # engine said: option name Hash type spin default 16 min 4 max 128
+1892 <first : # engine said: uciok
+1892 <first : feature variants="normal,xiangqi"
+1892 >first : accepted variants
+1892 <first : feature smp=1 memory=1 done=1
+1892 >first : accepted smp
+1892 >first : accepted memory
+1892 >first : accepted done
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1892 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+1894 >first : memory 68
+1894 >first : cores 1
+1894 >first : new
+random
+1894 >first : variant xiangqi
+1894 >first : level 0 2 1
+1894 >first : post
+1894 >first : hard
+1894 >first : easy
+1894 >first : ping 1
+Impossible move , type = 0
+1896 <first : # 'memory' think=0 pause=0 log=0 sent=0
+1896 <first : # 'cores' think=0 pause=0 log=0 sent=0
+5157 <first : # 'new' think=0 pause=0 log=0 sent=0
+5157 <first : # setoption name Hash value 68
+5157 <first : # isready
+5157 <first : # engine said: Set hash table size to 68 Mb
+5177 <first : # engine said: Hash table initialized with 3565158 entries
+5177 <first : # engine said: readyok
+5177 <first : # ucinewgame
+5177 <first : # 'random' think=0 pause=0 log=0 sent=0
+5177 <first : # 'variant' think=0 pause=0 log=0 sent=0
+5177 <first : # 'level' think=0 pause=0 log=0 sent=0
+5177 <first : # 'post' think=0 pause=0 log=0 sent=0
+5177 <first : # 'hard' think=0 pause=0 log=0 sent=0
+5177 <first : # 'easy' think=0 pause=0 log=0 sent=0
+5177 <first : # 'ping' think=0 pause=0 log=0 sent=0
+5177 <first : pong 1
+5967 <first : # engine said: 
+5967 <first : # engine said: 
+5967 <first : # engine said: 9  r n b a k a b n r 
+5967 <first : # engine said: 8  . . . . . . . . . 
+5967 <first : # engine said: 7  . c . . . . . c . 
+5967 <first : # engine said: 6  p . p . p . p . p 
+5967 <first : # engine said: 5  . . . . . . . . . 
+5967 <first : # engine said: 4  . . . . . . . . . 
+5967 <first : # engine said: 3  P . P . P . P . P 
+5967 <first : # engine said: 2  . C . . . . . C . 
+5967 <first : # engine said: 1  . . . . . . . . . 
+5967 <first : # engine said: 0  R N B A K A B N R 
+5967 <first : # engine said: 
+5967 <first : # engine said:    a b c d e f g h i
+5967 <first : # engine said: 
+5967 <first : # engine said:    side:           r
+5967 <first : # engine said:    hash key:      -1866463866
+5967 <first : # engine said:    king squares:  [e0, e9]
+5967 <first : # engine said: 
+24438 >first : force
+StartChildProcess (dir=".") /home/maksim/Desktop_CMK/chess_programming/xiangqi_engines/MaxQi/MaxQi
+24463 >second: xboard
+protover 2
+24463 <first : # 'force' think=0 pause=0 log=0 sent=0
+24806 <second: tellics say     MaxQi 4.8 (F)
+24806 <second: tellics say     by H.G. Muller
+24806 <second: feature myname="MaxQi 4.8F"
+24806 >second: accepted myname
+24806 <second: feature memory=1
+24806 >second: accepted memory
+24806 <second: feature smp=1
+24806 >second: accepted smp
+24806 <second: feature setboard=0 ping=1 done=0
+24806 >second: accepted setboard
+24806 >second: accepted ping
+24806 >second: accepted done
+24806 <second: feature variants="xiangqi" done=1
+24806 >second: accepted variants
+24806 >second: accepted done
+24808 >second: memory 68
+24808 >second: cores 1
+24808 >second: new
+random
+24808 >second: variant xiangqi
+24808 >second: level 0 2 1
+24808 >second: post
+24808 >second: hard
+24808 >second: easy
+24808 >second: ping 1
+Impossible move , type = 0
+24808 >second: force
+24842 <second: Error (unknown command): cores
+24986 <second: pong 1
+New game (0): WukongJS 1.0 (UCI2WB)-MaxQi 4.8F (w)
+24992 >first : computer
+24992 >first : name MaxQi 4.8F
+24992 >second: computer
+24993 >first : black
+24993 >first : time 12000
+24993 >first : otim 12000
+24993 >first : white
+book hit = (NULL)
+24993 >first : go
+nps: w=-1, b=-1
+24993 <second: Error (unknown command): computer
+25010 <first : # 'computer' think=0 pause=0 log=0 sent=0
+25010 <first : # 'name' think=0 pause=0 log=0 sent=0
+25010 <first : # 'black' think=0 pause=0 log=0 sent=0
+25010 <first : # 'time' think=0 pause=0 log=0 sent=0
+25010 <first : # 'otim' think=0 pause=0 log=0 sent=0
+25010 <first : # 'white' think=0 pause=0 log=0 sent=0
+25010 <first : # 'go' think=0 pause=0 log=0 sent=0
+25010 <first : # start search
+25010 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves
+25010 <first : # go btime 120000 wtime 120000 winc 1000 binc 1000
+25010 <first : # engine said: 
+25010 <first : # engine said: 
+25010 <first : # engine said: 9  r n b a k a b n r 
+25010 <first : # engine said: 8  . . . . . . . . . 
+25010 <first : # engine said: 7  . c . . . . . c . 
+25010 <first : # engine said: 6  p . p . p . p . p 
+25010 <first : # engine said: 5  . . . . . . . . . 
+25010 <first : # engine said: 4  . . . . . . . . . 
+25010 <first : # engine said: 3  P . P . P . P . P 
+25010 <first : # engine said: 2  . C . . . . . C . 
+25010 <first : # engine said: 1  . . . . . . . . . 
+25010 <first : # engine said: 0  R N B A K A B N R 
+25010 <first : # engine said: 
+25010 <first : # engine said:    a b c d e f g h i
+25010 <first : # engine said: 
+25010 <first : # engine said:    side:           r
+25010 <first : # engine said:    hash key:      -1866463866
+25010 <first : # engine said:    king squares:  [e0, e9]
+25010 <first : # engine said: 
+25031 <first : # engine said: time: 120000 inc 0 start 1611960357609 stop 1611960361607 depth 64 timeset 1
+25133 <first : # engine said: info score cp 12 depth 1 nodes 137 time 101 pv b0c2 
+25133 <first :   1      12     10        137 b0c2 
+25348 <first : # engine said: info score cp 0 depth 2 nodes 1321 time 317 pv b0c2 b9c7 
+25348 <first :   2       0     31       1321 b0c2 b9c7 
+25784 <first : # engine said: info score cp 12 depth 3 nodes 7497 time 752 pv b0c2 b9c7 h0g2 
+25784 <first :   3      12     75       7497 b0c2 b9c7 h0g2 
+26112 <first : # engine said: info score cp 0 depth 4 nodes 23744 time 1079 pv h2c2 b7c7 c2c6 c7c3 
+26112 <first :   4       0    107      23744 h2c2 b7c7 c2c6 c7c3 
+26526 <first : # engine said: info score cp 12 depth 5 nodes 45899 time 1495 pv h2c2 b7c7 h0g2 h9g7 i0h0 
+26526 <first :   5      12    149      45899 h2c2 b7c7 h0g2 h9g7 i0h0 
+28928 <first : # engine said: info score cp 0 depth 6 nodes 221331 time 3897 pv h2e2 h9g7 b2c2 b7e7 h0g2 b9a7 
+28928 <first :   6       0    389     221331 h2e2 h9g7 b2c2 b7e7 h0g2 b9a7 
+29041 <first : # engine said: bestmove h2e2
+29041 <first : move h2e2
+29041 >second: time 12000
+29041 >second: otim 11695
+book hit = (NULL)
+29041 >second: h2e2
+29041 >second: black
+29041 >second: go
+29164 <first : 
+29167 <second: # root hit 0 0 0
+29167 <second: -1    440 134762562        256 h2h9
+29167 <second:  0      0 134762562        271 h2h9
+29167 <second: # root hit 3 18 ffffff88
+29167 <second: -1    440        0          1 b7b0
+29167 <second:  0      0        0          2 b7b0
+29167 <second:  1     20        0         51 b9c7
+29167 <second:  2      5        0        737 h9g7
+29167 <second:  3     23        1       3426 b7b0
+29167 <second:  4      4        7      14674 h9g7
+29366 <second:  5     16       32      67477 b7c7
+29524 <second:  6      7       48     106849 b7c7
+30775 <second:  7     11      173     490869 b7b0
+30775 <second: move b7b0
+30775 >first : time 11695
+30776 >first : otim 11926
+book hit = (NULL)
+30776 >first : usermove 30776 >first : b7b0
+30894 <first : # 'time' think=0 pause=0 log=0 sent=0
+30894 <first : # 'otim' think=0 pause=0 log=0 sent=0
+30894 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+30894 <first : # start search
+30894 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0
+30894 <first : # go btime 119260 wtime 116950 winc 1000 binc 1000
+30894 <first : # engine said: 
+30894 <first : # engine said: 
+30894 <first : # engine said: 9  r n b a k a b n r 
+30894 <first : # engine said: 8  . . . . . . . . . 
+30894 <first : # engine said: 7  . . . . . . . c . 
+30894 <first : # engine said: 6  p . p . p . p . p 
+30894 <first : # engine said: 5  . . . . . . . . . 
+30894 <first : # engine said: 4  . . . . . . . . . 
+30894 <first : # engine said: 3  P . P . P . P . P 
+30894 <first : # engine said: 2  . C . . C . . . . 
+30894 <first : # engine said: 1  . . . . . . . . . 
+30894 <first : # engine said: 0  R c B A K A B N R 
+30894 <first : # engine said: 
+30894 <first : # engine said:    a b c d e f g h i
+30894 <first : # engine said: 
+30894 <first : # engine said:    side:           r
+30894 <first : # engine said:    hash key:      1955820026
+30894 <first : # engine said:    king squares:  [e0, e9]
+30894 <first : # engine said: 
+30894 <first : # engine said: time: 119260 inc 0 start 1611960363363 stop 1611960367336 depth 64 timeset 1
+30894 <first : # engine said: info score cp 41 depth 1 nodes 62 time 0 pv a0b0 
+30894 <first :   1      41      0         62 a0b0 
+30895 <first : # engine said: info score cp 29 depth 2 nodes 140 time 1 pv a0b0 b9c7 
+30895 <first :   2      29      0        140 a0b0 b9c7 
+30895 <first : # engine said: info score cp 41 depth 3 nodes 322 time 10 pv a0b0 b9c7 h0g2 
+30895 <first :   3      41      1        322 a0b0 b9c7 h0g2 
+30895 <first : # engine said: info score cp 29 depth 4 nodes 1104 time 24 pv a0b0 b9c7 h0g2 a9b9 
+30895 <first :   4      29      2       1104 a0b0 b9c7 h0g2 a9b9 
+31168 <first : # engine said: info score cp 37 depth 5 nodes 13010 time 384 pv a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 c2c6 
+31169 <first :   5      37     38      13010 a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 c2c6 
+31377 <first : # engine said: info score cp 35 depth 6 nodes 28236 time 593 pv a0b0 h7a7 h0g2 b9c7 b2c2 g6g5 
+31378 <first :   6      35     59      28236 a0b0 h7a7 h0g2 b9c7 b2c2 g6g5 
+31878 <first : # engine said: info score cp 37 depth 7 nodes 57349 time 1090 pv a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 c2c6 
+31878 <first :   7      37    109      57349 a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 c2c6 
+33314 <first : # engine said: info score cp 41 depth 8 nodes 159791 time 2530 pv a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 b0b6 h9g7 b6c6 
+33314 <first :   8      41    253     159791 a0b0 h7a7 h0g2 b9c7 b2c2 a7a3 b0b6 h9g7 b6c6 
+34760 <first : # engine said: bestmove a0b0
+34760 <first : move a0b0
+Interrupting second
+34760 >second: time 11926
+34760 >second: otim 11396
+book hit = (NULL)
+34760 >second: a0b0
+34870 <first : 
+34871 <second: # root hit 8 -11 ffffff88
+34871 <second: -1    449      571     490871 a0b0
+34871 <second: # root hit 7 11 ffffff88
+34871 <second: -1     -2        0          1 i6i5
+34871 <second:  0    -10        0          2 i6i5
+34871 <second:  1      2        0         29 b9c7
+34871 <second:  2     16        0         61 h9g7
+34871 <second:  3     14        0        228 h7c7
+34871 <second:  4      2        1       3857 h9g7
+35000 <second:  5     11       24      59677 b9c7
+35308 <second:  6     -1       54     152163 h7a7
+36920 <second:  7    -22      216     771232 h7c7
+36923 <second: move h7c7
+36923 >first : time 11396
+36923 >first : otim 11810
+book hit = (NULL)
+36923 >first : usermove 36923 >first : h7c7
+37086 <first : # 'time' think=0 pause=0 log=0 sent=0
+37086 <first : # 'otim' think=0 pause=0 log=0 sent=0
+37086 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+37086 <first : # start search
+37086 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7
+37086 <first : # go btime 118100 wtime 113960 winc 1000 binc 1000
+37086 <first : # engine said: 
+37086 <first : # engine said: 
+37086 <first : # engine said: 9  r n b a k a b n r 
+37086 <first : # engine said: 8  . . . . . . . . . 
+37086 <first : # engine said: 7  . . c . . . . . . 
+37086 <first : # engine said: 6  p . p . p . p . p 
+37086 <first : # engine said: 5  . . . . . . . . . 
+37086 <first : # engine said: 4  . . . . . . . . . 
+37086 <first : # engine said: 3  P . P . P . P . P 
+37086 <first : # engine said: 2  . C . . C . . . . 
+37086 <first : # engine said: 1  . . . . . . . . . 
+37086 <first : # engine said: 0  . R B A K A B N R 
+37086 <first : # engine said: 
+37086 <first : # engine said:    a b c d e f g h i
+37086 <first : # engine said: 
+37086 <first : # engine said:    side:           r
+37086 <first : # engine said:    hash key:      374896909
+37086 <first : # engine said:    king squares:  [e0, e9]
+37086 <first : # engine said: 
+37086 <first : # engine said: time: 118100 inc 0 start 1611960369506 stop 1611960373441 depth 64 timeset 1
+37086 <first : # engine said: info score cp 49 depth 1 nodes 7 time 1 pv e2e6 c7c3 
+37086 <first :   1      49      0          7 e2e6 c7c3 
+37087 <first : # engine said: info score cp 49 depth 2 nodes 67 time 1 pv e2e6 c7c3 
+37087 <first :   2      49      0         67 e2e6 c7c3 
+37087 <first : # engine said: info score cp 37 depth 3 nodes 3252 time 12 pv e3e4 h9g7 e4e5 
+37087 <first :   3      37      1       3252 e3e4 h9g7 e4e5 
+37087 <first : # engine said: info score cp 39 depth 4 nodes 7879 time 64 pv e2e6 h9g7 e6e4 i9h9 
+37087 <first :   4      39      6       7879 e2e6 h9g7 e6e4 i9h9 
+37087 <first : # engine said: info score cp 41 depth 5 nodes 13055 time 127 pv e2e6 h9g7 e6f6 c7c3 g3g4 
+37087 <first :   5      41     12      13055 e2e6 h9g7 e6f6 c7c3 g3g4 
+37309 <first : # engine said: info score cp 49 depth 6 nodes 34445 time 382 pv e2e6 h9g7 e6f6 c9e7 b2e2 g6g5 
+37309 <first :   6      49     38      34445 e2e6 h9g7 e6f6 c9e7 b2e2 g6g5 
+38450 <first : # engine said: info score cp 48 depth 7 nodes 135478 time 1517 pv b2a2 h9g7 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g7e6 e2e6 c7c3 
+38450 <first :   7      48    151     135478 b2a2 h9g7 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g7e6 e2e6 c7c3 
+40524 <first : # engine said: info score cp 48 depth 8 nodes 312135 time 3596 pv b2a2 h9g7 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g7e6 e2e6 c7c3 
+40524 <first :   8      48    359     312135 b2a2 h9g7 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g7e6 e2e6 c7c3 
+40884 <first : # engine said: bestmove b2a2
+40884 <first : move b2a2
+Interrupting second
+40884 >second: time 11810
+40884 >second: otim 11100
+book hit = (NULL)
+40884 >second: b2a2
+41011 <first : 
+41013 <second: # root hit 8 22 ffffff88
+41013 <second: -1     90      612     771234 e2e6
+41013 <second:  0     10      612     771239 e2e6
+41014 <second: # root hit 3 8 ffffff88
+41014 <second: -1     90        0          1 c7c3
+41014 <second:  0    -10        0          2 c7c3
+41014 <second:  1      8        0        227 h9g7
+41014 <second:  2      8        0       1856 h9g7
+41014 <second:  3     22        1       3275 h9g7
+41014 <second:  4     13        3      12670 h9g7
+41260 <second:  5     -3       37      83819 c7c3
+41576 <second:  6    -22       68     172096 c7c3
+42163 <second:  7     -7      127     382687 c7c3
+43975 <second:  8    -17      308    1013608 c7c3
+43985 <second: move c7c3
+43985 >first : time 11100
+43985 >first : otim 11600
+book hit = (NULL)
+43985 >first : usermove 43985 >first : c7c3
+44144 <first : # 'time' think=0 pause=0 log=0 sent=0
+44145 <first : # 'otim' think=0 pause=0 log=0 sent=0
+44145 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+44145 <first : # start search
+44145 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3
+44145 <first : # go btime 116000 wtime 111000 winc 1000 binc 1000
+44145 <first : # engine said: 
+44145 <first : # engine said: 
+44145 <first : # engine said: 9  r n b a k a b n r 
+44145 <first : # engine said: 8  . . . . . . . . . 
+44145 <first : # engine said: 7  . . . . . . . . . 
+44145 <first : # engine said: 6  p . p . p . p . p 
+44145 <first : # engine said: 5  . . . . . . . . . 
+44145 <first : # engine said: 4  . . . . . . . . . 
+44145 <first : # engine said: 3  P . c . P . P . P 
+44145 <first : # engine said: 2  C . . . C . . . . 
+44145 <first : # engine said: 1  . . . . . . . . . 
+44145 <first : # engine said: 0  . R B A K A B N R 
+44145 <first : # engine said: 
+44145 <first : # engine said:    a b c d e f g h i
+44145 <first : # engine said: 
+44145 <first : # engine said:    side:           r
+44145 <first : # engine said:    hash key:      51573862
+44145 <first : # engine said:    king squares:  [e0, e9]
+44145 <first : # engine said: 
+44145 <first : # engine said: time: 116000 inc 0 start 1611960376565 stop 1611960380430 depth 64 timeset 1
+44145 <first : # engine said: info score cp 39 depth 1 nodes 117 time 1 pv e2e6 c3g3 e6a6 g3a3 a6g6 
+44145 <first :   1      39      0        117 e2e6 c3g3 e6a6 g3a3 a6g6 
+44145 <first : # engine said: info score cp 39 depth 2 nodes 478 time 2 pv e2e6 c3g3 e6a6 g3a3 a6g6 
+44145 <first :   2      39      0        478 e2e6 c3g3 e6a6 g3a3 a6g6 
+44145 <first : # engine said: info score cp 29 depth 3 nodes 4845 time 34 pv g3g4 h9g7 h0g2 
+44145 <first :   3      29      3       4845 g3g4 h9g7 h0g2 
+44145 <first : # engine said: info score cp 57 depth 4 nodes 13987 time 107 pv b0b6 c3g3 b6c6 b9a7 c6e6 
+44145 <first :   4      57     10      13987 b0b6 c3g3 b6c6 b9a7 c6e6 
+44341 <first : # engine said: info score cp 57 depth 5 nodes 32024 time 355 pv b0b6 c3g3 b6c6 b9a7 c6e6 
+44342 <first :   5      57     35      32024 b0b6 c3g3 b6c6 b9a7 c6e6 
+44603 <first : # engine said: info score cp 69 depth 6 nodes 55443 time 616 pv b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 c3g3 e6i6 
+44603 <first :   6      69     61      55443 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 c3g3 e6i6 
+45050 <first : # engine said: info score cp 69 depth 7 nodes 91222 time 1058 pv b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 c3g3 e6i6 
+45050 <first :   7      69    105      91222 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 c3g3 e6i6 
+46121 <first : # engine said: info score cp 67 depth 8 nodes 167734 time 2135 pv b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g6g5 
+46121 <first :   8      67    213     167734 b0b6 b9a7 a2a6 a9b9 b6b9 a7b9 a6e6 g6g5 
+47878 <first : # engine said: bestmove b0b6
+47878 <first : move b0b6
+Interrupting second
+47878 >second: time 11600
+47878 >second: otim 10811
+book hit = (NULL)
+47878 >second: b0b6
+48051 <first : 
+48051 <second: # root hit 9 17 ffffff88
+48051 <second: -1    439      699    1013610 b0b9
+48051 <second:  0    -90      699    1013625 b0b9
+48052 <second: # root hit 3 90 ffffff88
+48052 <second: -1     90        0          1 c3g3
+48052 <second:  0     90        0          2 c3g3
+48052 <second:  1     90        0          3 c3g3
+48052 <second:  2     90        0        136 c3g3
+48052 <second:  3     41        0        784 c3g3
+48052 <second:  4     41        2       4858 c3g3
+48052 <second:  5     10        9      14043 c3g3
+48105 <second:  6      7       22      36947 c3g3
+48501 <second:  7    -22       62     174676 c3g3
+48913 <second:  8    -22      103     323529 c3g3
+54502 <second:  9    -68      662    2443073 c3g3
+54502 <second: move c3g3
+54502 >first : time 10811
+54502 >first : otim 11037
+book hit = (NULL)
+54502 >first : usermove 54502 >first : c3g3
+54614 <first : # 'time' think=0 pause=0 log=0 sent=0
+54614 <first : # 'otim' think=0 pause=0 log=0 sent=0
+54614 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+54614 <first : # start search
+54614 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3
+54614 <first : # go btime 110370 wtime 108110 winc 1000 binc 1000
+54614 <first : # engine said: 
+54614 <first : # engine said: 
+54614 <first : # engine said: 9  r n b a k a b n r 
+54614 <first : # engine said: 8  . . . . . . . . . 
+54614 <first : # engine said: 7  . . . . . . . . . 
+54614 <first : # engine said: 6  p R p . p . p . p 
+54614 <first : # engine said: 5  . . . . . . . . . 
+54614 <first : # engine said: 4  . . . . . . . . . 
+54614 <first : # engine said: 3  P . . . P . c . P 
+54614 <first : # engine said: 2  C . . . C . . . . 
+54614 <first : # engine said: 1  . . . . . . . . . 
+54614 <first : # engine said: 0  . . B A K A B N R 
+54614 <first : # engine said: 
+54614 <first : # engine said:    a b c d e f g h i
+54614 <first : # engine said: 
+54614 <first : # engine said:    side:           r
+54614 <first : # engine said:    hash key:      -1102633962
+54614 <first : # engine said:    king squares:  [e0, e9]
+54614 <first : # engine said: 
+54614 <first : # engine said: time: 110370 inc 0 start 1611960387090 stop 1611960390767 depth 64 timeset 1
+54614 <first : # engine said: info score cp 27 depth 1 nodes 124 time 0 pv e2e6 g3a3 a2a6 
+54614 <first :   1      27      0        124 e2e6 g3a3 a2a6 
+54615 <first : # engine said: info score cp 59 depth 2 nodes 485 time 1 pv b6c6 c9e7 e2e6 
+54615 <first :   2      59      0        485 b6c6 c9e7 e2e6 
+54615 <first : # engine said: info score cp 59 depth 3 nodes 1106 time 7 pv b6c6 c9e7 e2e6 
+54615 <first :   3      59      0       1106 b6c6 c9e7 e2e6 
+54615 <first : # engine said: info score cp 75 depth 4 nodes 5526 time 30 pv b6c6 c9e7 e2e6 f9e8 e6a6 g3a3 c6g6 
+54615 <first :   4      75      3       5526 b6c6 c9e7 e2e6 f9e8 e6a6 g3a3 c6g6 
+54615 <first : # engine said: info score cp 69 depth 5 nodes 12248 time 83 pv b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 
+54615 <first :   5      69      8      12248 b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 
+54993 <first : # engine said: info score cp 75 depth 6 nodes 43981 time 481 pv b6c6 c9e7 e2e6 f9e8 e6a6 g3a3 c6g6 
+54993 <first :   6      75     48      43981 b6c6 c9e7 e2e6 f9e8 e6a6 g3a3 c6g6 
+55652 <first : # engine said: info score cp 69 depth 7 nodes 95017 time 1141 pv b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 h0g2 h9g7 
+55652 <first :   7      69    114      95017 b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 h0g2 h9g7 
+57976 <first : # engine said: info score cp 73 depth 8 nodes 288712 time 3464 pv b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 h0g2 h9g7 e3e4 
+57976 <first :   8      73    346     288712 b6c6 c9e7 e2e6 f9e8 e6a6 g6g5 h0g2 h9g7 e3e4 
+58213 <first : # engine said: bestmove b6c6
+58213 <first : move b6c6
+Interrupting second
+58214 >second: time 11037
+58214 >second: otim 10540
+book hit = (NULL)
+58214 >second: b6c6
+58316 <first : 
+58316 <second: # root hit 10 68 ffffff88
+58316 <second: -1    439     1033    2443075 b6b9
+58317 <second: # root hit 9 -38 ffffff88
+58317 <second: -1     90        0          1 g3a3
+58317 <second:  0     90        0          2 g3a3
+58317 <second:  1      8        0         19 g9e7
+58317 <second:  2      8        0         42 g9e7
+58317 <second:  3    -38        0        979 g3a3
+58317 <second:  4    -38        0       1453 g3a3
+58317 <second:  5    -38        1       4246 g3a3
+58317 <second:  6    -38        2       6125 g3a3
+58317 <second:  7    -38        4      11476 g3a3
+59592 <second:  8    -60      135     421249 g3a3
+66582 <second:  9    -69      835    2744292 h9g7
+66597 <second: move h9g7
+66597 >first : time 10540
+66597 >first : otim 10299
+book hit = (NULL)
+66597 >first : usermove 66597 >first : h9g7
+66778 <first : # 'time' think=0 pause=0 log=0 sent=0
+66778 <first : # 'otim' think=0 pause=0 log=0 sent=0
+66778 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+66778 <first : # start search
+66778 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7
+66778 <first : # go btime 102990 wtime 105400 winc 1000 binc 1000
+66778 <first : # engine said: 
+66778 <first : # engine said: 
+66778 <first : # engine said: 9  r n b a k a b . r 
+66778 <first : # engine said: 8  . . . . . . . . . 
+66778 <first : # engine said: 7  . . . . . . n . . 
+66778 <first : # engine said: 6  p . R . p . p . p 
+66778 <first : # engine said: 5  . . . . . . . . . 
+66778 <first : # engine said: 4  . . . . . . . . . 
+66778 <first : # engine said: 3  P . . . P . c . P 
+66778 <first : # engine said: 2  C . . . C . . . . 
+66778 <first : # engine said: 1  . . . . . . . . . 
+66778 <first : # engine said: 0  . . B A K A B N R 
+66778 <first : # engine said: 
+66778 <first : # engine said:    a b c d e f g h i
+66778 <first : # engine said: 
+66778 <first : # engine said:    side:           r
+66778 <first : # engine said:    hash key:      -1781200211
+66778 <first : # engine said:    king squares:  [e0, e9]
+66778 <first : # engine said: 
+66778 <first : # engine said: time: 102990 inc 0 start 1611960399179 stop 1611960402610 depth 64 timeset 1
+66778 <first : # engine said: info score cp 98 depth 1 nodes 101 time 1 pv c6c9 g3a3 a2a6 a9a6 c9b9 
+66778 <first :   1      98      0        101 c6c9 g3a3 a2a6 a9a6 c9b9 
+66779 <first : # engine said: info score cp 98 depth 2 nodes 180 time 1 pv c6c9 g3a3 a2a6 a9a6 c9b9 
+66779 <first :   2      98      0        180 c6c9 g3a3 a2a6 a9a6 c9b9 
+66779 <first : # engine said: info score cp 109 depth 3 nodes 916 time 4 pv c6c9 g3a3 h0g2 
+66779 <first :   3     109      0        916 c6c9 g3a3 h0g2 
+66779 <first : # engine said: info score cp 101 depth 4 nodes 3401 time 26 pv c6c9 g3a3 c9c6 b9d8 c6a6 a9a6 a2a6 
+66779 <first :   4     101      2       3401 c6c9 g3a3 c9c6 b9d8 c6a6 a9a6 a2a6 
+66779 <first : # engine said: info score cp 107 depth 5 nodes 9674 time 80 pv c6c9 g3a3 h0g2 i9h9 i0i1 
+66779 <first :   5     107      8       9674 c6c9 g3a3 h0g2 i9h9 i0i1 
+66836 <first : # engine said: info score cp 103 depth 6 nodes 19624 time 234 pv c6c9 g3a3 h0g2 i9h9 g2f4 g9e7 
+66836 <first :   6     103     23      19624 c6c9 g3a3 h0g2 i9h9 g2f4 g9e7 
+67288 <first : # engine said: info score cp 109 depth 7 nodes 56335 time 688 pv c6c9 g3a3 h0g2 i9h9 g2f4 g9e7 c9c8 
+67288 <first :   7     109     68      56335 c6c9 g3a3 h0g2 i9h9 g2f4 g9e7 c9c8 
+68872 <first : # engine said: info score cp 121 depth 8 nodes 203504 time 2272 pv c6c9 g3a3 h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+68872 <first :   8     121    227     203504 c6c9 g3a3 h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+70039 <first : # engine said: bestmove c6c9
+70039 <first : move c6c9
+Interrupting second
+70039 >second: time 10299
+70039 >second: otim 10296
+book hit = (NULL)
+70039 >second: c6c9
+70192 <first : 
+70194 <second: # root hit 3 32 ffffff88
+70194 <second: -1    139     1182    2744305 c6c9
+70194 <second: # root hit 3 -32 ffffff88
+70194 <second: -1     90        0          1 g3a3
+70194 <second:  0    -32        0          2 g3a3
+70194 <second:  1    -32        0          3 g3a3
+70194 <second:  2    -32        0         46 g3a3
+70195 <second:  3    -32        1        444 g3a3
+70195 <second:  4    -42        2       4027 g3a3
+70195 <second:  5    -32        5      13112 g3a3
+70456 <second:  6    -45       41      96121 g3a3
+71179 <second:  7    -47      113     335554 g3a3
+73338 <second:  8    -63      329    1073437 g3a3
+73346 <second: move g3a3
+73346 >first : time 10296
+73346 >first : otim 10068
+book hit = (NULL)
+73346 >first : usermove 73346 >first : g3a3
+73494 <first : # 'time' think=0 pause=0 log=0 sent=0
+73494 <first : # 'otim' think=0 pause=0 log=0 sent=0
+73494 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+73494 <first : # start search
+73494 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3
+73494 <first : # go btime 100680 wtime 102960 winc 1000 binc 1000
+73494 <first : # engine said: 
+73494 <first : # engine said: 
+73494 <first : # engine said: 9  r n R a k a b . r 
+73494 <first : # engine said: 8  . . . . . . . . . 
+73494 <first : # engine said: 7  . . . . . . n . . 
+73494 <first : # engine said: 6  p . . . p . p . p 
+73494 <first : # engine said: 5  . . . . . . . . . 
+73494 <first : # engine said: 4  . . . . . . . . . 
+73494 <first : # engine said: 3  c . . . P . . . P 
+73494 <first : # engine said: 2  C . . . C . . . . 
+73494 <first : # engine said: 1  . . . . . . . . . 
+73494 <first : # engine said: 0  . . B A K A B N R 
+73494 <first : # engine said: 
+73494 <first : # engine said:    a b c d e f g h i
+73494 <first : # engine said: 
+73494 <first : # engine said:    side:           r
+73494 <first : # engine said:    hash key:      208409170
+73494 <first : # engine said:    king squares:  [e0, e9]
+73494 <first : # engine said: 
+73494 <first : # engine said: time: 100680 inc 0 start 1611960405927 stop 1611960409281 depth 64 timeset 1
+73494 <first : # engine said: info score cp 109 depth 1 nodes 109 time 0 pv h0g2 
+73494 <first :   1     109      0        109 h0g2 
+73495 <first : # engine said: info score cp 101 depth 2 nodes 823 time 7 pv c9c6 b9d8 c6a6 a9a6 a2a6 
+73495 <first :   2     101      0        823 c9c6 b9d8 c6a6 a9a6 a2a6 
+73495 <first : # engine said: info score cp 107 depth 3 nodes 2377 time 15 pv h0g2 i9h9 i0i1 
+73495 <first :   3     107      1       2377 h0g2 i9h9 i0i1 
+73495 <first : # engine said: info score cp 103 depth 4 nodes 5804 time 45 pv h0g2 i9h9 g2f4 g9e7 
+73495 <first :   4     103      4       5804 h0g2 i9h9 g2f4 g9e7 
+73598 <first : # engine said: info score cp 107 depth 5 nodes 21063 time 232 pv h0g2 i9h9 g2f4 g9e7 c9c6 
+73598 <first :   5     107     23      21063 h0g2 i9h9 g2f4 g9e7 c9c6 
+73706 <first : # engine said: info score cp 121 depth 6 nodes 28752 time 356 pv h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+73706 <first :   6     121     35      28752 h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+73946 <first : # engine said: info score cp 121 depth 7 nodes 47867 time 597 pv h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+73946 <first :   7     121     59      47867 h0g2 i9h9 g2f4 g6g5 f4e6 g7e6 e2e6 
+76038 <first : # engine said: info score cp 121 depth 8 nodes 254327 time 2689 pv h0g2 g6g5 c9c3 a3a4 c3c4 a4a3 c4a4 a3d3 a2a6 
+76038 <first :   8     121    268     254327 h0g2 g6g5 c9c3 a3a4 c3c4 a4a3 c4a4 a3d3 a2a6 
+76735 <first : # engine said: bestmove h0g2
+76735 <first : move h0g2
+Interrupting second
+76736 >second: time 10068
+76736 >second: otim 10057
+book hit = (NULL)
+76736 >second: h0g2
+76890 <first : 
+76890 <second: # root hit 9 63 ffffff88
+76890 <second: -1    439      669    1073441 c9b9
+76890 <second:  0    -40      669    1073448 c9b9
+76891 <second: # root hit 3 41 ffffff88
+76891 <second: -1     90        0          1 a3i3
+76891 <second:  0     40        0          2 a3i3
+76891 <second:  1     41        0          3 g7e8
+76891 <second:  2     41        0        110 g7e8
+76891 <second:  3     34        0       1683 g6g5
+76891 <second:  4     32        3       9481 g6g5
+76916 <second:  5    -17       17      36270 g6g5
+77104 <second:  6     28       36      81765 g6g5
+80566 <second:  7    -42      383    1152554 g9e7
+80569 <second: move g9e7
+80569 >first : time 10057
+80569 >first : otim 9785
+book hit = (NULL)
+80569 >first : usermove 80569 >first : g9e7
+80717 <first : # 'time' think=0 pause=0 log=0 sent=0
+80717 <first : # 'otim' think=0 pause=0 log=0 sent=0
+80717 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+80717 <first : # start search
+80717 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7
+80717 <first : # go btime 97850 wtime 100570 winc 1000 binc 1000
+80717 <first : # engine said: 
+80717 <first : # engine said: 
+80717 <first : # engine said: 9  r n R a k a . . r 
+80717 <first : # engine said: 8  . . . . . . . . . 
+80717 <first : # engine said: 7  . . . . b . n . . 
+80717 <first : # engine said: 6  p . . . p . p . p 
+80717 <first : # engine said: 5  . . . . . . . . . 
+80717 <first : # engine said: 4  . . . . . . . . . 
+80717 <first : # engine said: 3  c . . . P . . . P 
+80717 <first : # engine said: 2  C . . . C . N . . 
+80717 <first : # engine said: 1  . . . . . . . . . 
+80717 <first : # engine said: 0  . . B A K A B . R 
+80717 <first : # engine said: 
+80717 <first : # engine said:    a b c d e f g h i
+80717 <first : # engine said: 
+80717 <first : # engine said:    side:           r
+80717 <first : # engine said:    hash key:      642987735
+80717 <first : # engine said:    king squares:  [e0, e9]
+80717 <first : # engine said: 
+80717 <first : # engine said: time: 97850 inc 0 start 1611960413149 stop 1611960416409 depth 64 timeset 1
+80717 <first : # engine said: info score cp 115 depth 1 nodes 91 time 0 pv c9c8 
+80717 <first :   1     115      0         91 c9c8 
+80717 <first : # engine said: info score cp 127 depth 2 nodes 512 time 1 pv c9c6 i9h9 a2a6 
+80717 <first :   2     127      0        512 c9c6 i9h9 a2a6 
+80718 <first : # engine said: info score cp 127 depth 3 nodes 1414 time 12 pv c9c6 i9h9 a2a6 
+80718 <first :   3     127      1       1414 c9c6 i9h9 a2a6 
+80718 <first : # engine said: info score cp 129 depth 4 nodes 4752 time 42 pv c9c3 a3a4 g2f4 g6g5 f4e6 g7e6 e2e6 
+80718 <first :   4     129      4       4752 c9c3 a3a4 g2f4 g6g5 f4e6 g7e6 e2e6 
+80718 <first : # engine said: info score cp 129 depth 5 nodes 9581 time 73 pv c9c3 a3a4 g2f4 g6g5 f4e6 g7e6 e2e6 
+80718 <first :   5     129      7       9581 c9c3 a3a4 g2f4 g6g5 f4e6 g7e6 e2e6 
+80992 <first : # engine said: info score cp 129 depth 6 nodes 33041 time 407 pv c9c3 a3a5 g2f4 i9h9 f4e6 g7e6 e2e6 
+80992 <first :   6     129     40      33041 c9c3 a3a5 g2f4 i9h9 f4e6 g7e6 e2e6 
+81378 <first : # engine said: info score cp 131 depth 7 nodes 59416 time 808 pv c9c3 a3a5 g2f4 g6g5 f4e6 g7e6 e2e6 
+81378 <first :   7     131     80      59416 c9c3 a3a5 g2f4 g6g5 f4e6 g7e6 e2e6 
+83834 <first : # engine said: bestmove c9c3
+83834 <first : move c9c3
+Interrupting second
+83834 >second: time 9785
+83834 >second: otim 9830
+book hit = (NULL)
+83834 >second: c9c3
+83954 <first : 
+83954 <second: # root hit 8 42 ffffff88
+83954 <second: -1    439      709    1152556 c9b9
+83955 <second:  0    -40      709    1152557 c9b9
+83955 <second: # root hit 7 -43 ffffff88
+83955 <second: -1     90        0          1 a3e3
+83955 <second:  0     40        0          2 a3e3
+83955 <second:  1     40        0          9 a3a5
+83955 <second:  2     28        0         24 a3a5
+83955 <second:  3    -43        0         78 a3a5
+83955 <second:  4    -43        0         97 a3a5
+83955 <second:  5    -43        0       2859 a3a5
+83955 <second:  6    -51        5      10626 a3a5
+84558 <second:  7    -70       72     242594 a3a4
+84818 <second:  8    -69       98     354954 a3a4
+85721 <second:  9    -80      188     735973 a3a4
+85721 <second: move a3a4
+85721 >first : time 9830
+85721 >first : otim 9696
+book hit = (NULL)
+85721 >first : usermove 85721 >first : a3a4
+85848 <first : # 'time' think=0 pause=0 log=0 sent=0
+85848 <first : # 'otim' think=0 pause=0 log=0 sent=0
+85848 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+85848 <first : # start search
+85848 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4
+85848 <first : # go btime 96960 wtime 98300 winc 1000 binc 1000
+85848 <first : # engine said: 
+85848 <first : # engine said: 
+85848 <first : # engine said: 9  r n . a k a . . r 
+85848 <first : # engine said: 8  . . . . . . . . . 
+85848 <first : # engine said: 7  . . . . b . n . . 
+85848 <first : # engine said: 6  p . . . p . p . p 
+85848 <first : # engine said: 5  . . . . . . . . . 
+85848 <first : # engine said: 4  c . . . . . . . . 
+85848 <first : # engine said: 3  . . R . P . . . P 
+85848 <first : # engine said: 2  C . . . C . N . . 
+85848 <first : # engine said: 1  . . . . . . . . . 
+85848 <first : # engine said: 0  . . B A K A B . R 
+85848 <first : # engine said: 
+85848 <first : # engine said:    a b c d e f g h i
+85848 <first : # engine said: 
+85848 <first : # engine said:    side:           r
+85848 <first : # engine said:    hash key:      619903799
+85848 <first : # engine said:    king squares:  [e0, e9]
+85848 <first : # engine said: 
+85848 <first : # engine said: time: 96960 inc 0 start 1611960418301 stop 1611960421531 depth 64 timeset 1
+85848 <first : # engine said: info score cp 117 depth 1 nodes 93 time 0 pv i0h0 
+85848 <first :   1     117      0         93 i0h0 
+85849 <first : # engine said: info score cp 129 depth 2 nodes 795 time 2 pv g2f4 g6g5 f4e6 g7e6 e2e6 
+85849 <first :   2     129      0        795 g2f4 g6g5 f4e6 g7e6 e2e6 
+85849 <first : # engine said: info score cp 129 depth 3 nodes 1564 time 16 pv g2f4 g6g5 f4e6 g7e6 e2e6 
+85849 <first :   3     129      1       1564 g2f4 g6g5 f4e6 g7e6 e2e6 
+85849 <first : # engine said: info score cp 135 depth 4 nodes 7672 time 97 pv g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+85849 <first :   4     135      9       7672 g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+86060 <first : # engine said: info score cp 135 depth 5 nodes 20220 time 336 pv g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+86060 <first :   5     135     33      20220 g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+86365 <first : # engine said: info score cp 135 depth 6 nodes 43690 time 626 pv g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+86365 <first :   6     135     62      43690 g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+87009 <first : # engine said: info score cp 135 depth 7 nodes 93964 time 1285 pv g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+87009 <first :   7     135    128      93964 g2f4 g6g5 c3c4 a4a3 f4e6 g7e6 e2e6 
+88800 <first : # engine said: info score cp 143 depth 8 nodes 247731 time 3077 pv g2f4 a9a7 c3c4 a4a3 f4e6 i9g9 i0h0 g7e6 e2e6 
+88800 <first :   8     143    307     247731 g2f4 a9a7 c3c4 a4a3 f4e6 i9g9 i0h0 g7e6 e2e6 
+89033 <first : # engine said: bestmove g2f4
+89034 <first : move g2f4
+Interrupting second
+89034 >second: time 9696
+89034 >second: otim 9599
+book hit = (NULL)
+89034 >second: g2f4
+89259 <first : 
+89260 <second: # root hit 10 80 ffffff88
+89260 <second: -1     90      520     735975 e2e6
+89260 <second:  0    -40      520     735984 e2e6
+89262 <second: # root hit 9 -81 ffffff88
+89262 <second: -1     -2        0          1 i6i5
+89262 <second:  0     40        0          2 i6i5
+89262 <second:  1    -53        0         23 i6i5
+89262 <second:  2    -53        0         35 i6i5
+89262 <second:  3    -57        0        377 a9a8
+89262 <second:  4    -62        0        466 a9a8
+89262 <second:  5    -71        3       8261 a9a7
+89262 <second:  6    -71        3       9493 a9a7
+89331 <second:  7    -71       29      50376 a9a7
+90919 <second:  8    -94      188     563937 a9a7
+90935 <second: move a9a7
+90935 >first : time 9599
+90935 >first : otim 9606
+book hit = (NULL)
+90935 >first : usermove 90935 >first : a9a7
+91069 <first : # 'time' think=0 pause=0 log=0 sent=0
+91069 <first : # 'otim' think=0 pause=0 log=0 sent=0
+91069 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+91069 <first : # start search
+91069 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7
+91069 <first : # go btime 96060 wtime 95990 winc 1000 binc 1000
+91069 <first : # engine said: 
+91069 <first : # engine said: 
+91069 <first : # engine said: 9  . n . a k a . . r 
+91069 <first : # engine said: 8  . . . . . . . . . 
+91069 <first : # engine said: 7  r . . . b . n . . 
+91069 <first : # engine said: 6  p . . . p . p . p 
+91069 <first : # engine said: 5  . . . . . . . . . 
+91069 <first : # engine said: 4  c . . . . N . . . 
+91069 <first : # engine said: 3  . . R . P . . . P 
+91069 <first : # engine said: 2  C . . . C . . . . 
+91069 <first : # engine said: 1  . . . . . . . . . 
+91069 <first : # engine said: 0  . . B A K A B . R 
+91069 <first : # engine said: 
+91069 <first : # engine said:    a b c d e f g h i
+91069 <first : # engine said: 
+91069 <first : # engine said:    side:           r
+91069 <first : # engine said:    hash key:      -1356553123
+91069 <first : # engine said:    king squares:  [e0, e9]
+91069 <first : # engine said: 
+91069 <first : # engine said: time: 96060 inc 0 start 1611960423515 stop 1611960426715 depth 64 timeset 1
+91069 <first : # engine said: info score cp 137 depth 1 nodes 95 time 0 pv f4g6 
+91069 <first :   1     137      0         95 f4g6 
+91070 <first : # engine said: info score cp 141 depth 2 nodes 430 time 1 pv c3c4 a6a5 f4g6 
+91070 <first :   2     141      0        430 c3c4 a6a5 f4g6 
+91070 <first : # engine said: info score cp 141 depth 3 nodes 1704 time 5 pv c3c4 a6a5 f4g6 
+91070 <first :   3     141      0       1704 c3c4 a6a5 f4g6 
+91070 <first : # engine said: info score cp 143 depth 4 nodes 3299 time 25 pv f4e6 g7e6 e2e6 e7g9 c3c8 
+91070 <first :   4     143      2       3299 f4e6 g7e6 e2e6 e7g9 c3c8 
+91156 <first : # engine said: info score cp 143 depth 5 nodes 14975 time 210 pv f4g6 i9h9 c3c4 a4a5 i0i1 
+91156 <first :   5     143     21      14975 f4g6 i9h9 c3c4 a4a5 i0i1 
+91382 <first : # engine said: info score cp 145 depth 6 nodes 35834 time 431 pv f4h5 i9g9 h5g7 g9g7 e2e6 e7g9 e6i6 
+91382 <first :   6     145     43      35834 f4h5 i9g9 h5g7 g9g7 e2e6 e7g9 e6i6 
+92225 <first : # engine said: info score cp 147 depth 7 nodes 108859 time 1288 pv f4g6 b9d8 c3c4 a4a5 i0h0 i9i8 h0h6 
+92225 <first :   7     147    128     108859 f4g6 b9d8 c3c4 a4a5 i0h0 i9i8 h0h6 
+94145 <first : # engine said: bestmove f4g6
+94145 <first : move f4g6
+Interrupting second
+94145 >second: time 9606
+94145 >second: otim 9378
+book hit = (NULL)
+94145 >second: f4g6
+94251 <first : 
+94251 <second: # root hit 9 94 ffffff88
+94252 <second: -1     91      511     563941 f4g6
+94252 <second: # root hit 8 -95 ffffff88
+94252 <second: -1     -2        0          1 i6i5
+94252 <second:  0    -60        0          2 i6i5
+94252 <second:  1    -47        0          7 b9d8
+94252 <second:  2    -52        0         29 b9d8
+94252 <second:  3    -59        0        473 b9d8
+94252 <second:  4    -67        0        619 b9d8
+94252 <second:  5    -95        0       4205 e7g5
+94252 <second:  6    -95        0       4272 e7g5
+95718 <second:  7   -140      156     505377 b9d8
+95718 <second: move b9d8
+95718 >first : time 9378
+95718 >first : otim 9549
+book hit = (NULL)
+95718 >first : usermove 95718 >first : b9d8
+95947 <first : # 'time' think=0 pause=0 log=0 sent=0
+95978 <first : # 'otim' think=0 pause=0 log=0 sent=0
+95978 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+95978 <first : # start search
+95978 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8
+95978 <first : # go btime 95490 wtime 93780 winc 1000 binc 1000
+95978 <first : # engine said: 
+95978 <first : # engine said: 
+95978 <first : # engine said: 9  . . . a k a . . r 
+95978 <first : # engine said: 8  . . . n . . . . . 
+95978 <first : # engine said: 7  r . . . b . n . . 
+95978 <first : # engine said: 6  p . . . p . N . p 
+95978 <first : # engine said: 5  . . . . . . . . . 
+95978 <first : # engine said: 4  c . . . . . . . . 
+95978 <first : # engine said: 3  . . R . P . . . P 
+95978 <first : # engine said: 2  C . . . C . . . . 
+95978 <first : # engine said: 1  . . . . . . . . . 
+95978 <first : # engine said: 0  . . B A K A B . R 
+95978 <first : # engine said: 
+95978 <first : # engine said:    a b c d e f g h i
+95978 <first : # engine said: 
+95978 <first : # engine said:    side:           r
+95978 <first : # engine said:    hash key:      -1551978130
+95978 <first : # engine said:    king squares:  [e0, e9]
+95978 <first : # engine said: 
+95978 <first : # engine said: time: 95490 inc 0 start 1611960428298 stop 1611960431479 depth 64 timeset 1
+95978 <first : # engine said: info score cp 141 depth 1 nodes 116 time 0 pv i0h0 
+95978 <first :   1     141      0        116 i0h0 
+95978 <first : # engine said: info score cp 137 depth 2 nodes 830 time 2 pv c3c4 a4a5 
+95978 <first :   2     137      0        830 c3c4 a4a5 
+95979 <first : # engine said: info score cp 147 depth 3 nodes 1368 time 4 pv c3c4 a4a5 i0i1 
+95979 <first :   3     147      0       1368 c3c4 a4a5 i0i1 
+95979 <first : # engine said: info score cp 171 depth 4 nodes 6073 time 87 pv a2d2 d8f7 e2e6 e7g9 i0i1 
+95979 <first :   4     171      8       6073 a2d2 d8f7 e2e6 e7g9 i0i1 
+96053 <first : # engine said: info score cp 171 depth 5 nodes 18064 time 334 pv a2d2 d8f7 e2e6 e7g9 g6e7 f9e8 e7c8 
+96053 <first :   5     171     33      18064 a2d2 d8f7 e2e6 e7g9 g6e7 f9e8 e7c8 
+96255 <first : # engine said: info score cp 173 depth 6 nodes 33632 time 536 pv a2d2 d8f7 e2e6 f9e8 c3c4 a4a0 i0h0 
+96255 <first :   6     173     53      33632 a2d2 d8f7 e2e6 f9e8 c3c4 a4a0 i0h0 
+96981 <first : # engine said: info score cp 165 depth 7 nodes 94556 time 1262 pv a2d2 d8f7 e2e6 f9e8 c3c6 f7g5 e6a6 i9f9 
+96981 <first :   7     165    126      94556 a2d2 d8f7 e2e6 f9e8 c3c6 f7g5 e6a6 i9f9 
+98919 <first : # engine said: bestmove a2d2
+98919 <first : move a2d2
+Interrupting second
+98919 >second: time 9549
+98919 >second: otim 9158
+book hit = (NULL)
+98919 >second: a2d2
+99061 <first : 
+99061 <second: # root hit 8 140 ffffff88
+99061 <second: -1    141      477     505379 g6e7
+99061 <second:  0     60      477     505384 g6e7
+99061 <second: # root hit 3 -57 ffffff88
+99061 <second: -1     -2        0          1 i6i5
+99061 <second:  0    -60        0          2 i6i5
+99062 <second:  1    -57        0          3 i6i5
+99062 <second:  2    -63        0         30 i6i5
+99062 <second:  3   -138        3       5237 d8b9
+99062 <second:  4   -138        3       5790 d8b9
+99062 <second:  5   -138        6       9731 d8b9
+99347 <second:  6   -173       42      82744 d8f7
+100034 <second:  7   -195      110     305777 d8f7
+101314 <second:  8   -202      238     725065 a7d7
+101331 <second: move a7d7
+101331 >first : time 9158
+101331 >first : otim 9408
+book hit = (NULL)
+101331 >first : usermove 101331 >first : a7d7
+101507 <first : # 'time' think=0 pause=0 log=0 sent=0
+101507 <first : # 'otim' think=0 pause=0 log=0 sent=0
+101507 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+101507 <first : # start search
+101507 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7
+101507 <first : # go btime 94080 wtime 91580 winc 1000 binc 1000
+101507 <first : # engine said: 
+101507 <first : # engine said: 
+101507 <first : # engine said: 9  . . . a k a . . r 
+101507 <first : # engine said: 8  . . . n . . . . . 
+101507 <first : # engine said: 7  . . . r b . n . . 
+101507 <first : # engine said: 6  p . . . p . N . p 
+101507 <first : # engine said: 5  . . . . . . . . . 
+101507 <first : # engine said: 4  c . . . . . . . . 
+101507 <first : # engine said: 3  . . R . P . . . P 
+101507 <first : # engine said: 2  . . . C C . . . . 
+101507 <first : # engine said: 1  . . . . . . . . . 
+101507 <first : # engine said: 0  . . B A K A B . R 
+101507 <first : # engine said: 
+101507 <first : # engine said:    a b c d e f g h i
+101507 <first : # engine said: 
+101507 <first : # engine said:    side:           r
+101507 <first : # engine said:    hash key:      -1612092285
+101507 <first : # engine said:    king squares:  [e0, e9]
+101507 <first : # engine said: 
+101507 <first : # engine said: time: 94080 inc 0 start 1611960433911 stop 1611960437045 depth 64 timeset 1
+101507 <first : # engine said: info score cp 222 depth 1 nodes 94 time 1 pv d2d8 d7d8 g6e7 
+101507 <first :   1     222      0         94 d2d8 d7d8 g6e7 
+101508 <first : # engine said: info score cp 222 depth 2 nodes 186 time 1 pv d2d8 d7d8 g6e7 
+101508 <first :   2     222      0        186 d2d8 d7d8 g6e7 
+101508 <first : # engine said: info score cp 222 depth 3 nodes 267 time 1 pv d2d8 d7d8 g6e7 
+101508 <first :   3     222      0        267 d2d8 d7d8 g6e7 
+101508 <first : # engine said: info score cp 210 depth 4 nodes 834 time 15 pv d2d8 d7d8 g6e7 i9h9 
+101508 <first :   4     210      1        834 d2d8 d7d8 g6e7 i9h9 
+101508 <first : # engine said: info score cp 216 depth 5 nodes 2952 time 33 pv d2d8 d7d8 g6e7 a4a0 f0e1 
+101508 <first :   5     216      3       2952 d2d8 d7d8 g6e7 a4a0 f0e1 
+101674 <first : # engine said: info score cp 230 depth 6 nodes 20360 time 342 pv d2d8 d7d8 c3c7 d8e8 c7e7 e8e7 g6e7 
+101674 <first :   6     230     34      20360 d2d8 d7d8 c3c7 d8e8 c7e7 e8e7 g6e7 
+101844 <first : # engine said: info score cp 232 depth 7 nodes 28539 time 505 pv d2d8 d7d8 c3c7 d8e8 g6e7 i9h9 e7c8 
+101844 <first :   7     232     50      28539 d2d8 d7d8 c3c7 d8e8 g6e7 i9h9 e7c8 
+102189 <first : # engine said: info score cp 228 depth 8 nodes 48387 time 857 pv d2d8 d7d8 c3c7 d8e8 g6e7 i9i8 i0h0 e8d8 
+102189 <first :   8     228     85      48387 d2d8 d7d8 c3c7 d8e8 g6e7 i9i8 i0h0 e8d8 
+104327 <first : # engine said: info score cp 226 depth 9 nodes 176918 time 2994 pv d2d8 d7d8 c3c7 a4a0 f0e1 d8e8 g6e7 i9h9 e7c8 
+104327 <first :   9     226    299     176918 d2d8 d7d8 c3c7 a4a0 f0e1 d8e8 g6e7 i9h9 e7c8 
+104471 <first : # engine said: bestmove d2d8
+104471 <first : move d2d8
+Interrupting second
+104472 >second: time 9408
+104472 >second: otim 8944
+book hit = (NULL)
+104472 >second: d2d8
+104669 <first : 
+104669 <second: # root hit 9 202 ffffff88
+104669 <second: -1    440      554     725067 d2d8
+104669 <second: # root hit 8 -202 ffffff88
+104669 <second: -1    449        0          1 d7d8
+104669 <second:  0   -202        0          2 d7d8
+104670 <second:  1   -202        0          3 d7d8
+104670 <second:  2   -202        0          4 d7d8
+104670 <second:  3   -202        0          5 d7d8
+104672 <second:  4   -202        0          6 d7d8
+104672 <second:  5   -202        0          8 d7d8
+104840 <second:  6   -202       36      22421 d7d8
+107422 <second:  7   -202      295     295996 d7d8
+107423 <second: move d7d8
+107423 >first : time 8944
+107423 >first : otim 9212
+book hit = (NULL)
+107423 >first : usermove 107423 >first : d7d8
+107551 <first : # 'time' think=0 pause=0 log=0 sent=0
+107551 <first : # 'otim' think=0 pause=0 log=0 sent=0
+107551 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+107551 <first : # start search
+107551 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8
+107551 <first : # go btime 92120 wtime 89440 winc 1000 binc 1000
+107551 <first : # engine said: 
+107551 <first : # engine said: 
+107551 <first : # engine said: 9  . . . a k a . . r 
+107551 <first : # engine said: 8  . . . r . . . . . 
+107551 <first : # engine said: 7  . . . . b . n . . 
+107551 <first : # engine said: 6  p . . . p . N . p 
+107551 <first : # engine said: 5  . . . . . . . . . 
+107551 <first : # engine said: 4  c . . . . . . . . 
+107551 <first : # engine said: 3  . . R . P . . . P 
+107551 <first : # engine said: 2  . . . . C . . . . 
+107551 <first : # engine said: 1  . . . . . . . . . 
+107551 <first : # engine said: 0  . . B A K A B . R 
+107551 <first : # engine said: 
+107551 <first : # engine said:    a b c d e f g h i
+107551 <first : # engine said: 
+107551 <first : # engine said:    side:           r
+107551 <first : # engine said:    hash key:      55822780
+107551 <first : # engine said:    king squares:  [e0, e9]
+107551 <first : # engine said: 
+107551 <first : # engine said: time: 92120 inc 0 start 1611960440007 stop 1611960443076 depth 64 timeset 1
+107551 <first : # engine said: info score cp 222 depth 1 nodes 68 time 0 pv g6e7 
+107551 <first :   1     222      0         68 g6e7 
+107552 <first : # engine said: info score cp 220 depth 2 nodes 181 time 0 pv c3c7 i9h9 c7e7 
+107552 <first :   2     220      0        181 c3c7 i9h9 c7e7 
+107552 <first : # engine said: info score cp 216 depth 3 nodes 463 time 8 pv g6e7 a4a0 f0e1 
+107552 <first :   3     216      0        463 g6e7 a4a0 f0e1 
+107552 <first : # engine said: info score cp 214 depth 4 nodes 2902 time 41 pv c3c7 a4a0 f0e1 i9h9 c7e7 
+107552 <first :   4     214      4       2902 c3c7 a4a0 f0e1 i9h9 c7e7 
+107633 <first : # engine said: info score cp 218 depth 5 nodes 10313 time 204 pv g6e7 a4a0 f0e1 i9i8 i0h0 
+107633 <first :   5     218     20      10313 g6e7 a4a0 f0e1 i9i8 i0h0 
+107905 <first : # engine said: info score cp 224 depth 6 nodes 30079 time 476 pv c3c7 a4a0 f0e1 d8e8 c7e7 e8e7 g6e7 
+107905 <first :   6     224     47      30079 c3c7 a4a0 f0e1 d8e8 c7e7 e8e7 g6e7 
+108707 <first : # engine said: info score cp 224 depth 7 nodes 87154 time 1278 pv g6e7 a4a0 f0e1 e9e8 e7c8 i9h9 i0i1 
+108707 <first :   7     224    127      87154 g6e7 a4a0 f0e1 e9e8 e7c8 i9h9 i0i1 
+109095 <first : # engine said: info score cp 222 depth 8 nodes 120304 time 1665 pv g6e7 a4a0 f0e1 e9e8 c3c8 i9h9 c8d8 e8d8 e7c8 
+109095 <first :   8     222    166     120304 g6e7 a4a0 f0e1 e9e8 c3c8 i9h9 c8d8 e8d8 e7c8 
+110520 <first : # engine said: bestmove g6e7
+110520 <first : move g6e7
+Interrupting second
+110520 >second: time 9212
+110520 >second: otim 8734
+book hit = (NULL)
+110520 >second: g6e7
+110701 <first : 
+110702 <second: # root hit 8 202 ffffff88
+110702 <second: -1    141      604     295998 g6e7
+110702 <second: # root hit 7 -202 ffffff88
+110702 <second: -1    189        0          1 d8d0
+110702 <second:  0   -200        0          2 d8d0
+110702 <second:  1   -200        0          9 d8d7
+110702 <second:  2   -200        0         27 d8d7
+110702 <second:  3   -200        4       5450 d8e8
+110702 <second:  4   -201        7       9058 a4a0
+110702 <second:  5   -201       10      14138 a4a0
+110849 <second:  6   -200       32      51779 a4a0
+111437 <second:  7   -200       91     257844 a4a0
+116942 <second:  8   -209      642    2385155 a6a5
+116942 <second: move a6a5
+116942 >first : time 8734
+116942 >first : otim 8670
+book hit = (NULL)
+116942 >first : usermove 116942 >first : a6a5
+117102 <first : # 'time' think=0 pause=0 log=0 sent=0
+117102 <first : # 'otim' think=0 pause=0 log=0 sent=0
+117102 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+117102 <first : # start search
+117102 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5
+117102 <first : # go btime 86700 wtime 87340 winc 1000 binc 1000
+117102 <first : # engine said: 
+117102 <first : # engine said: 
+117102 <first : # engine said: 9  . . . a k a . . r 
+117102 <first : # engine said: 8  . . . r . . . . . 
+117102 <first : # engine said: 7  . . . . N . n . . 
+117102 <first : # engine said: 6  . . . . p . . . p 
+117102 <first : # engine said: 5  p . . . . . . . . 
+117102 <first : # engine said: 4  c . . . . . . . . 
+117102 <first : # engine said: 3  . . R . P . . . P 
+117102 <first : # engine said: 2  . . . . C . . . . 
+117102 <first : # engine said: 1  . . . . . . . . . 
+117102 <first : # engine said: 0  . . B A K A B . R 
+117102 <first : # engine said: 
+117102 <first : # engine said:    a b c d e f g h i
+117102 <first : # engine said: 
+117102 <first : # engine said:    side:           r
+117102 <first : # engine said:    hash key:      719001511
+117102 <first : # engine said:    king squares:  [e0, e9]
+117102 <first : # engine said: 
+117102 <first : # engine said: time: 86700 inc 0 start 1611960449523 stop 1611960452411 depth 64 timeset 1
+117110 <first : # engine said: info score cp 230 depth 1 nodes 39 time 0 pv e7c8 
+117110 <first :   1     230      0         39 e7c8 
+117110 <first : # engine said: info score cp 222 depth 2 nodes 697 time 6 pv c3c6 a4a0 
+117110 <first :   2     222      0        697 c3c6 a4a0 
+117110 <first : # engine said: info score cp 228 depth 3 nodes 5542 time 69 pv e7c6 d8d5 i0h0 
+117110 <first :   3     228      6       5542 e7c6 d8d5 i0h0 
+117150 <first : # engine said: info score cp 222 depth 4 nodes 12977 time 206 pv c3c6 a4a0 f0e1 e9e8 
+117150 <first :   4     222     20      12977 c3c6 a4a0 f0e1 e9e8 
+117263 <first : # engine said: info score cp 231 depth 5 nodes 27668 time 319 pv c3c6 i9h9 e2e6 g7e6 c6e6 h9h3 
+117263 <first :   5     231     31      27668 c3c6 i9h9 e2e6 g7e6 c6e6 h9h3 
+118127 <first : # engine said: info score cp 226 depth 6 nodes 119050 time 1180 pv f0e1 e9e8 c3c8 d8c8 e7c8 i9h9 
+118127 <first :   6     226    118     119050 f0e1 e9e8 c3c8 d8c8 e7c8 i9h9 
+119483 <first : # engine said: info score cp 226 depth 7 nodes 254431 time 2538 pv f0e1 i9i8 c3c6 e9e8 e7c8 d8d3 e3e4 
+119483 <first :   7     226    253     254431 f0e1 i9i8 c3c6 e9e8 e7c8 d8d3 e3e4 
+119834 <first : # engine said: bestmove f0e1
+119834 <first : move f0e1
+Interrupting second
+119835 >second: time 8670
+119835 >second: otim 8545
+book hit = (NULL)
+119835 >second: f0e1
+119939 <first : 
+119952 <second: # root hit 9 209 ffffff88
+119952 <second: -1    191      931    2385157 e7f9
+119952 <second:  0    200      931    2385158 e7f9
+119952 <second: # root hit 3 -200 ffffff88
+119952 <second: -1    189        0          1 d8d0
+119952 <second:  0   -200        0          2 d8d0
+119952 <second:  1   -200        0          3 d8d7
+119952 <second:  2   -198        0        249 d8d7
+119953 <second:  3   -201        3       5792 d8e8
+120004 <second:  4   -202       16      31648 i6i5
+120417 <second:  5   -201       58     186916 a4h4
+120831 <second:  6   -206       99     366017 a4h4
+121663 <second:  7   -206      182     788522 a4h4
+121666 <second: move a4h4
+121666 >first : time 8545
+121666 >first : otim 8587
+book hit = (NULL)
+121666 >first : usermove 121666 >first : a4h4
+121811 <first : # 'time' think=0 pause=0 log=0 sent=0
+121811 <first : # 'otim' think=0 pause=0 log=0 sent=0
+121811 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+121811 <first : # start search
+121811 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4
+121811 <first : # go btime 85870 wtime 85450 winc 1000 binc 1000
+121811 <first : # engine said: 
+121811 <first : # engine said: 
+121811 <first : # engine said: 9  . . . a k a . . r 
+121811 <first : # engine said: 8  . . . r . . . . . 
+121811 <first : # engine said: 7  . . . . N . n . . 
+121811 <first : # engine said: 6  . . . . p . . . p 
+121811 <first : # engine said: 5  p . . . . . . . . 
+121811 <first : # engine said: 4  . . . . . . . c . 
+121811 <first : # engine said: 3  . . R . P . . . P 
+121811 <first : # engine said: 2  . . . . C . . . . 
+121811 <first : # engine said: 1  . . . . A . . . . 
+121811 <first : # engine said: 0  . . B A K . B . R 
+121811 <first : # engine said: 
+121811 <first : # engine said:    a b c d e f g h i
+121811 <first : # engine said: 
+121811 <first : # engine said:    side:           r
+121811 <first : # engine said:    hash key:      -200703426
+121811 <first : # engine said:    king squares:  [e0, e9]
+121811 <first : # engine said: 
+121811 <first : # engine said: time: 85870 inc 0 start 1611960454246 stop 1611960457106 depth 64 timeset 1
+121811 <first : # engine said: info score cp 232 depth 1 nodes 107 time 1 pv i0h0 
+121811 <first :   1     232      0        107 i0h0 
+121814 <first : # engine said: info score cp 228 depth 2 nodes 1512 time 7 pv c3c6 e9e8 
+121814 <first :   2     228      0       1512 c3c6 e9e8 
+121814 <first : # engine said: info score cp 239 depth 3 nodes 5545 time 38 pv c3c6 i9h9 e2e6 g7e6 c6e6 
+121814 <first :   3     239      3       5545 c3c6 i9h9 e2e6 g7e6 c6e6 
+121836 <first : # engine said: info score cp 232 depth 4 nodes 16428 time 157 pv c3c6 e9e8 e7c8 d8d3 
+121836 <first :   4     232     15      16428 c3c6 e9e8 e7c8 d8d3 
+122126 <first : # engine said: info score cp 239 depth 5 nodes 39209 time 456 pv c3c6 e9e8 e7g6 i9h9 e2e6 g7e6 c6e6 
+122126 <first :   5     239     45      39209 c3c6 e9e8 e7g6 i9h9 e2e6 g7e6 c6e6 
+122542 <first : # engine said: info score cp 238 depth 6 nodes 90714 time 864 pv i0h0 i9h9 c3c8 e9e8 c8d8 e8d8 e7c8 
+122542 <first :   6     238     86      90714 i0h0 i9h9 c3c8 e9e8 c8d8 e8d8 e7c8 
+124019 <first : # engine said: info score cp 238 depth 7 nodes 238731 time 2348 pv i0h0 i9h9 c3c8 d8c8 e7c8 e9e8 c8d6 e8e9 e3e4 
+124019 <first :   7     238    234     238731 i0h0 i9h9 c3c8 d8c8 e7c8 e9e8 c8d6 e8e9 e3e4 
+124562 <first : # engine said: bestmove i0h0
+124562 <first : move i0h0
+Interrupting second
+124562 >second: time 8587
+124562 >second: otim 8355
+book hit = (NULL)
+124562 >second: i0h0
+124720 <first : 
+124721 <second: # root hit 8 206 ffffff88
+124721 <second: -1    191      472     788524 e7f9
+124721 <second:  0    200      472     788529 e7f9
+124722 <second: # root hit 3 -200 ffffff88
+124722 <second: -1    189        0          1 d8d0
+124722 <second:  0   -200        0          2 d8d0
+124722 <second:  1   -200        0          3 d8d4
+124722 <second:  2   -202        0        169 d8h8
+124722 <second:  3   -201        3      10663 i9h9
+124722 <second:  4   -205        6      25055 h4f4
+125677 <second:  5   -213      111     355062 h4d4
+126044 <second:  6   -221      147     522415 h4d4
+126070 <second: move h4d4
+126070 >first : time 8355
+126070 >first : otim 8536
+book hit = (NULL)
+126070 >first : usermove 126070 >first : h4d4
+126254 <first : # 'time' think=0 pause=0 log=0 sent=0
+126254 <first : # 'otim' think=0 pause=0 log=0 sent=0
+126254 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+126254 <first : # start search
+126254 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4
+126254 <first : # go btime 85360 wtime 83550 winc 1000 binc 1000
+126254 <first : # engine said: 
+126254 <first : # engine said: 
+126254 <first : # engine said: 9  . . . a k a . . r 
+126254 <first : # engine said: 8  . . . r . . . . . 
+126254 <first : # engine said: 7  . . . . N . n . . 
+126254 <first : # engine said: 6  . . . . p . . . p 
+126254 <first : # engine said: 5  p . . . . . . . . 
+126254 <first : # engine said: 4  . . . c . . . . . 
+126254 <first : # engine said: 3  . . R . P . . . P 
+126254 <first : # engine said: 2  . . . . C . . . . 
+126254 <first : # engine said: 1  . . . . A . . . . 
+126254 <first : # engine said: 0  . . B A K . B R . 
+126254 <first : # engine said: 
+126254 <first : # engine said:    a b c d e f g h i
+126254 <first : # engine said: 
+126254 <first : # engine said:    side:           r
+126254 <first : # engine said:    hash key:      -2000408511
+126254 <first : # engine said:    king squares:  [e0, e9]
+126254 <first : # engine said: 
+126254 <first : # engine said: time: 85360 inc 0 start 1611960458651 stop 1611960461494 depth 64 timeset 1
+126254 <first : # engine said: info score cp 240 depth 1 nodes 110 time 0 pv e7c8 
+126254 <first :   1     240      0        110 e7c8 
+126254 <first : # engine said: info score cp 238 depth 2 nodes 1225 time 11 pv c3c6 e9e8 
+126254 <first :   2     238      1       1225 c3c6 e9e8 
+126254 <first : # engine said: info score cp 244 depth 3 nodes 5787 time 47 pv e2d2 d8e8 e7c8 
+126254 <first :   3     244      4       5787 e2d2 d8e8 e7c8 
+126275 <first : # engine said: info score cp 248 depth 4 nodes 16060 time 202 pv e2d2 d8e8 e7c8 d4d8 c3c6 
+126275 <first :   4     248     20      16060 e2d2 d8e8 e7c8 d4d8 c3c6 
+126558 <first : # engine said: info score cp 247 depth 5 nodes 51917 time 478 pv c3d3 d4d7 d3d6 i9i8 e2e6 g7e6 d6e6 
+126558 <first :   5     247     47      51917 c3d3 d4d7 d3d6 i9i8 e2e6 g7e6 d6e6 
+127681 <first : # engine said: info score cp 249 depth 6 nodes 162923 time 1595 pv e3e4 i9i8 h0h6 e9e8 e7c6 d8d5 e2e6 g7e6 h6e6 
+127681 <first :   6     249    159     162923 e3e4 i9i8 h0h6 e9e8 e7c6 d8d5 e2e6 g7e6 h6e6 
+128918 <first : # engine said: bestmove e3e4
+128918 <first : move e3e4
+Interrupting second
+128918 >second: time 8536
+128918 >second: otim 8170
+book hit = (NULL)
+128918 >second: e3e4
+129004 <first : 
+129015 <second: # root hit 7 221 ffffff88
+129015 <second: -1    191      435     522417 e7f9
+129015 <second:  0    200      435     522418 e7f9
+129015 <second: # root hit 3 -109 ffffff88
+129015 <second: -1     -2        0          1 i6i5
+129015 <second:  0   -200        0          2 i6i5
+129015 <second:  1   -109        0          3 a5a4
+129015 <second:  2   -115        0        450 a5a4
+129016 <second:  3   -111        0       1866 a5a4
+129111 <second:  4   -199       19      39957 d4d7
+129426 <second:  5   -202       49     147621 a5a4
+129870 <second:  6   -290       95     312851 i6i5
+132406 <second:  7   -295      348    1124742 d8e8
+132406 <second: move d8e8
+132406 >first : time 8170
+132406 >first : otim 8287
+book hit = (NULL)
+132406 >first : usermove 132406 >first : d8e8
+132517 <first : # 'time' think=0 pause=0 log=0 sent=0
+132517 <first : # 'otim' think=0 pause=0 log=0 sent=0
+132517 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+132517 <first : # start search
+132517 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8
+132517 <first : # go btime 82870 wtime 81700 winc 1000 binc 1000
+132517 <first : # engine said: 
+132517 <first : # engine said: 
+132517 <first : # engine said: 9  . . . a k a . . r 
+132517 <first : # engine said: 8  . . . . r . . . . 
+132517 <first : # engine said: 7  . . . . N . n . . 
+132517 <first : # engine said: 6  . . . . p . . . p 
+132517 <first : # engine said: 5  p . . . . . . . . 
+132517 <first : # engine said: 4  . . . c P . . . . 
+132517 <first : # engine said: 3  . . R . . . . . P 
+132517 <first : # engine said: 2  . . . . C . . . . 
+132517 <first : # engine said: 1  . . . . A . . . . 
+132517 <first : # engine said: 0  . . B A K . B R . 
+132517 <first : # engine said: 
+132517 <first : # engine said:    a b c d e f g h i
+132517 <first : # engine said: 
+132517 <first : # engine said:    side:           r
+132517 <first : # engine said:    hash key:      2090589556
+132517 <first : # engine said:    king squares:  [e0, e9]
+132517 <first : # engine said: 
+132517 <first : # engine said: time: 82870 inc 0 start 1611960464994 stop 1611960467754 depth 64 timeset 1
+132517 <first : # engine said: info score cp 252 depth 1 nodes 160 time 0 pv e7c8 
+132517 <first :   1     252      0        160 e7c8 
+132518 <first : # engine said: info score cp 256 depth 2 nodes 669 time 4 pv e7c8 e8d8 e4e5 
+132518 <first :   2     256      0        669 e7c8 e8d8 e4e5 
+132518 <first : # engine said: info score cp 254 depth 3 nodes 1915 time 16 pv e7c6 e8c8 e4e5 
+132518 <first :   3     254      1       1915 e7c6 e8c8 e4e5 
+132519 <first : # engine said: info score cp 256 depth 4 nodes 5892 time 44 pv e7c6 e8c8 h0h3 d4d7 c6a5 c8c3 h3c3 
+132519 <first :   4     256      4       5892 e7c6 e8c8 h0h3 d4d7 c6a5 c8c3 h3c3 
+132648 <first : # engine said: info score cp 260 depth 5 nodes 18420 time 233 pv e4e5 d4e4 e7c8 e8d8 h0h8 f9e8 
+132648 <first :   5     260     23      18420 e4e5 d4e4 e7c8 e8d8 h0h8 f9e8 
+133153 <first : # engine said: info score cp 267 depth 6 nodes 50577 time 729 pv e7c6 d4a4 c3c5 e8c8 h0h6 i9i8 e2e6 g7e6 h6e6 
+133153 <first :   6     267     72      50577 e7c6 d4a4 c3c5 e8c8 h0h6 i9i8 e2e6 g7e6 h6e6 
+133556 <first : # engine said: info score cp 292 depth 7 nodes 75791 time 1141 pv e4e5 d4e4 e7c8 e8d8 e5e6 i9i8 c8d6 e4e5 
+133556 <first :   7     292    114      75791 e4e5 d4e4 e7c8 e8d8 e5e6 i9i8 c8d6 e4e5 
+134710 <first : # engine said: info score cp 300 depth 8 nodes 166151 time 2295 pv e4e5 d4e4 e7c8 e8d8 e5e6 i9i8 c8d6 e4e5 h0h6 
+134710 <first :   8     300    229     166151 e4e5 d4e4 e7c8 e8d8 e5e6 i9i8 c8d6 e4e5 h0h6 
+135231 <first : # engine said: bestmove e4e5
+135231 <first : move e4e5
+Interrupting second
+135231 >second: time 8287
+135231 >second: otim 7988
+book hit = (NULL)
+135231 >second: e4e5
+135373 <first : 
+135390 <second: # root hit 8 295 ffffff88
+135390 <second: -1     90      631    1124746 e2e6
+135391 <second:  0    200      631    1124751 e2e6
+135391 <second: # root hit 3 -100 ffffff88
+135391 <second: -1    439        0          1 e8e7
+135391 <second:  0   -100        0          2 e6e5
+135391 <second:  1   -100        0          3 e6e5
+135391 <second:  2   -103        0        171 e6e5
+135391 <second:  3   -286        2       6079 d4e4
+135391 <second:  4   -290        4      13402 a5a4
+136218 <second:  5   -291       98     315416 d4e4
+136674 <second:  6   -303      144     471769 d4e4
+136675 <second: move d4e4
+136675 >first : time 7988
+136675 >first : otim 8243
+book hit = (NULL)
+136675 >first : usermove 136675 >first : d4e4
+136778 <first : # 'time' think=0 pause=0 log=0 sent=0
+136779 <first : # 'otim' think=0 pause=0 log=0 sent=0
+136779 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+136779 <first : # start search
+136779 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4
+136779 <first : # go btime 82430 wtime 79880 winc 1000 binc 1000
+136779 <first : # engine said: 
+136779 <first : # engine said: 
+136779 <first : # engine said: 9  . . . a k a . . r 
+136779 <first : # engine said: 8  . . . . r . . . . 
+136779 <first : # engine said: 7  . . . . N . n . . 
+136779 <first : # engine said: 6  . . . . p . . . p 
+136779 <first : # engine said: 5  p . . . P . . . . 
+136779 <first : # engine said: 4  . . . . c . . . . 
+136779 <first : # engine said: 3  . . R . . . . . P 
+136779 <first : # engine said: 2  . . . . C . . . . 
+136779 <first : # engine said: 1  . . . . A . . . . 
+136779 <first : # engine said: 0  . . B A K . B R . 
+136779 <first : # engine said: 
+136779 <first : # engine said:    a b c d e f g h i
+136779 <first : # engine said: 
+136779 <first : # engine said:    side:           r
+136779 <first : # engine said:    hash key:      1839269006
+136779 <first : # engine said:    king squares:  [e0, e9]
+136779 <first : # engine said: 
+136779 <first : # engine said: time: 82430 inc 0 start 1611960469258 stop 1611960472004 depth 64 timeset 1
+136779 <first : # engine said: info score cp 258 depth 1 nodes 101 time 0 pv e7c8 
+136779 <first :   1     258      0        101 e7c8 
+136779 <first : # engine said: info score cp 260 depth 2 nodes 516 time 2 pv e7c8 e8d8 h0h8 
+136779 <first :   2     260      0        516 e7c8 e8d8 h0h8 
+136779 <first : # engine said: info score cp 260 depth 3 nodes 849 time 7 pv e7c8 e8d8 h0h8 f9e8 
+136779 <first :   3     260      0        849 e7c8 e8d8 h0h8 f9e8 
+136780 <first : # engine said: info score cp 258 depth 4 nodes 2034 time 14 pv e7c8 e8d8 h0h8 f9e8 h8g8 
+136780 <first :   4     258      1       2034 e7c8 e8d8 h0h8 f9e8 h8g8 
+136780 <first : # engine said: info score cp 308 depth 5 nodes 7809 time 60 pv e5e6 i9i8 h0h4 e4e5 c3c6 
+136780 <first :   5     308      6       7809 e5e6 i9i8 h0h4 e4e5 c3c6 
+136923 <first : # engine said: info score cp 320 depth 6 nodes 19658 time 244 pv e5e6 e8d8 e7c6 d8d5 e6e7 i9i8 
+136923 <first :   6     320     24      19658 e5e6 e8d8 e7c6 d8d5 e6e7 i9i8 
+137029 <first : # engine said: info score cp 328 depth 7 nodes 26014 time 350 pv e5e6 e8d8 e7c6 d8d5 e6e7 i9i8 h0h6 
+137029 <first :   7     328     35      26014 e5e6 e8d8 e7c6 d8d5 e6e7 i9i8 h0h6 
+138042 <first : # engine said: info score cp 377 depth 8 nodes 83295 time 1355 pv e5e6 e8i8 c3c4 e4e7 e6e7 f9e8 e7e8 e9e8 c4e4 e8d8 h0h6 
+138042 <first :   8     377    135      83295 e5e6 e8i8 c3c4 e4e7 e6e7 f9e8 e7e8 e9e8 c4e4 e8d8 h0h6 
+138413 <first : # engine said: info score cp 385 depth 9 nodes 109399 time 1734 pv e5e6 e8i8 c3c4 e4e7 e6e7 f9e8 c4c8 e9f9 c8a8 i8f8 e7e8 d9e8 a8a5 
+138413 <first :   9     385    173     109399 e5e6 e8i8 c3c4 e4e7 e6e7 f9e8 c4c8 e9f9 c8a8 i8f8 e7e8 d9e8 a8a5 
+139467 <first : # engine said: bestmove e5e6
+139467 <first : move e5e6
+Interrupting second
+139467 >second: time 8243
+139467 >second: otim 7809
+book hit = (NULL)
+139467 >second: e5e6
+139623 <first : 
+139628 <second: # root hit 7 303 ffffff88
+139628 <second: -1     94      423     471771 e5e6
+139628 <second: # root hit 6 -303 ffffff88
+139628 <second: -1    440        0          1 e4e7
+139628 <second:  0   -390        0          6 e4e7
+139628 <second:  1   -303        0         24 a5a4
+139629 <second:  2   -303        0         33 a5a4
+139629 <second:  3   -303        0        313 a5a4
+139629 <second:  4   -303        0        354 a5a4
+140081 <second:  5   -396       61     168334 e8d8
+140239 <second:  6   -402       77     213818 e8d8
+141165 <second:  7   -541      169     523061 i9h9
+141191 <second: move i9h9
+141191 >first : time 7809
+141191 >first : otim 8171
+book hit = (NULL)
+141191 >first : usermove 141191 >first : i9h9
+141321 <first : # 'time' think=0 pause=0 log=0 sent=0
+141321 <first : # 'otim' think=0 pause=0 log=0 sent=0
+141321 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+141321 <first : # start search
+141321 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9
+141321 <first : # go btime 81710 wtime 78090 winc 1000 binc 1000
+141321 <first : # engine said: 
+141321 <first : # engine said: 
+141321 <first : # engine said: 9  . . . a k a . r . 
+141321 <first : # engine said: 8  . . . . r . . . . 
+141321 <first : # engine said: 7  . . . . N . n . . 
+141321 <first : # engine said: 6  . . . . P . . . p 
+141321 <first : # engine said: 5  p . . . . . . . . 
+141321 <first : # engine said: 4  . . . . c . . . . 
+141321 <first : # engine said: 3  . . R . . . . . P 
+141321 <first : # engine said: 2  . . . . C . . . . 
+141321 <first : # engine said: 1  . . . . A . . . . 
+141321 <first : # engine said: 0  . . B A K . B R . 
+141321 <first : # engine said: 
+141321 <first : # engine said:    a b c d e f g h i
+141321 <first : # engine said: 
+141321 <first : # engine said:    side:           r
+141321 <first : # engine said:    hash key:      -2088445124
+141321 <first : # engine said:    king squares:  [e0, e9]
+141321 <first : # engine said: 
+141321 <first : # engine said: time: 81710 inc 0 start 1611960473772 stop 1611960476494 depth 64 timeset 1
+141321 <first : # engine said: info score cp 302 depth 1 nodes 77 time 0 pv h0h9 g7h9 
+141321 <first :   1     302      0         77 h0h9 g7h9 
+141322 <first : # engine said: info score cp 544 depth 2 nodes 209 time 0 pv e7g8 e8g8 h0h9 g7e6 
+141322 <first :   2     544      0        209 e7g8 e8g8 h0h9 g7e6 
+141322 <first : # engine said: info score cp 544 depth 3 nodes 320 time 1 pv e7g8 e8g8 h0h9 g7e6 
+141322 <first :   3     544      0        320 e7g8 e8g8 h0h9 g7e6 
+141322 <first : # engine said: info score cp 544 depth 4 nodes 674 time 2 pv e7g8 e8g8 h0h9 g7e6 g0i2 
+141322 <first :   4     544      0        674 e7g8 e8g8 h0h9 g7e6 g0i2 
+141322 <first : # engine said: info score cp 534 depth 5 nodes 1848 time 28 pv e7g8 e8g8 h0h9 g7e6 g0i2 g8g1 
+141322 <first :   5     534      2       1848 e7g8 e8g8 h0h9 g7e6 g0i2 g8g1 
+141322 <first : # engine said: info score cp 544 depth 6 nodes 3723 time 73 pv e7g8 e8g8 h0h9 g7e6 g0i2 g8g1 c3c8 
+141322 <first :   6     544      7       3723 e7g8 e8g8 h0h9 g7e6 g0i2 g8g1 c3c8 
+141430 <first : # engine said: info score cp 550 depth 7 nodes 12797 time 237 pv e7g8 e8g8 h0h9 g7e6 g0i2 g8g6 c3f3 d9e8 
+141430 <first :   7     550     23      12797 e7g8 e8g8 h0h9 g7e6 g0i2 g8g6 c3f3 d9e8 
+141565 <first : # engine said: info score cp 652 depth 8 nodes 19675 time 372 pv h0h9 g7h9 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+141565 <first :   8     652     37      19675 h0h9 g7h9 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+141844 <first : # engine said: info score cp 640 depth 9 nodes 31794 time 651 pv h0h9 g7h9 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 
+141844 <first :   9     640     65      31794 h0h9 g7h9 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 
+142269 <first : # engine said: info score cp 658 depth 10 nodes 50588 time 1076 pv h0h9 g7h9 e7c8 e8c8 c3c8 h9g7 e6e7 g7f5 e7d7 e4h4 d7d8 h4h0 
+142269 <first :  10     658    107      50588 h0h9 g7h9 e7c8 e8c8 c3c8 h9g7 e6e7 g7f5 e7d7 e4h4 d7d8 h4h0 
+143512 <first : # engine said: info score cp 662 depth 11 nodes 107769 time 2319 pv h0h9 g7h9 e7c8 e8c8 c3c8 h9g7 e6e7 g7h5 e7d7 e4h4 d7e7 h4e4 e7d7 e4f4 d7e7 
+143512 <first :  11     662    231     107769 h0h9 g7h9 e7c8 e8c8 c3c8 h9g7 e6e7 g7h5 e7d7 e4h4 d7e7 h4e4 e7d7 e4f4 d7e7 
+143958 <first : # engine said: bestmove h0h9
+143958 <first : move h0h9
+Interrupting second
+143959 >second: time 8171
+143959 >second: otim 7632
+book hit = (NULL)
+143959 >second: h0h9
+144122 <first : 
+144126 <second: # root hit 8 541 ffffff88
+144126 <second: -1    889      449     523065 h0h9
+144126 <second: # root hit 3 -408 ffffff88
+144126 <second: -1    891        0          1 g7h9
+144126 <second:  0   -408        0          2 g7h9
+144126 <second:  1   -408        0          3 g7h9
+144126 <second:  2   -414        0        263 g7h9
+144126 <second:  3   -410        0       1202 g7h9
+144126 <second:  4   -413        0       3068 g7h9
+144127 <second:  5   -415        2       8519 g7h9
+144127 <second:  6   -658        5      20308 g7h9
+144127 <second:  7   -656       11      37622 g7h9
+144457 <second:  8   -760       49     154353 g7h9
+144969 <second:  9   -833      101     437250 g7h9
+145875 <second: 10   -832      191     857461 g7h9
+145875 <second: move g7h9
+145875 >first : time 7632
+145875 >first : otim 8079
+book hit = (NULL)
+145875 >first : usermove 145875 >first : g7h9
+146063 <first : # 'time' think=0 pause=0 log=0 sent=0
+146063 <first : # 'otim' think=0 pause=0 log=0 sent=0
+146063 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+146063 <first : # start search
+146063 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9
+146063 <first : # go btime 80790 wtime 76320 winc 1000 binc 1000
+146063 <first : # engine said: 
+146063 <first : # engine said: 
+146063 <first : # engine said: 9  . . . a k a . n . 
+146063 <first : # engine said: 8  . . . . r . . . . 
+146063 <first : # engine said: 7  . . . . N . . . . 
+146063 <first : # engine said: 6  . . . . P . . . p 
+146063 <first : # engine said: 5  p . . . . . . . . 
+146063 <first : # engine said: 4  . . . . c . . . . 
+146063 <first : # engine said: 3  . . R . . . . . P 
+146063 <first : # engine said: 2  . . . . C . . . . 
+146063 <first : # engine said: 1  . . . . A . . . . 
+146063 <first : # engine said: 0  . . B A K . B . . 
+146063 <first : # engine said: 
+146063 <first : # engine said:    a b c d e f g h i
+146063 <first : # engine said: 
+146063 <first : # engine said:    side:           r
+146063 <first : # engine said:    hash key:      1419686163
+146063 <first : # engine said:    king squares:  [e0, e9]
+146063 <first : # engine said: 
+146063 <first : # engine said: time: 80790 inc 0 start 1611960478475 stop 1611960481166 depth 64 timeset 1
+146063 <first : # engine said: info score cp 312 depth 1 nodes 54 time 0 pv e7c8 
+146063 <first :   1     312      0         54 e7c8 
+146064 <first : # engine said: info score cp 632 depth 2 nodes 99 time 0 pv e7c8 e8c8 c3c8 
+146064 <first :   2     632      0         99 e7c8 e8c8 c3c8 
+146064 <first : # engine said: info score cp 632 depth 3 nodes 111 time 0 pv e7c8 e8c8 c3c8 f9e8 
+146064 <first :   3     632      0        111 e7c8 e8c8 c3c8 f9e8 
+146064 <first : # engine said: info score cp 354 depth 4 nodes 535 time 3 pv e7c8 e8d8 e6e7 d9e8 e7e8 f9e8 
+146064 <first :   4     354      0        535 e7c8 e8d8 e6e7 d9e8 e7e8 f9e8 
+146064 <first : # engine said: info score cp 652 depth 5 nodes 683 time 7 pv e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+146064 <first :   5     652      0        683 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+146064 <first : # engine said: info score cp 652 depth 6 nodes 945 time 16 pv e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+146064 <first :   6     652      1        945 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 
+146064 <first : # engine said: info score cp 640 depth 7 nodes 1709 time 31 pv e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 
+146064 <first :   7     640      3       1709 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 
+146064 <first : # engine said: info score cp 660 depth 8 nodes 2036 time 62 pv e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 d7e7 
+146064 <first :   8     660      6       2036 e7c8 e8d8 e6e7 d9e8 e7d7 d8c8 c3c8 h9g7 d7e7 
+146327 <first : # engine said: info score cp 666 depth 9 nodes 21895 time 430 pv e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 a5a4 e7e8 d9e8 
+146327 <first :   9     666     43      21895 e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 a5a4 e7e8 d9e8 
+146480 <first : # engine said: info score cp 666 depth 10 nodes 27552 time 583 pv e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 a5a4 e7e8 d9e8 
+146480 <first :  10     666     58      27552 e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 a5a4 e7e8 d9e8 
+147193 <first : # engine said: info score cp 684 depth 11 nodes 58258 time 1296 pv e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 e4e3 c8a8 e8f9 a8a5 
+147193 <first :  11     684    129      58258 e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 e4e3 c8a8 e8f9 a8a5 
+147713 <first : # engine said: info score cp 684 depth 12 nodes 82724 time 1817 pv e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 e4e3 c8a8 e8f9 a8a5 
+147713 <first :  12     684    181      82724 e7c8 e8d8 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7e7 e4e3 c8a8 e8f9 a8a5 
+148670 <first : # engine said: bestmove e7c8
+148670 <first : move e7c8
+Interrupting second
+148670 >second: time 8079
+148670 >second: otim 7452
+book hit = (NULL)
+148670 >second: e7c8
+148789 <first : 
+148789 <second: # root hit 11 832 ffffff88
+148789 <second: -1     -1      471     857463 i3i4
+148790 <second:  0    390      471     857464 i3i4
+148790 <second: # root hit 10 -833 ffffff88
+148790 <second: -1    439        0          1 e8c8
+148790 <second:  0   -390        0          2 e8c8
+148790 <second:  1   -833        0          7 e8d8
+148790 <second:  2   -833        0          9 e8d8
+148790 <second:  3   -822        0         59 e8c8
+148790 <second:  4   -822        0         77 e8c8
+148790 <second:  5   -827        0        230 e8c8
+148790 <second:  6   -822        0        710 e8c8
+148790 <second:  7   -825        3       9773 e8c8
+148835 <second:  8   -823       12      35708 e8c8
+149724 <second:  9   -843      105     433426 e8d8
+151355 <second: 10   -907      268    1170316 e8d8
+151356 <second: move e8d8
+151356 >first : time 7452
+151356 >first : otim 7910
+book hit = (NULL)
+151356 >first : usermove 151356 >first : e8d8
+151552 <first : # 'time' think=0 pause=0 log=0 sent=0
+151552 <first : # 'otim' think=0 pause=0 log=0 sent=0
+151552 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+151552 <first : # start search
+151552 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8
+151552 <first : # go btime 79100 wtime 74520 winc 1000 binc 1000
+151552 <first : # engine said: 
+151552 <first : # engine said: 
+151552 <first : # engine said: 9  . . . a k a . n . 
+151552 <first : # engine said: 8  . . N r . . . . . 
+151552 <first : # engine said: 7  . . . . . . . . . 
+151552 <first : # engine said: 6  . . . . P . . . p 
+151552 <first : # engine said: 5  p . . . . . . . . 
+151552 <first : # engine said: 4  . . . . c . . . . 
+151552 <first : # engine said: 3  . . R . . . . . P 
+151552 <first : # engine said: 2  . . . . C . . . . 
+151552 <first : # engine said: 1  . . . . A . . . . 
+151552 <first : # engine said: 0  . . B A K . B . . 
+151552 <first : # engine said: 
+151552 <first : # engine said:    a b c d e f g h i
+151552 <first : # engine said: 
+151552 <first : # engine said:    side:           r
+151552 <first : # engine said:    hash key:      780764231
+151552 <first : # engine said:    king squares:  [e0, e9]
+151552 <first : # engine said: 
+151552 <first : # engine said: time: 79100 inc 0 start 1611960483936 stop 1611960486571 depth 64 timeset 1
+151552 <first : # engine said: info score cp 344 depth 1 nodes 34 time 0 pv e6e7 
+151552 <first :   1     344      0         34 e6e7 
+151553 <first : # engine said: info score cp 672 depth 2 nodes 302 time 1 pv e6e7 d8c8 c3c8 
+151553 <first :   2     672      0        302 e6e7 d8c8 c3c8 
+151553 <first : # engine said: info score cp 672 depth 3 nodes 965 time 3 pv e6e7 d8c8 c3c8 
+151553 <first :   3     672      0        965 e6e7 d8c8 c3c8 
+151553 <first : # engine said: info score cp 664 depth 4 nodes 1029 time 3 pv e6e7 d8c8 c3c8 h9i7 
+151553 <first :   4     664      0       1029 e6e7 d8c8 c3c8 h9i7 
+151553 <first : # engine said: info score cp 670 depth 5 nodes 1212 time 4 pv e6e7 d8c8 c3c8 h9i7 c8d8 
+151553 <first :   5     670      0       1212 e6e7 d8c8 c3c8 h9i7 c8d8 
+151553 <first : # engine said: info score cp 672 depth 6 nodes 1831 time 37 pv e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7d8 
+151553 <first :   6     672      3       1831 e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7d8 
+151553 <first : # engine said: info score cp 670 depth 7 nodes 3603 time 101 pv e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7e7 h4e4 c8d8 
+151553 <first :   7     670     10       3603 e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7e7 h4e4 c8d8 
+151553 <first : # engine said: info score cp 674 depth 8 nodes 5146 time 129 pv e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7d8 h4h0 e1f0 i7g6 d8d9 e9d9 
+151553 <first :   8     674     12       5146 e6e7 d8c8 c3c8 h9i7 e7d7 e4h4 d7d8 h4h0 e1f0 i7g6 d8d9 e9d9 
+152161 <first : # engine said: info score cp 692 depth 9 nodes 44421 time 804 pv e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 d7d8 e4e7 c8a8 i6i5 d8d9 e9d9 a8a5 
+152161 <first :   9     692     80      44421 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 d7d8 e4e7 c8a8 i6i5 d8d9 e9d9 a8a5 
+152210 <first : # engine said: info score cp 692 depth 10 nodes 45425 time 852 pv e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7d8 e4e7 c8a8 i6i5 d8d9 e9d9 a8a5 
+152210 <first :  10     692     85      45425 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7d8 e4e7 c8a8 i6i5 d8d9 e9d9 a8a5 
+152486 <first : # engine said: info score cp 703 depth 11 nodes 50832 time 1129 pv e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+152486 <first :  11     703    112      50832 e6e7 f9e8 e7d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+153079 <first : # engine said: info score cp 703 depth 12 nodes 80728 time 1721 pv e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 g7f5 c9c8 
+153079 <first :  12     703    172      80728 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 g7f5 c9c8 
+154002 <first : # engine said: bestmove e6d6
+154002 <first : move e6d6
+Interrupting second
+154003 >second: time 7910
+154003 >second: otim 7288
+book hit = (NULL)
+154003 >second: e6d6
+154105 <first : 
+154106 <second: # root hit 12 907 ffffff88
+154106 <second: -1     -1      533    1170318 i3i4
+154106 <second:  0    390      533    1170319 i3i4
+154106 <second: # root hit 11 -908 ffffff88
+154106 <second: -1    439        0          1 d8c8
+154106 <second:  0   -390        0          2 d8c8
+154107 <second:  1   -908        0          6 f9e8
+154107 <second:  2   -908        0          7 f9e8
+154107 <second:  3   -908        0          8 f9e8
+154107 <second:  4   -908        0          9 f9e8
+154107 <second:  5   -908        0         10 f9e8
+154107 <second:  6   -908        0         11 f9e8
+154107 <second:  7   -908        0         12 f9e8
+154107 <second:  8   -908        0         13 f9e8
+154107 <second:  9   -908        0         14 f9e8
+154522 <second: 10   -939       51     150721 f9e8
+155085 <second: 11   -943      108     375492 f9e8
+156739 <second: 12   -953      273    1059925 f9e8
+156748 <second: move f9e8
+156749 >first : time 7288
+156749 >first : otim 7736
+book hit = (NULL)
+156749 >first : usermove 156749 >first : f9e8
+156857 <first : # 'time' think=0 pause=0 log=0 sent=0
+156857 <first : # 'otim' think=0 pause=0 log=0 sent=0
+156857 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+156857 <first : # start search
+156857 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8
+156857 <first : # go btime 77360 wtime 72880 winc 1000 binc 1000
+156857 <first : # engine said: 
+156857 <first : # engine said: 
+156857 <first : # engine said: 9  . . . a k . . n . 
+156857 <first : # engine said: 8  . . N r a . . . . 
+156857 <first : # engine said: 7  . . . . . . . . . 
+156857 <first : # engine said: 6  . . . P . . . . p 
+156857 <first : # engine said: 5  p . . . . . . . . 
+156857 <first : # engine said: 4  . . . . c . . . . 
+156857 <first : # engine said: 3  . . R . . . . . P 
+156857 <first : # engine said: 2  . . . . C . . . . 
+156857 <first : # engine said: 1  . . . . A . . . . 
+156857 <first : # engine said: 0  . . B A K . B . . 
+156857 <first : # engine said: 
+156857 <first : # engine said:    a b c d e f g h i
+156857 <first : # engine said: 
+156857 <first : # engine said:    side:           r
+156857 <first : # engine said:    hash key:      -1087705122
+156857 <first : # engine said:    king squares:  [e0, e9]
+156857 <first : # engine said: 
+156857 <first : # engine said: time: 77360 inc 0 start 1611960489329 stop 1611960491906 depth 64 timeset 1
+156857 <first : # engine said: info score cp 324 depth 1 nodes 55 time 0 pv d6d7 
+156857 <first :   1     324      0         55 d6d7 
+156858 <first : # engine said: info score cp 652 depth 2 nodes 91 time 0 pv d6d7 d8c8 c3c8 
+156858 <first :   2     652      0         91 d6d7 d8c8 c3c8 
+156858 <first : # engine said: info score cp 652 depth 3 nodes 137 time 0 pv d6d7 d8c8 c3c8 
+156858 <first :   3     652      0        137 d6d7 d8c8 c3c8 
+156861 <first : # engine said: info score cp 640 depth 4 nodes 194 time 1 pv d6d7 d8c8 c3c8 h9g7 
+156861 <first :   4     640      0        194 d6d7 d8c8 c3c8 h9g7 
+156861 <first : # engine said: info score cp 660 depth 5 nodes 289 time 2 pv d6d7 d8c8 c3c8 h9g7 d7d8 
+156861 <first :   5     660      0        289 d6d7 d8c8 c3c8 h9g7 d7d8 
+156861 <first : # engine said: info score cp 668 depth 6 nodes 397 time 3 pv d6d7 d8c8 c3c8 h9g7 d7d8 g7e6 d8e8 d9e8 
+156862 <first :   6     668      0        397 d6d7 d8c8 c3c8 h9g7 d7d8 g7e6 d8e8 d9e8 
+156862 <first : # engine said: info score cp 668 depth 7 nodes 659 time 9 pv d6d7 d8c8 c3c8 h9g7 d7d8 g7e6 d8d9 e8d9 
+156862 <first :   7     668      0        659 d6d7 d8c8 c3c8 h9g7 d7d8 g7e6 d8d9 e8d9 
+156862 <first : # engine said: info score cp 703 depth 8 nodes 836 time 13 pv d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+156862 <first :   8     703      1        836 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+156862 <first : # engine said: info score cp 703 depth 9 nodes 862 time 23 pv d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+156862 <first :   9     703      2        862 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 
+156862 <first : # engine said: info score cp 703 depth 10 nodes 1001 time 31 pv d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 f8f9 
+156862 <first :  10     703      3       1001 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 f8f9 
+156862 <first : # engine said: info score cp 703 depth 11 nodes 2382 time 65 pv d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 g7f5 c9c8 
+156862 <first :  11     703      6       2382 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 c8c9 f9f8 d8d9 g7f5 c9c8 
+157380 <first : # engine said: info score cp 711 depth 12 nodes 33657 time 630 pv d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 d8d9 e4e3 c8c6 e3e6 c6d6 e6e3 
+157380 <first :  12     711     63      33657 d6d7 d8c8 c3c8 h9g7 d7d8 e9f9 d8d9 e4e3 c8c6 e3e6 c6d6 e6e3 
+159332 <first : # engine said: bestmove d6d7
+159332 <first : move d6d7
+Interrupting second
+159333 >second: time 7736
+159333 >second: otim 7129
+book hit = (NULL)
+159333 >second: d6d7
+159422 <first : 
+159423 <second: # root hit 14 953 ffffff88
+159423 <second: -1    190      533    1059927 e2e8
+159423 <second:  0    390      533    1059928 e2e8
+159423 <second: # root hit 13 -954 ffffff88
+159423 <second: -1    439        0          1 d8c8
+159423 <second:  0   -390        0          2 d8c8
+159423 <second:  1   -954        0          7 d8c8
+159423 <second:  2   -954        0         10 d8c8
+159424 <second:  3   -954        0         13 d8c8
+159424 <second:  4   -954        0         16 d8c8
+159424 <second:  5   -954        0         19 d8c8
+159424 <second:  6   -954        0         22 d8c8
+159424 <second:  7   -954        0         25 d8c8
+159424 <second:  8   -954        0         28 d8c8
+159424 <second:  9   -954        0         31 d8c8
+159424 <second: 10   -954        0         34 d8c8
+159424 <second: 11   -954        0         37 d8c8
+160396 <second: 12   -985      106     552798 d8c8
+164564 <second: 13  -1041      523    2658030 d8c8
+164567 <second: move d8c8
+164567 >first : time 7129
+164567 >first : otim 7312
+book hit = (NULL)
+164568 >first : usermove 164568 >first : d8c8
+164688 <first : # 'time' think=0 pause=0 log=0 sent=0
+164688 <first : # 'otim' think=0 pause=0 log=0 sent=0
+164688 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+164688 <first : # start search
+164688 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8
+164688 <first : # go btime 73120 wtime 71290 winc 1000 binc 1000
+164688 <first : # engine said: 
+164688 <first : # engine said: 
+164688 <first : # engine said: 9  . . . a k . . n . 
+164688 <first : # engine said: 8  . . r . a . . . . 
+164688 <first : # engine said: 7  . . . P . . . . . 
+164688 <first : # engine said: 6  . . . . . . . . p 
+164688 <first : # engine said: 5  p . . . . . . . . 
+164688 <first : # engine said: 4  . . . . c . . . . 
+164688 <first : # engine said: 3  . . R . . . . . P 
+164688 <first : # engine said: 2  . . . . C . . . . 
+164688 <first : # engine said: 1  . . . . A . . . . 
+164688 <first : # engine said: 0  . . B A K . B . . 
+164688 <first : # engine said: 
+164688 <first : # engine said:    a b c d e f g h i
+164688 <first : # engine said: 
+164688 <first : # engine said:    side:           r
+164688 <first : # engine said:    hash key:      1850311630
+164688 <first : # engine said:    king squares:  [e0, e9]
+164688 <first : # engine said: 
+164688 <first : # engine said: time: 73120 inc 0 start 1611960497148 stop 1611960499583 depth 64 timeset 1
+164688 <first : # engine said: info score cp 652 depth 1 nodes 44 time 0 pv c3c8 
+164688 <first :   1     652      0         44 c3c8 
+164689 <first : # engine said: info score cp 640 depth 2 nodes 48 time 0 pv c3c8 h9g7 
+164689 <first :   2     640      0         48 c3c8 h9g7 
+164689 <first : # engine said: info score cp 660 depth 3 nodes 92 time 1 pv c3c8 h9g7 d7d8 
+164689 <first :   3     660      0         92 c3c8 h9g7 d7d8 
+164689 <first : # engine said: info score cp 668 depth 4 nodes 166 time 9 pv c3c8 h9g7 d7d8 g7e6 d8e8 d9e8 
+164689 <first :   4     668      0        166 c3c8 h9g7 d7d8 g7e6 d8e8 d9e8 
+164689 <first : # engine said: info score cp 668 depth 5 nodes 284 time 10 pv c3c8 h9g7 d7d8 g7e6 d8d9 e8d9 
+164689 <first :   5     668      1        284 c3c8 h9g7 d7d8 g7e6 d8d9 e8d9 
+164689 <first : # engine said: info score cp 709 depth 6 nodes 443 time 12 pv c3c8 h9g7 d7d8 g7e6 e0f0 e6g7 d8d9 
+164689 <first :   6     709      1        443 c3c8 h9g7 d7d8 g7e6 e0f0 e6g7 d8d9 
+164689 <first : # engine said: info score cp 709 depth 7 nodes 676 time 14 pv c3c8 h9g7 d7d8 g7e6 e0f0 e6g7 d8d9 
+164689 <first :   7     709      1        676 c3c8 h9g7 d7d8 g7e6 e0f0 e6g7 d8d9 
+164689 <first : # engine said: info score cp 699 depth 8 nodes 1663 time 37 pv c3c8 h9g7 d7d8 e9f9 d8d9 a5a4 c8c4 e4e3 
+164689 <first :   8     699      3       1663 c3c8 h9g7 d7d8 e9f9 d8d9 a5a4 c8c4 e4e3 
+164689 <first : # engine said: info score cp 705 depth 9 nodes 2952 time 64 pv c3c8 h9g7 d7d8 e9f9 d8d9 a5a4 c8c4 e4e3 c4f4 
+164689 <first :   9     705      6       2952 c3c8 h9g7 d7d8 e9f9 d8d9 a5a4 c8c4 e4e3 c4f4 
+164690 <first : # engine said: info score cp 711 depth 10 nodes 5258 time 112 pv c3c8 h9g7 d7d8 e9f9 d8d9 e4e3 c8c6 e3e6 c6d6 e6e3 
+164690 <first :  10     711     11       5258 c3c8 h9g7 d7d8 e9f9 d8d9 e4e3 c8c6 e3e6 c6d6 e6e3 
+166216 <first : # engine said: info score cp 708 depth 11 nodes 118260 time 1647 pv c3c8 e9f9 c8c4 e4e5 d7d8 h9f8 c4c9 e8f7 d8d9 e5e3 d9e9 
+166216 <first :  11     708    164     118260 c3c8 e9f9 c8c4 e4e5 d7d8 h9f8 c4c9 e8f7 d8d9 e5e3 d9e9 
+167026 <first : # engine said: bestmove c3c8
+167026 <first : move c3c8
+Interrupting second
+167026 >second: time 7312
+167026 >second: otim 6984
+book hit = (NULL)
+167026 >second: c3c8
+167166 <first : 
+167167 <second: # root hit 14 1041 ffffff88
+167167 <second: -1    889      769    2658032 c3c8
+167167 <second: # root hit 13 -1042 ffffff88
+167167 <second: -1    190        0          1 e4e1
+167167 <second:  0   -840        0          2 e4e1
+167167 <second:  1   -840        0          5 e4e3
+167167 <second:  2   -846        0         24 e4e3
+167167 <second:  3  -1042        0         92 h9g7
+167167 <second:  4  -1042        0         94 h9g7
+167168 <second:  5  -1042        0         96 h9g7
+167168 <second:  6  -1042        0         98 h9g7
+167168 <second:  7  -1042        0        100 h9g7
+167168 <second:  8  -1042        0        102 h9g7
+167168 <second:  9  -1042        0        104 h9g7
+167168 <second: 10  -1042        0        107 h9g7
+167168 <second: 11  -1042        1       4384 h9g7
+168251 <second: 12  -1028      121     537472 h9g7
+168251 <second: move h9g7
+168252 >first : time 6984
+168252 >first : otim 7290
+book hit = (NULL)
+168252 >first : usermove 168252 >first : h9g7
+168377 <first : # 'time' think=0 pause=0 log=0 sent=0
+168377 <first : # 'otim' think=0 pause=0 log=0 sent=0
+168377 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+168377 <first : # start search
+168377 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7
+168377 <first : # go btime 72900 wtime 69840 winc 1000 binc 1000
+168377 <first : # engine said: 
+168377 <first : # engine said: 
+168377 <first : # engine said: 9  . . . a k . . . . 
+168377 <first : # engine said: 8  . . R . a . . . . 
+168377 <first : # engine said: 7  . . . P . . n . . 
+168377 <first : # engine said: 6  . . . . . . . . p 
+168377 <first : # engine said: 5  p . . . . . . . . 
+168377 <first : # engine said: 4  . . . . c . . . . 
+168377 <first : # engine said: 3  . . . . . . . . P 
+168377 <first : # engine said: 2  . . . . C . . . . 
+168377 <first : # engine said: 1  . . . . A . . . . 
+168377 <first : # engine said: 0  . . B A K . B . . 
+168377 <first : # engine said: 
+168377 <first : # engine said:    a b c d e f g h i
+168377 <first : # engine said: 
+168377 <first : # engine said:    side:           r
+168377 <first : # engine said:    hash key:      -538474489
+168377 <first : # engine said:    king squares:  [e0, e9]
+168377 <first : # engine said: 
+168377 <first : # engine said: time: 72900 inc 0 start 1611960500837 stop 1611960503265 depth 64 timeset 1
+168377 <first : # engine said: info score cp 660 depth 1 nodes 44 time 0 pv d7d8 
+168377 <first :   1     660      0         44 d7d8 
+168382 <first : # engine said: info score cp 668 depth 2 nodes 94 time 0 pv d7d8 g7e6 d8e8 d9e8 
+168382 <first :   2     668      0         94 d7d8 g7e6 d8e8 d9e8 
+168382 <first : # engine said: info score cp 672 depth 3 nodes 295 time 1 pv e0f0 g7h9 d7d8 
+168382 <first :   3     672      0        295 e0f0 g7h9 d7d8 
+168383 <first : # engine said: info score cp 707 depth 4 nodes 770 time 13 pv d7d8 e9f9 d8d9 e4e7 
+168383 <first :   4     707      1        770 d7d8 e9f9 d8d9 e4e7 
+168383 <first : # engine said: info score cp 713 depth 5 nodes 2571 time 47 pv d7d8 e9f9 d8d9 e4e7 c8d8 
+168383 <first :   5     713      4       2571 d7d8 e9f9 d8d9 e4e7 c8d8 
+168383 <first : # engine said: info score cp 709 depth 6 nodes 4004 time 77 pv d7d8 e9f9 d8d9 e4e7 c8d8 a5a4 
+168383 <first :   6     709      7       4004 d7d8 e9f9 d8d9 e4e7 c8d8 a5a4 
+168423 <first : # engine said: info score cp 711 depth 7 nodes 7073 time 165 pv d7d8 e9f9 d8d9 e4e7 c8d8 a5a4 i3i4 
+168423 <first :   7     711     16       7073 d7d8 e9f9 d8d9 e4e7 c8d8 a5a4 i3i4 
+168545 <first : # engine said: info score cp 742 depth 8 nodes 16416 time 287 pv e0f0 i6i5 d7d8 i5i4 d8d9 e9d9 e2e8 i4i3 e8h8 
+168545 <first :   8     742     28      16416 e0f0 i6i5 d7d8 i5i4 d8d9 e9d9 e2e8 i4i3 e8h8 
+168700 <first : # engine said: info score cp 742 depth 9 nodes 26003 time 439 pv e0f0 i6i5 d7d8 i5i4 d8d9 e9d9 e2e8 i4i3 c8c9 d9d8 e8e5 
+168700 <first :   9     742     43      26003 e0f0 i6i5 d7d8 i5i4 d8d9 e9d9 e2e8 i4i3 c8c9 d9d8 e8e5 
+169761 <first : # engine said: info score cp 936 depth 10 nodes 138556 time 1503 pv e0f0 a5a4 c8c9 g7e6 e2e6 e8d7 c9c4 e4e3 c4d4 a4b4 d4d7 
+169761 <first :  10     936    150     138556 e0f0 a5a4 c8c9 g7e6 e2e6 e8d7 c9c4 e4e3 c4d4 a4b4 d4d7 
+170732 <first : # engine said: bestmove e0f0
+170732 <first : move e0f0
+Interrupting second
+170733 >second: time 7290
+170733 >second: otim 6835
+book hit = (NULL)
+170733 >second: e0f0
+170818 <first : 
+170818 <second: # root hit 13 1028 ffffff88
+170818 <second: -1    190      370     537474 e2e8
+170818 <second:  0    840      370     537475 e2e8
+170819 <second: # root hit 3 -749 ffffff88
+170819 <second: -1    190        0          1 e4e1
+170819 <second:  0   -840        0          2 e4e1
+170819 <second:  1   -749        0          3 a5a4
+170819 <second:  2   -758        0        232 a5a4
+170819 <second:  3   -835        0       2088 g7f5
+170819 <second:  4   -835        0       2646 g7f5
+170819 <second:  5   -931        5      12871 a5a4
+170841 <second:  6   -934        9      21065 i6i5
+171087 <second:  7   -937       35      87572 a5a4
+171242 <second:  8   -943       50     164357 e4e3
+171931 <second:  9  -1027      119     512299 e4e6
+171939 <second: move e4e6
+171939 >first : time 6835
+171940 >first : otim 7269
+book hit = (NULL)
+171940 >first : usermove 171940 >first : e4e6
+172060 <first : # 'time' think=0 pause=0 log=0 sent=0
+172060 <first : # 'otim' think=0 pause=0 log=0 sent=0
+172060 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+172060 <first : # start search
+172060 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 e0f0 e4e6
+172060 <first : # go btime 72690 wtime 68350 winc 1000 binc 1000
+172060 <first : # engine said: 
+172060 <first : # engine said: 
+172060 <first : # engine said: 9  . . . a k . . . . 
+172060 <first : # engine said: 8  . . R . a . . . . 
+172060 <first : # engine said: 7  . . . P . . n . . 
+172060 <first : # engine said: 6  . . . . c . . . p 
+172060 <first : # engine said: 5  p . . . . . . . . 
+172060 <first : # engine said: 4  . . . . . . . . . 
+172060 <first : # engine said: 3  . . . . . . . . P 
+172060 <first : # engine said: 2  . . . . C . . . . 
+172060 <first : # engine said: 1  . . . . A . . . . 
+172060 <first : # engine said: 0  . . B A . K B . . 
+172060 <first : # engine said: 
+172060 <first : # engine said:    a b c d e f g h i
+172060 <first : # engine said: 
+172060 <first : # engine said:    side:           r
+172060 <first : # engine said:    hash key:      2027577430
+172060 <first : # engine said:    king squares:  [f0, e9]
+172060 <first : # engine said: 
+172060 <first : # engine said: time: 72690 inc 0 start 1611960504520 stop 1611960506941 depth 64 timeset 1
+172060 <first : # engine said: info score cp 664 depth 1 nodes 76 time 0 pv d7d8 
+172060 <first :   1     664      0         76 d7d8 
+172060 <first : # engine said: info score cp 711 depth 2 nodes 141 time 0 pv d7d8 i6i5 d8d9 
+172060 <first :   2     711      0        141 d7d8 i6i5 d8d9 
+172061 <first : # engine said: info score cp 711 depth 3 nodes 288 time 1 pv d7d8 i6i5 d8d9 
+172061 <first :   3     711      0        288 d7d8 i6i5 d8d9 
+172061 <first : # engine said: info score cp 810 depth 4 nodes 694 time 6 pv d7d8 i6i5 c8c9 g7f5 d8e8 
+172061 <first :   4     810      0        694 d7d8 i6i5 c8c9 g7f5 d8e8 
+172061 <first : # engine said: info score cp 810 depth 5 nodes 1492 time 15 pv d7d8 i6i5 c8c9 g7f5 d8e8 
+172061 <first :   5     810      1       1492 d7d8 i6i5 c8c9 g7f5 d8e8 
+172061 <first : # engine said: info score cp 942 depth 6 nodes 4877 time 45 pv d7d8 g7h9 d8d9 e9d9 c8c9 d9d8 c9h9 e6e3 
+172061 <first :   6     942      4       4877 d7d8 g7h9 d8d9 e9d9 c8c9 d9d8 c9h9 e6e3 
+172061 <first : # engine said: info score cp 948 depth 7 nodes 6925 time 70 pv d7d8 g7h9 d8d9 e9d9 c8c9 d9d8 c9h9 e6e3 h9h8 
+172061 <first :   7     948      7       6925 d7d8 g7h9 d8d9 e9d9 c8c9 d9d8 c9h9 e6e3 h9h8 
+172243 <first : # engine said: info score mate 4 depth 8 nodes 25286 time 302 pv d7d8 e6e3 c8c9 g7e6 e2e6 e8f9 c9d9 
+172243 <first :   8  100004     30      25286 d7d8 e6e3 c8c9 g7e6 e2e6 e8f9 c9d9 
+172256 <first : # engine said: bestmove d7d8
+172259 <first : move d7d8
+Interrupting second
+172259 >second: time 7269
+172259 >second: otim 6903
+book hit = (NULL)
+172259 >second: d7d8
+172398 <first : 
+172399 <second: # root hit 10 1027 ffffff88
+172399 <second: -1    190      152     512303 e2e8
+172399 <second:  0    840      152     512306 e2e8
+172399 <second: # root hit 3 -936 ffffff88
+172399 <second: -1    190        0          1 e6e1
+172399 <second:  0   -840        0          2 e6e1
+172399 <second:  1   -936        0          3 a5a4
+172400 <second:  2   -936        0          6 a5a4
+172400 <second:  3   -936        0        245 a5a4
+172400 <second:  4   -936        0        271 a5a4
+172400 <second:  5   -943        6       7005 a5a4
+172400 <second:  6   -944        6       9170 a5a4
+172662 <second:  7  -7997       40     119297 e6e5
+172672 <second:  8  -7997       41     121570 e6e5
+172723 <second:  9  -7997       46     140714 e6e5
+172753 <second: 10  -7997       49     152517 e6e5
+172787 <second: 11  -7997       52     165781 e6e5
+172880 <second: 12  -7997       62     210533 e6e5
+172928 <second: 13  -7997       66     235002 e6e5
+173043 <second: 14  -7997       78     305515 e6e5
+173132 <second: 15  -7997       87     374277 e6e5
+173256 <second: 16  -7997       99     451469 e6e5
+173455 <second: 17  -7997      119     592671 e6e5
+173463 <second: move e6e5
+173463 >first : time 6903
+173463 >first : otim 7249
+book hit = (NULL)
+173463 >first : usermove 173463 >first : e6e5
+173547 <first : # 'time' think=0 pause=0 log=0 sent=0
+173547 <first : # 'otim' think=0 pause=0 log=0 sent=0
+173547 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+173547 <first : # start search
+173547 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 e0f0 e4e6 d7d8 e6e5
+173547 <first : # go btime 72490 wtime 69030 winc 1000 binc 1000
+173547 <first : # engine said: 
+173547 <first : # engine said: 
+173547 <first : # engine said: 9  . . . a k . . . . 
+173547 <first : # engine said: 8  . . R P a . . . . 
+173547 <first : # engine said: 7  . . . . . . n . . 
+173547 <first : # engine said: 6  . . . . . . . . p 
+173547 <first : # engine said: 5  p . . . c . . . . 
+173547 <first : # engine said: 4  . . . . . . . . . 
+173547 <first : # engine said: 3  . . . . . . . . P 
+173547 <first : # engine said: 2  . . . . C . . . . 
+173547 <first : # engine said: 1  . . . . A . . . . 
+173547 <first : # engine said: 0  . . B A . K B . . 
+173547 <first : # engine said: 
+173547 <first : # engine said:    a b c d e f g h i
+173547 <first : # engine said: 
+173547 <first : # engine said:    side:           r
+173547 <first : # engine said:    hash key:      -626433742
+173547 <first : # engine said:    king squares:  [f0, e9]
+173547 <first : # engine said: 
+173547 <first : # engine said: time: 72490 inc 0 start 1611960506044 stop 1611960508458 depth 64 timeset 1
+173547 <first : # engine said: info score cp 711 depth 1 nodes 74 time 0 pv d8d9 
+173547 <first :   1     711      0         74 d8d9 
+173547 <first : # engine said: info score cp 934 depth 2 nodes 151 time 0 pv c8c9 g7e6 e2e6 
+173547 <first :   2     934      0        151 c8c9 g7e6 e2e6 
+173548 <first : # engine said: info score cp 764 depth 3 nodes 200 time 1 pv d8d9 e9d9 e2e8 g7h5 
+173548 <first :   3     764      0        200 d8d9 e9d9 e2e8 g7h5 
+173548 <first : # engine said: info score cp 1060 depth 4 nodes 603 time 4 pv c8c9 g7e6 e2e6 e8f9 c9d9 
+173548 <first :   4    1060      0        603 c8c9 g7e6 e2e6 e8f9 c9d9 
+173548 <first : # engine said: info score mate 3 depth 5 nodes 2712 time 17 pv c8c9 g7e6 e2e6 e8f9 c9d9 
+173548 <first :   5  100003      1       2712 c8c9 g7e6 e2e6 e8f9 c9d9 
+173548 <first : # engine said: bestmove c8c9
+173548 <first : move c8c9
+Interrupting second
+173548 >second: time 7249
+173548 >second: otim 6995
+book hit = (NULL)
+173548 >second: c8c9
+173713 <first : 
+173713 <second: # root hit 18 7997 ffffff88
+173713 <second: -1    194      128     592673 d8d9
+173713 <second:  0    840      128     592695 d8d9
+173714 <second: # root hit 17 -7998 ffffff88
+173714 <second: -1    190        0          1 e5e1
+173714 <second:  0   -840        0          2 e5e1
+173714 <second:  1  -1040        0         18 e5e4
+173714 <second:  2  -1040        0         22 e5e4
+173714 <second:  3  -7998        0         45 g7e6
+173714 <second:  4  -7998        0         51 g7e6
+173714 <second:  5  -7998        0         61 g7e6
+173714 <second:  6  -7998        0         70 g7e6
+173714 <second:  7  -7998        0         85 g7e6
+173715 <second:  8  -7998        0        102 g7e6
+173715 <second:  9  -7998        0        124 g7e6
+173715 <second: 10  -7998        0        145 g7e6
+173715 <second: 11  -7998        0        297 g7e6
+173715 <second: 12  -7998        0        381 g7e6
+173715 <second: 13  -7998        0        536 g7e6
+173715 <second: 14  -7998        0       1022 g7e6
+173722 <second: 15  -7998        1       1462 g7e6
+173722 <second: 16  -7998        3      10141 g7e6
+173722 <second: 17  -7998        4      17932 g7e6
+173722 <second: 18  -7998        6      25861 g7e6
+173722 <second: 19  -7998        9      34045 g7e6
+173722 <second: 20  -7998       10      42500 g7e6
+173722 <second: 21  -7998       13      51215 g7e6
+173760 <second: 22  -7998       18      60203 g7e6
+173806 <second: 23  -7998       24      69478 g7e6
+173831 <second: 24  -7998       27      79048 g7e6
+173860 <second: 25  -7998       31      88927 g7e6
+173889 <second: 26  -7998       34      99125 g7e6
+173918 <second: 27  -7998       37     109656 g7e6
+173945 <second: 28  -7998       39     120533 g7e6
+173952 <second: move g7e6
+173953 >first : time 6995
+173953 >first : otim 7308
+book hit = (NULL)
+173953 >first : usermove 173953 >first : g7e6
+174063 <first : # 'time' think=0 pause=0 log=0 sent=0
+174063 <first : # 'otim' think=0 pause=0 log=0 sent=0
+174063 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+174063 <first : # start search
+174063 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 e0f0 e4e6 d7d8 e6e5 c8c9 g7e6
+174063 <first : # go btime 73080 wtime 69950 winc 1000 binc 1000
+174063 <first : # engine said: 
+174063 <first : # engine said: 
+174063 <first : # engine said: 9  . . R a k . . . . 
+174063 <first : # engine said: 8  . . . P a . . . . 
+174063 <first : # engine said: 7  . . . . . . . . . 
+174063 <first : # engine said: 6  . . . . n . . . p 
+174063 <first : # engine said: 5  p . . . c . . . . 
+174063 <first : # engine said: 4  . . . . . . . . . 
+174063 <first : # engine said: 3  . . . . . . . . P 
+174063 <first : # engine said: 2  . . . . C . . . . 
+174063 <first : # engine said: 1  . . . . A . . . . 
+174063 <first : # engine said: 0  . . B A . K B . . 
+174063 <first : # engine said: 
+174063 <first : # engine said:    a b c d e f g h i
+174063 <first : # engine said: 
+174063 <first : # engine said:    side:           r
+174063 <first : # engine said:    hash key:      990225707
+174063 <first : # engine said:    king squares:  [f0, e9]
+174063 <first : # engine said: 
+174063 <first : # engine said: time: 73080 inc 0 start 1611960506534 stop 1611960508968 depth 64 timeset 1
+174063 <first : # engine said: info score cp 934 depth 1 nodes 64 time 0 pv e2e6 
+174063 <first :   1     934      0         64 e2e6 
+174064 <first : # engine said: info score cp 1060 depth 2 nodes 128 time 0 pv e2e6 e8f9 c9d9 
+174064 <first :   2    1060      0        128 e2e6 e8f9 c9d9 
+174064 <first : # engine said: info score mate 2 depth 3 nodes 128 time 0 pv e2e6 e8f9 c9d9 
+174064 <first :   3  100002      0        128 e2e6 e8f9 c9d9 
+174064 <first : # engine said: bestmove e2e6
+174064 <first : move e2e6
+Interrupting second
+174064 >second: time 7308
+174064 >second: otim 7084
+book hit = (NULL)
+174064 >second: e2e6
+174161 <first : 
+174161 <second: # root hit 29 7998 ffffff88
+174161 <second: -1    440       51     120535 e2e6
+174162 <second: # root hit 28 -7999 ffffff88
+174162 <second: -1     -2        0          1 i6i5
+174162 <second:  0  -1290        0          2 i6i5
+174162 <second:  1  -7999        0          3 e8d7
+174162 <second:  2  -7999        0          4 e8d7
+174162 <second:  3  -7999        0          5 e8d7
+174162 <second:  4  -7999        0          6 e8d7
+174162 <second:  5  -7999        0          7 e8d7
+174162 <second:  6  -7999        0          8 e8d7
+174162 <second:  7  -7999        0          9 e8d7
+174163 <second:  8  -7999        0         10 e8d7
+174163 <second:  9  -7999        0         11 e8d7
+174163 <second: 10  -7999        0         12 e8d7
+174163 <second: 11  -7999        0         13 e8d7
+174163 <second: 12  -7999        0         14 e8d7
+174163 <second: 13  -7999        0         15 e8d7
+174163 <second: 14  -7999        0         16 e8d7
+174163 <second: 15  -7999        0         17 e8d7
+174163 <second: 16  -7999        0         18 e8d7
+174163 <second: 17  -7999        0         19 e8d7
+174163 <second: 18  -7999        0         20 e8d7
+174163 <second: 19  -7999        0         21 e8d7
+174163 <second: 20  -7999        0         22 e8d7
+174163 <second: 21  -7999        0         23 e8d7
+174163 <second: 22  -7999        0         24 e8d7
+174163 <second: 23  -7999        0         25 e8d7
+174164 <second: 24  -7999        0         26 e8d7
+174164 <second: 25  -7999        0         27 e8d7
+174164 <second: 26  -7999        0         28 e8d7
+174164 <second: 27  -7999        0        285 e8d7
+174164 <second: 28  -7999        0        529 e8d7
+174164 <second: move e8d7
+174164 >first : time 7084
+174164 >first : otim 7398
+book hit = (NULL)
+174164 >first : usermove 174164 >first : e8d7
+174258 <first : # 'time' think=0 pause=0 log=0 sent=0
+174258 <first : # 'otim' think=0 pause=0 log=0 sent=0
+174258 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+174258 <first : # start search
+174258 <first : # fen rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR r moves h2e2 b7b0 a0b0 h7c7 b2a2 c7c3 b0b6 c3g3 b6c6 h9g7 c6c9 g3a3 h0g2 g9e7 c9c3 a3a4 g2f4 a9a7 f4g6 b9d8 a2d2 a7d7 d2d8 d7d8 g6e7 a6a5 f0e1 a4h4 i0h0 h4d4 e3e4 d8e8 e4e5 d4e4 e5e6 i9h9 h0h9 g7h9 e7c8 e8d8 e6d6 f9e8 d6d7 d8c8 c3c8 h9g7 e0f0 e4e6 d7d8 e6e5 c8c9 g7e6 e2e6 e8d7
+174258 <first : # go btime 73980 wtime 70840 winc 1000 binc 1000
+174258 <first : # engine said: 
+174258 <first : # engine said: 
+174258 <first : # engine said: 9  . . R a k . . . . 
+174258 <first : # engine said: 8  . . . P . . . . . 
+174258 <first : # engine said: 7  . . . a . . . . . 
+174258 <first : # engine said: 6  . . . . C . . . p 
+174258 <first : # engine said: 5  p . . . c . . . . 
+174258 <first : # engine said: 4  . . . . . . . . . 
+174258 <first : # engine said: 3  . . . . . . . . P 
+174258 <first : # engine said: 2  . . . . . . . . . 
+174258 <first : # engine said: 1  . . . . A . . . . 
+174258 <first : # engine said: 0  . . B A . K B . . 
+174258 <first : # engine said: 
+174258 <first : # engine said:    a b c d e f g h i
+174258 <first : # engine said: 
+174258 <first : # engine said:    side:           r
+174258 <first : # engine said:    hash key:      509209212
+174258 <first : # engine said:    king squares:  [f0, e9]
+174258 <first : # engine said: 
+174258 <first : # engine said: time: 73980 inc 0 start 1611960506744 stop 1611960509208 depth 64 timeset 1
+174258 <first : # engine said: info score cp 1060 depth 1 nodes 64 time 4 pv c9d9 
+174258 <first :   1    1060      0         64 c9d9 
+174259 <first : # engine said: info score mate 1 depth 2 nodes 114 time 4 pv c9d9 
+174259 <first :   2  100001      0        114 c9d9 
+174259 <first : # engine said: bestmove c9d9
+174259 <first : move c9d9
+Interrupting second
+174259 >second: c9d9
+GameEnds(26, Xboard adjudication: Checkmate, 4)
+GE(26, Xboard adjudication: Checkmate, 4) bare king k=9 color=0
+174259 >first : result 1-0 {Xboard adjudication: Checkmate}
+174259 >second: result 1-0 {Xboard adjudication: Checkmate}
+174259 >first : quit
+174278 >second: force
+174278 >second: ping 2
+174436 <second: # root hit 29 7999 ffffff88
+174436 <second: -1    194       19        531 d8d9
+174436 <second: 1-0 {White mates}
+174436 <second: Error (unknown command): result
+174436 <second: pong 2
+BackwardInner(0), current 55, forward 55
+ForwardInner(1), current 0, forward 55
+ForwardInner(2), current 1, forward 55
+BackwardInner(1), current 2, forward 55
+ForwardInner(2), current 1, forward 55
+ForwardInner(3), current 2, forward 55
+ForwardInner(4), current 3, forward 55
+ForwardInner(5), current 4, forward 55
+ForwardInner(6), current 5, forward 55
+ForwardInner(7), current 6, forward 55
+ForwardInner(8), current 7, forward 55
+BackwardInner(7), current 8, forward 55
+ForwardInner(8), current 7, forward 55
+ForwardInner(9), current 8, forward 55
+ForwardInner(10), current 9, forward 55
+ForwardInner(11), current 10, forward 55
+BackwardInner(10), current 11, forward 55
+BackwardInner(9), current 10, forward 55
+BackwardInner(8), current 9, forward 55
+ForwardInner(9), current 8, forward 55
+StartChildProcess (dir=".") uci2wb debug wukong
+546590 >first : xboard
+protover 2
+546590 >first : option UCI2WB debug output=1
+546590 >first : memory 68
+546590 >first : cores 1
+546590 >first : new
+random
+546590 >first : variant xiangqi
+546590 >first : level 0 2 1
+546590 >first : post
+546590 >first : hard
+546590 >first : easy
+546590 >first : ping 2
+Impossible move c9d9, type = 0
+Feeding moves 0 through 9 to first chess program
+546591 >first : force
+546591 >first : usermove 546591 >first : h2e2
+546591 >first : usermove 546591 >first : b7b0
+546591 >first : usermove 546591 >first : a0b0
+546591 >first : usermove 546591 >first : h7c7
+546591 >first : usermove 546591 >first : b2a2
+546591 >first : usermove 546591 >first : c7c3
+546591 >first : usermove 546591 >first : b0b6
+546591 >first : usermove 546591 >first : c3g3
+546591 >first : usermove 546591 >first : b6c6
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546591 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546592 >first : undo
+546602 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+546602 <first : # 'protover' think=0 pause=0 log=0 sent=0
+546602 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+546602 >first : accepted setboard
+546602 >first : accepted usermove
+546603 >first : accepted debug
+546603 >first : accepted ping
+546603 >first : accepted name
+546603 >first : accepted reuse
+546603 >first : accepted exclude
+546603 >first : accepted pause
+546603 >first : accepted sigint
+546603 >first : accepted sigterm
+546603 >first : accepted done
+546603 <first : feature option="UCI2WB debug output -check 1"
+546603 >first : accepted option
+546603 <first : # uci
+547546 <first : # engine said: 
+547547 <first : # engine said:   Wukong Xiangqi - UCI mode - v1.0
+547547 <first : # engine said: 
+547547 <first : # engine said: 
+547554 <first : # engine said: id name WukongJS 1.0
+547554 <first : feature myname="WukongJS 1.0 (UCI2WB)"
+547554 >first : accepted myname
+547554 <first : # engine said: id author Code Monkey King
+547554 <first : # engine said: option name Hash type spin default 16 min 4 max 128
+547554 <first : # engine said: uciok
+547554 <first : feature variants="normal,xiangqi"
+547554 >first : accepted variants
+547554 <first : feature smp=1 memory=1 done=1
+547554 >first : accepted smp
+547554 >first : accepted memory
+547554 >first : accepted done
+547561 <first : # 'option' think=0 pause=0 log=0 sent=0
+547561 <first : # backlog: # 'memory' think=0 pause=0 log=0 sent=0
+547561 <first : # 'cores' think=0 pause=0 log=0 sent=0
+548238 >first : usermove 548238 >first : c9e7
+550114 <first : # 'new' think=0 pause=0 log=0 sent=0
+550122 <first : # setoption name Hash value 68
+550122 <first : # isready
+550122 <first : # engine said: Set hash table size to 68 Mb
+550123 <first : # engine said: Hash table initialized with 3565158 entries
+550123 <first : # engine said: readyok
+550123 <first : # ucinewgame
+550123 <first : # 'random' think=0 pause=0 log=0 sent=0
+550123 <first : # 'variant' think=0 pause=0 log=0 sent=0
+550123 <first : # 'level' think=0 pause=0 log=0 sent=0
+550123 <first : # 'post' think=0 pause=0 log=0 sent=0
+550123 <first : # 'hard' think=0 pause=0 log=0 sent=0
+550123 <first : # 'easy' think=0 pause=0 log=0 sent=0
+550123 <first : # 'ping' think=0 pause=0 log=0 sent=0
+550123 <first : pong 2
+550123 <first : # 'force' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550123 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550124 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550124 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550124 <first : # 'undo' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+550124 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+552157 <first : # engine said: 
+552157 <first : # engine said: 
+552157 <first : # engine said: 9  r n b a k a b n r 
+552157 <first : # engine said: 8  . . . . . . . . . 
+552157 <first : # engine said: 7  . c . . . . . c . 
+552157 <first : # engine said: 6  p . p . p . p . p 
+552157 <first : # engine said: 5  . . . . . . . . . 
+552157 <first : # engine said: 4  . . . . . . . . . 
+552157 <first : # engine said: 3  P . P . P . P . P 
+552157 <first : # engine said: 2  . C . . . . . C . 
+552157 <first : # engine said: 1  . . . . . . . . . 
+552157 <first : # engine said: 0  R N B A K A B N R 
+552157 <first : # engine said: 
+552157 <first : # engine said:    a b c d e f g h i
+552157 <first : # engine said: 
+552157 <first : # engine said:    side:           r
+552157 <first : # engine said:    hash key:      -1866463866
+552157 <first : # engine said:    king squares:  [e0, e9]
+552157 <first : # engine said: 
+553351 >first : usermove 553351 >first : e2e6
+553355 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+558407 >first : usermove 558407 >first : d9e8
+558410 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+559634 >first : usermove 559634 >first : c6c9
+GameEnds(26, Xboard adjudication: Checkmate, 4)
+559635 >first : quit
+BackwardInner(12), current 13, forward 13
+BackwardInner(11), current 12, forward 13
+BackwardInner(10), current 11, forward 13
+StartChildProcess (dir=".") uci2wb debug wukong
+575888 >first : xboard
+protover 2
+575888 >first : option UCI2WB debug output=1
+575888 >first : memory 68
+575888 >first : cores 1
+575888 >first : new
+random
+575888 >first : variant xiangqi
+575888 >first : level 0 2 1
+575888 >first : post
+575888 >first : hard
+575888 >first : easy
+575888 >first : ping 3
+Impossible move c9d9, type = 0
+Feeding moves 0 through 10 to first chess program
+575889 >first : force
+575889 >first : usermove 575889 >first : h2e2
+575889 >first : usermove 575889 >first : b7b0
+575889 >first : usermove 575889 >first : a0b0
+575889 >first : usermove 575889 >first : h7c7
+575889 >first : usermove 575889 >first : b2a2
+575889 >first : usermove 575889 >first : c7c3
+575889 >first : usermove 575889 >first : b0b6
+575889 >first : usermove 575889 >first : c3g3
+575889 >first : usermove 575889 >first : b6c6
+575889 >first : usermove 575889 >first : c9e7
+575889 >first : usermove 575889 >first : e2e6
+575915 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+575915 <first : # 'protover' think=0 pause=0 log=0 sent=0
+575915 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+575915 >first : accepted setboard
+575915 >first : accepted usermove
+575915 >first : accepted debug
+575915 >first : accepted ping
+575915 >first : accepted name
+575915 >first : accepted reuse
+575915 >first : accepted exclude
+575915 >first : accepted pause
+575915 >first : accepted sigint
+575915 >first : accepted sigterm
+575915 >first : accepted done
+575915 <first : feature option="UCI2WB debug output -check 1"
+575915 >first : accepted option
+575915 <first : # uci
+577238 <first : # engine said: 
+577238 <first : # engine said:   Wukong Xiangqi - UCI mode - v1.0
+577238 <first : # engine said: 
+577238 <first : # engine said: 
+577258 <first : # engine said: id name WukongJS 1.0
+577258 <first : feature myname="WukongJS 1.0 (UCI2WB)"
+577258 >first : accepted myname
+577262 <first : # engine said: id author Code Monkey King
+577262 <first : # engine said: option name Hash type spin default 16 min 4 max 128
+577262 <first : # engine said: uciok
+577262 <first : feature variants="normal,xiangqi"
+577262 >first : accepted variants
+577262 <first : feature smp=1 memory=1 done=1
+577262 >first : accepted smp
+577262 >first : accepted memory
+577262 >first : accepted done
+577262 <first : # 'option' think=0 pause=0 log=0 sent=0
+577263 <first : # backlog: # 'memory' think=0 pause=0 log=0 sent=0
+577263 <first : # 'cores' think=0 pause=0 log=0 sent=0
+577528 >first : usermove 577528 >first : f9e8
+580178 <first : # 'new' think=0 pause=0 log=0 sent=0
+580178 <first : # setoption name Hash value 68
+580178 <first : # isready
+580178 <first : # engine said: Set hash table size to 68 Mb
+580181 <first : # engine said: Hash table initialized with 3565158 entries
+580181 <first : # engine said: readyok
+580181 <first : # ucinewgame
+580181 <first : # 'random' think=0 pause=0 log=0 sent=0
+580181 <first : # 'variant' think=0 pause=0 log=0 sent=0
+580181 <first : # 'level' think=0 pause=0 log=0 sent=0
+580181 <first : # 'post' think=0 pause=0 log=0 sent=0
+580181 <first : # 'hard' think=0 pause=0 log=0 sent=0
+580181 <first : # 'easy' think=0 pause=0 log=0 sent=0
+580181 <first : # 'ping' think=0 pause=0 log=0 sent=0
+580181 <first : pong 3
+580181 <first : # 'force' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+580181 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+580759 <first : # engine said: 
+580759 <first : # engine said: 
+580759 <first : # engine said: 9  r n b a k a b n r 
+580759 <first : # engine said: 8  . . . . . . . . . 
+580759 <first : # engine said: 7  . c . . . . . c . 
+580759 <first : # engine said: 6  p . p . p . p . p 
+580759 <first : # engine said: 5  . . . . . . . . . 
+580759 <first : # engine said: 4  . . . . . . . . . 
+580759 <first : # engine said: 3  P . P . P . P . P 
+580759 <first : # engine said: 2  . C . . . . . C . 
+580759 <first : # engine said: 1  . . . . . . . . . 
+580759 <first : # engine said: 0  R N B A K A B N R 
+580759 <first : # engine said: 
+580759 <first : # engine said:    a b c d e f g h i
+580759 <first : # engine said: 
+580759 <first : # engine said:    side:           r
+580759 <first : # engine said:    hash key:      -1866463866
+580759 <first : # engine said:    king squares:  [e0, e9]
+580759 <first : # engine said: 
+657201 >first : usermove 657201 >first : i0i1
+657203 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+669494 >first : usermove 669495 >first : a9a7
+669497 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+672766 >first : usermove 672766 >first : i1d1
+672770 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+675363 >first : usermove 675363 >first : b9c7
+675366 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+679063 >first : usermove 679063 >first : d1c1
+679068 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+682543 >first : usermove 682543 >first : c7b9
+682547 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+697811 >first : usermove 697811 >first : c6c9
+697814 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+700975 >first : usermove 700975 >first : a7d7
+700979 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+BackwardInner(19), current 20, forward 20
+705660 >first : undo
+705663 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(18), current 19, forward 20
+705859 >first : undo
+705861 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(17), current 18, forward 20
+706159 >first : undo
+706161 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(16), current 17, forward 20
+706438 >first : undo
+706452 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(15), current 16, forward 20
+706796 >first : undo
+706798 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(14), current 15, forward 20
+707342 >first : undo
+707344 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(13), current 14, forward 20
+707758 >first : undo
+707760 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(12), current 13, forward 20
+708358 >first : undo
+708361 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(11), current 12, forward 20
+708927 >first : undo
+708929 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(10), current 11, forward 20
+709339 >first : undo
+709342 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(9), current 10, forward 20
+710379 >first : undo
+710381 <first : # 'undo' think=0 pause=0 log=0 sent=0
+712503 >first : usermove 712503 >first : c9e7
+712508 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+719423 >first : usermove 719423 >first : c6e6
+719429 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+724335 >first : usermove 724335 >first : b9c7
+724337 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+730895 >first : usermove 730895 >first : e6c6
+730900 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+734615 >first : usermove 734615 >first : h9g7
+734619 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+BackwardInner(13), current 14, forward 14
+740628 >first : undo
+740630 <first : # 'undo' think=0 pause=0 log=0 sent=0
+742242 >first : usermove 742242 >first : a9c9
+742251 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+744416 >first : usermove 744416 >first : e2e7
+744420 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+745451 >first : usermove 745451 >first : g9e7
+745454 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+754024 >first : usermove 754024 >first : c6e6
+754029 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+756128 >first : usermove 756128 >first : e9e8
+756130 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+760205 >first : usermove 760205 >first : a2c2
+760208 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+762961 >first : usermove 762961 >first : c9b9
+762964 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+765937 >first : usermove 765937 >first : e6c6
+765942 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+770392 >first : usermove 770392 >first : c7a8
+770398 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+773002 >first : usermove 773002 >first : c6c8
+773012 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+BackwardInner(22), current 23, forward 23
+774289 >first : undo
+774293 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(21), current 22, forward 23
+774701 >first : undo
+774703 <first : # 'undo' think=0 pause=0 log=0 sent=0
+781976 >first : usermove 781976 >first : c7e6
+781979 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+BackwardInner(21), current 22, forward 22
+785467 >first : undo
+785469 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(20), current 21, forward 22
+785800 >first : undo
+785802 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(19), current 20, forward 22
+785976 >first : undo
+785978 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(18), current 19, forward 22
+786258 >first : undo
+786261 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(17), current 18, forward 22
+786679 >first : undo
+786681 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(16), current 17, forward 22
+786976 >first : undo
+786978 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(15), current 16, forward 22
+787396 >first : undo
+787400 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(14), current 15, forward 22
+787950 >first : undo
+787952 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(13), current 14, forward 22
+788356 >first : undo
+788358 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(12), current 13, forward 22
+788608 >first : undo
+788611 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(11), current 12, forward 22
+789109 >first : undo
+789112 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(10), current 11, forward 22
+789558 >first : undo
+789560 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(9), current 10, forward 22
+790603 >first : undo
+790618 <first : # 'undo' think=0 pause=0 log=0 sent=0
+ForwardInner(10), current 9, forward 22
+792870 >first : usermove 792870 >first : c9e7
+792884 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+ForwardInner(11), current 10, forward 22
+793608 >first : usermove 793608 >first : c6e6
+793610 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+BackwardInner(10), current 11, forward 22
+794816 >first : undo
+794820 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(9), current 10, forward 22
+795141 >first : undo
+795143 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(8), current 9, forward 22
+795424 >first : undo
+795426 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(7), current 8, forward 22
+795783 >first : undo
+795785 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(6), current 7, forward 22
+796263 >first : undo
+796265 <first : # 'undo' think=0 pause=0 log=0 sent=0
+BackwardInner(5), current 6, forward 22
+796765 >first : undo
+796767 <first : # 'undo' think=0 pause=0 log=0 sent=0
+ForwardInner(5), current 5, forward 22
+BackwardInner(1), current 5, forward 22
+806538 >first : undo
+806538 >first : undo
+806538 >first : undo
+806538 >first : undo
+806541 <first : # 'undo' think=0 pause=0 log=0 sent=0
+806541 <first : # 'undo' think=0 pause=0 log=0 sent=0
+806541 <first : # 'undo' think=0 pause=0 log=0 sent=0
+806541 <first : # 'undo' think=0 pause=0 log=0 sent=0
+recognized 'xiangqi' (-1) as variant xiangqi
+Parsed game number 1, offset 0:
+[Event "Computer Chess Game"]
+[Site "maksim-Inspiron-3582"]
+[Date "2021.01.30"]
+[Round "-"]
+[White "WukongJS 1.0 (UCI2WB)"]
+[Black "MaxQi 4.8F"]
+[Result "1-0"]
+[TimeControl "120+1"]
+[Variant "xiangqi"]
+LoadGame(): on entry, gameMode 6
+Reset(0, 1) from gameMode 6
+recognized 'xiangqi' (-1) as variant xiangqi
+GameEnds(0, (null), 2)
+824809 >first : quit
+shuffleOpenings = 0
+StartChildProcess (dir=".") uci2wb debug wukong
+824851 >first : xboard
+protover 2
+824851 >first : option UCI2WB debug output=1
+824851 >first : memory 68
+824851 >first : cores 1
+824851 >first : new
+random
+824851 >first : variant xiangqi
+824851 >first : level 0 2 1
+824851 >first : post
+824851 >first : hard
+824852 >first : easy
+824852 >first : ping 4
+Impossible move c9d9, type = 0
+Parsed game start '[Event "Computer Chess Game"]' (39)
+Parsed PGNTag: [Event "Computer Chess Game"]
+Parsed PGNTag: [Site "maksim-Inspiron-3582"]
+Parsed PGNTag: [Date "2021.01.30"]
+Parsed PGNTag: [Round "-"]
+Parsed PGNTag: [White "WukongJS 1.0 (UCI2WB)"]
+Parsed PGNTag: [Black "MaxQi 4.8F"]
+Parsed PGNTag: [Result "1-0"]
+Parsed PGNTag: [TimeControl "120+1"]
+Parsed PGNTag: [Variant "xiangqi"]
+recognized 'xiangqi' (-1) as variant xiangqi
+Parsed PGNTag: [Annotator "1. +0,00   1... +0,11"]
+824881 >first : memory 68
+824881 >first : cores 1
+824881 >first : new
+random
+824881 >first : variant xiangqi
+824881 >first : level 0 2 1
+824881 >first : post
+824881 >first : hard
+824882 >first : easy
+824882 >first : ping 5
+Impossible move c9d9, type = 0
+824888 >first : force
+Parsed Che2 into h2e2 virgin=0,0
+Parsed Comment: {+0,00/6}
+Append: in='{+0,00/6}' 0
+Parsed Cxb0 into b7b0 virgin=0,0
+Parsed Comment: {+0,11/7 1,7}
+Append: in='{+0,11/7 1,7}' 0
+Parsed Rxb0 into a0b0 virgin=2,0
+Parsed Comment: {+0,41/8 4}
+Append: in='{+0,41/8 4}' 0
+Parsed Cc7 into h7c7 virgin=3,0
+Parsed Comment: {-0,22/7 2,2}
+Append: in='{-0,22/7 2,2}' 0
+Parsed Ca2 into b2a2 virgin=3,0
+Parsed Comment: {+0,48/8 4}
+Append: in='{+0,48/8 4}' 0
+Parsed Cxc3 into c7c3 virgin=3,0
+Parsed Comment: {-0,17/8 3}
+Append: in='{-0,17/8 3}' 0
+Parsed Rb6 into b0b6 virgin=3,0
+Parsed Comment: {+0,67/8 4}
+Append: in='{+0,67/8 4}' 0
+Parsed Cxg3 into c3g3 virgin=3,0
+Parsed Comment: {-0,68/9 7}
+Append: in='{-0,68/9 7}' 0
+Parsed Rxc6 into b6c6 virgin=3,0
+Parsed Comment: {+0,73/8 4}
+Append: in='{+0,73/8 4}' 0
+Parsed Hg7 into h9g7 virgin=3,0
+Parsed Comment: {-0,69/9 8}
+Append: in='{-0,69/9 8}' 0
+Parsed Rxc9 into c6c9 virgin=3,80
+Parsed Comment: {+1,21/8 3}
+Append: in='{+1,21/8 3}' 0
+Parsed Cxa3 into g3a3 virgin=3,84
+Parsed Comment: {-0,63/8 3}
+Append: in='{-0,63/8 3}' 0
+Parsed Hg2 into h0g2 virgin=3,84
+Parsed Comment: {+1,21/8 3}
+Append: in='{+1,21/8 3}' 0
+Parsed Ee7 into g9e7 virgin=83,84
+Parsed Comment: {-0,42/7 4}
+Append: in='{-0,42/7 4}' 0
+Parsed Rc3 into c9c3 virgin=83,c4
+Parsed Comment: {+1,31/7 3}
+Append: in='{+1,31/7 3}' 0
+Parsed Ca4 into a3a4 virgin=83,c4
+Parsed Comment: {-0,80/9 1,9}
+Append: in='{-0,80/9 1,9}' 0
+Parsed Hf4 into g2f4 virgin=83,c4
+Parsed Comment: {+1,43/8 3}
+Append: in='{+1,43/8 3}' 0
+Parsed Ra7 into a9a7 virgin=83,c4
+Parsed Comment: {-0,94/8 1,9}
+Append: in='{-0,94/8 1,9}' 0
+Parsed Hxg6 into f4g6 virgin=83,c5
+Parsed Comment: {+1,47/7 3}
+Append: in='{+1,47/7 3}' 0
+Parsed Hd8 into b9d8 virgin=83,c5
+Parsed Comment: {-1,40/7 1,6}
+Append: in='{-1,40/7 1,6}' 0
+Parsed Cad2 into a2d2 virgin=83,c7
+Parsed Comment: {+1,65/7 3}
+Append: in='{+1,65/7 3}' 0
+Parsed Rd7 into a7d7 virgin=83,c7
+Parsed Comment: {-2,02/8 2,4}
+Append: in='{-2,02/8 2,4}' 0
+Parsed Cxd8 into d2d8 virgin=83,c7
+Parsed Comment: {+2,26/9 3}
+Append: in='{+2,26/9 3}' 0
+Parsed Rxd8 into d7d8 virgin=83,c7
+Parsed Comment: {-2,02/7 3}
+Append: in='{-2,02/7 3}' 0
+Parsed Hxe7 into g6e7 virgin=83,c7
+Parsed Comment: {+2,22/8 3}
+Append: in='{+2,22/8 3}' 0
+Parsed a5 into a6a5 virgin=83,c7
+Parsed Comment: {-2,09/8 6}
+Append: in='{-2,09/8 6}' 0
+Parsed Afe1 into f0e1 virgin=83,c7
+Parsed Comment: {+2,26/7 2,9}
+Append: in='{+2,26/7 2,9}' 0
+Parsed Ch4 into a4h4 virgin=a3,c7
+Parsed Comment: {-2,06/7 1,8}
+Append: in='{-2,06/7 1,8}' 0
+Parsed Rh0 into i0h0 virgin=a3,c7
+Parsed Comment: {+2,38/7 2,9}
+Append: in='{+2,38/7 2,9}' 0
+Parsed Cd4 into h4d4 virgin=1a3,c7
+Parsed Comment: {-2,21/6 1,5}
+Append: in='{-2,21/6 1,5}' 0
+Parsed e4 into e3e4 virgin=1a3,c7
+Parsed Comment: {+2,49/6 2,8}
+Append: in='{+2,49/6 2,8}' 0
+Parsed Re8 into d8e8 virgin=1a3,c7
+Parsed Comment: {-2,95/7 3}
+Append: in='{-2,95/7 3}' 0
+Parsed e5 into e4e5 virgin=1a3,c7
+Parsed Comment: {+3,00/8 2,8}
+Append: in='{+3,00/8 2,8}' 0
+Parsed Ce4 into d4e4 virgin=1a3,c7
+Parsed Comment: {-3,03/6 1,4}
+Append: in='{-3,03/6 1,4}' 0
+Parsed exe6 into e5e6 virgin=1a3,c7
+Parsed Comment: {+3,85/9 2,8}
+Append: in='{+3,85/9 2,8}' 0
+Parsed Rh9 into i9h9 virgin=1a3,c7
+Parsed Comment: {-5,41/7 1,7}
+Append: in='{-5,41/7 1,7}' 0
+Parsed Rxh9 into h0h9 virgin=1a3,1c7
+Parsed Comment: {+6,62/11 2,8}
+Append: in='{+6,62/11 2,8}' 0
+Parsed Hxh9 into g7h9 virgin=1a3,1c7
+Parsed Comment: {-8,32/10 1,9}
+Append: in='{-8,32/10 1,9}' 0
+Parsed Hc8 into e7c8 virgin=1a3,1c7
+Parsed Comment: {+6,84/12 2,8}
+Append: in='{+6,84/12 2,8}' 0
+Parsed Rd8 into e8d8 virgin=1a3,1c7
+Parsed Comment: {-9,07/10 2,7}
+Append: in='{-9,07/10 2,7}' 0
+Parsed ed6 into e6d6 virgin=1a3,1c7
+Parsed Comment: {+7,03/12 2,6}
+Append: in='{+7,03/12 2,6}' 0
+Parsed Afe8 into f9e8 virgin=1a3,1c7
+Parsed Comment: {-9,53/12 2,7}
+Append: in='{-9,53/12 2,7}' 0
+Parsed d7 into d6d7 virgin=1a3,1e7
+Parsed Comment: {+7,11/12 2,6}
+Append: in='{+7,11/12 2,6}' 0
+Parsed Rxc8 into d8c8 virgin=1a3,1e7
+Parsed Comment: {-10,41/13 5}
+Append: in='{-10,41/13 5}' 0
+Parsed Rxc8 into c3c8 virgin=1a3,1e7
+Parsed Comment: {+7,08/11 2,5}
+Append: in='{+7,08/11 2,5}' 0
+Parsed Hg7 into h9g7 virgin=1a3,1e7
+Parsed Comment: {-10,28/12 1,2}
+Append: in='{-10,28/12 1,2}' 0
+Parsed Kf0 into e0f0 virgin=1a3,1e7
+Parsed Comment: {+9,36/10 2,5}
+Append: in='{+9,36/10 2,5}' 0
+Parsed Ce6 into e4e6 virgin=1b3,1e7
+Parsed Comment: {-10,27/9 1,2}
+Append: in='{-10,27/9 1,2}' 0
+Parsed d8 into d7d8 virgin=1b3,1e7
+Parsed Comment: {+1000,04/8 0,3}
+Append: in='{+1000,04/8 0,3}' 0
+Parsed Ce5 into e6e5 virgin=1b3,1e7
+Parsed Comment: {-79,97/17 1,2}
+Append: in='{-79,97/17 1,2}' 0
+Parsed Rc9 into c8c9 virgin=1b3,1e7
+Parsed Comment: {+1000,03/5 0,1}
+Append: in='{+1000,03/5 0,1}' 0
+Parsed He6 into g7e6 virgin=1b3,1e7
+Parsed Comment: {-79,98/28 0,4}
+Append: in='{-79,98/28 0,4}' 0
+Parsed Cxe6 into e2e6 virgin=1b3,1e7
+Parsed Comment: {+1000,02/3 0,1}
+Append: in='{+1000,02/3 0,1}' 0
+Parsed Ad7 into e8d7 virgin=1b3,1e7
+Parsed Comment: {-79,99/28 0,1}
+Append: in='{-79,99/28 0,1}' 0
+Parsed Rxd9 into c9d9 virgin=1b3,1e7
+Parsed Comment: {+1000,01/2 0,1}
+Append: in='{+1000,01/2 0,1}' 0
+Parsed game end: {Xboard adjudication: Checkmate} 1-0
+GameEnds(26, Xboard adjudication: Checkmate, 3)
+824924 >first : quit
+AutoPlayOneMove(): current 0
+LoadGame(): on exit, gameMode 7
+AutoPlayOneMove(): current 1
+AutoPlayOneMove(): current 2
+AutoPlayOneMove(): current 3
+BackwardInner(3), current 4, forward 55
+PauseEvent(): pausing 0
+ForwardInner(4), current 3, forward 55
+ForwardInner(5), current 4, forward 55
+ForwardInner(6), current 5, forward 55
+ForwardInner(7), current 6, forward 55
+ForwardInner(8), current 7, forward 55
+ForwardInner(9), current 8, forward 55
+ForwardInner(10), current 9, forward 55
+ForwardInner(11), current 10, forward 55
+ForwardInner(12), current 11, forward 55
+BackwardInner(11), current 12, forward 55
+BackwardInner(10), current 11, forward 55
+BackwardInner(9), current 10, forward 55
+ForwardInner(10), current 9, forward 55
+ForwardInner(11), current 10, forward 55
+ForwardInner(12), current 11, forward 55
+BackwardInner(11), current 12, forward 55
+ForwardInner(12), current 11, forward 55
+ForwardInner(13), current 12, forward 55
+ForwardInner(14), current 13, forward 55
+ForwardInner(15), current 14, forward 55
+ForwardInner(16), current 15, forward 55
+ForwardInner(17), current 16, forward 55
+ForwardInner(18), current 17, forward 55
+ForwardInner(19), current 18, forward 55
+ForwardInner(20), current 19, forward 55
+ForwardInner(21), current 20, forward 55
+ForwardInner(22), current 21, forward 55
+ForwardInner(23), current 22, forward 55
+BackwardInner(22), current 23, forward 55
+ForwardInner(23), current 22, forward 55
+ForwardInner(24), current 23, forward 55
+ForwardInner(25), current 24, forward 55
+BackwardInner(24), current 25, forward 55
+BackwardInner(23), current 24, forward 55
+BackwardInner(22), current 23, forward 55
+ForwardInner(23), current 22, forward 55
+ForwardInner(24), current 23, forward 55
+ForwardInner(25), current 24, forward 55
+ForwardInner(26), current 25, forward 55
+ForwardInner(27), current 26, forward 55
+ForwardInner(28), current 27, forward 55
+ForwardInner(29), current 28, forward 55
+ForwardInner(30), current 29, forward 55
+ForwardInner(31), current 30, forward 55
+ForwardInner(32), current 31, forward 55
+ForwardInner(33), current 32, forward 55
+ForwardInner(34), current 33, forward 55
+ForwardInner(35), current 34, forward 55
+ForwardInner(36), current 35, forward 55
+ForwardInner(37), current 36, forward 55
+ForwardInner(38), current 37, forward 55
+ForwardInner(39), current 38, forward 55
+ForwardInner(40), current 39, forward 55
+ForwardInner(41), current 40, forward 55
+BackwardInner(40), current 41, forward 55
+BackwardInner(39), current 40, forward 55
+ForwardInner(40), current 39, forward 55
+ForwardInner(41), current 40, forward 55
+ForwardInner(42), current 41, forward 55
+ForwardInner(43), current 42, forward 55
+ForwardInner(44), current 43, forward 55
+BackwardInner(43), current 44, forward 55
+BackwardInner(42), current 43, forward 55
+ForwardInner(43), current 42, forward 55
+ForwardInner(44), current 43, forward 55
+BackwardInner(43), current 44, forward 55
+ForwardInner(44), current 43, forward 55
+ForwardInner(45), current 44, forward 55
+ForwardInner(46), current 45, forward 55
+ForwardInner(47), current 46, forward 55
+ForwardInner(48), current 47, forward 55
+ForwardInner(49), current 48, forward 55
+ForwardInner(50), current 49, forward 55
+ForwardInner(51), current 50, forward 55
+ForwardInner(52), current 51, forward 55
+ForwardInner(53), current 52, forward 55
+BackwardInner(52), current 53, forward 55
+BackwardInner(51), current 52, forward 55
+BackwardInner(50), current 51, forward 55
+ForwardInner(51), current 50, forward 55
+ForwardInner(52), current 51, forward 55
+BackwardInner(51), current 52, forward 55
+ForwardInner(52), current 51, forward 55
+BackwardInner(51), current 52, forward 55
+ForwardInner(52), current 51, forward 55
+ForwardInner(53), current 52, forward 55
+ForwardInner(54), current 53, forward 55
+ForwardInner(55), current 54, forward 55
+BackwardInner(54), current 55, forward 55
+BackwardInner(53), current 54, forward 55
+BackwardInner(52), current 53, forward 55
+ForwardInner(53), current 52, forward 55
+ForwardInner(54), current 53, forward 55
+ForwardInner(55), current 54, forward 55
+ForwardInner(56), current 55, forward 55
+GameEnds(26, Xboard adjudication: Checkmate, 2)
+PauseEvent(): pausing 1
+AutoPlayOneMove(): current 55
+1133839 >second: quit

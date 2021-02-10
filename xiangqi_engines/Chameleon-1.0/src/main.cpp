@@ -44,11 +44,12 @@ int main(int argc, char* argv[])
 	
 	//r1ba1a3/4kn3/2n1b4/pNp1p1p1p/4c4/6P2/P1P2R2P/1CcC5/9/2BAKAB2 w - - 0 1
 	//rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1
-	Position pos("r1ba1a3/4kn3/2n1b4/pNp1p1p1p/4c4/6P2/P1P212P/1CcC5/5R3/2BAKAB2 b - - 0 1", false, Threads.main());
+	/*Position pos("r1ba1a3/4kn3/2n1b4/pNp1p1p1p/4c4/6P2/P1P212P/1CcC5/5R3/2BAKAB2 b - - 0 1", false, Threads.main());
 	std::cout << pos << "\n";
 	
     uint64_t nodes = Search::perft<true>(pos, (Depth)3);
     std::cout << nodes << "\n";
+	*/
 	
 	
 	
@@ -62,8 +63,7 @@ int main(int argc, char* argv[])
 	
 	
 	
-	
-	//UCI::loop(argc, argv);
+	UCI::loop(argc, argv);
 	Threads.exit();
 	return 0;
 }
