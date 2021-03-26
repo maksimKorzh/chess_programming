@@ -1,0 +1,3 @@
+winboard + jiangi: http://hgm.nubati.net/WinBoard-AA.zip
+winboard protocol: http://www.open-aurec.com/wbforum/viewtopic.php?f=24&t=51739
+hgm's jiangi engine: http://hgm.nubati.net/j4.exe

@@ -1,0 +1,42 @@
+;
+; parameters for playing against an engine
+;
+/cp
+/firstChessProgram="Stockfish.exe"
+/firstDirectory="../Stockfish"
+/secondChessProgram="sStockfish.exe"
+/secondDirectory="../Stockfish"
+/fSAN
+/sSAN
+/fUCI
+/sUCI
+;
+; Opening book
+;
+/polyglotBook="default_book.bin"
+/usePolyglotBook=true
+/firstXBook
+/secondXBook
+;
+;
+; define window layout
+;
+/autoLogo=true
+/moveHistoryUp=true
+/evalGraphUp=false
+/engineOutputUp=false
+/hideThinkingFromHuman=true
+;
+; define window positions
+;
+/winWidth=426
+/winHeight=539
+/moveHistoryX=426
+/moveHistoryY=0
+/moveHistoryW=250
+/moveHistoryH=539
+;
+;
+; prevent these settings from becoming default
+; 
+/saveSettingsOnExit=false

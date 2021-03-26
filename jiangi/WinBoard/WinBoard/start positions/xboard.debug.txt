@@ -1,0 +1,808 @@
+locale = de_DE.UTF-8
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.0 + fairymax ()
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") fairymax
+131 >first : xboard
+protover 2
+163 <first : tellics say     Fairy-Max 4.8V
+163 <first : tellics say     by H.G. Muller
+163 <first : tellics say Gothic Chess is protected by U.S. patent #6,481,716 by Ed Trice.
+163 <first : tellics say Falcon Chess is protected by U.S. patent #5,690,334 by George W. Duke
+164 <first : feature myname="Fairy-Max 4.8V"
+164 >first : accepted myname
+164 <first : feature memory=1
+164 >first : accepted memory
+164 <first : feature setboard=0 xedit=1 ping=1 done=0
+164 >first : accepted setboard
+164 >first : accepted xedit
+164 >first : accepted ping
+164 >first : accepted done
+164 <first : feature variants="normal,nocastle,shatranj,asean,makruk,cambodian,ai-wok,courier,knightmate,capablanca,gothic,falcon,cylinder,berolina,super,seirawan,spartan,great,light-brigade,king-of-the-hill,bifurcator,team-mate,fairy"
+164 >first : accepted variants
+164 <first : feature option="Resign -check 0"
+164 >first : accepted option
+164 <first : feature option="Resign Threshold -spin 800 200 1200"
+164 >first : accepted option
+164 <first : feature option="Claim draw after -spin 50 0 200"
+164 >first : accepted option
+164 <first : feature option="Ini File -file /usr/share/games/fairymax/fmax.ini"
+164 >first : accepted option
+164 <first : feature option="Multi-PV Margin -spin 0 0 1000"
+164 >first : accepted option
+164 <first : feature option="Variant fairy selects -combo FIDE-Clobberers /// Clobberers-FIDE /// FIDE-Nutters /// Nutters-FIDE /// Clobberers-Nutters /// Nutters-Clobberers /// FIDE-Rookies /// Rookies-FIDE /// Clobberers-Rookies /// Rookies-Clobberers"
+164 >first : accepted option
+164 <first : feature option="Makruk rules -combo makruk /// Cambodian /// Ai-wok"
+164 >first : accepted option
+164 <first : feature option="Dummy Slider Example -slider 20 0 100"
+164 >first : accepted option
+164 <first : feature option="Dummy String Example -string happy birthday!"
+164 >first : accepted option
+164 <first : feature option="Dummy Path Example -path ."
+164 >first : accepted option
+164 <first : feature option="Info -button"
+164 >first : accepted option
+164 <first : feature option="Clear Hash -button"
+164 >first : accepted option
+164 <first : feature done=1
+164 >first : accepted done
+165 >first : memory 1536
+165 >first : new
+random
+165 >first : level 0 1 0
+165 >first : post
+165 >first : hard
+165 >first : easy
+165 >first : ping 1
+Impossible move , type = 0
+549 <first : pong 1
+26731 >first : quit
+Unload first
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+26735 >first : xboard
+protover 2
+Reset(1, 1) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+26736 >first : force
+shuffleOpenings = 0
+26738 >first : new
+random
+26738 >first : level 0 1 0
+26738 >first : post
+26738 >first : hard
+26738 >first : easy
+Impossible move , type = 0
+26738 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+26753 <first : # 'protover' think=0 pause=0 log=0 sent=0
+26753 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+26753 >first : accepted setboard
+26753 >first : accepted usermove
+26753 >first : accepted debug
+26753 >first : accepted ping
+26753 >first : accepted name
+26753 >first : accepted reuse
+26753 >first : accepted exclude
+26754 >first : accepted pause
+26754 >first : accepted sigint
+26754 >first : accepted sigterm
+26754 >first : accepted done
+26754 <first : feature option="UCI2WB debug output -check 1"
+26754 >first : accepted option
+26754 <first : # uci
+26754 <first : # engine said: id name Rodent II 0.9.66
+26754 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+26754 >first : accepted myname
+26754 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+26754 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+26754 <first : # engine said: option name Clear Hash type button
+26754 <first : feature option="Clear Hash -button"
+26754 >first : accepted option
+26754 <first : # engine said: option name PersonalityFile type string default rodent.txt
+26754 <first : feature option="PersonalityFile -file rodent.txt"
+26754 >first : accepted option
+26754 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+26754 <first : # engine said: option name OwnBook type check default true
+26754 <first : feature option="OwnBook -check 1"
+26754 >first : accepted option
+26754 <first : # engine said: uciok
+26754 <first : feature variants="normal,xiangqi"
+26754 >first : accepted variants
+26754 <first : feature smp=1 memory=1 done=1
+26754 >first : accepted smp
+26754 >first : accepted memory
+26754 >first : accepted done
+26754 <first : # 'force' think=0 pause=0 log=0 sent=0
+26754 <first : # 'new' think=0 pause=0 log=0 sent=0
+26754 <first : # isready
+26754 <first : # engine said: readyok
+26754 <first : # ucinewgame
+26754 <first : # 'random' think=0 pause=0 log=0 sent=0
+26754 <first : # 'level' think=0 pause=0 log=0 sent=0
+26754 <first : # 'post' think=0 pause=0 log=0 sent=0
+26754 <first : # 'hard' think=0 pause=0 log=0 sent=0
+26754 <first : # 'easy' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+26754 <first : # 'option' think=0 pause=0 log=0 sent=0
+26754 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+26754 <first : # release 113
+26754 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+26754 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+26754 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+26754 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+26754 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+recognized 'normal' (-1) as variant normal
+26755 >first : memory 1536
+26755 >first : cores 4
+26755 >first : new
+random
+26755 >first : level 0 1 0
+26755 >first : post
+26755 >first : hard
+26755 >first : easy
+26755 >first : ping 1
+Impossible move , type = 0
+26755 <first : # 'memory' think=0 pause=0 log=113 sent=113
+26755 <first : # 'cores' think=0 pause=0 log=113 sent=113
+26762 <first : # 'new' think=0 pause=0 log=113 sent=113
+26762 <first : # setoption name Hash value 1536
+26762 <first : # isready
+26762 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+26762 <first : 0 0 0 0 reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+27112 <first : # engine said: readyok
+27112 <first : # ucinewgame
+27112 <first : # 'random' think=0 pause=0 log=113 sent=113
+27112 <first : # 'level' think=0 pause=0 log=113 sent=113
+27112 <first : # 'post' think=0 pause=0 log=113 sent=113
+27112 <first : # 'hard' think=0 pause=0 log=113 sent=113
+27112 <first : # 'easy' think=0 pause=0 log=113 sent=113
+27112 <first : # 'ping' think=0 pause=0 log=113 sent=113
+27112 <first : pong 1
+37009 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+37010 <first : # 'option' think=0 pause=0 log=113 sent=113
+37010 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+37010 <first : # release 113
+37010 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+37010 <first : 0 0 0 0 reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+nps: w=-1, b=-1
+42238 >first : name andreas
+nps: w=-1, b=-1
+42238 >first : time 6000
+42238 >first : otim 6000
+book hit = (NULL)
+42238 >first : usermove 42238 >first : e2e4
+42239 <first : # 'name' think=0 pause=0 log=113 sent=113
+42239 <first : # 'time' think=0 pause=0 log=113 sent=113
+42239 <first : # 'otim' think=0 pause=0 log=113 sent=113
+42239 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+42239 <first : # start search
+42239 <first : # position startpos moves e2e4
+42239 <first : # go btime 60000 wtime 60000
+43157 <first : # engine said: info string e7e5 25 %
+43157 <first : 0 0 0 0 e7e5 25 %
+43157 <first : # engine said: info string c7c5 25 %
+43157 <first : 0 0 0 0 c7c5 25 %
+43157 <first : # engine said: info string e7e6 25 %
+43157 <first : 0 0 0 0 e7e6 25 %
+43157 <first : # engine said: info string c7c6 25 %
+43157 <first : 0 0 0 0 c7c6 25 %
+43157 <first : # engine said: bestmove e7e5
+43157 <first : move e7e5
+43160 <first : 
+Reset(1, 1) from gameMode 2
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+45858 >first : quit
+shuffleOpenings = 0
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+45860 >first : xboard
+protover 2
+45860 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+45860 >first : memory 1536
+45860 >first : cores 4
+45860 >first : new
+random
+45860 >first : level 0 1 0
+45860 >first : post
+45860 >first : hard
+45860 >first : easy
+45860 >first : ping 2
+Impossible move e7e5, type = 0
+45862 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+45862 <first : # 'protover' think=0 pause=0 log=0 sent=0
+45875 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+45875 >first : accepted setboard
+45875 >first : accepted usermove
+45875 >first : accepted debug
+45875 >first : accepted ping
+45875 >first : accepted name
+45875 >first : accepted reuse
+45875 >first : accepted exclude
+45875 >first : accepted pause
+45875 >first : accepted sigint
+45875 >first : accepted sigterm
+45875 >first : accepted done
+45875 <first : feature option="UCI2WB debug output -check 1"
+45875 >first : accepted option
+45875 <first : # uci
+45875 <first : # engine said: id name Rodent II 0.9.66
+45875 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+45875 >first : accepted myname
+45875 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+45875 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+45875 <first : # engine said: option name Clear Hash type button
+45875 <first : feature option="Clear Hash -button"
+45875 >first : accepted option
+45875 <first : # engine said: option name PersonalityFile type string default rodent.txt
+45875 <first : feature option="PersonalityFile -file rodent.txt"
+45875 >first : accepted option
+45875 <first : # engine said: option name OwnBook type check default true
+45875 <first : feature option="OwnBook -check 1"
+45875 >first : accepted option
+45875 <first : # engine said: uciok
+45875 <first : feature variants="normal,xiangqi"
+45875 >first : accepted variants
+45875 <first : feature smp=1 memory=1 done=1
+45875 >first : accepted smp
+45875 >first : accepted memory
+45875 >first : accepted done
+45875 <first : # 'option' think=0 pause=0 log=0 sent=0
+45875 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+45875 <first : # release 113
+45875 <first : # 'memory' think=0 pause=0 log=113 sent=113
+45875 <first : # 'cores' think=0 pause=0 log=113 sent=113
+45875 <first : # 'new' think=0 pause=0 log=113 sent=113
+45875 <first : # setoption name Hash value 1536
+45875 <first : # isready
+45881 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+46233 <first : # engine said: readyok
+46233 <first : # ucinewgame
+46233 <first : # 'random' think=0 pause=0 log=113 sent=113
+46233 <first : # 'level' think=0 pause=0 log=113 sent=113
+46233 <first : # 'post' think=0 pause=0 log=113 sent=113
+46233 <first : # 'hard' think=0 pause=0 log=113 sent=113
+46233 <first : # 'easy' think=0 pause=0 log=113 sent=113
+46233 <first : # 'ping' think=0 pause=0 log=113 sent=113
+46233 <first : pong 2
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+46233 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+nps: w=-1, b=-1
+48305 >first : name andreas
+nps: w=-1, b=-1
+48306 >first : time 6000
+48306 >first : otim 6000
+book hit = (NULL)
+48306 >first : usermove 48306 >first : e2e4
+48306 <first : # 'name' think=0 pause=0 log=113 sent=113
+48306 <first : # 'time' think=0 pause=0 log=113 sent=113
+48306 <first : # 'otim' think=0 pause=0 log=113 sent=113
+48306 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+48306 <first : # start search
+48306 <first : # position startpos moves e2e4
+48306 <first : # go btime 60000 wtime 60000
+48306 <first : # engine said: info string e7e5 25 %
+48306 <first : 0 0 0 0 e7e5 25 %
+48307 <first : # engine said: info string c7c5 25 %
+48307 <first : 0 0 0 0 c7c5 25 %
+48307 <first : # engine said: info string e7e6 25 %
+48307 <first : 0 0 0 0 e7e6 25 %
+48307 <first : # engine said: info string c7c6 25 %
+48307 <first : 0 0 0 0 c7c6 25 %
+48307 <first : # engine said: bestmove c7c6
+48307 <first : move c7c6
+48312 <first : 
+56891 >first : force
+56891 >first : quit
+Unload first
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+56892 >first : xboard
+protover 2
+56896 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+56896 <first : # 'protover' think=0 pause=0 log=0 sent=0
+56896 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+56896 >first : accepted setboard
+56896 >first : accepted usermove
+56896 >first : accepted debug
+56896 >first : accepted ping
+56896 >first : accepted name
+56896 >first : accepted reuse
+56896 >first : accepted exclude
+56896 >first : accepted pause
+56896 >first : accepted sigint
+56896 >first : accepted sigterm
+56896 >first : accepted done
+56896 <first : feature option="UCI2WB debug output -check 1"
+56896 >first : accepted option
+56896 <first : # uci
+56907 <first : # engine said: id name Rodent II 0.9.66
+56907 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+56907 >first : accepted myname
+56907 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+56907 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+56907 <first : # engine said: option name Clear Hash type button
+56907 <first : feature option="Clear Hash -button"
+56907 >first : accepted option
+56907 <first : # engine said: option name PersonalityFile type string default rodent.txt
+56907 <first : feature option="PersonalityFile -file rodent.txt"
+56907 >first : accepted option
+56907 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+56907 <first : # engine said: option name OwnBook type check default true
+56907 <first : feature option="OwnBook -check 1"
+56907 >first : accepted option
+56907 <first : # engine said: uciok
+56907 <first : feature variants="normal,xiangqi"
+56907 >first : accepted variants
+56907 <first : feature smp=1 memory=1 done=1
+56907 >first : accepted smp
+56908 >first : accepted memory
+56908 >first : accepted done
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+56908 <first : # 'option' think=0 pause=0 log=0 sent=0
+56908 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+56908 <first : # release 113
+56908 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+56908 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+56908 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+56908 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+56908 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+56908 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+recognized 'normal' (-1) as variant normal
+56909 >first : memory 1536
+56909 >first : cores 4
+56909 >first : new
+random
+56909 >first : level 0 1 0
+56909 >first : post
+56909 >first : hard
+56909 >first : easy
+56909 >first : ping 1
+Impossible move c7c6, type = 0
+56909 >first : force
+56909 >first : usermove 56909 >first : e2e4
+56909 >first : usermove 56909 >first : c7c6
+56909 <first : # 'memory' think=0 pause=0 log=113 sent=113
+56909 <first : # 'cores' think=0 pause=0 log=113 sent=113
+57279 <first : # 'new' think=0 pause=0 log=113 sent=113
+57279 <first : # setoption name Hash value 1536
+57279 <first : # isready
+57279 <first : # engine said: readyok
+57279 <first : # ucinewgame
+57279 <first : # 'random' think=0 pause=0 log=113 sent=113
+57279 <first : # 'level' think=0 pause=0 log=113 sent=113
+57279 <first : # 'post' think=0 pause=0 log=113 sent=113
+57279 <first : # 'hard' think=0 pause=0 log=113 sent=113
+57279 <first : # 'easy' think=0 pause=0 log=113 sent=113
+57279 <first : # 'ping' think=0 pause=0 log=113 sent=113
+57279 <first : pong 1
+57279 <first : # 'force' think=0 pause=0 log=113 sent=113
+57279 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+57279 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+67513 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+67518 <first : # 'option' think=0 pause=0 log=113 sent=113
+67518 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+67518 <first : # release 114
+67518 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+67518 <first : 0 0 0 0 reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+Impossible move c7t/, type = 25
+85923 >first : quit
+Unload first
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+85924 >first : xboard
+protover 2
+85927 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+85927 <first : # 'protover' think=0 pause=0 log=0 sent=0
+85927 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+85927 >first : accepted setboard
+85927 >first : accepted usermove
+85927 >first : accepted debug
+85927 >first : accepted ping
+85927 >first : accepted name
+85927 >first : accepted reuse
+85927 >first : accepted exclude
+85927 >first : accepted pause
+85927 >first : accepted sigint
+85927 >first : accepted sigterm
+85927 >first : accepted done
+85927 <first : feature option="UCI2WB debug output -check 1"
+85927 >first : accepted option
+85927 <first : # uci
+85940 <first : # engine said: id name Rodent II 0.9.66
+85940 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+85940 >first : accepted myname
+85940 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+85940 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+85940 <first : # engine said: option name Clear Hash type button
+85940 <first : feature option="Clear Hash -button"
+85940 >first : accepted option
+85940 <first : # engine said: option name PersonalityFile type string default rodent.txt
+85940 <first : feature option="PersonalityFile -file rodent.txt"
+85940 >first : accepted option
+85940 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+85940 <first : # engine said: option name OwnBook type check default true
+85940 <first : feature option="OwnBook -check 1"
+85940 >first : accepted option
+85940 <first : # engine said: uciok
+85940 <first : feature variants="normal,xiangqi"
+85940 >first : accepted variants
+85940 <first : feature smp=1 memory=1 done=1
+85940 >first : accepted smp
+85940 >first : accepted memory
+85940 >first : accepted done
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+85940 <first : # 'option' think=0 pause=0 log=0 sent=0
+85940 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+85940 <first : # release 114
+85940 <first : # 'accepted' think=0 pause=0 log=114 sent=114
+85940 <first : # 'accepted' think=0 pause=0 log=114 sent=114
+85940 <first : # 'accepted' think=0 pause=0 log=114 sent=114
+85940 <first : # 'accepted' think=0 pause=0 log=114 sent=114
+85940 <first : # 'accepted' think=0 pause=0 log=114 sent=114
+85940 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/nora.txt
+recognized 'normal' (-1) as variant normal
+85941 >first : memory 1536
+85941 >first : cores 4
+85941 >first : new
+random
+85941 >first : level 0 1 0
+85941 >first : post
+85941 >first : hard
+85941 >first : easy
+85941 >first : ping 1
+Impossible move c7t/, type = 0
+85942 >first : force
+85942 >first : usermove 85942 >first : e2e4
+85942 >first : usermove 85942 >first : c7c6
+85942 <first : # 'memory' think=0 pause=0 log=114 sent=114
+85942 <first : # 'cores' think=0 pause=0 log=114 sent=114
+86294 <first : # 'new' think=0 pause=0 log=114 sent=114
+86294 <first : # setoption name Hash value 1536
+86294 <first : # isready
+86294 <first : # engine said: readyok
+86294 <first : # ucinewgame
+86294 <first : # 'random' think=0 pause=0 log=114 sent=114
+86294 <first : # 'level' think=0 pause=0 log=114 sent=114
+86294 <first : # 'post' think=0 pause=0 log=114 sent=114
+86294 <first : # 'hard' think=0 pause=0 log=114 sent=114
+86294 <first : # 'easy' think=0 pause=0 log=114 sent=114
+86294 <first : # 'ping' think=0 pause=0 log=114 sent=114
+86294 <first : pong 1
+86294 <first : # 'force' think=0 pause=0 log=114 sent=114
+86294 <first : # 'usermove' think=0 pause=0 log=114 sent=114
+86294 <first : # 'usermove' think=0 pause=0 log=114 sent=114
+Reset(1, 1) from gameMode 6
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+94673 >first : quit
+shuffleOpenings = 0
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+94676 >first : xboard
+protover 2
+94676 >first : memory 1536
+94676 >first : cores 4
+94676 >first : new
+random
+94676 >first : level 0 1 0
+94676 >first : post
+94676 >first : hard
+94676 >first : easy
+94676 >first : ping 2
+Impossible move c7t/, type = 0
+94686 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+94686 <first : # 'protover' think=0 pause=0 log=0 sent=0
+94686 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+94686 >first : accepted setboard
+94686 >first : accepted usermove
+94686 >first : accepted debug
+94686 >first : accepted ping
+94686 >first : accepted name
+94686 >first : accepted reuse
+94686 >first : accepted exclude
+94686 >first : accepted pause
+94686 >first : accepted sigint
+94686 >first : accepted sigterm
+94686 >first : accepted done
+94686 <first : feature option="UCI2WB debug output -check 1"
+94686 >first : accepted option
+94686 <first : # uci
+94691 <first : # engine said: id name Rodent II 0.9.66
+94691 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+94691 >first : accepted myname
+94691 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+94691 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+94691 <first : # engine said: option name Clear Hash type button
+94691 <first : feature option="Clear Hash -button"
+94691 >first : accepted option
+94691 <first : # engine said: option name PersonalityFile type string default rodent.txt
+94691 <first : feature option="PersonalityFile -file rodent.txt"
+94691 >first : accepted option
+94691 <first : # engine said: option name OwnBook type check default true
+94691 <first : feature option="OwnBook -check 1"
+94691 >first : accepted option
+94691 <first : # engine said: uciok
+94691 <first : feature variants="normal,xiangqi"
+94691 >first : accepted variants
+94691 <first : feature smp=1 memory=1 done=1
+94691 >first : accepted smp
+94691 >first : accepted memory
+94691 >first : accepted done
+94691 <first : # 'memory' think=0 pause=0 log=0 sent=0
+94691 <first : # 'cores' think=0 pause=0 log=0 sent=0
+94898 <first : # 'new' think=0 pause=0 log=0 sent=0
+94898 <first : # setoption name Hash value 1536
+94898 <first : # isready
+94898 <first : # engine said: readyok
+94898 <first : # ucinewgame
+94898 <first : # 'random' think=0 pause=0 log=0 sent=0
+94898 <first : # 'level' think=0 pause=0 log=0 sent=0
+94898 <first : # 'post' think=0 pause=0 log=0 sent=0
+94898 <first : # 'hard' think=0 pause=0 log=0 sent=0
+94898 <first : # 'easy' think=0 pause=0 log=0 sent=0
+94898 <first : # 'ping' think=0 pause=0 log=0 sent=0
+94898 <first : pong 2
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+94898 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+nps: w=-1, b=-1
+95570 >first : name andreas
+nps: w=-1, b=-1
+95570 >first : time 6000
+95570 >first : otim 6000
+book hit = (NULL)
+95570 >first : usermove 95570 >first : e2e4
+95570 <first : # 'name' think=0 pause=0 log=0 sent=0
+95570 <first : # 'time' think=0 pause=0 log=0 sent=0
+95570 <first : # 'otim' think=0 pause=0 log=0 sent=0
+95570 <first : # 'usermove' think=0 pause=0 log=0 sent=0
+95570 <first : # start search
+95570 <first : # position startpos moves e2e4
+95570 <first : # go btime 60000 wtime 60000
+95570 <first : # engine said: info depth 1 time 0 nodes 0 nps 0
+95570 <first : # engine said: info depth 1 time 0 nodes 4 nps 0 score cp 1 pv d7d5 
+95570 <first :   1       1      0          4 d7d5 
+95570 <first : # engine said: info depth 2 time 0 nodes 23 nps 0
+95570 <first : # engine said: info depth 2 time 0 nodes 70 nps 0 score cp -9 pv d7d5 b1c3 
+95570 <first :   2      -9      0         70 d7d5 b1c3 
+95570 <first : # engine said: info depth 3 time 0 nodes 109 nps 0
+95570 <first : # engine said: info depth 3 time 0 nodes 316 nps 0 score cp -2 pv d7d5 b1c3 d5d4 
+95570 <first :   3      -2      0        316 d7d5 b1c3 d5d4 
+95571 <first : # engine said: info depth 4 time 0 nodes 383 nps 0
+95571 <first : # engine said: info depth 4 time 1 nodes 1268 nps 1268000 score cp -10 pv d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 
+95571 <first :   4     -10      0       1268 d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 
+95572 <first : # engine said: info depth 5 time 1 nodes 1484 nps 1484000
+95579 <first : # engine said: info depth 5 time 3 nodes 3364 nps 1121333 score cp 0 pv d7d5 e4e5 d5d4 f1c4 c8f5 
+95579 <first :   5       0      0       3364 d7d5 e4e5 d5d4 f1c4 c8f5 
+95579 <first : # engine said: info depth 6 time 3 nodes 3619 nps 1206333
+95579 <first : # engine said: info depth 6 time 6 nodes 7069 nps 1178166 score cp -2 pv d7d5 e4e5 c7c5 d2d4 b8c6 c2c3 
+95579 <first :   6      -2      0       7069 d7d5 e4e5 c7c5 d2d4 b8c6 c2c3 
+95579 <first : # engine said: info depth 7 time 7 nodes 8319 nps 1188428
+95585 <first : # engine said: info depth 7 time 15 nodes 19078 nps 1271866 score cp -24 pv d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 e5g5 c3b5 g5e5 
+95585 <first :   7     -24      1      19078 d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 e5g5 c3b5 g5e5 
+95587 <first : # engine said: info depth 8 time 17 nodes 21688 nps 1275764
+95594 <first : # engine said: info depth 8 time 24 nodes 29518 nps 1229916 score cp -30 pv b8c6 d2d4 d7d5 e4e5 c8f5 f1b5 h7h5 b5c6 b7c6 g1f3 
+95594 <first :   8     -30      2      29518 b8c6 d2d4 d7d5 e4e5 c8f5 f1b5 h7h5 b5c6 b7c6 g1f3 
+95597 <first : # engine said: info depth 9 time 27 nodes 33453 nps 1239000
+95605 <first : # engine said: info depth 9 time 35 nodes 42517 nps 1214771 score cp -20 pv b8c6 
+95605 <first :   9     -20      3      42517 b8c6 
+95615 <first : # engine said: info depth 9 time 45 nodes 55644 nps 1236533 score cp -21 pv b8c6 d2d4 d7d5 f1b5 e7e5 b5c6 b7c6 d4e5 d5e4 d1d8 e8d8 b1c3 f8b4 
+95615 <first :   9     -21      4      55644 b8c6 d2d4 d7d5 f1b5 e7e5 b5c6 b7c6 d4e5 d5e4 d1d8 e8d8 b1c3 f8b4 
+95621 <first : # engine said: info depth 10 time 51 nodes 62336 nps 1222274
+95654 <first : # engine said: info depth 10 time 84 nodes 103911 nps 1237035 score cp -11 pv e7e5 
+95654 <first :  10     -11      8     103911 e7e5 
+95669 <first : # engine said: info depth 10 time 99 nodes 121412 nps 1226383 score cp -10 pv e7e5 g1f3 g8f6 b1c3 f8b4 c3d5 f6d5 e4d5 d8f6 a2a3 b4c5 
+95669 <first :  10     -10      9     121412 e7e5 g1f3 g8f6 b1c3 f8b4 c3d5 f6d5 e4d5 d8f6 a2a3 b4c5 
+95674 <first : # engine said: info depth 11 time 101 nodes 124342 nps 1231108
+95716 <first : # engine said: info depth 11 time 146 nodes 179707 nps 1230869 score cp -26 pv e7e5 g1f3 g8f6 b1c3 f8b4 c3d5 f6d5 e4d5 d8f6 c2c3 e5e4 c3b4 e4f3 g2f3 
+95716 <first :  11     -26     14     179707 e7e5 g1f3 g8f6 b1c3 f8b4 c3d5 f6d5 e4d5 d8f6 c2c3 e5e4 c3b4 e4f3 g2f3 
+95724 <first : # engine said: info depth 12 time 154 nodes 191133 nps 1241123
+95757 <first : # engine said: info depth 12 time 186 nodes 228910 nps 1230698 score cp -16 pv e7e5 
+95757 <first :  12     -16     18     228910 e7e5 
+95836 <first : # engine said: info depth 12 time 266 nodes 324548 nps 1220105 score cp -34 pv e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6g4 c1g5 f8e7 g5e7 d8e7 d1d4 h7h5 
+95836 <first :  12     -34     26     324548 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6g4 c1g5 f8e7 g5e7 d8e7 d1d4 h7h5 
+95898 <first : # engine said: info depth 13 time 328 nodes 401505 nps 1224100
+95965 <first : # engine said: info depth 13 time 395 nodes 481574 nps 1219174 score cp -35 pv e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6g4 c1g5 f8e7 g5e7 d8e7 d1d4 d7d6 f1b5 e8f8 
+95965 <first :  13     -35     39     481574 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6g4 c1g5 f8e7 g5e7 d8e7 d1d4 d7d6 f1b5 e8f8 
+96063 <first : # engine said: info depth 14 time 493 nodes 599457 nps 1215937
+96241 <first : # engine said: info depth 14 time 671 nodes 812085 nps 1210260 score cp -33 pv e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 d1d4 d7d5 e5d6 e4d6 c1g5 f7f6 d4e3 e8f7 
+96241 <first :  14     -33     67     812085 e7e5 g1f3 g8f6 d2d4 e5d4 e4e5 f6e4 d1d4 d7d5 e5d6 e4d6 c1g5 f7f6 d4e3 e8f7 
+96393 <first : # engine said: info time 823 nodes 1000000 nps 1215066 
+96479 <first : # engine said: info depth 15 time 909 nodes 1104745 nps 1215341
+96679 <first : # engine said: info depth 15 time 1109 nodes 1342927 nps 1210935 score cp -23 pv e7e5 
+96679 <first :  15     -23    110    1342927 e7e5 
+96811 <first : # engine said: info depth 15 time 1241 nodes 1505232 nps 1212918 score cp -13 pv e7e5 
+96811 <first :  15     -13    124    1505232 e7e5 
+96956 <first : # engine said: bestmove e7e5
+96956 <first : move e7e5
+96959 <first : 
+105417 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+105418 <first : # 'option' think=0 pause=0 log=0 sent=0
+105418 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+105418 <first : # release 113
+105418 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+105418 <first : 15 0 0 0 reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+Impossible move e7m/, type = 25
+109731 >first : force
+109732 >first : quit
+Unload first
+StartChildProcess (dir="/usr/games") uci2wb debug -normal /home/andreas/Dokumente/Chess/Engines/RodentII/rodentII .
+109733 >first : xboard
+protover 2
+109736 <first : # 'xboard' think=0 pause=0 log=0 sent=0
+109737 <first : # 'protover' think=0 pause=0 log=0 sent=0
+109737 <first : feature setboard=1 usermove=1 debug=1 ping=1 name=1 reuse=0 exclude=1 pause=1 sigint=0 sigterm=0 done=0
+109737 >first : accepted setboard
+109737 >first : accepted usermove
+109737 >first : accepted debug
+109737 >first : accepted ping
+109737 >first : accepted name
+109737 >first : accepted reuse
+109737 >first : accepted exclude
+109737 >first : accepted pause
+109737 >first : accepted sigint
+109737 >first : accepted sigterm
+109737 >first : accepted done
+109737 <first : feature option="UCI2WB debug output -check 1"
+109737 >first : accepted option
+109737 <first : # uci
+109751 <first : # engine said: id name Rodent II 0.9.66
+109751 <first : feature myname="Rodent II 0.9.66 (UCI2WB)"
+109751 >first : accepted myname
+109752 <first : # engine said: id author Pawel Koziol (based on Sungorus 1.4 by Pablo Vazquez)
+109752 <first : # engine said: option name Hash type spin default 16 min 1 max 4096
+109752 <first : # engine said: option name Clear Hash type button
+109752 <first : feature option="Clear Hash -button"
+109752 >first : accepted option
+109752 <first : # engine said: option name PersonalityFile type string default rodent.txt
+109752 <first : feature option="PersonalityFile -file rodent.txt"
+109752 >first : accepted option
+109752 >first : option PersonalityFile=/home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+109752 <first : # engine said: option name OwnBook type check default true
+109752 <first : feature option="OwnBook -check 1"
+109752 >first : accepted option
+109752 <first : # engine said: uciok
+109752 <first : feature variants="normal,xiangqi"
+109752 >first : accepted variants
+109752 <first : feature smp=1 memory=1 done=1
+109752 >first : accepted smp
+109752 >first : accepted memory
+109752 >first : accepted done
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'accepted' think=0 pause=0 log=0 sent=0
+109752 <first : # 'option' think=0 pause=0 log=0 sent=0
+109752 <first : # backlog: setoption name PersonalityFile value /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+109752 <first : # release 113
+109752 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+109752 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+109752 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+109752 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+109752 <first : # 'accepted' think=0 pause=0 log=113 sent=113
+109752 <first : # engine said: info string reading /home/andreas/Dokumente/Chess/Engines/RodentII/personalities/school/amy.txt
+recognized 'normal' (-1) as variant normal
+109753 >first : memory 1536
+109753 >first : cores 4
+109753 >first : new
+random
+109753 >first : level 0 1 0
+109753 >first : post
+109753 >first : hard
+109753 >first : easy
+109753 >first : ping 1
+Impossible move e7m/, type = 0
+109753 >first : force
+109753 >first : usermove 109753 >first : e2e4
+109753 >first : usermove 109753 >first : e7e5
+109754 <first : # 'memory' think=0 pause=0 log=113 sent=113
+109755 <first : # 'cores' think=0 pause=0 log=113 sent=113
+110269 <first : # 'new' think=0 pause=0 log=113 sent=113
+110269 <first : # setoption name Hash value 1536
+110269 <first : # isready
+110269 <first : # engine said: readyok
+110269 <first : # ucinewgame
+110269 <first : # 'random' think=0 pause=0 log=113 sent=113
+110269 <first : # 'level' think=0 pause=0 log=113 sent=113
+110269 <first : # 'post' think=0 pause=0 log=113 sent=113
+110269 <first : # 'hard' think=0 pause=0 log=113 sent=113
+110269 <first : # 'easy' think=0 pause=0 log=113 sent=113
+110269 <first : # 'ping' think=0 pause=0 log=113 sent=113
+110269 <first : pong 1
+110269 <first : # 'force' think=0 pause=0 log=113 sent=113
+110269 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+110269 <first : # 'usermove' think=0 pause=0 log=113 sent=113
+GameEnds(29, xboard exit, 2)
+760140 >first : quit

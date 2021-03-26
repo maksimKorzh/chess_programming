@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>fairymax - xboard-compatible chess and chess-variant engine 'Fairy-Max'</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:root@localhost" />
+</head>
+
+<body style="background-color: white">
+
+
+<!-- INDEX BEGIN -->
+<div name="index">
+<p><a name="__index__"></a></p>
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#options">OPTIONS</a></li>
+	<li><a href="#availability">AVAILABILITY</a></li>
+	<li><a href="#see_also">SEE ALSO</a></li>
+	<li><a href="#standards">STANDARDS</a></li>
+	<li><a href="#author">AUTHOR</a></li>
+</ul>
+
+<hr name="index" />
+</div>
+<!-- INDEX END -->
+
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>fairymax - xboard-compatible chess and chess-variant engine 'Fairy-Max'</p>
+<p>
+</p>
+<hr />
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<p><strong>fairymax</strong> [hashSize] [iniFile]</p>
+<p><strong>shamax</strong> [hashSize] [iniFile]</p>
+<p><strong>maxqi</strong> [hashSize] [iniFile]</p>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p><strong>fairymax</strong> is a program that plays chess and chess variants. 
+It uses the xboard/winboard chess-engine protocol to communicate.
+Apart from 'regular' chess (also known as the Mad-Queen variant),
+it can play Capablanca chess, gothic chess, janus chess, knightmate, cylinder chess, 
+berolina chess, superchess, makruk (Thai chess, and also some of its
+variants, Cambodian chess (Ouk), asean chess and ai-wok),
+courier chess, Seirawan chess, Spartan chess, falcon chess, great shatranj,
+team-mate chess, charge of the light brigade, king of the hill, bifurcator chess,
+Los-Alamos chess, Mexican chess, Ciccolini's chess, grande acedrex,
+wildebeest chess (almost),
+shuffle chess without castling and chess with different armies
+(all combinations of the FIDE, Clobberers, Nutters and Rookies armies).
+Fairy-Max can be easily configured by the user to play other variants as well,
+by modifying the ini file.
+This ini file describes the rules of movement
+of the participating pieces and the initial board setup.</p>
+<p>Fairy-Max can also play shatranj, 
+but in this case is not aware of the shatranj rule that a bare king loses.
+So it might play sub-optimally in the late end-game.
+A version of Fairy-Max adapted to implement the baring rule
+(and the rule that stalemate is a win)
+is available under the name <strong>shamax</strong>.
+Grande Acedrex and Courier Chess might also have had a baring rule,
+so you may want to play these with shamax instead of fairymax too.</p>
+<p>Similarly, a version of Fairy-Max adapted to play Xiang Qi (Chinese Chess)
+is included in the fairymax package as well, under the name <strong>maxqi</strong>.</p>
+<p><strong>fairymax</strong> is a derivative of the world's (once) smallest chess program 
+(source-code wise), micro-Max.
+The latter measures less that 2000 characters, (about 100 code lines),
+and has a computer rating of around 2050 on the CCRL rating list.
+Although this is about 1000 rating points behind the world champion,
+micro-Max still makes a quite tough opponent even for club players,
+although it is not unbeatable.</p>
+<p>The main difference between micro-Max and Fairy-Max is that the latter loads
+its move-generator tables, which specify how the various pieces move,
+from an external file, so it can be easily adapted to incorporate un-orthodox pieces.
+For ease of use of the artificial-intelligence, Fairy-Max is equipped with
+I/O routines that allow it to run with the xboard graphical user interface.</p>
+<p>See <code>xboard(6)</code> for instructions about how to use <strong>fairymax</strong> through xboard. To
+start up quickly, you just need the command: <strong>xboard -fcp fairymax</strong>.
+Note that to be able to play the chess variants, it is recommended to use
+the latest XBoard version, as some of the recently added variants will use
+features not supported by older XBoard versions
+(in particular allowing an engine to reconfigure XBoard's ideas
+on the initial setup and how the pieces move).
+Problems with older XBoard versions might range from only being able to
+play the variant with legality testing switched off,
+inability to display some of the unorthodox pieces in board sizes other than
+<strong>Bulky</strong>, <strong>Middling</strong> or <strong>Petite</strong>,
+not recognizing variants with non-standard names,
+to refusing even names that by now are standard XBoard variants.</p>
+<p>For some variants even the name is unknown to XBoard,
+and they are all grouped under the catchall name 'fairy'.
+Which variant is played by Fairy-Max when XBoard is set to 'fairy',
+can be determined by a combobox control in the XBoard 'Engine Settings' menu dialog.
+This currently applies to the various army combinations of chess with different armies.
+After having set this <strong>Variant fairy selects</strong> option,
+activating XBoard's <strong>New game</strong> menu when already in variant fairy,
+or selecting fairy from the <strong>New variant</strong> menu dialog will then start the selected game.</p>
+<p>Fairymax supports multi-PV mode: by specifying a non-zero multi-PV margin in the
+Engine-Settings dialog of XBoard, Fairy-Max will not only print the
+principal variation for the best move, but also for every move that approaches
+the score of this best move to within the set margin.
+(If it does not find the best move on the first try, this might lead to printing
+of a few extra lines below the threshold.)
+Fairy-Max now also supports analysis mode, and exclusion of moves from the analysis.</p>
+<p>The fmax.ini file from which Fairy-Max by default takes the piece and game definitions
+is a self-documenting text file,
+which contains instructions for how to define new pieces and chess variants.
+In addition it contains an extensive list of pre-defined pieces,
+incuding many not occurring in any of the pre-defined variants,
+which the user can draw on to define his own variants.</p>
+<p>Amongst the move types supported by Fairy-Max are normal leaper and slider moves,
+(e.g. knight and rook),
+divergent moves (i.e. capture and non-capture moves can be different),
+hoppers (which jump over other pieces, such as the Chinese cannon or the grasshopper),
+lame leapers (the move of which can be blocked on squares they cannot move to,
+such as the Chinese horse and elephant),
+limited-range sliders (upto range 5),
+and any combination thereof,
+in every possible direction.
+The board width is configurable upto a width of 14 files,
+and cylindrical boards (where left and right edge connect) are supported as well.
+The board height can be configured up to 16 ranks.</p>
+<p>
+</p>
+<hr />
+<h1><a name="options">OPTIONS</a></h1>
+<dl>
+<dt><strong><a name="hashsize" class="item"><strong>hashSize</strong></a></strong></dt>
+
+<dd>
+<p>If the first argument to fairymax is numeric,
+it is taken as an indicator for the amount of memory Fairy-Max is allowed to use
+for its internal hash table.
+The default value for this argument, 22, would result in a memory usage of 48MB.
+Each next-higher number doubles the memory usage, each next-lower halves it.
+Running with less than 6MB (i.e. argument 19) is not recommended.
+When fairymax is running under xboard 4.3.15 or later the hash-table size can be set 
+through the xboard menus,
+making this argument superfluous.</p>
+</dd>
+<dt><strong><a name="inifile" class="item"><strong>iniFile</strong></a></strong></dt>
+
+<dd>
+<p>A second or non-numeric first argument is taken as a filename.
+Fairy-Max will use the mentioned file in stead of its default fmax.ini file
+to define the movement of pieces and initial setup of the variants.
+This makes it easier to define your own variants.</p>
+</dd>
+<dt><strong><a name="interactive_options" class="item"><strong>INTERACTIVE OPTIONS</strong></a></strong></dt>
+
+<dd>
+<p>Fairy-Max also supports some options that can only be set interactively,
+though XBoard's engine settings menu dialog.
+These include a setting to further define -variant fairy,
+(e.g. which armies to pit against each other in chess with different armies),
+and whether makruk is to be played with Thai or Cambodian rules
+(the latter requiring XBoard's legality testing to be switched off!).
+You can also enable resigning, and set a score threshold for 
+when Fairy-Max should do it,
+and define the already mentioned multi-PV margin there.
+An 'Info' button in the settings dialog makes XBoard
+pop up a window with some info about the currently selected variant.</p>
+</dd>
+<dt><strong><a name="persistent_hash" class="item"><strong>Persistent hash</strong></a></strong></dt>
+
+<dd>
+<p>Some of the interactive options can be used to store the current position
+in a file bearing the name of the variant being played,
+with the extension '.hash' added to it, during analysis.
+Positions in that file will be loaded into Fairy-Max' hash table before
+every game, protected from overwrite.
+This can be used to create an opening or end-game book for the variant.
+The <strong>Save in hash file</strong> button is convenient for saving the occasional position.
+For saving many positions in a row the option <strong>Automatic pesistent-hash dialog</strong>
+can be ticked.
+This pops up a dialog at the start of every analysis search,
+in which the user then just has to press 'OK' to put the score from the analysis
+into the hash file.
+If a number is typed in that dialog before pressing 'OK',
+the position will be saved with that score (in centi-Pawn) rather than the score
+determined by the engine's own analysis.
+This can for instance be used to discourage opening lines the engine overrates.
+The file will be created in the current directory,
+but at the start of a game both this file,
+as well as one in Fairy-Max' private data files,
+will be loaded.
+The install does contain such a persistent hash file for makruk,
+to help Fairy-Max find the checkmate in the 'difficult' corners of the
+KMMMK and KNMMK (with like M) end-games.</p>
+</dd>
+</dl>
+<p>
+</p>
+<hr />
+<h1><a name="availability">AVAILABILITY</a></h1>
+<p>At <a href="http://hgm.nubati.net/cgi-bin/gitweb.cgi">http://hgm.nubati.net/cgi-bin/gitweb.cgi</a> the source code can be obtained.</p>
+<p>
+</p>
+<hr />
+<h1><a name="see_also">SEE ALSO</a></h1>
+<p><code>xboard(6)</code></p>
+<p>explanations: <a href="http://www.chessvariants.org/index/msdisplay.php?itemid=MSfairy-max">http://www.chessvariants.org/index/msdisplay.php?itemid=MSfairy-max</a></p>
+<p>micro-Max: <a href="http://home.hccnet.nl/h.g.muller/max-src2.html">http://home.hccnet.nl/h.g.muller/max-src2.html</a></p>
+<p>XBoard: <a href="http://hgm.nubati.net">http://hgm.nubati.net</a></p>
+<p>
+</p>
+<hr />
+<h1><a name="standards">STANDARDS</a></h1>
+<p>WinBoard, <strong>xboard</strong>(6) interface (&quot;Chess Engine Communication Protocol&quot;)</p>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>H.G.Muller &lt;<a href="mailto:h.g.muller@hccnet.nl">h.g.muller@hccnet.nl</a>&gt;.</p>
+<p>This manual page was generated with pod2man(1).</p>
+
+</body>
+
+</html>

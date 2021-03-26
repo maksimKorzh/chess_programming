@@ -1,0 +1,128 @@
+Minimal protocol
+
+The full WinBoard protocol, as described in the document
+
+http://tim-mann.org/xboard/engine-intf.html
+
+looks quite elaborate, but to interface an 
+engine to WinBoard so you can play a game against it can already be 
+done with the aid of a very small subset of the protocol. The other 
+commands your engine can simply ignore.
+
+This minimal subset consists of:
+
+Commands that your engine should understand when it 
+receives them on its standard input:
+level
+new
+force
+go
+<MOVE>
+
+where <MOVE> means the move in coordinate notation (4 characters, 
+or 5 when a promotion is involved). Of this, the level command is 
+the only one with numerical parameters (specifying nr of moves, 
+time in minutes, and time-increment per move in seconds).
+
+'new' tells your engine to setup the board for a new game, and 
+consider itself playing the side that will not move first, simply 
+awaiting events idly. This means it will start searching 
+and doing a move of its own after it receives an input move.
+
+After 'force' the engine will never do any moves itself, just 
+accepting moves for the side that is to move, one after the other 
+(keeping track of who is to move), and performing them 
+on its internal board.
+
+'go' tells the engine to start playing for the side that now has 
+the move (regardless of what it was doing before), and keep 
+spontaneously generating moves for that side each thime that side 
+has to move again.
+
+All other commands are best ignored without comment: officially 
+you have to print an error message if the engine receives a 
+command it does not understand, but if it understands only so 
+little that would just confuse the GUI. So better save that for later.
+
+commands that your engine has to send to the GUI, 
+on its standard output:
+move <MOVE>
+
+The only thing you have to send the GUI is the moves, preceeded 
+by the keyword 'move'. The engine only has to do it when the 
+side it is playing (as told by the most recent 'new', 'force' 
+or 'go' command) has to move.
+
+As a general guideline, send as little as possible to the GUI. 
+In the best case the GUI will ignore what it receives and doesn't 
+understand. Sometimes it misunderstand engine output that 
+is not a a command defined in the protocol. Certainly do not 
+echo the moves that you receive as input. Be very careful in 
+printing lines that contain the words 'black' or 'white', 
+as the GUI might understand them as 'black wins' or 'white resigns', 
+and forfeits the game for the engine. 
+
+Be sure to flush the output after printing a move (it might be 
+buffered otherwise until there is more, and then the engine starts 
+waiting for an answer on a message that was never send 
+to the GUI, and a deadlock occurs).
+
+
+This is really all that is needed. Useful additions, however, 
+would be for receiving:
+quit		for decent termination of your engine, 
+		rather than the GUI having to kill it.
+time <t>        to synchronize the engines internal clock with that of the GUI,
+                where <t> is the number of centi-seconds remaining on the clock
+		so the engine would not have to keep track of this itself.
+hard            tells your engine that it can ponder (use CPU time when the 
+		opponent is to move).
+easy            tells your engine that pondering is forbidden.
+
+In the other direction, it would be good if the engine prints a 
+result message when it stops playing for whatever reason:
+1-0 {reason}		Side that moves first wins (white or sente)
+0-1 {reason}		The other side wins
+1/2-1/2 {reason}        Draw
+The  reason can be any text you care to print. 
+
+
+With the minimal set of commands, you can already start from set-up 
+positions by feeding the engine all the moves leading to that position 
+(e.g. through pasting a PGN into the GUI, or have the GUI read them 
+from a PGN file). You might want to implement a way to set up positions 
+without knowing the moves that lead to that position, though. There are 
+two ways to do that. For the old way (in 'protocol 1') it should understand 
+the 'edit' command. After it recieves a line with this command, it should 
+get in a mode where it only accepts edit sub-menu commands, 
+until it receives a line starting with a '.' (a single period).
+
+The commands in edit mode are:
+#		clear the board
+P<sqr>		Put a piece of type P and the current color on square <sqr>
+P<sqr>+		Same thing, but promote the piece as well
+c		change the current color (after 'edit' the color is 'white')
+
+The modern way to set up a position is to send a FEN to the engine, 
+as part of a 'setboard' command:
+
+setboard <FEN-string>
+
+This sounds much simpler, (if your engine already contains a FEN parser) 
+but unfortunately the GUI uses this way only if the engine has told it first 
+that it wants to use protocol 2. To tell this, it has to send a 'feature' 
+command to the GUI in reply to receiving the 'protover 2' command (send by 
+the GUI during engine initialization).
+
+
+So far the engine sent only the moves it decided to play to the GUI. 
+(Perhaps apart from the 'feature' command if you want to use protocol 2.) 
+You can also have it send what it is thinking about. But it should not do 
+that without being told so. For that there are the commands:
+
+post		turns printing status info while thinking or pondering on
+nopost          turns it off
+
+These command only have any use if you also implement the printing of the 
+status info, in a strictly defined format. This output appears then in the 
+line above the board display.
