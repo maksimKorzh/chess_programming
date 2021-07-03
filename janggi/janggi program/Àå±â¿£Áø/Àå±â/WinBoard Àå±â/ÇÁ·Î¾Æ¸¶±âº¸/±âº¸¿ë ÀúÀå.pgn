@@ -1,0 +1,2452 @@
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.08.08"]
+[Round "-"]
+[White "com"]
+[Black "fairy-11-1-largeboard_x86-64-bmi2"]
+[Result "*"]
+[TimeControl "35/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 {+0.19/22 19}
+{xboard exit (Clocks: 281, 281)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.08.08"]
+[Round "-"]
+[White "fairy-11-1-largeboard_x86-64-bmi2"]
+[Black "com"]
+[Result "*"]
+[TimeControl "35/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 {+0.38/21} Ng7 2. Ng2 {+0.42/20 12} Ce7 3. Ke0 {+0.38/18 8}
+{xboard exit (Clocks: 263, 281)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.12"]
+[Round "4"]
+[White "fairy-11-1-largeboard_x86-64-bmi2"]
+[Black "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Ng7 {+0.13/18 3} 2. Nd2 {+0.53/11 4} Nc7 {+0.09/20} 3. Ng2
+{+0.61/10} Cbd7 {+0.00/16} 4. Ke0 {+0.41/12} Pab6 {+0.13/19 13} 5. Ra1
+{+0.35/13 0.3} Ce7 {+0.01/15} 6. Afe1 {+0.38/13} Ke9 {-0.09/20} 7. Pe4
+{+0.43/11} Afe8 {+0.21/18} 8. Pc4 {+0.37/11 0.2} Add8 {+0.20/16} 9. Be3
+{+0.27/11} Cd9 {+0.12/17} 10. Pcd4 {+0.33/11 1.5} Ci7 {+0.08/17} 11. Rf0
+{+0.07/11} Pih6 {+0.13/16} 12. Pi3 {+0.08/11} Cif7 {+0.36/15} 13. Ch7
+{+0.11/11} Ri5 {+0.54/15 0.5} 14. Pa4 {+0.07/10 0.3} Rc5 {+0.47/14} 15. Cb7
+{+0.17/10} Rg5 {+0.71/13 0.3} 16. Pih3 {-0.11/13 0.5} Ri5 {+1.13/13} 17.
+Pi3 {-0.06/12} Pa6 {+1.06/12 0.3} 18. Pb4 {-1.03/12 0.1}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.12"]
+[Round "1"]
+[White "fairy-11-1-largeboard_x86-64-bmi2"]
+[Black "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Nf2 {+0.52/14} Ng7 {+0.07/18 3} 2. Pab3 {+0.52/15} Nc7 {+0.05/19} 3. Nc2
+{+0.56/15} Chf7 {+0.14/20} 4. Ra4 {+0.54/14} Ce7 {-0.10/17} 5. Che2
+{+0.44/15} Ke9 {+0.27/16 0.1} 6. Rc4 {+0.77/17} Pab6 {+0.30/20} 7. Cxb6
+{+0.88/19} Pxb6 {+0.13/18} 8. Rxc7 {+0.88/17} Afe8 {+0.13/19} 9. Bf3
+{+0.89/18} Pih6 {+0.12/19 0.1} 10. Rc8 {+1.06/17} Add8 {+0.00/21} 11. Pcd3
+{+1.10/15} Add7 {+0.00/20} 12. Pg4 {+1.16/16} Pef6 {-0.13/18} 13. Kf1
+{+1.29/14} Cf5 {+0.00/21} 14. Afe1 {+1.16/16} Rb9 {-0.09/19} 15. Ri2
+{+1.34/15} Ne6 {+0.09/16} 16. Rc4 {+1.35/17} Nc7 {+0.00/18} 17. Ph3
+{+1.49/19} Pi6 {+0.00/20 0.1} 18. Ce4 {+1.56/18} Be6 {+0.05/20} 19. Nd4
+{+1.58/15} Cf9 {+0.26/21} 20. Ce2 {+1.25/18} Ba6 {+0.08/26} 21. Nxe6
+{+1.11/19} Pxe6 {+0.04/24 0.1} 22. Cxe6 {+1.09/21} Cc9 {+0.05/26} 23. Rxc7
+{+1.07/18} Pf6 {+0.21/23} 24. Bh6 {+1.07/18} Pxe6 {+0.42/17} 25. Rc4
+{+0.91/18} Pd6 {+0.30/18} 26. Bxe8 {+1.15/17} Axe8 {+0.36/19 0.1} 27. Rb4
+{+1.19/19} Pdc6 {+0.43/18} 28. Pbc3 {+1.14/17} Pd6 {+0.25/18} 29. Pb3
+{+0.94/16} Cf9 {+0.18/19} 30. Pf3 {+1.18/19} Ri7 {+0.10/20} 31. Phg3
+{+1.14/18} Bc9 {+0.30/18} 32. Be3 {+0.97/15} Pb5 {+0.12/21} 33. Rf4
+{+1.28/15} Be6 {+0.14/18} 34. Rf6 {+1.15/17} Pi5 {+0.42/19} 35. P4f4
+{+1.19/17} Pi4 {+0.40/16} 36. Rff5 {+1.15/18} Pbc5 {+0.39/20} 37. Rxc5
+{+0.93/18} Rxb3 {+0.27/18 0.1} 38. Rg5 {+0.86/16} Kd9 {+0.40/19} 39. Rh2
+{+0.75/16} Rb2 {+0.52/19} 40. Ra5 {+0.89/18} Bh4 {+0.61/18} 41. Kf0
+{+0.87/21} Ce9 {+0.41/18} 42. Ra6 {+0.75/17} Pe6 {+0.19/19} 43. Pc3
+{+0.67/12 0.1} Ri6 {+0.50/17} 44. Ra5 {+0.76/16} Pd6 {+0.53/18} 45. Rb5
+{+0.51/18} Ra2 {+0.55/18 0.1} 46. Rb8 {+0.51/15} Pd5 {+0.44/16} 47. Pc4
+{+0.57/15} Pe5 {+0.67/16} 48. Rb4 {+0.21/17} Bf7 {+0.68/18} 49. Rh9
+{+0.00/16} Ph4 {+0.87/18} 50. Rb3 {+0.00/22} Rd6 {+0.83/19} 51. Ke0
+{-0.15/16} Rc2 {+0.80/19} 52. Rb4 {+0.38/20} Pg4 {+0.86/19} 53. Pgxg4
+{+0.07/16} Bc9 {+0.93/20} 54. Pd4 {+0.00/23} Cxf3 {+1.00/20 0.1} 55. Pfe4
+{+0.00/25} Pf5 {+0.94/18} 56. Nd1 {+0.00/22} Cf9 {+1.08/18} 57. Rb9
+{-0.23/18} Ri6 {+1.42/20 0.1} 58. Rh0 {-0.92/17} Ri3 {+1.37/21} 59. Rb5
+{-0.94/18}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.12"]
+[Round "2"]
+[White "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Black "fairy-11-1-largeboard_x86-64-bmi2"]
+[Result "1-0"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Ke0 {+0.49/17} Ng7 {+0.02/15 3} 2. Nf2 {+0.34/17} Nc7 {+0.15/16} 3. Ade1
+{+0.39/17} Chf7 {+0.08/16} 4. Cc2 {+0.63/17} Pef6 {+0.12/16} 5. Cxc6
+{+0.63/18} Cxf2 {+0.32/16} 6. Axf2 {+0.70/20} Ce7 {+0.22/17} 7. A0e1
+{+0.61/19} Bce6 {+0.36/18} 8. Cg2 {+0.75/20} Bxc3 {+0.42/17} 9. Ccc2
+{+0.55/20} Rb9 {+0.39/17} 10. Kf0 {+0.45/20} Pih6 {+0.51/17} 11. Pgf3
+{+0.56/18} Ci7 {+0.41/20} 12. Ce2 {+0.41/20 0.1} Nge6 {+0.50/18} 13. Pd3
+{+0.86/20} Nf4 {+0.49/16} 14. Be3 {+0.78/19} Kf7 {+0.71/18} 15. Ci2
+{+0.51/20} Nxd3 {+0.56/19} 16. Nd1 {+0.39/18} Be6 {+0.36/17} 17. Rc0
+{+0.39/16 0.1} Rb5 {+0.49/17} 18. Be2 {+0.41/17} Rf5 {+0.53/17} 19. Aff1
+{+0.00/26 0.1} Rxf3 {+1.12/18} 20. Cf2 {+0.00/29} Nd5 {+1.21/18 0.1} 21.
+Rc8 {+0.00/30} Rh9 {+1.27/17} 22. Rc4 {+0.10/18 0.1} Nxe3 {+1.23/20} 23.
+Nxe3 {+0.45/20} Ke8 {+1.47/19} 24. Rc7 {+0.39/19} Ke9 {+1.38/19} 25. Rxi7
+{-0.01/20} Rxe3 {+1.38/17} 26. Cd0 {-0.04/20} Pi6 {+1.40/15} 27. Ca2
+{+0.48/20} Rf3 {+1.11/15} 28. Pb3 {+1.10/19} Nxe1 {+0.72/16} 29. Ca9
+{+1.02/17} Ad8 {-0.42/16} 30. Rc7 {+1.28/20} Rxf1 {+0.54/18} 31. Kxf1
+{+1.64/20} Rh1 {-0.09/20} 32. Kf2 {+1.74/21} Bg3 {-0.57/19} 33. Ca3
+{+2.23/21} Ng2 {-0.82/18}
+{Xboard adjudication} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.12"]
+[Round "-"]
+[White "com"]
+[Black "fairy-11-1-largeboard_x86-64-bmi2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nc2 Nf7 3. Ce2 Ra5 4. Ped3 Kf8 5. Be3 Pef6 6. Nf2 Afe8 7.
+Pgg4 Be6 {+0.09/19 37}
+{xboard exit (Clocks: 138, 262)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Nc7 2. Ng2 Ce7 3. Ce2 Ng7 4. Bd3 Ped6 5. Pab3 Nce6 6. Pef3 Pdd5 7.
+Nd2 Ra7 8. Ke0 Af8 9. Ade1 {+0.21/23 51} Cf7 10. Kd0 Cf9 {+0.54/22 22} 11.
+Pcc4 {-0.08/21 28} Pcc5 {+0.60/22 22} 12. Pxc5 {+0.00/21 23} Nxc5
+{+0.64/18 5} 13. Ri4 {-0.05/20 15} Ne6 {+0.67/22 25} 14. Ci2 {-0.09/21 4}
+Rh9 {+0.50/23 18} 15. Cbe2 {+0.09/23 18} Rh5 {+0.37/26 39} 16. Ch2
+{-0.13/22 20} Rf5 {+0.77/25 20} 17. Cf2 {-0.07/20 5} Rh5 {+1.09/21 2.8} 18.
+Ch2 {-0.20/21 4}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Nc7 2. Ng2 Ce7 3. Ce2 Ng7 4. Bd3 Ped6 5. Pab3 Nce6 6. Pef3 Pdd5 7.
+Nd2 Ra7 8. Ke0 Af8 9. Ade1 {+0.21/23 51} Cf7 10. Kd0 Cf9 {+0.54/22 22} 11.
+Pcc4 {-0.08/21 28} Pcc5 {+0.60/22 22} 12. Pxc5 {+0.00/21 23} Nxc5
+{+0.64/18 5} 13. Ri4 {-0.05/20 15} Ne6 {+0.67/22 25} 14. Ci2 {-0.09/21 4}
+Rh9 {+0.50/23 18} 15. Cbe2 {+0.09/23 18} Rh5 {+0.37/26 39} 16. Ch2
+{-0.13/22 20} Rf5 {+0.77/25 20} 17. Cf2 {-0.07/20 5} Rh5 {+1.09/21 2.8} 18.
+Ch2 {-0.20/21 4} Re5 {+0.56/21 9} 19. Rc0 {-0.12/22 9}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 110920 LB 64 POPCNT"]
+[Result "1-0"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Ng7 3. Ce2 Ce7 4. Pef3 Ped6 5. Nc2 Nc7 6. Nge3 Pgg5 7.
+Cd2 Nge6 8. Pcc4 Cd7 9. Af1 Af8 10. Cf0 Cf9 11. Ke0 {+0.20/27 41} Ke9
+{-0.01/26 32} 12. Ade1 {+0.20/25 5} Ade8 {-0.03/22 6} 13. Pbb4
+{+0.26/27 37} Ca7 {-0.01/24 24} 14. Rb0 {+0.21/23 8} Pab6 {-0.01/23 14} 15.
+Pih3 {+0.22/20 6} Rxi0 {-0.05/20 6} 16. Cxi0 {+0.36/22 9} Ce7 {-0.01/20 8}
+17. Cf0 {+0.31/23 26} Phh5 {+0.01/23 20} 18. Bi3 {+0.36/22 9} Bi6
+{-0.11/21 10} 19. Ba3 {+0.35/20 3} Aff7 {+0.03/21 11} 20. Rb3 {+0.34/19 6}
+Ba6 {-0.12/22 12} 21. Aff2 {+0.35/24 23} Rb9 {-0.13/23 11} 22. Rb1
+{+0.36/24 43} Rb7 {-0.01/25 24} 23. Cb0 {+0.27/25 24} Rb8 {-0.13/27 35} 24.
+Ci0 {+0.36/25 30} Bf8 {-0.13/27 22} 25. Cc0 {+0.28/24 12} Rb7 {-0.12/26 31}
+{Xboard adjudication} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 150920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6
+{xboard exit (Clocks: 43, 299)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "Fairy-Stockfish 150920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 150920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Ng7 2. Ng2 Ce7 3. Ce2 Nc7 4. Pab3 Ke9 5. Nd2 Ade8 6. Ra4
+{+0.14/25 40} Ci7 {+0.29/27 31} 7. Rh0 {+0.25/24 6} Pih6 {+0.28/24 5} 8.
+Bi3 {+0.16/23 10} Nd9 {+0.26/24 18} 9. Ke0 {+0.19/23 7} Cf7 {+0.37/25 17}
+10. Ci2 {+0.11/21 15} Rh9 {+0.29/23 7} 11. Rh1 {+0.25/23 14} Ped6
+{+0.35/25 18} 12. Rha1 {+0.21/21 6} Nc7 {+0.50/19 4} 13. Afe1 {+0.01/23 14}
+Cd9 {+0.50/22 20} 14. Nf3 {-0.03/21 5} Ce7 {+0.32/22 5} 15. Rb4
+{+0.05/24 16} Pf6 {+0.39/23 8} 16. Rb8 {-0.29/24 22} Pf5 {+0.47/20 5} 17.
+Pgg4 {-0.02/19 8} Bce6 {+0.44/21 7} 18. Cc2 {-0.01/22 9} Rc9 {+0.44/23 11}
+19. Pcd3 {-0.04/20 4} Pg6 {+0.65/21 3} 20. Phh4 {-0.17/20 6} Bg3
+{+0.61/21 6} 21. Ra4 {-0.30/25 1:01} Aff8 {+0.56/25 40} 22. Be2
+{-0.29/28 33} Cf9 {+0.79/26 12} 23. Add1 {-0.29/26 7} Pgg5 {+0.75/26 16}
+24. Nxg5 {-0.36/28 13} Pa5 {+0.85/27 14} 25. Rc4 {-0.21/28 9} Pdd5
+{+0.59/30 43} 26. Rxc6 {-0.38/26 11} Pxg5 {+0.54/28 7} 27. Cxc7
+{-0.43/30 9} Pxg4 {+0.60/33 49} 28. Pxg4 {-0.29/28 15} Pd4 {+0.82/30 21}
+29. Kd0 {-0.40/26 14} Cd9 {+0.88/31 31} 30. Rbb6 {-0.36/26 8} Pxd3
+{+0.99/22 7} 31. Pxd3 {-0.40/24 12} Bd5 {+0.65/27 15} 32. Cc0 {-0.48/28 13}
+Cxd3 {+0.79/25 23} 33. Ke0 {-0.52/25 10} Rxc6 {+0.88/24 6} 34. Rxc6
+{-0.57/25 8} Cd9 {+0.92/23 5} 35. Cb6 {-1.10/29 48} Bg3 {+0.99/24 5} 36.
+Cb2 {-1.04/25 13} Bd5 {+1.18/25 7} 37. Pc3 {-0.84/23 12} Ba3 {+1.41/21 5}
+38. Rg6 {-0.69/23 4} Ne6 {+1.31/24 8} 39. Ci0 {-0.67/24 11} Nd4
+{+1.11/24 7} 40. Kf0 {-0.74/23 6} Bxd1 {+1.10/27 7} 41. Ph4 {-0.75/25 20}
+Nf3 {+1.13/27 15}
+{Xboard: Forfeit due to invalid move: d9f9 (d9f9 via `/, `/) res=24} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.15"]
+[Round "-"]
+[White "Fairy-Stockfish 150920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 150920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Ng7 2. Ng2 Ce7 3. Ce2 Nc7 4. Pab3 Ke9 5. Nd2 Ade8 6. Ra4
+{+0.14/25 40} Ci7 {+0.29/27 31} 7. Rh0 {+0.25/24 6} Pih6 {+0.28/24 5} 8.
+Bi3 {+0.16/23 10} Nd9 {+0.26/24 18} 9. Ke0 {+0.19/23 7} Cf7 {+0.37/25 17}
+10. Ci2 {+0.11/21 15} Rh9 {+0.29/23 7} 11. Rh1 {+0.25/23 14} Ped6
+{+0.35/25 18} 12. Rha1 {+0.21/21 6} Nc7 {+0.50/19 4} 13. Afe1 {+0.01/23 14}
+Cd9 {+0.50/22 20} 14. Nf3 {-0.03/21 5} Ce7 {+0.32/22 5} 15. Rb4
+{+0.05/24 16} Pf6 {+0.39/23 8} 16. Rb8 {-0.29/24 22} Pf5 {+0.47/20 5} 17.
+Pgg4 {-0.02/19 8} Bce6 {+0.44/21 7} 18. Cc2 {-0.01/22 9} Rc9 {+0.44/23 11}
+19. Pcd3 {-0.04/20 4} Pg6 {+0.65/21 3} 20. Phh4 {-0.17/20 6} Bg3
+{+0.61/21 6} 21. Ra4 {-0.30/25 1:01} Aff8 {+0.56/25 40} 22. Be2
+{-0.29/28 33} Cf9 {+0.79/26 12} 23. Add1 {-0.29/26 7} Pgg5 {+0.75/26 16}
+24. Nxg5 {-0.36/28 13} Pa5 {+0.85/27 14} 25. Rc4 {-0.21/28 9} Pdd5
+{+0.59/30 43} 26. Rxc6 {-0.38/26 11} Pxg5 {+0.54/28 7} 27. Cxc7
+{-0.43/30 9} Pxg4 {+0.60/33 49} 28. Pxg4 {-0.29/28 15} Pd4 {+0.82/30 21}
+29. Kd0 {-0.40/26 14} Cd9 {+0.88/31 31} 30. Rbb6 {-0.36/26 8} Pxd3
+{+0.99/22 7} 31. Pxd3 {-0.40/24 12} Bd5 {+0.65/27 15} 32. Cc0 {-0.48/28 13}
+Cxd3 {+0.79/25 23} 33. Ke0 {-0.52/25 10} Rxc6 {+0.88/24 6} 34. Rxc6
+{-0.57/25 8} Cd9 {+0.92/23 5} 35. Cb6 {-1.10/29 48} Bg3 {+0.99/24 5} 36.
+Cb2 {-1.04/25 13} Bd5 {+1.18/25 7} 37. Pc3 {-0.84/23 12} Ba3 {+1.41/21 5}
+38. Rg6 {-0.69/23 4} Ne6 {+1.31/24 8} 39. Ci0 {-0.67/24 11} Nd4
+{+1.11/24 7} 40. Kf0 {-0.74/23 6} Bxd1 {+1.10/27 7} 41. Ph4 {-0.75/25 20}
+Nf3 {+1.13/27 15} 42. Cf2 {-0.73/28 21} Nxh4 {+2.75/26 29} 43. Rg8
+{-0.67/29 13} Nxg2 {+4.87/23 14}
+{Xboard: Forfeit due to invalid move: e3g2 (e3g2 via `/, `/) res=24} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.18"]
+[Round "-"]
+[White "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Black "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Nc2 Pih6 2. Ce2 Nc7 3. Pab3 Cb2 4. Pef3 {+0.83/22 17} Kd8
+{+0.10/23 1:12} 5. Ra2 {+0.56/20 51} Cb8 {+0.08/24 1:05} 6. Ra4
+{+0.32/19 20} Ng7 {+0.07/24 19} 7. Ng2 {+0.21/21 14} Ce7 {+0.07/22 17} 8.
+Cf2 {+0.46/20 5} Ra7 {+0.22/19 11}
+{Xboard: Forfeit due to invalid move: a6b6 (a6b6 via `/, `/) res=24} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.18"]
+[Round "-"]
+[White "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Black "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Result "1-0"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Nc2 Pih6 2. Ce2 Nc7 3. Pab3 Cb2 4. Pef3 {+0.83/22 17} Kd8
+{+0.10/23 1:12} 5. Ra2 {+0.56/20 51} Cb8 {+0.08/24 1:05} 6. Ra4
+{+0.32/19 20} Ng7 {+0.07/24 19} 7. Ng2 {+0.21/21 14} Ce7 {+0.07/22 17} 8.
+Cf2 {+0.46/20 5} Ra7 {+0.22/19 11} 9. Cf2xd0 {+0.40/23 16}
+{Xboard: Forfeit due to invalid move: d0d1 (d0d1 via `/, `/) res=24} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.18"]
+[Round "-"]
+[White "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Ng7 2. Nc2 Ce7 3. Ce2
+{xboard exit (Clocks: 299, 293)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.19"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 170920 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Nc2 Pab6 2. Cg2
+{xboard exit (Clocks: 300, 70)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.20"]
+[Round "-"]
+[White "com"]
+[Black ""]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pih3 Bd6 2. Nc2 Nd7 3. Cg2 Ce7 4. -- -- {+1000.01/245 0.1} 5. -- Pef6 6.
+Kd1 -- 7. --
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.20"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 200920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6
+{xboard exit (Clocks: 278, 299)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.20"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 200920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6
+{xboard exit (Clocks: 298, 299)} *
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Nc2 Nc7 2. Ce2 Pih6 3. Ce4 Ce7 {+0.63/15 0.7} 4. Kxe1 -- {+1000.01/245}
+5. Ca2
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.21"]
+[Round "-"]
+[White "Fairy-Stockfish 200920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Nd7 3. Ce2 Ng7 4. Ci2 Rh9 5. Pih3 Cbe7 6. Ce2 Pcb6 7.
+Bd3 Ca7 8. Rb0 Ke9 9. Nd2 Ade8 10. Pe4 Che7 11. Ke0 Bi6 12. Afe1 Pgf6 13.
+Be3 Ci7 14. Rh0 {+0.26/20 20} Aff8 15. Cb4 {+0.17/21 14} Cif7 16. Phh4
+{+0.33/20 10} Cd9 17. Pgg4 {+0.32/21 20} Cg9 18. Pef4 {+0.36/20 6} Cae7 19.
+Ca2 {+0.04/21 20} Ca7 20. Ce2 {+0.29/20 8} Be7 21. Cb1 {+0.16/22 20} Rc9
+22. Ch1 {+0.05/21 20} Rc5 23. Pcc4 {+0.30/23 15} Rb5 24. Ri0 {+0.33/23 20}
+-- 25. Cb2 {+0.47/19 20} Re5 26. Ce2 {+0.60/22 20} Rb5 27. Cb2 Re5 28. Ce2
+Rb5 29. Cb2 Re5 30. Ce2 Rb5
+{Black wins} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Nd2 Nf7 2. Bd3 Ce7 3. Ce2 Pih6 4. Pab3 Ped6 5. Ra4 Kd8 {+0.52/20 10} 6.
+Ng2 Ade8 {+0.52/22 17} 7. Pef3 Nc7 {+0.54/21 4} 8. Be3 Pdd5 {+0.53/22 16}
+9. Rg4 Cb0 {+0.35/23 19} 10. Bxg6 Pxg6 {+0.01/22 15} 11. Rxg6 Pab6
+{-0.09/23 12} 12. Bxb6 Ra1 {+3.43/21 5} 13. Kf2 Ne6 {+3.74/21 5} 14. Bd3
+Cb5 {+5.73/23 4} 15. Pcc4 Cf5 {+6.50/20 4} 16. Pe3 Cf8 {+6.71/20 4} 17.
+Pef3 Nfg5 {+35.36/26 7} 18. Rf6 Ne4 {+1000.01/245 0.3}
+{Black wins} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Nd7 2. Pih3 Ce7 3. Ng2 Pef6 4. Kd1 Be6 5. Bd3 Bd6 6. Nd2 Rc9 7.
+Rxa6 {+2.03/26 14} Pb6 8. Ra1 {+2.38/20 6} Bxb3 9. Pxb3 {+2.43/20 6} Rc2
+10. Cxb6 {+2.80/20 5} Nxb6 11. Bxb6 {+3.24/22 6} Rc6 12. Bxd9 {+4.93/22 9}
+Kxd9 13. Ri4 {+5.45/26 6} Ke8 14. Ra8 {+7.51/22 6} Kf7 15. Cf2
+{+1000.01/245 0.3}
+{White wins} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.23"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "25/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pih3 Nd7 2. Ng2 Cc7 3. Ce2 Ci7 4. Nc2 Cxi0 {+5.82/20 11}
+{xboard exit (Clocks: 288, 288)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.23"]
+[Round "-"]
+[White "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "0-1"]
+[TimeControl "25/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nf2 Nc7 3. Cg2 Ce7 4. Ke0 Ra5 5. Ade1 Ca7 6. Ca2 Rf5 7. Nc2
+Nf7 8. Pcd3 Ke9 9. Nd4 Rd5 {+0.29/20 21} 10. Nb3 Ba6 {+0.34/22 16} 11. Cc2
+Rd7 {+0.29/20 6} 12. Ra1 Pbb5 {+0.33/37 23} 13. Be2 Ade8 {+0.10/23 30} 14.
+Pdd4 Ce7 {+0.28/17 7} 15. Aff1 Bf6 {-0.08/20 34} 16. Pee4 Pcd6 {+0.02/17 7}
+17. Ca0 Pgh6 {+0.01/18 9} 18. Rb1 Ci7 {-0.10/21 8} 19. Rf0 Ci4 {-0.01/17 3}
+20. Ng4 Nd8 {-0.17/18 16} 21. Nd2 Re7 {+0.06/19 12} 22. Cd0 Ci8
+{+0.01/17 12} 23. Pb3 Nb7 {+0.01/18 3} 24. Cb0 Cb8 {-0.06/18 4} 25. Rd1 Pg6
+{+0.12/17 2.8} 26. Ri0 Cb6 {-0.15/20 20} 27. Pc3 Rii7 {-0.01/23 18} 28. Nc4
+Pbc5 {-0.09/20 7} 29. Na3 Bxc3 {-0.33/24 20} 30. Cxc5 Cb8 {-0.12/22 17} 31.
+Cc2 Ba6 {-0.26/26 13} 32. Pc4 {+0.18/1} Rd7 33. Cd0 {+0.48/1 0.1} Pih6
+{+0.00/20 15} 34. Rxi7 {+0.53/1 0.1} Rxi7 {-0.47/23 16} 35. Pe5
+{+0.42/1 0.1} Nb5 {-0.46/22 20} 36. Pb4 {+0.42/1 0.1} Nd4 {+0.04/20 6} 37.
+Cxd4 {+0.42/2 0.1} Bxd4 {-0.33/29 38} 38. Pxe6 {+0.42/1 0.1} Pxe6
+{-0.29/23 16} 39. Rxd4 {+0.53/1 0.1} Ri0 {-0.29/24 6} 40. Aff0
+{+0.74/3 0.1} Pgg5 {-0.46/26 8} 41. Bxg5 {+0.63/1 0.1} Pg6 {+0.28/23 5} 42.
+Bd3 {+0.63/1 0.1} Cf8 {+0.96/25 15} 43. Ae2 {-0.09/8 0.1} Ce7 {+1.52/18 3}
+44. Ne3 {+0.36/1 0.1} Pd6 {+1.94/20 4} 45. Nc4 {-0.39/8 0.1} Cxe2
+{+2.68/20 5} 46. Nxd6 {-0.56/1 0.1} Ce7 {+3.46/21 5} 47. Nd1 {+0.71/1 0.1}
+Nd8 {+3.66/22 8} 48. Bf2 {+2.20/1 0.1} Ne6 {+3.91/21 5} 49. Kd0
+{-1.58/9 0.1} Rg0 {+4.65/20 4} 50. Rd5 {-1.80/1 0.1} Bxd3 {+7.82/21 4} 51.
+Rxd3 {-11.55/26 36} Cxf0 {+11.33/26 13} 52. Nc8 {-12.38/24 12} Ad8
+{+11.33/1 0.1} 53. Rd2 {-12.91/27 13} Cf7 {+14.28/24 12} 54. Nf0
+{-12.36/25 13} Afe8 {+15.78/25 15} 55. Bd5 {-10.20/26 6} Cd9 {+17.85/28 18}
+56. Rf2 {-13.67/23 25} Cxd5 {+19.18/24 12} 57. Cg2 {-11.87/22 5} Cd9
+{+21.22/21 12} 58. Nd6 {-14.83/22 5} Cxd6 {+22.88/23 11} 59. Cd2
+{-18.16/49 15} Cd9 {+1000.24/26 11} 60. Pf3 {-19.83/22 7} Cf7
+{+1000.17/36 26} 61. Pe3 {-20.50/20 4} Cxf0 {+1000.15/39 10} 62. Kd1
+{-13.22/20 5} Ng5 {+1000.13/44 11} 63. Cd9 {-24.09/19 6} Kxd9
+{+1000.09/56 9} 64. Ph4 {-1000.10/31 2.3} Nh3 {+1000.08/79 10} 65. Rf1
+{-1000.07/31 0.7} Cf9 {+1000.07/86 8} 66. Pd3 {-1000.06/39 4} Ce9
+{+1000.06/79 1:10} 67. Pe3 {-1000.07/47 0.4} Ce7 {+1000.07/47 6} 68. Pd3
+{-1000.06/52 0.4} Cd7 {+1000.06/115 5} 69. Pc3 {-1000.05/66 0.3} Rg3
+{+1000.05/208 5} 70. Rf0 {-1000.04/111 0.4} Ce9 {+1000.04/245 1.9} 71. Pg4
+{-1000.03/180 0.4} Rd3 {+1000.03/245 0.5} 72. Rd2 {-1000.02/5 0.1} Nf2
+{+1000.02/245 0.5} 73. Kd0 {-1000.01/1 0.1} Rxd2 {+1000.01/245 0.4}
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.23"]
+[Round "-"]
+[White "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "0-1"]
+[TimeControl "25/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nf2 Nc7 3. Cg2 Ce7 4. Ke0 Ra5 5. Ade1 Ca7 6. Ca2 Rf5 7. Nc2
+Nf7 8. Pcd3 Ke9 9. Nd4 Rd5 {+0.29/20 21} 10. Nb3 Ba6 {+0.34/22 16} 11. Cc2
+Rd7 {+0.29/20 6} 12. Ra1 Pbb5 {+0.33/37 23} 13. Be2 Ade8 {+0.10/23 30} 14.
+Pdd4 Ce7 {+0.28/17 7} 15. Aff1 Bf6 {-0.08/20 34} 16. Pee4 Pcd6 {+0.02/17 7}
+17. Ca0 Pgh6 {+0.01/18 9} 18. Rb1 Ci7 {-0.10/21 8} 19. Rf0 Ci4 {-0.01/17 3}
+20. Ng4 Nd8 {-0.17/18 16} 21. Nd2 Re7 {+0.06/19 12} 22. Cd0 Ci8
+{+0.01/17 12} 23. Pb3 Nb7 {+0.01/18 3} 24. Cb0 Cb8 {-0.06/18 4} 25. Rd1 Pg6
+{+0.12/17 2.8} 26. Ri0 Cb6 {-0.15/20 20} 27. Pc3 Rii7 {-0.01/23 18} 28. Nc4
+Pbc5 {-0.09/20 7} 29. Na3 Bxc3 {-0.33/24 20} 30. Cxc5 Cb8 {-0.12/22 17} 31.
+Cc2 Ba6 {-0.26/26 13} 32. Pc4 {+0.18/1} Rd7 33. Cd0 {+0.48/1 0.1} Pih6
+{+0.00/20 15} 34. Rxi7 {+0.53/1 0.1} Rxi7 {-0.47/23 16} 35. Pe5
+{+0.42/1 0.1} Nb5 {-0.46/22 20} 36. Pb4 {+0.42/1 0.1} Nd4 {+0.04/20 6} 37.
+Cxd4 {+0.42/2 0.1} Bxd4 {-0.33/29 38} 38. Pxe6 {+0.42/1 0.1} Pxe6
+{-0.29/23 16} 39. Rxd4 {+0.53/1 0.1} Ri0 {-0.29/24 6} 40. Aff0
+{+0.74/3 0.1} Pgg5 {-0.46/26 8} 41. Bxg5 {+0.63/1 0.1} Pg6 {+0.28/23 5} 42.
+Bd3 {+0.63/1 0.1} Cf8 {+0.96/25 15} 43. Ae2 {-0.09/8 0.1} Ce7 {+1.52/18 3}
+44. Ne3 {+0.36/1 0.1} Pd6 {+1.94/20 4} 45. Nc4 {-0.39/8 0.1} Cxe2
+{+2.68/20 5} 46. Nxd6 {-0.56/1 0.1} Ce7 {+3.46/21 5} 47. Nd1 {+0.71/1 0.1}
+Nd8 {+3.66/22 8} 48. Bf2 {+2.20/1 0.1} Ne6 {+3.91/21 5} 49. Kd0
+{-1.58/9 0.1} Rg0 {+4.65/20 4} 50. Rd5 {-1.80/1 0.1} Bxd3 {+7.82/21 4} 51.
+Rxd3 {-11.55/26 36} Cxf0 {+11.33/26 13} 52. Nc8 {-12.38/24 12} Ad8
+{+11.33/1 0.1} 53. Rd2 {-12.91/27 13} Cf7 {+14.28/24 12} 54. Nf0
+{-12.36/25 13} Afe8 {+15.78/25 15} 55. Bd5 {-10.20/26 6} Cd9 {+17.85/28 18}
+56. Rf2 {-13.67/23 25} Cxd5 {+19.18/24 12} 57. Cg2 {-11.87/22 5} Cd9
+{+21.22/21 12} 58. Nd6 {-14.83/22 5} Cxd6 {+22.88/23 11} 59. Cd2
+{-18.16/49 15} Cd9 {+1000.24/26 11} 60. Pf3 {-19.83/22 7} Cf7
+{+1000.17/36 26} 61. Pe3 {-20.50/20 4} Cxf0 {+1000.15/39 10} 62. Kd1
+{-13.22/20 5} Ng5 {+1000.13/44 11} 63. Cd9 {-24.09/19 6} Kxd9
+{+1000.09/56 9} 64. Ph4 {-1000.10/31 2.3} Nh3 {+1000.08/79 10} 65. Rf1
+{-1000.07/31 0.7} Cf9 {+1000.07/86 8} 66. Pd3 {-1000.06/39 4} Ce9
+{+1000.06/79 1:10} 67. Pe3 {-1000.07/47 0.4} Ce7 {+1000.07/47 6} 68. Pd3
+{-1000.06/52 0.4} Cd7 {+1000.06/115 5} 69. Pc3 {-1000.05/66 0.3} Rg3
+{+1000.05/208 5} 70. Rf0 {-1000.04/111 0.4} Ce9 {+1000.04/245 1.9} 71. Pg4
+{-1000.03/180 0.4} Rd3 {+1000.03/245 0.5} 72. Rd2 {-1000.02/5 0.1} Nf2
+{+1000.02/245 0.5} 73. Kd0 {-1000.01/4} Rxd2 {+1000.01/216 0.4}
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.24"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "1-0"]
+[TimeControl "25/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Nc7 3. Ce2 Ce7 4. Ci2 Ni7 5. Nc2 Ch2 6. Ce2
+{+0.49/22 20} Bi6 7. Cxi6 {+1.98/24} Pxi6 8. Ri2 {+2.02/24} Rh9 9. Ra4
+{+2.13/26} Pef6 10. Kf1 {+2.22/26} Pff5 11. Rxh2 {+2.80/21} Pih6 12. Rc4
+{+3.67/24} Pab6 13. Ba3 {+3.59/23} Ne6 14. Bxc6 {+3.81/25} Kxe8 15. --
+{+1000.01/245}
+{White wins} 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pab3 Pih6 2. Nf2 Nc7 3. Nc2 Nf7 4. Che2 Che7 5. Bf3 Ke9 {+0.46/22 20} 6.
+Pgh3 Ri8 {+0.60/17 5} 7. Ped3 Raa8 {+0.99/20 8} 8. Be3 Pab6 {+0.87/21 9} 9.
+Rxa8 Rxa8 {+0.79/19 4} 10. Cd2 Bf6 {+1.01/22 17} 11. Rg0 Bxd3 {+1.06/21 5}
+12. Pxd3 Cxb3 {+1.04/21 6} 13. Nd4 Cbb7 {+1.50/22 20} 14. Bxc6 Ra1
+{+2.26/17 2.9} 15. Ad1 Pgg5 {+2.00/16 1.9} 16. Bf4 Afe8 {+2.53/20 9} 17.
+Phh4 Pe5 {+2.45/22 5} 18. Pe3 Ra3 {+2.97/19 4} 19. Kf1 Pd5 {+3.03/21 2.9}
+20. Nc2 Rxe3 {+3.57/22 1.7} 21. Cxd9 Rxe2 {+3.55/20 2.0} 22. Ca9 Be6
+{+5.68/18 1.9} 23. Afe1 Re4 {+5.96/18 2.0} 24. Pg4 Ra4 {+5.96/16 1.7} 25.
+Ci9 Cb5 {+6.58/18 2.4} 26. Pxg5 Rxf4 {+7.74/21 2.7} 27. Ph5 Cf5
+{+12.02/20 3} 28. Pg5 Cxf3 {+20.14/19 1.7} 29. Nh3 Bc3 {+1000.08/54 4} 30.
+Aee2 Cf6 {+1000.03/245 0.5} 31. Nf2 Rxf2 {+1000.02/245 0.3} 32. Kxf2 Bf5
+{+1000.01/245 0.3}
+{Black wins} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A N B R
+white to play
+--------------}
+1. Pih3 Nf7 2. Nf2 Ce7 3. Pe4 Ped6 4. Ce2 Be6 5. Pcb3 Nc7 6. Nd2 Cd7 7. Bf3
+Ke9 8. Ra1 Afe8 9. Rc1 Ra7 10. Ad1 Cf9 11. Kd0 Ci7 12. Ci2 Add8
+{+0.52/21 11} 13. Afe1 Pdd5 {+0.56/21 19} 14. Rg0 Cc9 {+0.71/20 15} 15. Bd3
+Pd6 {+1.06/22 11} 16. Rb1 P5e5 {+1.02/22 9} 17. Pxe5 Nxe5 {+0.92/23 6} 18.
+Pbb4 Bf6 {+1.29/21 20} 19. Cbe2 Nxd3 {+1.58/21 11} 20. Ce0 Nxf2
+{+2.11/20 6} 21. Axf2 Pih6 {+2.00/21 19} 22. Bxd6 Cb7 {+5.97/19 14} 23. Ri0
+Cxb1 {+6.66/17 2.0} 24. Nxb1 Cf9 {+6.82/16 2.1} 25. Ce7 Aexe7 {+9.77/22 7}
+26. Bxf9 Kxf9 {+10.54/20 1.8} 27. Pb3 Pb6 {+10.87/19 1.8} 28. Ke1 Ra1
+{+10.68/19 2.6} 29. Nd2 Bxb4 {+11.66/18 1.9} 30. Pxb4 Nd5 {+11.90/17 2.3}
+31. Ne4 Ri4 {+14.41/17 2.2} 32. Nxf6 Pxf6 {+17.11/21 1.8} 33. Afe2 Nc3
+{+1000.10/34 1.6} 34. Aed2 Re4 {+1000.09/50 1.9} 35. Kf2 Nxd1
+{+1000.06/65 2.0} 36. Axd1 Rxd1 {+1000.05/88 1.5} 37. Pf3 Rde1
+{+1000.01/245 0.3}
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.25"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Kxe1 -- {+1000.01/245 0.2}
+{xboard exit (Clocks: 264, 299)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.25"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nc2 Nc7 3. Ng2 Ce7
+{xboard exit (Clocks: 286, 299)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.25"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Kxe1 Pab6 {+0.22/25 40}
+{xboard exit (Clocks: 292, 259)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.25"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Kxe1 -- {+1000.01/245 0.7}
+{xboard exit (Clocks: 282, 299)} *
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Nf2 Pih6 2. Ce2 Nc7 3. Ped3 Ce7 4. Pab3 Ped6 {+0.27/23 19} 5. Nc2 Be6
+{+0.24/24 21} 6. Cd2 Bxg3 {+2.74/21 7} 7. Ri2 Cxh0 {+2.78/20 8} 8. Ng4 Ri7
+{+2.78/22 15} 9. Rh2 Ch5 {+3.26/22 4} 10. Rh3 Pgg5 {+3.37/24 7} 11. Rxg3
+Pxg4 {+3.29/23 8} 12. Rxg4 Nf7 {+3.12/27 12} 13. Af1 Ch8 {+3.40/23 5} 14.
+Rg8 Cf8 {+3.26/25 24} 15. Cf0 Rxi3 {+4.00/18 5} 16. Be3 Ri1 {+4.51/21 9}
+17. Cxf7 Kxf7 {+5.04/18 3} 18. Pcc4 Rxf1 {+7.76/19 8} 19. Kd2 Rf0
+{+7.79/21 6} 20. Kd1 Bf6 {+8.09/20 7} 21. Ae1 -- 22. Rxf0 Pe6 {-2.82/26 40}
+23. Nd4 Pcd6 {-1.55/21 7} 24. Nf5 Ad8 {-1.67/24 14} 25. Nxh6 Ke8
+{-1.28/1 0.1} 26. Pbb4 -- 27. Kd2 Pb6 {+0.13/20 2.4} 28. Pdd4 Ra3
+{+1.46/23 13} 29. Bh5 Rd3 {+1000.01/245 0.3}
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.26"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 11.2 LB 64 BMI2"]
+[Result "1/2-1/2"]
+[TimeControl "20/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Nd2 Nf7 2. Pih3 Bf6 3. Bd3 Bxh3 4. Pef3 Bf6 {-0.04/24 26} 5. Ce2 Ce7
+{+0.21/23 7} 6. Be3 Ped6 {+0.16/23 11} 7. Bxg6 Rh9 {+0.11/25 7} 8. Ng2 Rh6
+{+0.00/28 21} 9. Cf2 Bxd3 {+0.00/28 6} 10. Bd4 Pdd5 {+0.00/34 5} 11. Pxd3
+Nc7 {+0.00/28 11} 12. Pb3 Pxd4 {+0.00/23 7} 13. Pxd4 Cd7 {-0.09/20 10} 14.
+Ad1 Rb9 {-0.12/21 35} 15. Rb0 Rb5 {-0.25/21 15} 16. Af1 Af8 {-0.25/19 13}
+17. Ni3 Rg6 {-0.49/20 22} 18. Ng4 Cf9 {-0.49/19 12} 19. Pb4 Rb7
+{-0.87/22 18} 20. Pbc4 Pab6 {-0.75/18 6} 21. Ne3 Kd8 {-0.64/19 8} 22. Nf5
+Ch7 {-0.62/22 19} 23. Ne4 Ade9 {-1.77/21 22} 24. Cd0 Afe8 {-1.57/20 9} 25.
+Pdd5 Chd7 {-1.49/22 22} 26. Pd6 Nxd6 {-2.16/25 19} 27. Nfxd6 Pxd6
+{-1.95/22 9} 28. Cxd6 Kd9 {-2.31/25 21} 29. Ric0 Rh6 {-2.21/23 6} 30. Pc5
+Rb9 {-1.97/23 10} 31. Pc6 Pxc6 {-2.37/29 22} 32. Rxb9 Nxb9 {-2.36/25 9} 33.
+Rxc6 Ba6 {-2.07/23 7} 34. Rxa6 Af7 {-2.20/25 9} 35. Ra9 Aee8 {-2.28/26 6}
+36. Pff4 Rh5 {-1.75/24 8} 37. Cd0 Ph6 {-2.13/23 20} 38. Pgg4 Rb5
+{-2.37/24 9} 39. Ra6 Ph5 {-2.15/21 11} 40. Rg6 Nd8 {-2.55/25 17} 41. Ke0
+Rb1 {-2.45/22 19} 42. Afe1 Rc1 {-2.37/25 11} 43. Rb6 Pi5 {-2.67/26 20} 44.
+Ri6 Ph5 {-2.71/26 8} 45. Ra6 Pi5 {-2.43/27 13} 46. Ra5 Cg7 {-2.88/25 18}
+47. Rxi5 Ce7 {-2.93/23 5} 48. Nd6 Aff8 {-2.85/27 12} 49. Ra5 Rc6
+{-3.02/27 13} 50. Ra7 Ce9 {-3.14/22 11} 51. Pe4 Cd7 {-3.30/22 14} 52. Pgf4
+-- {-3.17/25 11} 53. --
+{Draw} 1/2-1/2
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.29"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POP"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6
+{xboard exit (Clocks: -174, 299)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.29"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "1-0"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnRa1a3/4k4/1c2cn3/3pb1p1p/9/9/PP3P2P/3NC1N2/4KC3/3A1A2R b 0 1"]
+[SetUp "1"]
+
+{--------------
+r n R a . a . . .
+. . . . k . . . .
+. c . . c n . . .
+. . . p b . p . p
+. . . . . . . . .
+. . . . . . . . .
+P P . . . P . . P
+. . . N C . N . .
+. . . . K C . . .
+. . . A . A . . R
+black to play
+--------------}
+1... Na7 2. Ca1 -- 3. Rc0 -- 4. -- {+1000.01/245 0.1} -- 5. Rc7
+{+11.59/19 3} Ne5 6. Rxb7 {+14.85/21 5} Nxf3 7. Kf1 {+15.33/20 2.7} Nxd2 8.
+Rxe7 {+16.90/21 11} Kf8 9. Ph3 {+34.10/23 7} Pgh6 10. Ri4
+{+1000.04/245 1.7} Bh4 {-1000.03/245 0.4} 11. Rixh4 Pe6 {-1000.02/245 0.5}
+12. Rf4 Pf6 {-1000.01/26 0.1} 13. Rfxf6
+{White wins} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.30"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Ra1 Pab6 {+0.44/24 13}
+{xboard exit (Clocks: 213, 287)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.30"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Ng7 3. Ce2 Ce7 4. Nc2 Nc7 5. Pef3 Ped6 6. Nge3 Pgg5 7.
+Cd2 Nge6 8. Pcc4 Cd7 9. Ke0 Ke9 10. Ade1 Ade8 11. Aff1 {+0.00/25 17}
+{xboard exit (Clocks: 281, 295)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.09.30"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nc2 Nc7 3. Ce2 Ce7 4. Ng2 Ng7 5. Ped3 Pef6 6. Nce3 Pcc5 7.
+Cf2 Nce6 8. Pgg4 Cf7 9. Ad1 Ad8 10. Cd0 Cd9
+{Xboard: Forfeit due to invalid move: e8e9 (e8e9 via `/, `/) res=24} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7 14. Pg5
+Aff8 {-1.03/1} 15. Pf5 {+1000.01/245 0.1} Kd9
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7 14. Pg5
+Aff8 {-1.03/1} 15. Pf5 {+1000.01/245 0.1} Kd9 16. Cd0 Ke9 17. Cf2
+{+1000.01/245 0.1} Aff7
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7 14. Pg5
+Aff8 {-1.03/1} 15. Pf5 {+1000.01/245 0.1} Kd9 16. Cd0 Ke9 17. Cf2
+{+1000.01/245 0.1} Aff7 18. Pg5 Aff8
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7 14. Pg5
+Aff8 {-1.03/1} 15. Pf5 {+1000.01/245 0.1} Kd9 16. Cd0 Ke9 17. Cf2
+{+1000.01/245 0.1} Aff7 18. Pg5 Aff8 19. Pf5 Kd9 20. Cd0 Ke9 21. Cf2 Aff7
+22. Pg5 Aff8 23. Pf5 Kd9 24. Cd0 Ke9 25. Cf2 Aff7 26. Pg5 Aff8 27. Pf5 Kd9
+28. Cd0 Ke9
+{Black wins} 0-1
+
+[Event "Edited game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.01"]
+[Round "-"]
+[White "-"]
+[Black "-"]
+[Result "*"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4kcR2/4aa3/4c4/3pp3r/5P3/9/5PP2/3A1C3/4A4/4CK3 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k c R . .
+. . . . a a . . .
+. . . . c . . . .
+. . . p p . . . r
+. . . . . P . . .
+. . . . . . . . .
+. . . . . P P . .
+. . . A . C . . .
+. . . . A . . . .
+. . . . C K . . .
+black to play
+--------------}
+1... Ad7 2. Pg5 {+1.18/26 10} Ade8 3. Ade2 {+1.18/35 9} Aff7 4. Pf5
+{+1.18/36 12} Aff8 5. A2d2 {+1.09/131 21} Kd9 6. Ade2 {+1.18/45 19} Ke9 7.
+A2d2 {+1000.01/245 0.1} Aff7 8. -- {+1.18/34 12} Aff8 9. --
+{+1000.01/245 0.1} Kd9 10. Cd0 {+1.18/39 10} Ke9 11. Cf2 {+1000.01/245 0.1}
+Aff7 12. Aee2 {+1.09/38 18} Aff8 13. Aee1 {+1000.01/245 0.1} Aff7 14. Pg5
+Aff8 {-1.03/1} 15. Pf5 {+1000.01/245 0.1} Kd9 16. Cd0 Ke9 17. Cf2
+{+1000.01/245 0.1} Aff7 18. Pg5 Aff8 19. Pf5 Kd9 20. Cd0 Ke9 21. Cf2 Aff7
+22. Pg5 Aff8 23. Pf5 Kd9 24. Cd0 Ke9 25. Cf2 Aff7 26. Pg5 Aff8 27. Pf5 Kd9
+28. Cd0 Ke9 29. Cf2 Aff7 30. Pg5 Aff8 31. Pf5 Kd9 32. Cd0 Ke9 33. Cf2 Aff7
+34. Pg5 Aff8 35. Pf5 Rh6 36. Add1 Ri6 37. Add2 Aff7 38. Pg5 Ri5 39. Add1
+Aff8 40. Add2 Ri6 41. Aee2 Aff7 42. Aee1 Aff8 43. Rh9
+{xboard exit} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.02"]
+[Round "-"]
+[White "Janggi Korea Ver.1002 LB 64 POPCNT"]
+[Black "Janggi Korea Ver.1002 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Ng7 3. Ce2 Ce7 4. Pef3 Nd7 5. Be3 Ped6 6. Nd2 Be6 7.
+Pcc4 Ke9 8. Ke0 Ra8 {+0.12/25 51} 9. Ade1 Pdd5 10. Pgh3 {+0.20/23 27} Pf6
+{+0.05/23 29} 11. Rg0 {+0.29/22 11} Pf5 {+0.18/24 14} 12. Pd4 {+0.35/23 15}
+Pd6 {+0.04/21 5} 13. Pde4 {+0.38/21 6}
+{xboard exit (Clocks: 241, 182)} *
+
+[Event "?"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "4k4/3aa4/9/1pp4pp/9/PC1PR4/9/5r3/9/4KBB2 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . . k . . . .
+. . . a a . . . .
+. . . . . . . . .
+. p p . . . . p p
+. . . . . . . . .
+P C . P R . . . .
+. . . . . . . . .
+. . . . . r . . .
+. . . . . . . . .
+. . . . K B B . .
+black to play
+--------------}
+1... -- 2. -- {+1000.01/245 0.1} -- 3. Re1 {+0.44/25 8} Rxe1 4. Kxe1
+{+0.60/1 0.1} Pg6 5. Ce4 {+0.52/26 5} Kf9 6. Pb4 {+0.52/27 4} Pd6 7. Ce0
+{+0.52/23 2.6} Pbc6 8. Pbc4 {+0.52/24 2.1} Pih6 9. Be3 {+0.60/25 12} Pf6
+10. Bd3 {+0.73/26 6} Add7 11. Ce2 {+0.75/25 5} Pfe6 12. Ce0 {+1.06/25 8}
+Pf6 13. Kd0 {+1.06/24 2.2} Pfe6 14. Bc0 {+0.73/21 1.9} Pb6 15. Pb4
+{+0.97/25 5} Pbc6 16. Pbc4 {+1.07/27 8} Pb6 17. Pb4 {+1.18/32 13} Pbc6 18.
+Pbc4 {+1000.01/245 0.1}
+{White wins} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.04"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "2c1a2b1/2rka2r1/3c1n3/1R2R2p1/p1pp3p1/9/1PPB1PPPB/C2N1A3/4AK3/7N1 b 0 1"]
+[SetUp "1"]
+
+{--------------
+. . c . a . . b .
+. . r k a . . r .
+. . . c . n . . .
+. R . . R . . p .
+p . p p . . . p .
+. . . . . . . . .
+. P P B . P P P B
+C . . N . A . . .
+. . . . A K . . .
+. . . . . . . N .
+black to play
+--------------}
+1... -- 2. Rb9 {+1.59/20 7} Pab5 3. Ra6 {+2.00/23 16} Rh7 4. Pcc4
+{+2.10/20 4} Cdf9 5. Pxc5 {+2.32/23 4} Pd4 6. Ba5 {+2.33/24 2.4} Pxa5 7.
+Rb4 {+2.10/22 2.3} Pd3 8. Rd4 {+2.25/23 1.6} Ad7 9. Rdxd3 {+2.22/23 1.6}
+Cxc5 10. Rc3 {+2.25/25 1.8} Cc1 11. Kf0 {+2.34/22 2.1} Rxc3 12. Pxc3
+{+2.29/20 1.4} Pb5 13. Rb6 {+2.18/20 1.5} Ci1 14. Rb8 {+2.29/22 3} Kd9 15.
+Rb9 {+2.28/23 2.1} Kd8 16. Rxb5 {+2.26/21 2.0} Ci5 17. Rb8 {+2.17/20 1.6}
+Kd9 18. Rb9 {+2.23/19 2.3} Kd8 19. Rb6 {+2.20/20 1.7} Aee8 20. Aff1
+{+2.32/20 2.7} Kd9 21. Ng2 {+2.34/18 1.6} Add8 22. Ne3 {+2.36/18 1.7} Ne5
+23. Ke0 {+2.19/18 1.8} Nd7 24. Rc6 {+2.16/16 1.5} Nf6 25. Re6
+{+2.26/17 1.6} Ci0 26. Cf2 {+2.37/19 2.0} Cii6 27. Cd0 {+2.43/21 2.1} Ng8
+28. Re5 {+2.46/20 1.8} Nf6 29. Re6 {+2.33/16 1.6} Ng8 30. Re5
+{+2.52/20 2.3} Be7 31. Nd5 {+2.64/19 2.9} Ci2 32. Re2 {+2.69/22 1.6} Ci5
+33. Nb4 {+2.62/20 1.7} Ke9 34. Bg0 {+2.79/20 1.9} Pg6 35. Re6
+{+2.43/18 1.9} Pf6 36. Rb6 {+2.62/19 1.7} Rh6 37. Rb8 {+2.62/17 2.4} Add9
+38. Be3 {+2.72/23 2.3} Cd7 39. Bb5 {+2.77/22 2.3} Pf5 40. Nd5
+{+2.66/19 1.6} Cxd2 41. Nxe7 {+2.79/23 1.7} Nxe7 42. Bxe7 {+2.93/22 2.0}
+Ph4 43. Phxh4 {+3.16/23 2.6} Rxh4 44. Axd2 {+3.06/24 1.9} Re4 45. Afe1
+{+3.23/22 1.7} Rxe7 46. Cf2 {+3.04/23 1.7}
+{xboard exit (Clocks: 788, 25)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3
+{xboard exit (Clocks: 299, 279)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Ng7 2. Nd2 Pih6 3. Cc2
+{xboard exit (Clocks: 299, 167)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "1-0"]
+[TimeControl "20/60"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Nd2 Ng7 3. Cc2 Ped6 4. Cc4 {+0.20/18 9} Ce7 5. Ce2 Ri5 6.
+Ng2 {+0.05/18 6} Bce6 {+0.10/18 3} 7. Pgf3 {+0.11/16 2.5} Ci7
+{+0.31/18 1.5} 8. Nf4 {+0.16/15 1.1} Nd8 {+0.30/18 4} 9. Ce4 {+0.09/17 1.0}
+Ce7 {+0.40/18 1.5} 10. Cc1 {+0.09/21 1.0} Ke9 {+0.37/20 5} 11. Nh3
+{+0.15/16 2.1} Rb5 {+0.36/18 4} 12. Be2 {+0.11/15 2.2} Nf7 {+0.32/18 1.0}
+13. Pff4 {-0.01/19 6} Ade8 {+0.36/22 6} 14. Cf1 {-0.01/16 1.4} Phh5
+{+0.36/16 3} 15. Pi4 {+0.09/17 1.9} Ni6 {+0.28/18 1.8} 16. Rh0
+{+0.04/15 2.6} Rd5 {+0.29/18 2.7} 17. Ra2 {+0.21/16 1.7} Pgg5
+{+0.29/15 1.0} 18. Cd1 {+0.00/16 1.6} Rb5 {+0.29/17 2.1} 19. Pf3
+{+0.39/14 1.6} Pa5 {+0.12/19 5} 20. Be3 {+0.66/17 0.9} Rc5 {-0.17/19 1.0}
+21. Pcc4 {+0.77/20 7} Re5 {-0.60/25 5} 22. Pi5 {+1.16/21 6} Pxi5
+{-0.64/23 4}
+{Xboard adjudication} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/60"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Nc7 2. Ng2 Ce7 3. Ce2 Ng7 4. Bd3 Ped6 5. Pab3 Nce6 6. Pef3 Pdd5 7.
+Nd2 Ra7 8. Ri4 Ke9 9. Be3 Pg5 10. Bf6 {+0.20/19 8} Afe8 {+0.13/16 3} 11.
+Rh4 {+0.13/18 1.7} Ri7 {+0.13/18 7} 12. Pff4 {+0.17/20 6} Rc7 {+0.65/16 3}
+13. Pe4 {+0.28/16 1.2} Ri8 {+0.66/16 1.8} 14. Ci2 {-0.39/22 8} Ph6
+{+0.76/17 1.6} 15. Ri4 {-0.47/19 1.5} Rxi4 {+0.67/19 1.3} 16. Bxi4
+{-0.29/19 1.2}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "0-1"]
+[TimeControl "20/60"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Ng7 2. Ng2 Nc7 3. Pab3 {+0.32/17 2.8} Ke9 {+0.12/20 9} 4. Ke0
+{+0.33/18 5} Che7 {+0.16/20 2.7} 5. Ra4 {+0.36/20 4} Ci7 {+0.13/18 1.5} 6.
+Rh0 {+0.31/19 1.8} Pih6 {+0.09/18 1.6} 7. Afe1 {+0.33/19 1.3} Ped6
+{+0.11/18 1.3} 8. Ce2 {+0.24/19 4} Ade8 {+0.20/17 4} 9. Bi3 {+0.44/19 2.7}
+Cie7 {+0.13/16 3} 10. Nd2 {+0.47/16 1.8} Ri7 {+0.17/18 2.1} 11. Phh4
+{+0.43/17 3} Rh7 {+0.18/15 1.3} 12. Pgf3 {+0.48/15 0.7} Nge6 {+0.07/17 1.3}
+13. Pff4 {+0.46/17 3} Rf7 {+0.02/17 2.7} 14. Pee4 {+0.49/16 2.0} Aff8
+{+0.05/15 2.5} 15. Bd3 {+0.58/16 3} Rg7 {-0.02/17 4} 16. Add1
+{+0.50/16 1.8} Cd7 {-0.03/16 0.7} 17. Rb4 {+0.48/14 0.7} Ra8 {+0.14/16 1.5}
+18. Rb8 {+0.16/18 4} Rxb8 {+0.09/16 1.1} 19. Cxb8 {+0.38/14 0.8} Cb7
+{+0.24/14 0.8} 20. Cc2 {+0.42/15 1.9} Cb2 {+0.17/15 1.8} 21. Pcc4
+{+0.35/18 3} Pab6 {+0.17/19 5} 22. Pa3 {+0.39/17 2.6} Cbb7 {+0.28/17 2.5}
+23. Pa4 {+0.04/20 15} Pbb5 {+0.28/20 5} 24. Rh3 {-0.02/19 5} Ch7
+{+0.29/18 1.7} 25. Rf3 {+0.09/20 5} Chf7 {+0.29/18 5} 26. Rg3 {-0.01/19 4}
+Cd9 {+0.20/16 2.2} 27. Ce2 {+0.08/17 4} Bi6 {+0.42/19 2.5} 28. Pee5
+{+0.05/16 2.1} Nd8 {+0.29/17 2.4} 29. Pff5 {-0.23/21 8} Cg9 {+0.35/16 2.6}
+30. Rh3 {-0.25/16 2.0} Rh7 {+0.48/17 7} 31. Rh2 {-0.21/16 1.7}
+{Xboard adjudication} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "1-0"]
+[TimeControl "20/60"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Pih6 2. Ng2 Nd7 3. Ce2 Ng7 4. Pef3 Che7 5. Be3 Ped6 6. Nd2 Be6 7.
+Pcc4 Pcb6 {+0.57/18 10} 8. Cb4 {-0.06/17 3} Ra8 {+0.54/17 0.9} 9. Bd3
+{+0.11/17 1.9} Ke9 {+0.29/18 6} 10. Bxb6 {+0.00/21 5} Nxb6 {+0.25/16 1.1}
+11. Cb1 {+0.23/19 2.1} Rii8 {+0.25/19 3} 12. Ci1 {+0.36/18 1.4} Ric8
+{+0.33/18 4} 13. Cc1 {+0.33/17 1.3} Ri8 {+0.28/18 0.9} 14. Ci1
+{+0.41/17 1.7} Rid8 {+0.24/17 2.5} 15. Pih3 {+0.47/21 3} Nd7 {+0.18/18 2.6}
+16. Cd1 {+0.20/19 2.2} Pb6 {+0.08/19 1.8} 17. Rxa8 {+0.44/18 1.7} Rxa8
+{+0.17/17 1.2} 18. Ri7 {+0.33/18 1.4} Nh9 {+0.17/19 1.3} 19. Ri5
+{+0.29/17 1.4} Nf8 {+0.08/17 2.1} 20. Pff4 {+0.36/18 2.7} Ade8
+{+0.17/19 1.7} 21. Ke0 {+0.40/17 2.8} Pf6 {+0.11/16 4} 22. Cd4
+{+0.35/23 18} Cc7 {+0.04/19 5} 23. Afe1 {+0.48/16 2.4} Cf7 {+0.21/18 15}
+24. Pf3 {+0.17/18 5} Ae7 {+0.25/17 2.2} 25. Phg3 {+0.15/19 13} Afe8
+{+0.17/18 1.6} 26. P4e4 {+0.20/17 1.2} Cd9 {+0.15/16 6} 27. Pe5
+{+0.31/18 6} Ra5 {+0.17/16 1.4} 28. Pbb4 {+0.13/20 1.7} Pd5 {+0.12/17 2.6}
+29. Pxe6 {+0.05/20 7} Pxe6 {+0.25/17 1.3} 30. Cd1 {+0.12/18 0.9} Pg6
+{+0.29/15 1.5} 31. Cf1 {-0.06/18 1.9} Pgf6 {+0.25/16 1.8} 32. Pff4
+{-0.08/18 2.0} Nh7 {+0.20/16 4} 33. Rh5 {+0.00/18 2.2} Ne5 {+0.17/17 1.3}
+34. Ch2 {+0.02/20 1.6} Nf8 {+0.27/17 2.1} 35. Pe4 {+0.17/19 0.9} Neg6
+{+0.29/17 1.3} 36. Rh6 {+0.16/17 1.2} Pdc5 {-0.03/20 7} 37. Pe5
+{+0.09/19 1.3} Pexe5 {+0.00/18 1.7} 38. Cxf8 {+0.26/18 1.5} Nxf8
+{+0.07/19 1.9} 39. Rxf6 {+0.29/18 0.7} Pa6 {-0.01/20 2.0} 40. Cf2
+{+0.24/18 1.1} Cbf7 {+0.09/16 0.5} 41. Bh5 {+0.32/29 12} Nh9 {-0.09/23 12}
+42. Pcxc5 {+0.24/20 2.2} Rxc5 {-0.20/20 4} 43. Rxa6 {+0.29/20 2.7} Ng7
+{-0.29/22 4} 44. Rg6 {+0.42/23 3} Cd7 {-0.07/20 5} 45. Cb2 {+0.36/23 5} Cg9
+{-0.42/22 4} 46. Rh6 {+0.39/25 3} Pe4 {-0.28/23 4} 47. Nxe4 {+0.45/24 4}
+Re5 {-0.29/24 1.4}
+{Xboard adjudication} 1-0
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3
+{xboard exit (Clocks: 299, 260)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rb1a1abr1/4k4/1c1n2nc1/p1pp2pp1/9/9/1PP1P1PP1/1C1N2N1C/4K4/RB1A1AB1R b 0 1"]
+[SetUp "1"]
+
+{--------------
+r b . a . a b r .
+. . . . k . . . .
+. c . n . . n c .
+p . p p . . p p .
+. . . . . . . . .
+. . . . . . . . .
+. P P . P . P P .
+. C . N . . N . C
+. . . . K . . . .
+R B . A . A B . R
+black to play
+--------------}
+1... Ke9 2. Cie2 {+0.35/24 40} Che7 3. Ri7 {+0.52/21 11}
+{xboard exit (Clocks: 249, 251)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Ng7 2. Ng2 Ce7 3. Ce2 Pab6 4. Bd3 Pcc5 5. Pc4 Pbb5 6. Ri4 Pcd5 7.
+Rg4 Pih6 8. Bi3 Pee5 9. Bxg6 {+1.51/26 24} Pxg6 10. Rxg6 {+1.57/22 5} Ne6
+11. Ci2 {+1.68/22 13} Pf5 12. Kd1 {+1.45/28 31} Nbc7 13. Pi3 {+1.87/23 5}
+Rh9 14. Rg8 {+2.16/23 10}
+{xboard exit (Clocks: 210, 45)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Nc2 Nc7 2. Ce2 Ce7 3. Pef3 Pab6 {+0.53/27 16} 4. Bce3 Pih6 {+0.71/22 7}
+5. Rb0 Ra5 {+0.71/20 8} 6. Rb4 Ke9 {+0.66/24 28} 7. Ng2 Ri8 {+0.84/22 16}
+8. Ke0 Ped6 {+0.73/24 16} 9. Rg4 Rg5 {+0.52/23 18} 10. Rxg5 Pgxg5
+{+0.57/21 2.1} 11. Cf2 Ade8 {+0.59/22 7}
+{xboard exit (Clocks: 142, 182)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nc2 Nc7 3. Ce2 Ce7 4. Ped3 Nf7 5. Bge3 Pgh6 {+0.67/26 14}
+{xboard exit (Clocks: 238, 285)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Nd2 Nf7 2. Ce2 Ce7 3. Pab3 Bf6 4. Ng2 Pih6
+{xboard exit (Clocks: 237, 294)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.05"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Ng7 2. Nd2 Pih6 3. Cc2 Ped6 4. Cc4 {+0.05/24 37} Ce7 5. Ce2 Bce6 6.
+Pg4 {+0.09/22 18}
+{xboard exit (Clocks: 245, 231)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.06"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pih3 Pab6 2. Nf2 Nf7 3. Cg2 Ce7 4. Ca2 Na7 5. Nc2 Cb2 6. Ce2 Cb8 7. Ke0
+Bf6 8. Ri4 {+0.78/22 32} Cf8 9. Ra4 {+1.15/21 10} Ba6 10. Cxe6 {+1.47/23 9}
+Pih6 11. Pab3 {+1.80/23 10} Bxh3 12. Cee2 {+1.67/25 7} Bxc3 13. Nxh3
+{+3.12/21 8} Ri2 14. Pxc3 {+3.94/22 12} Ri0 15. Bf3 {+4.40/23 13} Rg0 16.
+Pg4 {+4.40/22 6} Ne5 17. Ade1 {+5.53/19 6} Nxg4 18. Rxg4 {+5.77/20 2.6}
+Rxg4 19. Cxa9 {+5.76/21 1.5} Nc8 20. Ra8 {+5.93/21 2.9} Rg3 21. Ni1
+{+6.09/20 1.9} Rg5 22. Cxf9 {+6.23/20 1.7} Kxf9 23. Rxc8 {+6.47/21 2.2} Ae8
+24. Rc9 {+6.68/20 1.8} Ce9 25. Ba3 {+6.96/23 4} Rb5 26. Pcd3 {+8.12/19 2.8}
+Phh5 27. Nd4 {+12.46/20 4} Rb0 28. Ad0 {+13.33/20 2.1} Rb2 29. Afe1
+{+14.19/20 2.6} Ca8 30. Ne6 {+15.60/21 2.9} Ca0 31. Add1 {+18.43/21 1.7}
+Rb0 32. Aed0 {+19.78/22 2.0} Pf6 33. Bh6 {+1000.01/245 0.3}
+{xboard exit (Clocks: 450, -184)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.06"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1ab1r/4k4/1c4nc1/p1p1p1p1p/9/9/1PP1P1PP1/1C5C1/4K4/RBNA1ABNR b 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b . r
+. . . . k . . . .
+. c . . . . n c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+. P P . P . P P .
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+black to play
+--------------}
+1... Ce7 2. Ri4
+{xboard exit (Clocks: 299, 234)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.06"]
+[Round "-"]
+[White "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rbna1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r b n a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pab3 Ng7 2. Ng2
+{xboard exit (Clocks: 299, 112)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.06"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 260920 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ANBR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A N B R
+white to play
+--------------}
+1. Pe4 Pih6 {+0.60/22 16} 2. Nf2 Pab6 {+0.75/25 18} 3. Pg4 Nc7
+{+0.80/22 18}
+{xboard exit (Clocks: 241, 247)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.07"]
+[Round "-"]
+[White "com"]
+[Black "Fairy-Stockfish 061020 LB 64 POPCNT"]
+[Result "*"]
+[TimeControl "20/300"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a n b r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pab3 Nf7 2. Nc2 Cg7 3. Ce2 Ca7 4. Pef3 Be7 5. Rb0 Pih6 6. Bge3 Pc5
+{+0.17/26 25}
+{xboard exit (Clocks: 167, 274)} *
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.09"]
+[Round "-"]
+[White "Fairy-Stockfish 061020 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "40/600"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R B N A . A B N R
+white to play
+--------------}
+1. Pih3 Nc7 2. Ng2 Ng7 3. Ce2 Cbe7 4. Bd3 Ped6 5. Pab3 Nce6 6. Pef3 Ra7 7.
+Ri4 Ch2 8. Be3 {+0.74/25 32} Pg5 9. Bxc6 {+0.76/23 7} Pxc6 10. Bxg5
+{+0.87/25 7} Nxg5 11. Rc4 {+0.88/24 8} Rc7 12. Ne3 {+0.99/24 10} Ch5 13.
+Phh4 {+0.87/25 7} Cc5 14. Nd5 {+0.86/24 3} Pd6 15. Nf6 {+0.87/20 1.4} Nf7
+16. Nd2 {+0.93/22 2.2} Ph6 17. Nfe4 {+1.06/22 2.8} Pc6 18. Kd1 {+1.18/20 4}
+Ri5 19. Ade1 {+1.09/20 3} Rd5 20. Nxc5 {+0.82/22 19} Pxc5 21. Rg4
+{+1.07/20 2.3} Ca7 22. Rc0 {+1.36/19 2.6} Kd8 23. Rxg7 {+1.56/20 2.4} Rxd2
+24. Axd2 {+1.67/21 2.0} Cd7 25. Pd3 {+1.65/20 1.6} Cxg7 26. Cc2
+{+1.61/20 1.8} Pd5 27. Pdc3 {+1.75/19 2.4} Pc5 28. Pd3 {+1.73/23 8} Pd5 29.
+Pdc3 {+1.52/24 17} Pc5 30. Pd3 {+1000.01/245 0.4} Pcb5 31. Pbc3
+{+1.50/24 6} Pc5 32. Pb3 {+1000.01/245 0.3} Pd5
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.09"]
+[Round "-"]
+[White "Fairy-Stockfish 061020 LB 64 POPCNT"]
+[Black "com"]
+[Result "0-1"]
+[TimeControl "40/600"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "2ba1ab2/3k5/1r3nc2/p6p1/3p5/7P1/2PP1PP2/1CCA5/3K5/2R2A3 w 0 1"]
+[SetUp "1"]
+
+{--------------
+. . b a . a b . .
+. . . k . . . . .
+. r . . . n c . .
+p . . . . . . p .
+. . . p . . . . .
+. . . . . . . P .
+. . P P . P P . .
+. C C A . . . . .
+. . . K . . . . .
+. . R . . A . . .
+white to play
+--------------}
+1. Cf2 {+0.43/23} Ade9 2. Ke1 {+0.60/21 5} Be6 3. Ra0 {+1.27/19 7} Bxh4 4.
+Rxa6 {+1.85/21 7} Cd7 5. Ce2 {+1.83/21 15} Rb1 6. Ke0 {+1.80/23 6} Rb0 7.
+Ke1 {+1.80/1} Rb1 8. Ke0 {+1.60/23 17} Rb0 9. Ke1 {+1.60/1} Afe8 10. Ad1
+{+1.59/23 22} Ne5 11. Cd0 {+1.76/25 21} Bge6 12. Rd6 {+1.71/27 19} Ng6 13.
+Pgg4 {+1.59/25 9} Rb4 14. Pxh4 {+1.64/26 7} Nxh4 15. Pde3 {+1.69/26 6} Bxc3
+16. Rxd5 {+1.81/25 6} Rb6 17. Cd2 {+1.87/27 19} Rb0 18. Af1 {+1.61/25 20}
+Bf5 19. Af2 {+1.77/24 4} Nxf3 20. Rxf5 {+2.55/28 6} Nh4 21. Ra5
+{+3.04/30 19} Rb8 22. Rd5 {+3.00/27 5} Rb0 23. Ce0 {+2.91/38 13} Ae7 24.
+Ce2 {+3.00/29 5} A7e8 25. Ce0 {+3.22/23 6} Ae7 26. Kf0 {+3.32/25 5} A7e8
+27. Ke1 {+1000.01/245 0.4} Ae7
+{Black wins} 0-1
+
+[Event "Computer Chess Game"]
+[Site "DESKTOP-NLKAT66"]
+[Date "2020.10.10"]
+[Round "-"]
+[White "Fairy-Stockfish 061020 LB 64 POPCNT"]
+[Black "com"]
+[Result "*"]
+[TimeControl "40/600"]
+[Variant "janggimodern"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "rnba1abnr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RNBA1ABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a . a b n r
+. . . . k . . . .
+. c . . . . . c .
+p . p . p . p . p
+. . . . . . . . .
+. . . . . . . . .
+P . P . P . P . P
+. C . . . . . C .
+. . . . K . . . .
+R N B A . A B N R
+white to play
+--------------}
+1. Pih3
+{xboard exit (Clocks: 599, 598)} *
+

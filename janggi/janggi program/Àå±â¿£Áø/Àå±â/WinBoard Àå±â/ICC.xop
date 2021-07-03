@@ -1,0 +1,34 @@
+;
+; parameters for playing on ICC
+;
+/ics
+/icshost="chessclub.com"
+/icshelper="timestamp"
+;
+;
+; switch auxiliary windows off in Human mode
+;
+/engineOutputUp=false
+/evalGraphUp=false
+/moveHistoryUp=true
+/autoLogo=true
+;
+;
+; define window positions
+;
+/winWidth=426
+/winHeight=539
+/icsX=426
+/icsY=200
+/icsW=600
+/icsH=339
+/moveHistoryX=426
+/moveHistoryY=0
+/moveHistoryW=600
+/moveHistoryH=200
+;
+;
+; Redirect saving to settings file reserved for ICS play
+;
+/saveSettingsFile=%APPDATA%\winboard161130.ini
+/settingsFile=%APPDATA%\winboard161130.ini

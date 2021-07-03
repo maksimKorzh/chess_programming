@@ -1,0 +1,28 @@
+-participants {Fairy-11-1
+9월11일 엔진
+}
+-seedBase 236887377
+-tourneyType 0
+-tourneyCycles 1
+-defaultMatchGames 10
+-syncAfterRound false
+-syncAfterCycle true
+-saveGameFile "C:\Users\com\Desktop\장기\WinBoard 장기\프로아마기보\용기보저장.pgn"
+-loadGameFile ""
+-loadGameIndex 0
+-loadPositionFile "C:\Users\com\Desktop\장기\WinBoard 장기\포진차림\1-2.귀마(초우귀마) vs 원앙마1.fen"
+-loadPositionIndex 1
+-rewindIndex 0
+-usePolyglotBook true
+-polyglotBook "C:\Users\com\Desktop\장기\WinBoard 장기\empty_book.bin"
+-bookDepth 200
+-bookVariation 0
+-discourageOwnBooks false
+-defaultHashSize 16000
+-defaultCacheSizeEGTB 80
+-ponderNextMove true
+-smpCores 36
+-mps 20
+-tc 5
+-inc -1.00
+-results "  "

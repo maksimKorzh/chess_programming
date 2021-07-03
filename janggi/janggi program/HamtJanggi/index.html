@@ -1,0 +1,204 @@
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hamt 장기</title>
+</head>
+<style>
+	div#stage table {
+		position:absolute;
+		left:0px;
+		top:0px;
+
+	}
+	div#stage table tr {
+		background-color:#D0B48E;
+	}
+	div#stage table tr td {
+		width:99px;
+		height:79px;
+	}
+	div#stage table tr td.bg_leftbottom {
+		background:#D0B48E url(images/bg_leftbottom.gif) no-repeat right top;
+		
+	}
+	div#stage table tr td.bg_rightbottom {
+		background:#D0B48E url(images/bg_rightbottom.gif) no-repeat left top;
+	}
+
+	div.team_red {
+		position:absolute;
+		color: #df0000;
+		font-weight:bold;
+		text-align:center;
+		/*padding-bottom:3px;*/
+		cursor:pointer;
+	}
+	div.team_green {
+		position:absolute;
+		color: #005a00;
+		font-weight:bold;
+		text-align:center;
+		/*padding-bottom:3px;*/
+		cursor:pointer;
+	}
+	div.item_big {
+		margin-left:-55px;
+		margin-top:-55px;
+		width:110px;
+		height:110px;
+		background:url('images/bg_item_big.gif') no-repeat left top;
+		font-size:70px;
+		/*padding-top:20px;*/
+	}
+	div.item_normal {
+		margin-left:-40px;
+		margin-top:-40px;
+		width:80px;
+		height:80px;
+		background:url('images/bg_item_normal.gif') no-repeat left top;
+		font-size:50px;
+		/*padding-top:15px;*/
+	}
+	div.item_small {
+		margin-left:-23px;
+		margin-top:-23px;
+		width:45px;
+		height:45px;
+		background:url('images/bg_item_small.gif') no-repeat left top;
+		font-size:25px;
+		/*padding-top:10px;*/
+	}
+	div.position {
+		position:absolute;
+		cursor:pointer;
+		width:30px;
+		height:30px;
+		background:#cccccc;
+		margin-top:-15px;
+		margin-left:-15px;
+	}
+</style>
+<script src='janggi.js'></script>
+<script src='HMotion.js'></script>
+<body height=1200 bgcolor='black' style='margin:0px;font-size:9pt;'>
+<div style='margin:20px;color:#ffffff;'>
+	<a href="http://www.taillist.com" target="_blank"><img src="http://www.taillist.com/images/logo_taillist_front_2.png" border=0 /></a>
+	<br /> 옷이나 아기용품 등 AS필요없는 수입품 매우 싸게 살 수 있는 사이트랍니다. 함 둘러보세요~ ㅎㅎ
+</div>
+<table width=100% height=100% cellpadding=0 cellspacing=0>
+<tr>
+	<td valign=center align=center>
+		<div style='color:white;margin:10px 20px 10px 20px;'>
+			<input type='radio' name='is_single' onclick="jstage.is_single = true;" checked /> 컴퓨터랑 두기
+			<input type='radio' name='is_single' onclick="jstage.is_single = false;" /> 친구랑 두기
+		</div>
+
+		<div style='color:white;margin:0px 20px 220px 20px;' id='han_eatitems'></div>
+
+		<div style='position:relative;width:800px;height:720px;' id=stage>
+			<table cellpadding=0 cellspacing=1 bgcolor=black>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td class='bg_rightbottom'>&nbsp;</td><!-- 우하 사선 -->
+				<td class='bg_leftbottom'>&nbsp;</td><!-- 좌하 사선 -->
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td class='bg_leftbottom'>&nbsp;</td><!-- 좌하 사선 -->
+				<td class='bg_rightbottom'>&nbsp;</td><!-- 우하 사선 -->
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td class='bg_rightbottom'>&nbsp;</td><!-- 우하 사선 -->
+				<td class='bg_leftbottom'>&nbsp;</td><!-- 좌하 사선 -->
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td class='bg_leftbottom'>&nbsp;</td><!-- 좌하 사선 -->
+				<td class='bg_rightbottom'>&nbsp;</td><!-- 우하 사선 -->
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			</table>
+		</div>
+		<div style='color:white;margin:60px 20px 40px 20px;' id='cho_eatitems'></div>
+	</td>
+</tr>
+</table>
+<script>
+var jstage = new JanggiStage('jstage', 'stage', 'han_eatitems', 'cho_eatitems');
+jstage.init();
+
+</script>
+<div id='my_test' style='color:white;'></div>
+</body>
+</html>

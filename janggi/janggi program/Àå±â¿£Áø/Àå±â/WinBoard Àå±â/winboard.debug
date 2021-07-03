@@ -1,0 +1,3212 @@
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+Version: WinBoard 4.9.2020.409 + fmax
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir="..\Fairy-Max") fmax
+nice engine proc to 10
+2058 >first : xboard
+protover 2
+2375 <first : tellics say     Fairy-Max 5.1
+2376 <first : tellics say     by H.G. Muller
+2411 <first : feature myname="Fairy-Max 5.1"
+2411 >first : accepted myname
+2419 <first : feature memory=1 exclude=1
+2419 >first : accepted memory
+2420 >first : accepted exclude
+2420 <first : feature setboard=0 xedit=1 ping=1 done=0
+2420 >first : accepted setboard
+2420 >first : accepted xedit
+2420 >first : accepted ping
+2421 >first : accepted done
+2421 <first : feature variants="normal,xchess3,big,test,nocastle,shatranj,asean,makruk,cambodian,ai-wok,courier,knightmate,capablanca,gothic,janus,falcon,cylinder,berolina,super,seirawan,spartan,great,light-brigade,king-of-the-hill,bifurcator,team-mate,los-alamos,ciccolini,mexican,grande-acedrex,roman,almost-wildebeest,fairy"
+2422 >first : accepted variants
+2422 <first : feature option="Resign -check 0"
+2423 >first : accepted option
+2423 <first : feature option="Resign Threshold -spin 800 200 1200"
+2423 >first : accepted option
+2423 <first : feature option="Claim draw after -spin 50 0 200"
+2424 >first : accepted option
+2424 <first : feature option="Ini File -file ./fmax.ini"
+2424 >first : accepted option
+2424 <first : feature option="Multi-PV Margin -spin 0 0 1000"
+2424 >first : accepted option
+2425 <first : feature option="Variant fairy selects -combo FIDE-Clobberers /// Clobberers-FIDE /// FIDE-Nutters /// Nutters-FIDE /// Clobberers-Nutters /// Nutters-Clobberers /// FIDE-Rookies /// Rookies-FIDE /// Clobberers-Rookies /// Rookies-Clobberers /// Nutters-Rookies /// Rookies-Nutters"
+2426 >first : accepted option
+2426 <first : feature option="Makruk rules -combo makruk /// Cambodian /// Ai-wok"
+2426 >first : accepted option
+2427 <first : feature option="Dummy Slider Example -slider 20 0 100"
+2427 >first : accepted option
+2427 <first : feature option="Dummy String Example -string happy birthday!"
+2427 >first : accepted option
+2428 <first : feature option="Dummy Path Example -path ."
+2428 >first : accepted option
+2428 <first : feature option="Automatic persistent-hash dialog -check 0"
+2428 >first : accepted option
+2428 <first : feature option="Info -button"
+2429 >first : accepted option
+2429 <first : feature option="Save in hash file -button"
+2429 >first : accepted option
+2429 <first : feature option="Clear Hash -button"
+2429 >first : accepted option
+2430 <first : feature done=1
+2430 >first : accepted done
+2440 >first : memory 68
+2440 >first : new
+random
+2440 >first : level 0 1 1
+2440 >first : post
+2440 >first : hard
+2440 >first : easy
+2440 >first : ping 1
+Impossible move , type = 0
+2486 <first : pong 1
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'ciccolini' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'ciccolini' (-1) as variant normal
+recognized 'mexican' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'ciccolini' (-1) as variant normal
+recognized 'mexican' (-1) as variant normal
+recognized 'grande-acedrex' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'ciccolini' (-1) as variant normal
+recognized 'mexican' (-1) as variant normal
+recognized 'grande-acedrex' (-1) as variant normal
+recognized 'roman' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'xchess3' (-1) as variant normal
+recognized 'big' (-1) as variant normal
+recognized 'test' (-1) as variant normal
+recognized 'nocastle' (-1) as variant nocastle
+recognized 'shatranj' (-1) as variant shatranj
+recognized 'asean' (-1) as variant asean
+recognized 'makruk' (-1) as variant makruk
+recognized 'cambodian' (-1) as variant normal
+recognized 'ai-wok' (-1) as variant normal
+recognized 'courier' (-1) as variant courier
+recognized 'knightmate' (-1) as variant knightmate
+recognized 'capablanca' (-1) as variant capablanca
+recognized 'gothic' (-1) as variant gothic
+recognized 'janus' (-1) as variant janus
+recognized 'falcon' (-1) as variant falcon
+recognized 'cylinder' (-1) as variant cylinder
+recognized 'berolina' (-1) as variant berolina
+recognized 'super' (-1) as variant super
+recognized 'seirawan' (-1) as variant seirawan
+recognized 'spartan' (-1) as variant spartan
+recognized 'great' (-1) as variant great
+recognized 'light-brigade' (-1) as variant normal
+recognized 'king-of-the-hill' (-1) as variant normal
+recognized 'bifurcator' (-1) as variant normal
+recognized 'team-mate' (-1) as variant normal
+recognized 'los-alamos' (-1) as variant normal
+recognized 'ciccolini' (-1) as variant normal
+recognized 'mexican' (-1) as variant normal
+recognized 'grande-acedrex' (-1) as variant normal
+recognized 'roman' (-1) as variant normal
+recognized 'almost-wildebeest' (-1) as variant normal
+Reset(1, 1) from gameMode 0
+recognized 'xchess3' (-1) as variant xchess3
+GameEnds(0, (null), 2)
+8070 >first : force
+8070 >first : ping 2
+shuffleOpenings = 0
+8164 >first : memory 68
+8164 >first : new
+random
+8165 >first : variant xchess3
+8165 >first : level 0 1 1
+8165 >first : post
+8165 >first : hard
+8165 >first : easy
+8165 >first : ping 3
+Impossible move , type = 0
+8168 <first : pong 2
+8283 <first : setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+recognized 'fairy' (-1) as variant xchess3
+shuffleOpenings = 0
+FEN castling rights: 134 134 4 134 134 4
+10913 <first : piece K& KisO2
+10913 <first : piece W& ND
+10914 <first : piece B& BN
+10914 <first : piece R& RF
+10914 <first : pong 3
+Reset(0, 1) from gameMode 0
+recognized 'xchess3' (-1) as variant xchess3
+GameEnds(0, (null), 2)
+73647 >first : force
+73647 >first : ping 4
+shuffleOpenings = 0
+73771 >first : memory 68
+73771 >first : new
+random
+73771 >first : variant xchess3
+73771 >first : level 0 1 1
+73771 >first : post
+73771 >first : hard
+73771 >first : easy
+73771 >first : ping 5
+Impossible move , type = 0
+73774 >first : force
+73774 <first : pong 4
+73801 <first : setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+recognized 'fairy' (-1) as variant xchess3
+shuffleOpenings = 0
+FEN castling rights: 134 134 4 134 134 4
+73897 <first : piece K& KisO2
+73897 <first : piece W& ND
+73897 <first : piece B& BN
+73897 <first : piece R& RF
+73898 <first : pong 5
+StartChildProcess (dir="..\Fairy-Max") fmax
+nice engine proc to 10
+74403 >second: xboard
+protover 2
+74403 <second: tellics say     Fairy-Max 5.1
+74403 <second: tellics say     by H.G. Muller
+74413 <second: feature myname="Fairy-Max 5.1"
+74413 >second: accepted myname
+74414 <second: feature memory=1 exclude=1
+74414 >second: accepted memory
+74414 >second: accepted exclude
+74414 <second: feature setboard=0 xedit=1 ping=1 done=0
+74414 >second: accepted setboard
+74414 >second: accepted xedit
+74415 >second: accepted ping
+74415 >second: accepted done
+74415 <second: feature variants="normal,xchess3,big,test,nocastle,shatranj,asean,makruk,cambodian,ai-wok,courier,knightmate,capablanca,gothic,janus,falcon,cylinder,berolina,super,seirawan,spartan,great,light-brigade,king-of-the-hill,bifurcator,team-mate,los-alamos,ciccolini,mexican,grande-acedrex,roman,almost-wildebeest,fairy"
+74416 >second: accepted variants
+74416 <second: feature option="Resign -check 0"
+74417 >second: accepted option
+74417 <second: feature option="Resign Threshold -spin 800 200 1200"
+74417 >second: accepted option
+74417 <second: feature option="Claim draw after -spin 50 0 200"
+74418 >second: accepted option
+74418 <second: feature option="Ini File -file ./fmax.ini"
+74418 >second: accepted option
+74418 <second: feature option="Multi-PV Margin -spin 0 0 1000"
+74418 >second: accepted option
+74419 <second: feature option="Variant fairy selects -combo FIDE-Clobberers /// Clobberers-FIDE /// FIDE-Nutters /// Nutters-FIDE /// Clobberers-Nutters /// Nutters-Clobberers /// FIDE-Rookies /// Rookies-FIDE /// Clobberers-Rookies /// Rookies-Clobberers /// Nutters-Rookies /// Rookies-Nutters"
+74420 >second: accepted option
+74420 <second: feature option="Makruk rules -combo makruk /// Cambodian /// Ai-wok"
+74420 >second: accepted option
+74421 <second: feature option="Dummy Slider Example -slider 20 0 100"
+74421 >second: accepted option
+74421 <second: feature option="Dummy String Example -string happy birthday!"
+74421 >second: accepted option
+74422 <second: feature option="Dummy Path Example -path ."
+74422 >second: accepted option
+74422 <second: feature option="Automatic persistent-hash dialog -check 0"
+74422 >second: accepted option
+74422 <second: feature option="Info -button"
+74423 >second: accepted option
+74423 <second: feature option="Save in hash file -button"
+74423 >second: accepted option
+74423 <second: feature option="Clear Hash -button"
+74423 >second: accepted option
+74424 <second: feature done=1
+74424 >second: accepted done
+74434 >second: memory 68
+74434 >second: new
+random
+74434 >second: variant xchess3
+74434 >second: level 0 1 1
+74434 >second: post
+74434 >second: hard
+74434 >second: easy
+74435 >second: ping 1
+Impossible move , type = 0
+74437 >second: force
+74500 <second: setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+74500 <second: piece K& KisO2
+74500 <second: piece W& ND
+74500 <second: piece B& BN
+74500 <second: piece R& RF
+74500 <second: pong 1
+74516 >second: edit
+74516 >second: #
+74516 >second: Pa2
+74516 >second: Pb2
+74516 >second: Pc2
+74516 >second: Pd2
+74516 >second: Pe2
+74516 >second: Pf2
+74516 >second: Pg2
+74516 >second: Ph2
+74516 >second: Ra1
+74516 >second: Wb1
+74516 >second: Bc1
+74516 >second: Qd1
+74516 >second: Ke1
+74516 >second: Bf1
+74516 >second: Wg1
+74516 >second: Rh1
+74516 >second: c
+74516 >second: Ra8
+74517 >second: Wb8
+74517 >second: Bc8
+74517 >second: Qd8
+74517 >second: Ke8
+74517 >second: Bf8
+74517 >second: Wg8
+74517 >second: Rh8
+74517 >second: Pa7
+74517 >second: Pb7
+74517 >second: Pc7
+74517 >second: Pd7
+74517 >second: Pe7
+74517 >second: Pf7
+74517 >second: Pg7
+74517 >second: Ph7
+74517 >second: .
+Two Machines
+New game (1): Fairy-Max 5.1-Fairy-Max 5.1 (w)
+74517 >first : computer
+74517 >second: computer
+74518 >first : black
+74518 >first : time 6000
+74518 >first : otim 6000
+74518 >first : white
+book key = 7c4db5b4464d5f5c
+book hit = (NULL)
+74617 >first : go
+nps: w=-1, b=-1
+74617 <first : Error (unknown command): computer
+74617 <second: Error (unknown command): computer
+74618 <first : # times @ 46191256
+74618 <first : # 16+16 pieces, centr = (1,1) R=66
+74618 <first :  1    -21        0          7 a2a4
+Impossible move a2a4, type = 0
+Impossible move a2a4, type = 32
+74621 <first :  1    -20        0          9 b2b4
+Impossible move b2b4, type = 0
+Impossible move b2b4, type = 32
+74624 <first :  1     -7        0         11 b2b3
+Impossible move b2b3, type = 0
+Impossible move b2b3, type = 32
+74628 <first :  1     -5        0         13 c2c3
+Impossible move c2c3, type = 0
+Impossible move c2c3, type = 32
+74631 <first :  1      3        0         15 d2d4
+Impossible move d2d4, type = 0
+Impossible move d2d4, type = 32
+74634 <first :  1      8        0         17 h2h4
+Impossible move h2h4, type = 0
+Impossible move h2h4, type = 32
+74636 <first :  1     25        0         19 f1e3
+Impossible move f1e3, type = 0
+Impossible move f1e3, type = 32
+74653 <first :  2    -18        0         57 f1e3 b8c6
+Impossible move b8c6, type = 0
+Impossible move b8c6, type = 32
+74655 <first :  2    -15        0         86 f1g3 b8c6
+Impossible move b8c6, type = 0
+Impossible move b8c6, type = 32
+74656 <first :  2      6        0        112 g1f3 b8c6
+Impossible move b8c6, type = 0
+Impossible move b8c6, type = 32
+74657 <first :  3      6        0        614 g1f3 b8c6 b1c3
+Impossible move b1c3, type = 0
+Impossible move b1c3, type = 32
+74658 <first :  3     17        0        885 g1h3 b8c6 b1c3
+Impossible move b1c3, type = 0
+Impossible move b1c3, type = 32
+74661 <first :  4    -23        0       1368 g1h3 b8c6 b1c3 c8d6
+Impossible move c8d6, type = 0
+Impossible move c8d6, type = 32
+74662 <first :  4      3        0       1755 g1f3 b8c6 b1c3 c8d6
+Impossible move c8d6, type = 0
+Impossible move c8d6, type = 32
+74663 <first :  4      7        0       2836 b1b3 b8c6 c1d3 c8d6
+Impossible move c8d6, type = 0
+Impossible move c8d6, type = 32
+74664 <first :  5     19        1       9480 b1b3 b8c6 c1d3 c8d6 g1f3
+Impossible move g1f3, type = 0
+Impossible move g1f3, type = 32
+74676 <first :  5     23        4      30046 c1d3 b8c6 b1c3 c8d6 g1f3
+Impossible move g1f3, type = 0
+Impossible move g1f3, type = 32
+74748 <first :  6     -1       12      87514 c1d3 b8c6 b1c3 g8f6 c3e4 f8g6 e4f6 g7f6
+Impossible move g7f6, type = 0
+Impossible move g7f6, type = 32
+74837 <first :  6     11       21     159469 f1g3 c8d6 b1c3 g8f6 g3d6 c7d6
+Impossible move c7d6, type = 0
+Impossible move c7d6, type = 32
+74903 <first :  6     13       28     211778 g1f3 g8f6 f1e3 f8e6 f3d4 e6d5
+Impossible move e6d5, type = 0
+Impossible move e6d5, type = 32
+75100 <first :  7     30       48     362859 g1f3 g8f6 f1e3 b8b6 e1g1 b6d5 e3d4
+Impossible move e3d4, type = 0
+Impossible move e3d4, type = 32
+76295 <first :  8     15      166    1309746 g1f3 g8f6 f1e3 f8g6 e1g1 e8g8 b1c3 b8c6
+Impossible move b8c6, type = 0
+Impossible move b8c6, type = 32
+77043 <first : # times @ 46193674: real=2418 cpu=2426
+77043 <first : # promo = 0 (`) GT = 0
+77043 <first : move g1f3
+77043 >second: time 6000
+77043 >second: otim 5857
+book key = 42b749e1daa3727c
+book hit = (NULL)
+77075 >second: g1f3
+77075 >second: black
+77075 >second: go
+silence
+77179 <second: # times @ 46193705
+77179 <second: # 16+16 pieces, centr = (1,1) R=66
+77179 <second:  1     -7        0          3 a7a5
+Impossible move a7a5, type = 0
+77181 <second:  1      2        0          3 c7c5
+Impossible move c7c5, type = 0
+77183 <second:  1      5        0          5 e7e6
+Impossible move e7e6, type = 0
+77185 <second:  1     15        0          5 b8c6
+Impossible move b8c6, type = 0
+77186 <second:  1     21        0          7 c8d6
+Impossible move c8d6, type = 0
+77188 <second:  2     -4        0         43 c8d6 b1c3
+Impossible move b1c3, type = 0
+77195 <second:  2      1        0        138 f8g6 b1c3
+Impossible move b1c3, type = 0
+77196 <second:  2      2        0        160 g8h6 b1c3
+Impossible move b1c3, type = 0
+77197 <second:  2     10        0        299 b8c6 b1c3
+Impossible move b1c3, type = 0
+77198 <second:  3     20        0        664 b8c6 b1c3 c8d6
+Impossible move c8d6, type = 0
+77200 <second:  4     10        0       1130 b8c6 b1c3 c8d6 c1d3
+Impossible move c1d3, type = 0
+77200 <second:  5      2        0       2998 b8c6 b1c3 c8d6 c1d3 g8f6
+Impossible move g8f6, type = 0
+77201 <second:  5     13        1      14559 b8b6 f1e3 c8d6 e1g1 g8f6
+Impossible move g8f6, type = 0
+77202 <second:  5     19        4      29503 c8d6 f1e3 b8c6 e1g1 g8f6
+Impossible move g8f6, type = 0
+77203 <second:  6      1        7      58568 c8d6 f1e3 b8c6 f3f5 d6e5 e1g1
+Impossible move e1g1, type = 0
+77221 <second:  6      5       14     112465 f8e6 f1e3 b8c6 e1g1 c6c4 e3d4
+Impossible move e3d4, type = 0
+77327 <second:  7      9       25     197298 f8e6 f1e3 g8f6 f3d4 e6g4 e1g1 e8g8
+Impossible move e8g8, type = 0
+78532 <second:  7     14      146    1128618 g8f6 f1e3 b8b6 b1c3 f8e6 f3d4 e6c4
+Impossible move e6c4, type = 0
+79472 <second: # times @ 46196108: real=2403 cpu=2397
+79472 <second: # promo = 0 (`) GT = 0
+79472 <second: move g8f6
+Interrupting first
+79472 >first : time 5857
+79472 >first : otim 5857
+book key = e4d1b3e5681b2b82
+book hit = (NULL)
+79480 >first : g8f6
+silence
+79584 <first : # times @ 46196108
+79584 <first : # 16+16 pieces, centr = (1,1) R=66
+79584 <first :  1    -12        0          5 a2a4
+Impossible move a2a4, type = 0
+79586 <first :  1     -1        0          7 b2b4
+Impossible move b2b4, type = 0
+79588 <first :  1     17        0          9 c2c4
+Impossible move c2c4, type = 0
+79589 <first :  1     27        0         11 c1d3
+Impossible move c1d3, type = 0
+79591 <first :  2      8        0         23 c1d3 b8c6
+Impossible move b8c6, type = 0
+79591 <first :  2     14        0         43 f1e3
+Impossible move f1e3, type = 0
+79592 <first :  3     14        0        150 f1e3
+Impossible move f1e3, type = 0
+79592 <first :  3     21        0        173 f1g3 f8e6 b1b3
+Impossible move b1b3, type = 0
+79593 <first :  4      6        0        576 f1g3 f8e6 b1c3
+Impossible move b1c3, type = 0
+79595 <first :  4     15        0        576 f1e3
+Impossible move f1e3, type = 0
+79596 <first :  5     15        0        710 f1e3
+Impossible move f1e3, type = 0
+79596 <first :  6     14        6      43853 f1e3
+Impossible move f1e3, type = 0
+79846 <first :  7     10       37     282277 f1e3 f8g6 e1g1 e8g8 b1c3 b8c6 c1d3
+Impossible move c1d3, type = 0
+79861 <first :  7     11       39     293560 f1e3
+Impossible move f1e3, type = 0
+80800 <first :  8    -11      132    1030371 f1e3 f8g6 e1g1 e8g8 b1c3 b8c6 c1d3 c8d6
+Impossible move c8d6, type = 0
+81675 <first :  8      9      219    1711491 f1g3 f8e6 b1c3 e8g8 e1g1 c8d6 g3d6 c7d6
+Impossible move c7d6, type = 0
+82593 <first :  8     10      312    2438945 b1c3 f8e6 f1g3
+Impossible move f1g3, type = 0
+82715 <first : # times @ 46199352: real=3244 cpu=3235
+82715 <first : # promo = 0 (`) GT = 0
+82715 <first : move b1c3
+Interrupting second
+82715 >second: time 5857
+82715 >second: otim 5633
+book key = 0a6913c41b6b2086
+book hit = (NULL)
+82727 >second: b1c3
+silence
+82830 <second: # times @ 46199352
+82830 <second: # 16+16 pieces, centr = (1,1) R=66
+82830 <second:  1     -8        0          3 a7a5
+Impossible move a7a5, type = 0
+82833 <second:  1     -4        0          5 a7a6
+Impossible move a7a6, type = 0
+82834 <second:  1      0        0          5 c7c6
+Impossible move c7c6, type = 0
+82836 <second:  1      1        0          7 f6g4
+Impossible move f6g4, type = 0
+82837 <second:  1      8        0          9 f6h5
+Impossible move f6h5, type = 0
+82838 <second:  1     15        0          9 b8c6
+Impossible move b8c6, type = 0
+82840 <second:  1     22        0          9 f8g6
+Impossible move f8g6, type = 0
+82841 <second:  2     22        0         10 f8g6
+Impossible move f8g6, type = 0
+82842 <second:  3     22        0         22 f8g6
+Impossible move f8g6, type = 0
+82842 <second:  4     22        0        292 f8g6
+Impossible move f8g6, type = 0
+82843 <second:  5     22        0        686 f8g6
+Impossible move f8g6, type = 0
+82844 <second:  5     23        1       8072 f8e6 f1g3 e8g8 e1g1 b8c6
+Impossible move b8c6, type = 0
+82845 <second:  6     -4        6      45892 f8e6 f1e3 e8g8 e1g1 b8c6 c1d3
+Impossible move c1d3, type = 0
+82913 <second:  6     -1       18     139492 d7d6 f1e3 f6g4 e3f4 g4f6 f4e3
+Impossible move f4e3, type = 0
+83101 <second:  6      6       37     284060 c8b6 f1g3 f8g6 c1d3 e8g8 e1g1
+Impossible move e1g1, type = 0
+83384 <second:  7     19       67     501940 c8b6 f1g3 f8g6 e1g1 e8g8 f3e5 g6f4 g3f4 f6f4
+Impossible move f6f4, type = 0
+84361 <second:  8     -9      163    1256653 c8b6 f1g3 f8e6 c1b3 e6b3 a2b3 e8g8 e1g1
+Impossible move e1g1, type = 0
+86218 <second:  8      8      349    2693504 f8e6 f1g3 e8g8 e1g1 b8c6 c3e4 f6e4 g3e4
+Impossible move g3e4, type = 0
+88045 <second: # times @ 46204672: real=5320 cpu=5318
+88045 <second: # promo = 0 (`) GT = 0
+88045 <second: move f8e6
+Interrupting first
+88045 >first : time 5633
+88045 >first : otim 5424
+book key = 52d8f66d3eb1d17f
+book hit = (NULL)
+88067 >first : f8e6
+silence
+88186 <first : # times @ 46204703
+88186 <first : # 16+16 pieces, centr = (1,1) R=66
+88186 <first :  1      5        0          7 a2a4
+Impossible move a2a4, type = 0
+88189 <first :  1     13        0         13 d2d4
+Impossible move d2d4, type = 0
+88190 <first :  2    -40        0         43 d2d4 e8g8
+Impossible move e8g8, type = 0
+88191 <first :  2    -33        0         72 d2d3 e8g8
+Impossible move e8g8, type = 0
+88192 <first :  2    -15        0        312 c1d3 b8c6
+Impossible move b8c6, type = 0
+88192 <first :  2      7        0        323 c1b3 e6b3 a2b3
+Impossible move a2b3, type = 0
+88193 <first :  2      9        0        323 f1g3
+Impossible move f1g3, type = 0
+88194 <first :  3      8        0        333 f1g3
+Impossible move f1g3, type = 0
+88195 <first :  4      9        0        386 f1g3
+Impossible move f1g3, type = 0
+88196 <first :  5      8        0        451 f1g3
+Impossible move f1g3, type = 0
+88197 <first :  5      9        0        451 f1g3
+Impossible move f1g3, type = 0
+88198 <first :  6      9        0       2718 f1g3
+Impossible move f1g3, type = 0
+88543 <first :  7     14       46     359938 f1g3 e8g8 e1g1 b8c6 c3e4 f6e4 g3e4
+Impossible move g3e4, type = 0
+89158 <first :  8     -1      109     840654 f1g3 e8g8 e1g1 c8d6 g3d6 c7d6 c1d3 b8c6
+Impossible move b8c6, type = 0
+89779 <first : # times @ 46206404: real=1701 cpu=1712
+89779 <first : # promo = 0 (`) GT = 0
+89779 <first : move f1g3
+Interrupting second
+89780 >second: time 5424
+89780 >second: otim 5559
+book key = 0c8c5ca28e9bcf5a
+book hit = (NULL)
+89829 >second: f1g3
+silence
+89938 <second: # times @ 46206466
+89938 <second: # 16+16 pieces, centr = (1,1) R=66
+89938 <second:  1   -662        0          9 e6a2 a1a2
+Impossible move a1a2, type = 0
+89941 <second:  1   -274        0         19 e6d5 c3d5 f6d5
+Impossible move f6d5, type = 0
+89942 <second:  1    -15        0         21 e6c4
+Impossible move e6c4, type = 0
+89944 <second:  1     -4        0         29 e6g4
+Impossible move e6g4, type = 0
+89945 <second:  1      7        0         43 e6f4 g3f4 f6f4
+Impossible move f6f4, type = 0
+89946 <second:  1      8        0         45 b8a6
+Impossible move b8a6, type = 0
+89948 <second:  1     22        0         49 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+89949 <second:  2      8        0         71 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+89950 <second:  3      8        0        289 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+89951 <second:  4      8        0        369 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+89951 <second:  5      8        0       3032 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+89952 <second:  6      8        6      31872 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+90282 <second:  7     25       45     332113 e8g8 e1g1 c8d6 g3d6 f6d6 c1d3 b8c6
+Impossible move b8c6, type = 0
+(1-type) castling 4 6
+91569 <second:  8      4      173    1337280 e8g8 e1g1 c8d6 g3d6 c7d6 c1d3 b8c6 c3e4
+Impossible move c3e4, type = 0
+(1-type) castling 4 6
+95863 <second:  8     11      602    4536131 b8c6 e1g1 c8b6 c3e4 f6e4 g3e4 e8g8 c1d3
+Impossible move c1d3, type = 0
+95958 <second: # times @ 46212597: real=6131 cpu=6127
+95958 <second: # promo = 0 (`) GT = 0
+95958 <second: move b8c6
+Interrupting first
+95958 >first : time 5559
+95958 >first : otim 4906
+book key = d5dbb55cbf2eb5e4
+book hit = (NULL)
+95967 >first : b8c6
+silence
+96071 <first : # times @ 46212597
+96071 <first : # 16+16 pieces, centr = (1,1) R=66
+96071 <first :  1   -644        0          3 g3c7
+Impossible move g3c7, type = 0
+96073 <first :  1     -3        0          3 g3h4
+Impossible move g3h4, type = 0
+96075 <first :  1      5        0          3 g3f5
+Impossible move g3f5, type = 0
+96076 <first :  1      7        0          3 c1d3
+Impossible move c1d3, type = 0
+96078 <first :  1     26        0          3 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+96079 <first :  2      0        0         37 e1g1 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+96080 <first :  2      7        0        171 c1d3
+Impossible move c1d3, type = 0
+96080 <first :  3      7        0        175 c1d3
+Impossible move c1d3, type = 0
+96081 <first :  4      7        0        203 c1d3
+Impossible move c1d3, type = 0
+96082 <first :  5      3        3      15664 c1d3 e8g8 e1g1
+Impossible move e1g1, type = 0
+96083 <first :  5      8        4      36622 c1b3 e6b3 c2b3 e8g8 e1g1
+Impossible move e1g1, type = 0
+96148 <first :  6     -1       18     138161 c1b3 e6b3 a2b3 e8g8 e1g1 c8d6
+Impossible move c8d6, type = 0
+96411 <first :  6      3       45     331701 c1d3 e8g8 e1g1
+Impossible move e1g1, type = 0
+96972 <first :  7      8      101     759227 c1d3 c8d6 c3e4 f6e4 g3e4 c6c4 e4h7
+Impossible move e4h7, type = 0
+97358 <first :  7     11      138    1058310 d2d4 c8b6 c3c5 e6c4 c1d3 e8g8 e1g1 c4d3 d1d3
+Impossible move d1d3, type = 0
+97371 <first : # times @ 46214001: real=1404 cpu=1405
+97371 <first : # promo = 0 (`) GT = 0
+97371 <first : move d2d4
+Interrupting second
+97372 >second: time 4906
+97372 >second: otim 5518
+book key = 10ee9af6aee798a6
+book hit = (NULL)
+97401 >second: d2d4
+silence
+97488 <second: # times @ 46214032
+97489 <second: # 16+16 pieces, centr = (1,1) R=66
+97489 <second:  1   -372        0          3 c6d4
+Impossible move c6d4, type = 0
+97491 <second:  1    -10        0          3 c6a5
+Impossible move c6a5, type = 0
+97492 <second:  1     -3        0          3 c6b4
+Impossible move c6b4, type = 0
+97494 <second:  1      2        0          3 c6c4
+Impossible move c6c4, type = 0
+97495 <second:  1     13        0          3 c8d6
+Impossible move c8d6, type = 0
+97497 <second:  2     13        0         19 c8d6 g3d6 c7d6
+Impossible move c7d6, type = 0
+97497 <second:  3     13        0        136 c8d6 g3d6 c7d6
+Impossible move c7d6, type = 0
+97498 <second:  4     -4        0        846 c8d6 g3d6 f6d6 c1e3
+Impossible move c1e3, type = 0
+97499 <second:  5   -317        7      26625 c8d6 g3d6 c7d6 d4d5 e6g4 d5c6 d7c6
+Impossible move d7c6, type = 0
+97508 <second:  5     -1       10      52333 c8b6 f3g5 e6c4 g5e4 f6e4 c3e4
+Impossible move c3e4, type = 0
+97924 <second:  6    -10       53     356397 c8b6 c3c5 e6c4 c1d3 e8g8 e1g1 c4d3 d1d3
+Impossible move d1d3, type = 0
+99186 <second:  7     -2      177    1271179 c8b6 c3c5 e6c4 e1g1 e8g8 c1e3 c4e3
+Impossible move c4e3, type = 0
+99862 <second: # times @ 46216497: real=2465 cpu=2460
+99862 <second: # promo = 0 (`) GT = 0
+99862 <second: move c8b6
+Interrupting first
+99863 >first : time 5518
+99863 >first : otim 4757
+book key = 1b2f82c86ab5b130
+book hit = (NULL)
+99864 >first : c8b6
+silence
+99967 <first : # times @ 46216497
+99967 <first : # 16+16 pieces, centr = (1,1) R=66
+99967 <first :  1   -645        0          7 g3c7 b6c7
+Impossible move b6c7, type = 0
+99970 <first :  1   -108        0         25 g3h4 c6d4
+Impossible move c6d4, type = 0
+99971 <first :  1      5        0         75 g3f5
+Impossible move g3f5, type = 0
+99973 <first :  2    -21        0        160 g3f5 e8g8
+Impossible move e8g8, type = 0
+99973 <first :  2      7        0        471 c1e3 b6c4
+Impossible move b6c4, type = 0
+99974 <first :  2     12        0        487 c3c5
+Impossible move c3c5, type = 0
+99975 <first :  3     12        0        488 c3c5
+Impossible move c3c5, type = 0
+99975 <first :  4     12        0        979 c3c5
+Impossible move c3c5, type = 0
+99977 <first :  5     12        0       1354 c3c5
+Impossible move c3c5, type = 0
+100108 <first :  6      7       25     175184 c3c5 e6c4 e1g1 e8g8 c1e3 c4e3
+Impossible move c4e3, type = 0
+102612 <first :  7     14      274    1987025 c3c5 e6c4 c2c3 c4d6 e1g1 e8g8 c1e3 d6g3
+Impossible move d6g3, type = 0
+102891 <first : # times @ 46219523: real=3026 cpu=3027
+102891 <first : # promo = 0 (`) GT = 0
+102891 <first : move c3c5
+Interrupting second
+102892 >second: time 4757
+102892 >second: otim 5315
+book key = 3b96dfbf5ff351cb
+book hit = (NULL)
+102893 >second: c3c5
+silence
+102975 <second: # times @ 46219523
+102975 <second: # 16+16 pieces, centr = (1,1) R=66
+102975 <second:  1   -135        0         11 e6c5 d4c5 b6c5
+Impossible move b6c5, type = 0
+102978 <second:  1      1        0         19 e6d5
+Impossible move e6d5, type = 0
+102979 <second:  2    -11        0         51 e6d5 c1g5
+Impossible move c1g5, type = 0
+102980 <second:  2     -3        0         51 e6c4
+Impossible move e6c4, type = 0
+102980 <second:  3     -3        0         58 e6c4
+Impossible move e6c4, type = 0
+102981 <second:  4     -3        0        114 e6c4
+Impossible move e6c4, type = 0
+102982 <second:  5     -3        0        156 e6c4
+Impossible move e6c4, type = 0
+103886 <second:  6    -13       99     695811 e6c4 c2c3 c4d6 e1g1 e8g8 c1e3 d6g3
+Impossible move d6g3, type = 0
+104411 <second: # times @ 46221037: real=1514 cpu=1516
+104411 <second: # promo = 0 (`) GT = 0
+104411 <second: move e6c4
+Interrupting first
+104412 >first : time 5315
+104412 >first : otim 4705
+book key = bd5490784b24f2b0
+book hit = (NULL)
+104413 >first : e6c4
+silence
+104517 <first : # times @ 46221052
+104517 <first : # 16+16 pieces, centr = (1,1) R=66
+104517 <first :  1   -382        0         23 c5d7 b6d7
+Impossible move b6d7, type = 0
+104520 <first :  1     -7        0         45 c5b3
+Impossible move c5b3, type = 0
+104522 <first :  1      4        0         81 c5e4
+Impossible move c5e4, type = 0
+104523 <first :  1      5        0        103 g3f5
+Impossible move g3f5, type = 0
+104525 <first :  1      9        0        121 c1d2
+Impossible move c1d2, type = 0
+104526 <first :  1     12        0        125 c1g5
+Impossible move c1g5, type = 0
+104528 <first :  2    -14        0        157 c1g5 e8g8
+Impossible move e8g8, type = 0
+104528 <first :  2      4        0        177 c1d2 e8g8
+Impossible move e8g8, type = 0
+104529 <first :  2      7        0        197 c1d3 e8g8
+Impossible move e8g8, type = 0
+104530 <first :  2     12        0        210 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+104531 <first :  2     15        0        239 c2c3
+Impossible move c2c3, type = 0
+104549 <first :  3     15        0        246 c2c3
+Impossible move c2c3, type = 0
+104550 <first :  4     15        0        359 c2c3
+Impossible move c2c3, type = 0
+104551 <first :  5     15        0       2961 c2c3
+Impossible move c2c3, type = 0
+104647 <first :  6     -1       23     167750 c2c3 c4d6 e1g1 d6g3 h2g3 e8g8
+Impossible move e8g8, type = 0
+106079 <first :  6      7      165    1208457 c1g5 h7h6 g5h4 e8g8 e1g1 b6d5
+Impossible move b6d5, type = 0
+106692 <first :  6      9      227    1663736 e1g1 e8g8 c1g5 c6b4 f3d2 c4d5
+Impossible move c4d5, type = 0
+(1-type) castling 4 6
+106924 <first : # times @ 46223564: real=2512 cpu=2511
+106925 <first : # promo = 0 (`) GT = 0
+106925 <first : move e1g1
+Interrupting second
+106925 >second: time 4705
+106925 >second: otim 5164
+book key = f51b6cd9aa23a0e2
+book hit = (NULL)
+106926 >second: e1g1
+silence
+107008 <second: # times @ 46223564
+107008 <second: # 16+16 pieces, centr = (1,1) R=66
+107008 <second:  1   -233        0        101 b6c5 d4c5
+Impossible move d4c5, type = 0
+107011 <second:  1     10        0        151 b6d5
+Impossible move b6d5, type = 0
+107012 <second:  1     26        0        175 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+107014 <second:  2     14        0        475 e8g8 c1g5
+Impossible move c1g5, type = 0
+(1-type) castling 4 6
+107014 <second:  3     22        1      10471 e8g8 c1e3 c4e3
+Impossible move c4e3, type = 0
+(1-type) castling 4 6
+107015 <second:  4     18        3      28183 e8g8 c1d3 b6d5 g3f5
+Impossible move g3f5, type = 0
+(1-type) castling 4 6
+107105 <second:  5     17       17     128568 e8g8 c1g5 c6b4 f3d2 c4d5
+Impossible move c4d5, type = 0
+(1-type) castling 4 6
+108587 <second:  6     15      165    1232066 e8g8 c1g5 c6b4 f3d2 c4d5 c2c4
+Impossible move c2c4, type = 0
+(1-type) castling 4 6
+108962 <second: # times @ 46225592: real=2028 cpu=2033
+108963 <second: # promo = 0 (`) GT = 0
+108963 <second: move e8g8
+Interrupting first
+108963 >first : time 5164
+108963 >first : otim 4601
+book key = b37617fd55936b64
+book hit = (NULL)
+108964 >first : e8g8
+silence
+109045 <first : # times @ 46225592
+109045 <first : # 16+16 pieces, centr = (1,1) R=66
+109046 <first :  1   -382        1         47 c5d7 b6d7
+Impossible move b6d7, type = 0
+109048 <first :  1     -7        1         77 c5b3
+Impossible move c5b3, type = 0
+109049 <first :  1      4        1        151 c5e4
+Impossible move c5e4, type = 0
+109051 <first :  1      5        1        189 g3f5
+Impossible move g3f5, type = 0
+109052 <first :  1      9        1        253 c1d2
+Impossible move c1d2, type = 0
+109054 <first :  1     12        1        295 c1g5
+Impossible move c1g5, type = 0
+109055 <first :  2      2        1        443 c1g5 b6d5
+Impossible move b6d5, type = 0
+109056 <first :  2      4        1        971 c1e3 c4e3
+Impossible move c4e3, type = 0
+109057 <first :  3      4        1       7364 c1e3 c4e3 f2e3
+Impossible move f2e3, type = 0
+109057 <first :  3      7        3      12299 c1g5 b6d5 g3f5
+Impossible move g3f5, type = 0
+109058 <first :  3      8        3      20033 c1d3 b6d5 g3f5
+Impossible move g3f5, type = 0
+109060 <first :  4      2        6      43505 c1d3 c4d3 d1d3 b6d5
+Impossible move b6d5, type = 0
+109097 <first :  4      9       14      94182 c1g5 c6b4 f3d2 c4d5
+Impossible move c4d5, type = 0
+109211 <first :  5     11       24     177535 c1g5 c6b4 f3d2 c4d5 c2c4
+Impossible move c2c4, type = 0
+110860 <first :  6      9      190    1412258 c1g5 c6e6 c5e6 d7e6 f3e5 c4d5
+Impossible move c4d5, type = 0
+111487 <first : # times @ 46228119: real=2527 cpu=2519
+111487 <first : # promo = 0 (`) GT = 0
+111487 <first : move c1g5
+Interrupting second
+111487 >second: time 4601
+111488 >second: otim 5011
+book key = 540d6f96c4389ff1
+book hit = (NULL)
+111488 >second: c1g5
+silence
+111592 <second: # times @ 46228119
+111592 <second: # 16+16 pieces, centr = (1,1) R=66
+111592 <second:  1   -233        0          3 b6c5
+Impossible move b6c5, type = 0
+111595 <second:  1     10        0          3 b6d5
+Impossible move b6d5, type = 0
+111597 <second:  2      5        0        321 b6d5 g3f5
+Impossible move g3f5, type = 0
+111597 <second:  3     -1        4      35488 b6d5 e2e4 d5b6
+Impossible move d5b6, type = 0
+111598 <second:  3      3        6      42350 c6b4 f3d2 c4d5
+Impossible move c4d5, type = 0
+111599 <second:  4      1        7      55788 c6b4 f3d2 c4d5 c2c4
+Impossible move c2c4, type = 0
+111940 <second:  5     -3       45     330696 c6b4 c2c3 b4b2 d1c2 d7d6 a1b2 d6c5 b2b6 a7b6
+Impossible move a7b6, type = 0
+112010 <second:  5      3       53     383963 c6e6 c5e6 d7e6 f3e5 c4d5
+Impossible move c4d5, type = 0
+112653 <second: # times @ 46229289: real=1170 cpu=1159
+112653 <second: # promo = 0 (`) GT = 0
+112653 <second: move c6e6
+Interrupting first
+112653 >first : time 5011
+112653 >first : otim 4584
+book key = 45bc8c342d1f7640
+book hit = (NULL)
+112654 >first : c6e6
+silence
+112735 <first : # times @ 46229289
+112735 <first : # 16+16 pieces, centr = (1,1) R=66
+112736 <first :  1      9        0          7 c5e6
+Impossible move c5e6, type = 0
+112738 <first :  2      9        0          8 c5e6
+Impossible move c5e6, type = 0
+112738 <first :  3      9        0         23 c5e6
+Impossible move c5e6, type = 0
+112739 <first :  4      9        0         33 c5e6
+Impossible move c5e6, type = 0
+112740 <first :  5      3        1      11399 c5e6 d7e6 f3e5 c4d5 c2c4
+Impossible move c2c4, type = 0
+112748 <first :  6      1        9      72792 c5e6 d7e6 f3e5 c4b5 c2c3 b6d5
+Impossible move b6d5, type = 0
+113044 <first :  7      1       39     302617 c5e6 d7e6 f3e5 c4b5 c2c3 b6d5 g5e3 d5e3 e5e3
+Impossible move e5e3, type = 0
+114299 <first :  8      0      163    1317039 c5e6 c4e6 g5e6 d7e6 g3e5 b6d5 c2c4 d5e4
+Impossible move d5e4, type = 0
+114795 <first : # times @ 46231426: real=2137 cpu=2140
+114795 <first : # promo = 0 (`) GT = 0
+114796 <first : move c5e6
+Interrupting second
+114796 >second: time 4584
+114796 >second: otim 4897
+book key = 2d2e8121f59ed7de
+book hit = (NULL)
+114797 >second: c5e6
+silence
+114900 <second: # times @ 46231426
+114901 <second: # 16+15 pieces, centr = (1,1) R=61
+114901 <second:  1      3        0          3 d7e6
+Impossible move d7e6, type = 0
+114903 <second:  2      3        0          4 d7e6
+Impossible move d7e6, type = 0
+114904 <second:  3      3        0         30 d7e6
+Impossible move d7e6, type = 0
+114904 <second:  4      0        1       5281 d7e6 f3e5 c4d5 c2c4
+Impossible move c2c4, type = 0
+114905 <second:  5      2        6      42844 d7e6 f3e5 c4b5 c2c3 b6d5
+Impossible move b6d5, type = 0
+114924 <second:  5      3       12      98631 c4e6 e2e4 b6c4 g3f5 c7c5
+Impossible move c7c5, type = 0
+115052 <second:  6      2       26     204228 c4e6 g5e6 d7e6 g3e5 b6d5 c2c4
+Impossible move c2c4, type = 0
+115251 <second:  7      3       45     369876 c4e6 g5e6 d7e6 g3e5 b6d5 c2c4 d5e4
+Impossible move d5e4, type = 0
+116052 <second:  8      3      126    1054779 c4e6 g5e6 d7e6 g3e5 b6d5 c2c4 d5e4 f3d3
+Impossible move f3d3, type = 0
+116224 <second: # times @ 46232861: real=1435 cpu=1426
+116224 <second: # promo = 0 (`) GT = 0
+116224 <second: move c4e6
+Interrupting first
+116224 >first : time 4897
+116224 >first : otim 4541
+book key = 2ff1499910fe2b60
+book hit = (NULL)
+116225 >first : c4e6
+silence
+116329 <first : # times @ 46232861
+116329 <first : # 15+15 pieces, centr = (1,1) R=60
+116329 <first :  1     -1        0          3 g5e6
+Impossible move g5e6, type = 0
+116331 <first :  1      2        0          5 g5e3
+Impossible move g5e3, type = 0
+116333 <first :  2     -8        0         29 g5e3 b6d5
+Impossible move b6d5, type = 0
+116333 <first :  2     -1        0        168 g5e6
+Impossible move g5e6, type = 0
+116334 <first :  3     -1        0        169 g5e6
+Impossible move g5e6, type = 0
+116334 <first :  4     -1        0        193 g5e6
+Impossible move g5e6, type = 0
+116335 <first :  5     -1        0        222 g5e6
+Impossible move g5e6, type = 0
+116336 <first :  6     -1        0       2045 g5e6
+Impossible move g5e6, type = 0
+116337 <first :  7     -2        4      47911 g5e6 d7e6 g3e5 b6d5 c2c4 d5e4 f3d3
+Impossible move f3d3, type = 0
+117074 <first :  8     -3       84     731785 g5e6 d7e6 g3e5 b6d5 c2c4 d5e4 f3d3 c7c6
+Impossible move c7c6, type = 0
+119775 <first : # times @ 46236403: real=3542 cpu=3550
+119775 <first : # promo = 0 (`) GT = 0
+119775 <first : move g5e6
+Interrupting second
+119775 >second: time 4541
+119775 >second: otim 4642
+book key = 9d8968d591e19a5d
+book hit = (NULL)
+119777 >second: g5e6
+silence
+119881 <second: # times @ 46236403
+119881 <second: # 15+14 pieces, centr = (1,1) R=52
+119881 <second:  1      8        0          5 d7e6
+Impossible move d7e6, type = 0
+119884 <second:  2      1        0         15 d7e6 e2e3
+Impossible move e2e3, type = 0
+119884 <second:  3      4        0        414 d7e6 g3e5
+Impossible move g3e5, type = 0
+119885 <second:  3      5        0        464 f7e6 e2e3
+Impossible move e2e3, type = 0
+119885 <second:  4      3        0        784 f7e6 g3e5 b6d5 c2c4
+Impossible move c2c4, type = 0
+119886 <second:  4      4        1       1900 d7e6 g3e5
+Impossible move g3e5, type = 0
+119888 <second:  5      4        1       2844 d7e6 g3e5
+Impossible move g3e5, type = 0
+119889 <second:  5      7        1      11928 f7e6 g3e5 d7d6 e5g3
+Impossible move e5g3, type = 0
+119890 <second:  6      4        7      63540 f7e6 g3e5 d7d6 e5d3 c7c5 c2c3
+Impossible move c2c3, type = 0
+120274 <second:  7      9       49     429281 f7e6 g3e5 d7d6 e5d3 f6f4 d3e4 b6d5
+Impossible move b6d5, type = 0
+120959 <second:  8      9      118    1040106 f7e6 g3e5 d7d6 e5d3 f6f4 d3e4 b6d5 e4d5 f4d5
+Impossible move f4d5, type = 0
+121106 <second: # times @ 46237744: real=1341 cpu=1329
+121106 <second: # promo = 0 (`) GT = 0
+121106 <second: move f7e6
+Interrupting first
+121106 >first : time 4642
+121106 >first : otim 4508
+book key = cf26f97e3e979dbb
+book hit = (NULL)
+121107 >first : f7e6
+silence
+121189 <first : # times @ 46237744
+121189 <first : # 14+14 pieces, centr = (1,1) R=50
+121189 <first :  1   -644        0          3 g3c7
+Impossible move g3c7, type = 0
+121191 <first :  1     -3        0          3 g3h4
+Impossible move g3h4, type = 0
+121193 <first :  1      6        0          3 g3e5
+Impossible move g3e5, type = 0
+121194 <first :  1      7        0          3 c2c3
+Impossible move c2c3, type = 0
+121196 <first :  1      9        0          3 e2e4
+Impossible move e2e4, type = 0
+121197 <first :  2      0        0         51 e2e4 c7c5
+Impossible move c7c5, type = 0
+121198 <first :  3     -4        0       1648 e2e4 d7d5 e4e5
+Impossible move e4e5, type = 0
+121198 <first :  3      4        0       2126 e2e3 b6d5 g3e5
+Impossible move g3e5, type = 0
+121199 <first :  3      5        0       2761 g3e5 d7d6 e5d3
+Impossible move e5d3, type = 0
+121199 <first :  4     -5        0       3103 g3e5 d7d6 e5d3 b6d5
+Impossible move b6d5, type = 0
+121201 <first :  4     -1        0       8431 c2c3 b6d5 f3d3 d5e4 g3e4 f6e4
+Impossible move f6e4, type = 0
+121202 <first :  5     -1        1      23868 c2c3 c7c6 f3d3 b6c4 g3e5 c4e5 d3e5
+Impossible move d3e5, type = 0
+121273 <first :  5      2       15     136940 g3e5 c7c5 c2c3 f6e4 h2h4
+Impossible move h2h4, type = 0
+121320 <first :  6     -3       20     177307 g3e5 d7d6 e5d3 f6d5 d3e4 c7c5
+Impossible move c7c5, type = 0
+121520 <first :  7     -3       40     349731 g3e5 d7d6 e5d3 f6f4 d3e4 b6d5 e4d5 f4d5
+Impossible move f4d5, type = 0
+121689 <first :  7     -1       57     500515 e2e3 c7c6 d1d3 b6d5 c2c4 d5b4 d3d1
+Impossible move d3d1, type = 0
+122007 <first :  8     -3       88     775682 e2e3 c7c6 d1d3 b6d5 c2c4 d5b4 d3d1 b4d6 g3d6 f6d6
+Impossible move f6d6, type = 0
+124005 <first : # times @ 46240630: real=2886 cpu=2898
+124005 <first : # promo = 0 (`) GT = 0
+124005 <first : move e2e3
+Interrupting second
+124005 >second: time 4508
+124005 >second: otim 4452
+book key = 620bbbcc1ac8151f
+book hit = (NULL)
+124006 >second: e2e3
+silence
+124088 <second: # times @ 46240646
+124088 <second: # 14+14 pieces, centr = (1,1) R=50
+124088 <second:  1   -632        0          3 b6d4
+Impossible move b6d4, type = 0
+124091 <second:  1     -5        0          3 b6a5
+Impossible move b6a5, type = 0
+124092 <second:  1      7        0          3 b6c4
+Impossible move b6c4, type = 0
+124093 <second:  1      8        0          3 c7c5
+Impossible move c7c5, type = 0
+124095 <second:  2      8        0          4 c7c5
+Impossible move c7c5, type = 0
+124095 <second:  3      8        0         32 c7c5
+Impossible move c7c5, type = 0
+124096 <second:  3     11        0        251 c7c6 g3e5 b6d5
+Impossible move b6d5, type = 0
+124097 <second:  4     10        0        596 c7c6 g3e5 b6d5 c2c4
+Impossible move c2c4, type = 0
+124097 <second:  5      9        0       6157 c7c6 d1d3 b6d5 c2c4 d5b4
+Impossible move d5b4, type = 0
+124112 <second:  6      9        1      22279 c7c6 d1d3 b6d5 c2c4 d5b4 d3d1
+Impossible move d3d1, type = 0
+124228 <second:  7     11       21     185944 c7c6 d1d3 b6d5 c2c4 d5b4 d3d1 b4d6 g3d6 f6d6
+Impossible move f6d6, type = 0
+124787 <second:  8      9       78     681165 c7c6 d1d3 b6d5 c2c4 d5b4 d3d1 b4d6 g3e5
+Impossible move g3e5, type = 0
+125727 <second:  8     10      171    1487375 c7c5 g3e5 f6e4 e5d3 d7d5 h2h4
+Impossible move h2h4, type = 0
+126038 <second: # times @ 46242674: real=2028 cpu=2032
+126039 <second: # promo = 0 (`) GT = 0
+126039 <second: move c7c5
+Interrupting first
+126039 >first : time 4452
+126039 >first : otim 4405
+book key = 847a6a62e58f1e62
+book hit = (NULL)
+126040 >first : c7c5
+silence
+126121 <first : # times @ 46242674
+126121 <first : # 14+14 pieces, centr = (1,1) R=50
+126121 <first :  1    -24        0          3 d4c5
+Impossible move d4c5, type = 0
+126124 <first :  1    -12        0          3 e3e4
+Impossible move e3e4, type = 0
+126125 <first :  1     -4        0          3 f3d2
+Impossible move f3d2, type = 0
+126127 <first :  1     -1        0          3 f3e5
+Impossible move f3e5, type = 0
+126128 <first :  1      6        0          3 g3e5
+Impossible move g3e5, type = 0
+126130 <first :  2      0        0         21 g3e5 f6e4
+Impossible move f6e4, type = 0
+126130 <first :  3      0        0        164 g3e5 f6e4
+Impossible move f6e4, type = 0
+126131 <first :  3      2        0       1597 a2a4 d7d6 h2h4
+Impossible move h2h4, type = 0
+126131 <first :  4     -6        0       5034 a2a4 d7d6 h2h4 b6d5
+Impossible move b6d5, type = 0
+126132 <first :  4     -1        1      17436 a2a3 d7d5 g3e5 b6d7
+Impossible move b6d7, type = 0
+126134 <first :  4      0        3      28053 a1b1 d7d5 g3e5 b6d7
+Impossible move b6d7, type = 0
+126135 <first :  5     -1        4      43430 a1b1 d7d5 g3e5 b6d7 e5d7 f6d7
+Impossible move f6d7, type = 0
+126162 <first :  5      0       12      96452 d1d3 a8c8 f3e5 f6d5 d3d2 c5d4 e3d4
+Impossible move e3d4, type = 0
+126184 <first :  5      2       14     114648 g3e5 f6e4 e5d3 d7d5 d3e5
+Impossible move d3e5, type = 0
+126330 <first :  6      0       28     233394 g3e5 f6e4 e5d3 d7d5 d3e5 b6d7
+Impossible move b6d7, type = 0
+126492 <first :  7      0       45     369999 g3e5 f6e4 e5d3 d7d5 h2h4 b6d7 f3e5
+Impossible move f3e5, type = 0
+127539 <first :  8      1      149    1250582 g3e5 f6e4 e5d3 d7d5 h2h4 a8b8 d3e5 b6d7
+Impossible move b6d7, type = 0
+127698 <first : # times @ 46244327: real=1653 cpu=1659
+127698 <first : # promo = 0 (`) GT = 0
+127699 <first : move g3e5
+Interrupting second
+127699 >second: time 4405
+127699 >second: otim 4386
+book key = b66ae2789baf67a4
+book hit = (NULL)
+127699 >second: g3e5
+silence
+127803 <second: # times @ 46244327
+127803 <second: # 14+14 pieces, centr = (1,1) R=50
+127803 <second:  1    -13        0          3 c5d4
+Impossible move c5d4, type = 0
+127806 <second:  1      0        0          3 a8b8
+Impossible move a8b8, type = 0
+127808 <second:  1      1        0          3 d7d5
+Impossible move d7d5, type = 0
+127809 <second:  1      2        0          3 f6d5
+Impossible move f6d5, type = 0
+127811 <second:  1     10        0          3 f6e4
+Impossible move f6e4, type = 0
+127812 <second:  2     10        0          4 f6e4
+Impossible move f6e4, type = 0
+127813 <second:  3     10        0         20 f6e4
+Impossible move f6e4, type = 0
+127814 <second:  4     10        0         34 f6e4
+Impossible move f6e4, type = 0
+127814 <second:  5     10        0        399 f6e4
+Impossible move f6e4, type = 0
+127815 <second:  6     10        0        475 f6e4
+Impossible move f6e4, type = 0
+127921 <second:  7      5       21     191742 f6e4 e5d3 d7d5 h2h4 a8b8 d3e5 b6d7
+Impossible move b6d7, type = 0
+128751 <second: # times @ 46245388: real=1061 cpu=1051
+128751 <second: # promo = 0 (`) GT = 0
+128751 <second: move f6e4
+Interrupting first
+128752 >first : time 4386
+128752 >first : otim 4400
+book key = 57bc46c5b304042d
+book hit = (NULL)
+128752 >first : f6e4
+silence
+128868 <first : # times @ 46245388
+128868 <first : # 14+14 pieces, centr = (1,1) R=50
+128868 <first :  1    -21        0          7 d4c5 b6c5
+Impossible move b6c5, type = 0
+128870 <first :  1     -4        0         29 f3d2
+Impossible move f3d2, type = 0
+128872 <first :  1      1        0         49 a2a4
+Impossible move a2a4, type = 0
+128874 <first :  2      0        0        122 a2a4 b6c7
+Impossible move b6c7, type = 0
+128875 <first :  3    -46        0       2753 a2a4 e4c4 d4c5 c4e5 c5b6 e5f3 g2f3 a7b6
+Impossible move a7b6, type = 0
+128876 <first :  3     -4        0       4660 a2a3 b6c7 e5d3
+Impossible move e5d3, type = 0
+128877 <first :  3     -2        0       6517 h2h4 b6c7 e5d3
+Impossible move e5d3, type = 0
+128877 <first :  3     -1        0       7297 e5d3
+Impossible move e5d3, type = 0
+128879 <first :  4     -1        0       7368 e5d3
+Impossible move e5d3, type = 0
+128880 <first :  5     -1        1       9011 e5d3
+Impossible move e5d3, type = 0
+128881 <first :  6     -1        1       9851 e5d3
+Impossible move e5d3, type = 0
+129030 <first :  7     -3       28     229437 e5d3 d7d5 h2h4 a8b8 a2a4 b6d7 f3e5
+Impossible move f3e5, type = 0
+130092 <first : # times @ 46246730: real=1342 cpu=1338
+130092 <first : # promo = 0 (`) GT = 0
+130092 <first : move e5d3
+Interrupting second
+130092 >second: time 4400
+130093 >second: otim 4352
+book key = 558905c07ff261cf
+book hit = (NULL)
+130093 >second: e5d3
+silence
+130197 <second: # times @ 46246730
+130197 <second: # 14+14 pieces, centr = (1,1) R=50
+130197 <second:  1   -194        0         23 f8f3 d1f3
+Impossible move d1f3, type = 0
+130199 <second:  1      5        0         67 d7d5
+Impossible move d7d5, type = 0
+130201 <second:  2      5        0         76 d7d5
+Impossible move d7d5, type = 0
+130202 <second:  3      5        0        143 d7d5
+Impossible move d7d5, type = 0
+130202 <second:  4      5        0        171 d7d5
+Impossible move d7d5, type = 0
+130203 <second:  5      5        0        691 d7d5
+Impossible move d7d5, type = 0
+130362 <second:  6      0       26     216385 d7d5 h2h4 a8b8 a2a4 b6d7 f3e5
+Impossible move f3e5, type = 0
+131760 <second:  7     -2      166    1358257 d7d5 c2c3 c5c4 d3b4 b6d7 f3e5 d7f6
+Impossible move d7f6, type = 0
+131964 <second: # times @ 46248602: real=1872 cpu=1869
+131965 <second: # promo = 0 (`) GT = 0
+131965 <second: move d7d5
+Interrupting first
+131965 >first : time 4352
+131965 >first : otim 4312
+book hit = (NULL)
+131965 >first : d7d5
+silence
+132047 <first : # times @ 46248602
+132047 <first : # 14+14 pieces, centr = (1,1) R=50
+132047 <first :  1   -249        0          3 d3e4
+Impossible move d3e4, type = 0
+132049 <first :  1     -6        0          3 d3b5
+Impossible move d3b5, type = 0
+132051 <first :  1     -1        0          3 d3e5
+Impossible move d3e5, type = 0
+132052 <first :  1      0        0          3 d1b1
+Impossible move d1b1, type = 0
+132053 <first :  2     -4        0         15 d1b1 b6d7
+Impossible move b6d7, type = 0
+132054 <first :  2     -1        0        101 d3e5 b6d7
+Impossible move b6d7, type = 0
+132055 <first :  3     -3        0        167 d3e5 b6d7 e5d3
+Impossible move e5d3, type = 0
+132055 <first :  3      1        0       1664 c2c3 a8b8 d3e5
+Impossible move d3e5, type = 0
+132056 <first :  4      1        0       7599 c2c3 a8b8 f3e5 b8c8
+Impossible move b8c8, type = 0
+132057 <first :  5      1        3      33894 c2c3 a8b8 f3e5 b8c8 f2f4
+Impossible move f2f4, type = 0
+132457 <first :  6      3       48     398730 c2c3 c5c4 d3b4 b6d7 f3e5 d7f6
+Impossible move d7f6, type = 0
+132850 <first :  7      3       87     730097 c2c3 c5c4 d3b4 b6d7 f3e5 d7f6 f2f4
+Impossible move f2f4, type = 0
+Reset(1, 1) from gameMode 5
+recognized 'xchess3' (-1) as variant xchess3
+GameEnds(0, (null), 2)
+GE(0, (null), 2) bare king k=14 color=66
+133202 >first : force
+133202 >first : ping 6
+133202 >second: force
+133202 >second: ping 2
+shuffleOpenings = 0
+133342 >first : memory 68
+133342 >first : new
+random
+133342 >first : variant xchess3
+133342 >first : level 0 1 1
+133342 >first : post
+133342 >first : hard
+133342 >first : easy
+133342 >first : ping 7
+Impossible move c2c3, type = 0
+133345 <second: pong 2
+133619 <first :  8      3      165    1391987 c2c3 c5c4 d3b4 b6d7 f3e5 d7f6 f2f4 a8b8
+133750 <first : # times @ 46250380: real=1778 cpu=1784
+133750 <first : # promo = 0 (`) GT = 0
+133751 <first : move c2c3
+Ignoring extra move from first
+133751 <first : pong 6
+133778 <first : setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+recognized 'fairy' (-1) as variant xchess3
+shuffleOpenings = 0
+FEN castling rights: 134 134 4 134 134 4
+133865 <first : piece K& KisO2
+133865 <first : piece W& ND
+133865 <first : piece B& BN
+133865 <first : piece R& RF
+133865 <first : pong 7
+Reset(0, 1) from gameMode 0
+recognized 'xchess3' (-1) as variant xchess3
+GameEnds(0, (null), 2)
+145642 >first : force
+145643 >first : ping 8
+shuffleOpenings = 0
+145751 >first : memory 68
+145751 >first : new
+random
+145751 >first : variant xchess3
+145751 >first : level 0 1 1
+145751 >first : post
+145751 >first : hard
+145752 >first : easy
+145752 >first : ping 9
+Impossible move c2c3, type = 0
+145754 >first : force
+145754 <first : pong 8
+145781 <first : setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+recognized 'fairy' (-1) as variant xchess3
+shuffleOpenings = 0
+FEN castling rights: 134 134 4 134 134 4
+145868 <first : piece K& KisO2
+145868 <first : piece W& ND
+145868 <first : piece B& BN
+145868 <first : piece R& RF
+145868 <first : pong 9
+145872 >second: memory 68
+145873 >second: new
+random
+145873 >second: variant xchess3
+145873 >second: level 0 1 1
+145873 >second: post
+145873 >second: hard
+145873 >second: easy
+145873 >second: ping 3
+Impossible move c2c3, type = 0
+145875 >second: force
+145902 <second: setup (P...Q........B................RWKp...q........b................rwk) 8x8+0_fairy rwbqkbwr/pppppppp/8/8/8/8/PPPPPPPP/RWBQKBWR w KQkq - 0 1
+145902 <second: piece K& KisO2
+145902 <second: piece W& ND
+145902 <second: piece B& BN
+145902 <second: piece R& RF
+145902 <second: pong 3
+145918 >second: edit
+145918 >second: #
+145918 >second: Pa2
+145918 >second: Pb2
+145918 >second: Pc2
+145918 >second: Pd2
+145918 >second: Pe2
+145918 >second: Pf2
+145919 >second: Pg2
+145919 >second: Ph2
+145919 >second: Ra1
+145919 >second: Wb1
+145919 >second: Bc1
+145919 >second: Qd1
+145919 >second: Ke1
+145919 >second: Bf1
+145919 >second: Wg1
+145919 >second: Rh1
+145919 >second: c
+145919 >second: Ra8
+145919 >second: Wb8
+145919 >second: Bc8
+145919 >second: Qd8
+145919 >second: Ke8
+145919 >second: Bf8
+145919 >second: Wg8
+145919 >second: Rh8
+145919 >second: Pa7
+145919 >second: Pb7
+145920 >second: Pc7
+145920 >second: Pd7
+145920 >second: Pe7
+145920 >second: Pf7
+145920 >second: Pg7
+145920 >second: Ph7
+145920 >second: .
+Two Machines
+New game (1): Fairy-Max 5.1-Fairy-Max 5.1 (w)
+145920 >first : computer
+145920 >second: computer
+145920 >first : black
+145920 >first : time 6000
+145920 >first : otim 6000
+145921 >first : white
+book key = 7c4db5b4464d5f5c
+book hit = (NULL)
+145921 >first : go
+nps: w=-1, b=-1
+145921 <first : Error (unknown command): computer
+145921 <second: Error (unknown command): computer
+145921 <first : # times @ 46262548
+145921 <first : # 16+16 pieces, centr = (1,1) R=66
+145921 <first :  1     -6        0          7 a2a4
+Impossible move a2a4, type = 0
+Impossible move a2a4, type = 32
+145922 <first :  1     -4        0          9 c2c3
+Impossible move c2c3, type = 0
+Impossible move c2c3, type = 32
+145924 <first :  1      3        0         11 f2f4
+Impossible move f2f4, type = 0
+Impossible move f2f4, type = 32
+145925 <first :  1      6        0         13 g2g4
+Impossible move g2g4, type = 0
+Impossible move g2g4, type = 32
+145927 <first :  1     25        0         15 b1c3
+Impossible move b1c3, type = 0
+Impossible move b1c3, type = 32
+145929 <first :  2     13        0         37 b1c3 b8c6
+Impossible move b8c6, type = 0
+Impossible move b8c6, type = 32
+145929 <first :  3     13        0        462 b1c3 b8c6 c1d3
+Impossible move c1d3, type = 0
+Impossible move c1d3, type = 32
+145930 <first :  3     15        0        812 d2d4 b8c6 b1c3
+Impossible move b1c3, type = 0
+Impossible move b1c3, type = 32
+145931 <first :  4      4        0       1567 d2d4 b8c6 b1c3 c8d6
+Impossible move c8d6, type = 0
+Impossible move c8d6, type = 32
+145934 <first :  5     -8        1       9663 d2d4 b8c6 b1c3 c8d6 c1e3
+Impossible move c1e3, type = 0
+Impossible move c1e3, type = 32
+145944 <first :  5     -4        3      17145 d2d3 b8c6 b1c3 c8d6 c1e3
+Impossible move c1e3, type = 0
+Impossible move c1e3, type = 32
+145970 <first :  5     -3        4      36746 e2e3 b8c6 b1c3 c8d6 c1d3
+Impossible move c1d3, type = 0
+Impossible move c1d3, type = 32
+145981 <first :  5      1        6      45010 f2f4 c8d6 f1e3 b8c6 b1c3
+Impossible move b1c3, type = 0
+Impossible move b1c3, type = 32
+145999 <first :  5      6        7      58821 f2f3 b8c6 b1c3 c8d6 c1d3
+Impossible move c1d3, type = 0
+Impossible move c1d3, type = 32
+146100 <first :  5     15       18     136729 g1h3 b8c6 h3f4 c8d6 c1d3
+Impossible move c1d3, type = 0
+Impossible move c1d3, type = 32
+146182 <first :  6    -10       26     202080 g1h3 g8g6 b1c3 b8c6 c1d3 c8d6
+Impossible move c8d6, type = 0
+Impossible move c8d6, type = 32
+146210 <first :  6     15       29     223853 g1f3 b8c6 b1c3 c8d6 c1d3 g8f6
+Impossible move g8f6, type = 0
+Impossible move g8f6, type = 32
+146431 <first :  7     11       51     400087 g1f3 b8c6 f1e3 c8d6 f3f5 d6e5 e1g1
+Impossible move e1g1, type = 0
+Impossible move e1g1, type = 32
+146432 <first :  7     12       51     400475 g1f3
+Impossible move g1f3, type = 0
+Impossible move g1f3, type = 32
+146672 <first :  7     21       74     590953 b1c3 b8c6 c1d3 g8f6 f1e3 c8d6 g1g3
+Impossible move g1g3, type = 0
+Impossible move g1g3, type = 32
+147634 <first :  8     -3      171    1353010 b1c3 b8c6 c1d3 g8f6 f1e3 c8d6 g1f3 f8e6
+Impossible move f8e6, type = 0
+Impossible move f8e6, type = 32
+148475 <first :  8      9      255    2024590 c1d3 b8c6 g1f3 g8f6 f1e3 f8e6 e1g1 e8g8
+Impossible move e8g8, type = 0
+Impossible move e8g8, type = 32
+150339 <first : # times @ 46266963: real=4415 cpu=4418
+150339 <first : # promo = 0 (`) GT = 0
+150339 <first : move c1d3
+150339 >second: time 6000
+150340 >second: otim 5658
+book key = a48c91a9b6d99e86
+book hit = (NULL)
+150340 >second: c1d3
+150340 >second: black
+150340 >second: go
+silence
+150444 <second: # times @ 46266979
+150444 <second: # 16+16 pieces, centr = (1,1) R=66
+150444 <second:  1     -8        0          3 a7a5
+Impossible move a7a5, type = 0
+150446 <second:  1      5        0         13 a7a6
+Impossible move a7a6, type = 0
+150448 <second:  1      6        0         19 d7d6
+Impossible move d7d6, type = 0
+150449 <second:  1     10        0         29 f7f6
+Impossible move f7f6, type = 0
+150450 <second:  1     14        0         29 b8c6
+Impossible move b8c6, type = 0
+150452 <second:  1     15        0         35 b8b6
+Impossible move b8b6, type = 0
+150453 <second:  1     26        0         41 c8d6
+Impossible move c8d6, type = 0
+150455 <second:  2    -13        0        119 c8d6 b1c3
+Impossible move b1c3, type = 0
+150455 <second:  2     -2        0        171 f8e6 b1c3
+Impossible move b1c3, type = 0
+150456 <second:  2      7        0        253 g8f6 b1c3
+Impossible move b1c3, type = 0
+150456 <second:  2      9        0        364 b8b6 b1c3
+Impossible move b1c3, type = 0
+150457 <second:  3      5        0       1039 b8b6 b1c3 c8d6
+Impossible move c8d6, type = 0
+150459 <second:  3      6        0       1684 b8c6 b1c3 c8d6
+Impossible move c8d6, type = 0
+150460 <second:  3     14        0       2232 c8b6 b1c3 b8c6
+Impossible move b8c6, type = 0
+150460 <second:  3     24        0       2792 c8d6 b1c3 g8f6
+Impossible move g8f6, type = 0
+150461 <second:  4      5        0       3684 c8d6 b1c3 b8c6 g1f3
+Impossible move g1f3, type = 0
+150462 <second:  5     18        1      12945 c8d6 b1c3 g8f6 g1f3 b8c6
+Impossible move b8c6, type = 0
+150560 <second:  6     11       21     176855 c8d6 g1f3 f8e6 b1c3 b8c6 f1e3
+Impossible move f1e3, type = 0
+150969 <second:  7     24       62     507706 c8d6 b1c3 g8f6 c3b5 d6f4 b5d4 f4d5
+Impossible move f4d5, type = 0
+151743 <second:  8      1      140    1121287 c8d6 b1c3 f8g6 f1g3 g6d3 c2d3 b8c6 g1f3
+Impossible move g1f3, type = 0
+152547 <second:  8      5      219    1767610 f8g6 f1g3 g8f6 d3g6 f7g6 g1f3 e8g8 e1g1
+Impossible move e1g1, type = 0
+153070 <second:  8     10      273    2189208 g8f6 b1c3 f8g6
+Impossible move f8g6, type = 0
+153339 <second: # times @ 46269974: real=2995 cpu=2998
+153339 <second: # promo = 0 (`) GT = 0
+153340 <second: move g8f6
+Interrupting first
+153340 >first : time 5658
+153340 >first : otim 5799
+book key = 02ea6bad0461c778
+book hit = (NULL)
+153369 >first : g8f6
+silence
+153473 <first : # times @ 46270005
+153473 <first : # 16+16 pieces, centr = (1,1) R=66
+153473 <first :  1   -652        0          3 d3h7
+Impossible move d3h7, type = 0
+153475 <first :  1      2        0          3 d3f5
+Impossible move d3f5, type = 0
+153476 <first :  1     10        0          5 d3c4
+Impossible move d3c4, type = 0
+153478 <first :  1     14        0          5 g1f3
+Impossible move g1f3, type = 0
+153479 <first :  2     15        0          6 g1f3
+Impossible move g1f3, type = 0
+153480 <first :  3     14        0         45 g1f3
+Impossible move g1f3, type = 0
+153480 <first :  4     15        0        469 g1f3
+Impossible move g1f3, type = 0
+153481 <first :  5     14        0        739 g1f3
+Impossible move g1f3, type = 0
+153481 <first :  5     15        0        964 g1f3
+Impossible move g1f3, type = 0
+153499 <first :  6    -15       12      99892 g1f3 f8e6 b1c3 f6f4 d3e4 e8g8
+Impossible move e8g8, type = 0
+153668 <first :  6    -13       29     235360 d3f5 c8d6 g1f3 d6f5 f3f5 b8c6
+Impossible move b8c6, type = 0
+153888 <first :  6     -3       51     409249 b1c3 b8c6 f1e3
+Impossible move f1e3, type = 0
+153963 <first :  6      5       59     468262 b1b3 b8b6 b3d4 b6d5 d3e5 f8g6
+Impossible move f8g6, type = 0
+154193 <first :  7      3       82     646671 b1b3 b8b6 b3d4 b6d5 d3e5 c7c5 c2c4 c5d4 c4d5 f6d5 e5d4
+Impossible move e5d4, type = 0
+154591 <first :  7      9      121     956718 g1f3 b8b6 e2e4 f8e6 f1e3 e8g8 e1g1
+Impossible move e1g1, type = 0
+154672 <first : # times @ 46271300: real=1295 cpu=1303
+154672 <first : # promo = 0 (`) GT = 0
+154672 <first : move g1f3
+Interrupting second
+154673 >second: time 5799
+154673 >second: otim 5624
+book key = 3c1097f8988fea58
+book hit = (NULL)
+154673 >second: g1f3
+silence
+154777 <second: # times @ 46271300
+154777 <second: # 16+16 pieces, centr = (1,1) R=66
+154777 <second:  1     -7        0          3 a7a5
+Impossible move a7a5, type = 0
+154779 <second:  1      1        0          9 b7b6
+Impossible move b7b6, type = 0
+154781 <second:  1      2        0          9 d7d5
+Impossible move d7d5, type = 0
+154782 <second:  1     14        0         11 d7d6
+Impossible move d7d6, type = 0
+154783 <second:  2    -26        0         39 d7d6 b1c3
+Impossible move b1c3, type = 0
+154784 <second:  2    -20        0         74 d7d5 b1c3
+Impossible move b1c3, type = 0
+154785 <second:  2    -17        0        156 g7g6 b1c3
+Impossible move b1c3, type = 0
+154785 <second:  2    -15        0        172 h7h6 b1c3
+Impossible move b1c3, type = 0
+154786 <second:  2      6        0        181 f6d5 d3e4
+Impossible move d3e4, type = 0
+154787 <second:  2      7        0        219 f8e6 d3f5 e6f5 f3f5
+Impossible move f3f5, type = 0
+154788 <second:  3     26        0       1067 f8e6 f1g3
+Impossible move f1g3, type = 0
+154789 <second:  4     14        0       1255 f8e6 b1c3 e8g8 f1e3
+Impossible move f1e3, type = 0
+154790 <second:  5     14        1       2779 f8e6 b1c3 e8g8 c3e4 e6d5
+Impossible move e6d5, type = 0
+154791 <second:  5     15        1       2779 f8e6
+Impossible move f8e6, type = 0
+154792 <second:  5     18        1      11732 f6d5 d3e4 b8b6 b1c3 f8e6
+Impossible move f8e6, type = 0
+154793 <second:  6      3        3      23405 f6d5 d3e4 b8b6 b1c3 f8e6 f1g3
+Impossible move f1g3, type = 0
+154854 <second:  6      9       18     141119 f8e6 f1g3 b8c6 b1c3 e8g8 e1g1
+Impossible move e1g1, type = 0
+155235 <second:  7      0       56     439455 f8e6 f1g3 b8c6 b1c3 e8g8 e1g1 c8d6
+Impossible move c8d6, type = 0
+155237 <second:  7      1       56     439455 f8e6
+Impossible move f8e6, type = 0
+156343 <second:  7     20      166    1301524 b8b6 b1c3 b6d5 c3d5 f6d5 d3e4 f8e6
+Impossible move f8e6, type = 0
+156347 <second: # times @ 46272985: real=1685 cpu=1674
+156347 <second: # promo = 0 (`) GT = 0
+156347 <second: move b8b6
+Interrupting first
+156348 >first : time 5624
+156348 >first : otim 5732
+book key = d7dbe1d1ed3fbb8a
+book hit = (NULL)
+156348 >first : b8b6
+silence
+156430 <first : # times @ 46272985
+156430 <first : # 16+16 pieces, centr = (1,1) R=66
+156430 <first :  1   -651        0          9 d3h7 h8h7
+Impossible move h8h7, type = 0
+156433 <first :  1    -13        0         11 d3f5
+Impossible move d3f5, type = 0
+156434 <first :  1      1        0         13 d3e5
+Impossible move d3e5, type = 0
+156436 <first :  1      5        0         15 e2e3
+Impossible move e2e3, type = 0
+156437 <first :  2     -9        0         23 e2e3 c8d6
+Impossible move c8d6, type = 0
+156438 <first :  2      7        0         23 e2e4
+Impossible move e2e4, type = 0
+156438 <first :  3      7        0         52 e2e4
+Impossible move e2e4, type = 0
+156439 <first :  4      7        0         65 e2e4
+Impossible move e2e4, type = 0
+156440 <first :  5      7        0        993 e2e4
+Impossible move e2e4, type = 0
+156441 <first :  5     13        0       3236 b1c3 b6d5 c3d5 f6d5 d3e4
+Impossible move d3e4, type = 0
+156479 <first :  6     -4       12      98615 b1c3 b6d5 c3d5 f6d5 d3e4 f8e6
+Impossible move f8e6, type = 0
+156666 <first :  6      1       31     241271 d3e5 c8d6 b1b3 b6c4 e5d6 c7d6
+Impossible move c7d6, type = 0
+156853 <first :  7     -5       49     386764 d3e5 d7d6 e5d4 c7c5 d4b3 c8e6 b1c3
+Impossible move b1c3, type = 0
+157184 <first :  7      3       82     649806 e2e4 f8g6 f1g3 c8d6 b1c3 b6c4 g3d6
+Impossible move g3d6, type = 0
+158990 <first :  8     -5      263    2013359 e2e4 f8g6 f1g3 f6h5 g3e5 c8d6 e5g6 h7g6
+Impossible move h7g6, type = 0
+159827 <first :  8      5      347    2666428 b1c3 b6d5 c3d5 f6d5 d3e4 d5f6 e4f5 c8d6
+Impossible move c8d6, type = 0
+161102 <first : # times @ 46277727: real=4742 cpu=4753
+161102 <first : # promo = 0 (`) GT = 0
+161102 <first : move b1c3
+Interrupting second
+161102 >second: time 5732
+161102 >second: otim 5249
+book key = 396341f09e4fb08e
+book hit = (NULL)
+161103 >second: b1c3
+silence
+161207 <second: # times @ 46277743
+161207 <second: # 16+16 pieces, centr = (1,1) R=66
+161207 <second:  1    -23        0          9 a7a5
+Impossible move a7a5, type = 0
+161210 <second:  1    -20        0         19 a7a6
+Impossible move a7a6, type = 0
+161211 <second:  1     -7        0         23 c7c6
+Impossible move c7c6, type = 0
+161213 <second:  1      9        0         27 d7d5
+Impossible move d7d5, type = 0
+161214 <second:  1     21        0         31 b6d5
+Impossible move b6d5, type = 0
+161215 <second:  2     20        0         32 b6d5
+Impossible move b6d5, type = 0
+161216 <second:  2     21        0         35 b6d5
+Impossible move b6d5, type = 0
+161217 <second:  3     20        0         45 b6d5
+Impossible move b6d5, type = 0
+161217 <second:  4     20        0         52 b6d5
+Impossible move b6d5, type = 0
+161218 <second:  5     20        0         59 b6d5
+Impossible move b6d5, type = 0
+161219 <second:  6      1        3      34204 b6d5 c3d5 f6d5 d3e4 f8e6 f1g3
+Impossible move f1g3, type = 0
+161629 <second:  6      2       51     402653 d7d5 f1g3 c8d6 e1g1 f8e6 g3e5
+Impossible move g3e5, type = 0
+161939 <second:  7    -17       82     634175 d7d5 f1g3 c8d6 e1g1 d6g3 f2g3 f8e6
+Impossible move f8e6, type = 0
+162032 <second:  7    -15       92     705910 d7d6 f1e3 f8d7 e1g1 e8g8 f3d4 d7g4
+Impossible move d7g4, type = 0
+162667 <second:  7     -1      156    1181781 e7e6 f1g3 b6d5 c3d5 f6d5 d3e4 c8d6
+Impossible move c8d6, type = 0
+162752 <second:  7     26      163    1249515 b6d5 c3d5 f6d5 d3e4 d5f6 e4f5 c8d6
+Impossible move c8d6, type = 0
+162767 <second: # times @ 46279397: real=1654 cpu=1663
+162767 <second: # promo = 0 (`) GT = 0
+162767 <second: move b6d5
+Interrupting first
+162767 >first : time 5249
+162767 >first : otim 5665
+book key = 27883c6f0530d2cd
+book hit = (NULL)
+162768 >first : b6d5
+silence
+162872 <first : # times @ 46279397
+162872 <first : # 16+16 pieces, centr = (1,1) R=66
+162872 <first :  1      4        0          3 c3d5
+Impossible move c3d5, type = 0
+162874 <first :  2      4        0          4 c3d5
+Impossible move c3d5, type = 0
+162875 <first :  3      4        0         30 c3d5
+Impossible move c3d5, type = 0
+162875 <first :  4      4        0         39 c3d5
+Impossible move c3d5, type = 0
+162876 <first :  5      4        0         49 c3d5
+Impossible move c3d5, type = 0
+162876 <first :  6      4        0         61 c3d5
+Impossible move c3d5, type = 0
+162878 <first :  7      6        1      11198 c3d5 f6d5 d3e4 d5f6 e4f5 c8d6 f1e3
+Impossible move f1e3, type = 0
+162893 <first :  8     -4       12     107048 c3d5 f6d5 d3e4 d5f6 e4f5 c8d6 f1e3 f8e6
+Impossible move f8e6, type = 0
+163478 <first :  9      3       71     627045 c3d5 f6d5 d3e4 d5f6 e4f5 f6d5 f5e4
+Impossible move f5e4, type = 0
+164443 <first : 10     -4      168    1457632 c3d5 f6d5 d3e4 d5f6 e4f5 f6d6 f5g4 d6e4 g4e5 c8d6
+Impossible move c8d6, type = 0
+167358 <first : # times @ 46283983: real=4586 cpu=4590
+167358 <first : # promo = 0 (`) GT = 0
+167358 <first : move c3d5
+Interrupting second
+167358 >second: time 5665
+167358 >second: otim 4890
+book key = 6bd6e16a34dee5a0
+book hit = (NULL)
+167359 >second: c3d5
+silence
+167463 <second: # times @ 46283999
+167463 <second: # 16+15 pieces, centr = (1,1) R=61
+167463 <second:  1     27        0          3 f6d5
+Impossible move f6d5, type = 0
+167466 <second:  2     27        0          4 f6d5
+Impossible move f6d5, type = 0
+167466 <second:  3     27        0          5 f6d5
+Impossible move f6d5, type = 0
+167467 <second:  4     27        0          6 f6d5
+Impossible move f6d5, type = 0
+167468 <second:  5     27        0          7 f6d5
+Impossible move f6d5, type = 0
+167468 <second:  6      1        0       6627 f6d5 d3e4 d5f6 e4d3 c8d6 f1e3
+Impossible move f1e3, type = 0
+167470 <second:  7      9        9      85873 f6d5 d3e4 d5f6 e4f5 c8d6 f1e3 f8e6
+Impossible move f8e6, type = 0
+167615 <second:  8      2       24     221228 f6d5 d3e4 d5f6 e4f5 d7d5 f1e3 c8f5 f3f5
+Impossible move f3f5, type = 0
+168254 <second:  9     10       88     769516 f6d5 d3e4 d5f6 e4c3 c8d6 f1e3 f8g6 e1g1 e8g8
+Impossible move e8g8, type = 0
+169909 <second: 10      2      254    2191774 f6d5 d3e4 d5f6 e4c3 c8d6 f3d4 d6e4 c3e4 f6e4 f1e3
+Impossible move f1e3, type = 0
+169975 <second: # times @ 46286604: real=2605 cpu=2616
+169975 <second: # promo = 0 (`) GT = 0
+169975 <second: move f6d5
+Interrupting first
+169975 >first : time 4890
+169975 >first : otim 5504
+book key = 8245ef87c4038f42
+book hit = (NULL)
+169976 >first : f6d5
+silence
+170080 <first : # times @ 46286604
+170080 <first : # 15+15 pieces, centr = (1,1) R=60
+170080 <first :  1   -652        0          7 d3h7 h8h7
+Impossible move h8h7, type = 0
+170082 <first :  1     -5        0          7 d3e4
+Impossible move d3e4, type = 0
+170084 <first :  1      3        0         13 d3e5
+Impossible move d3e5, type = 0
+170085 <first :  2     -8        0         43 d3e5 f8e6
+Impossible move f8e6, type = 0
+170086 <first :  2     -5        0         43 d3e4
+Impossible move d3e4, type = 0
+170086 <first :  3     -5        0         75 d3e4
+Impossible move d3e4, type = 0
+170087 <first :  4     -5        0        166 d3e4
+Impossible move d3e4, type = 0
+170087 <first :  5     -5        0        260 d3e4
+Impossible move d3e4, type = 0
+170089 <first :  6     -5        0        329 d3e4
+Impossible move d3e4, type = 0
+170090 <first :  7     -5        0        367 d3e4
+Impossible move d3e4, type = 0
+170091 <first :  8     -5        0        422 d3e4
+Impossible move d3e4, type = 0
+172084 <first :  9     -1      210    1736473 d3e4 d5f6 e4f5 f8e6 f5e6 d7e6 f1e3 f6d5 e3d4
+Impossible move e3d4, type = 0
+172306 <first : # times @ 46288944: real=2340 cpu=2330
+172306 <first : # promo = 0 (`) GT = 0
+172306 <first : move d3e4
+Interrupting second
+172306 >second: time 5504
+172306 >second: otim 4757
+book key = ac6337eeca43be80
+book hit = (NULL)
+172307 >second: d3e4
+silence
+172389 <second: # times @ 46288944
+172389 <second: # 15+15 pieces, centr = (1,1) R=60
+172389 <second:  1   -478        0          7 a7a5 e4d5
+Impossible move e4d5, type = 0
+172391 <second:  1   -469        0         19 c7c5 e4d5
+Impossible move e4d5, type = 0
+172393 <second:  1      3        0         21 c7c6
+Impossible move c7c6, type = 0
+172395 <second:  2     -4        0         33 c7c6 f1g3
+Impossible move f1g3, type = 0
+172395 <second:  2      3        0        107 d5f6
+Impossible move d5f6, type = 0
+172396 <second:  3      3        0        112 d5f6
+Impossible move d5f6, type = 0
+172397 <second:  4      3        0        138 d5f6
+Impossible move d5f6, type = 0
+172397 <second:  5      3        0        195 d5f6
+Impossible move d5f6, type = 0
+172399 <second:  6      3        0        244 d5f6
+Impossible move d5f6, type = 0
+172400 <second:  7      3        0        347 d5f6
+Impossible move d5f6, type = 0
+172401 <second:  8      3        0        437 d5f6
+Impossible move d5f6, type = 0
+174102 <second:  9     10      179    1493252 d5f6 e4c3 c8d6 f3d4 d6c5 f1e3 f8g6 e1g1 e8g8
+Impossible move e8g8, type = 0
+174703 <second: # times @ 46291331: real=2387 cpu=2396
+174703 <second: # promo = 0 (`) GT = 0
+174703 <second: move d5f6
+Interrupting first
+174703 >first : time 4757
+174703 >first : otim 5364
+book key = 0088145b8e7ad838
+book hit = (NULL)
+174704 >first : d5f6
+silence
+174808 <first : # times @ 46291331
+174808 <first : # 15+15 pieces, centr = (1,1) R=60
+174808 <first :  1   -261        0          7 e4f6 e7f6
+Impossible move e7f6, type = 0
+174810 <first :  1     -3        0          9 e4d3
+Impossible move e4d3, type = 0
+174812 <first :  1     -2        0          9 e4f5
+Impossible move e4f5, type = 0
+174813 <first :  2     -2        0         12 e4f5
+Impossible move e4f5, type = 0
+174814 <first :  3     -2        0         33 e4f5
+Impossible move e4f5, type = 0
+174814 <first :  4     -2        0         60 e4f5
+Impossible move e4f5, type = 0
+174815 <first :  5     -2        0         81 e4f5
+Impossible move e4f5, type = 0
+174815 <first :  6     -2        0         96 e4f5
+Impossible move e4f5, type = 0
+174817 <first :  7     -2        0        238 e4f5
+Impossible move e4f5, type = 0
+175079 <first :  8    -21       37     300984 e4f5 f8e6 f5e6 d7e6 f1g3 e8g8 e1g1 c8d6
+Impossible move c8d6, type = 0
+175531 <first :  8    -17       82     664992 e4d3 f8e6 f1g3 e8g8 e1g1 f6d5 d3e4 c8d6
+Impossible move c8d6, type = 0
+176434 <first :  8    -16      173    1398624 e4c3 f8g6 f1g3 c8d6 e1g1 e8g8 d2d4 f6e4
+Impossible move f6e4, type = 0
+177027 <first : # times @ 46293655: real=2324 cpu=2323
+177027 <first : # promo = 0 (`) GT = 0
+177027 <first : move e4c3
+Interrupting second
+177027 >second: time 5364
+177027 >second: otim 4624
+book key = c128e87564e0d5b2
+book hit = (NULL)
+177028 >second: e4c3
+silence
+177132 <second: # times @ 46293655
+177132 <second: # 15+15 pieces, centr = (1,1) R=60
+177132 <second:  1     -4        0          3 a7a5
+Impossible move a7a5, type = 0
+177134 <second:  1      5        0          3 c7c5
+Impossible move c7c5, type = 0
+177136 <second:  1     11        0          3 c8d6
+Impossible move c8d6, type = 0
+177137 <second:  2     11        0          4 c8d6
+Impossible move c8d6, type = 0
+177138 <second:  3     11        0         42 c8d6
+Impossible move c8d6, type = 0
+177138 <second:  4     11        0         56 c8d6
+Impossible move c8d6, type = 0
+177139 <second:  5     11        0        195 c8d6
+Impossible move c8d6, type = 0
+177139 <second:  6     11        1       9917 c8d6
+Impossible move c8d6, type = 0
+177141 <second:  7     11        3      20573 c8d6
+Impossible move c8d6, type = 0
+177871 <second:  8      2       84     696269 c8d6 f3d4 d6c4 d2d3 c4d5 c3d5 f6d5 f1g3
+Impossible move f1g3, type = 0
+179538 <second:  8      3      251    2070573 f8e6 f3d4 e6c5 b2b4 c5e4 c3e4 f6e4 f1e3
+Impossible move f1e3, type = 0
+180532 <second:  8      6      351    2893925 f8g6 f1e3 c8d6 e1g1 e8g8 f3d4 d6e5 f2f4
+Impossible move f2f4, type = 0
+181148 <second: # times @ 46297773: real=4118 cpu=4120
+181148 <second: # promo = 0 (`) GT = 0
+181148 <second: move f8g6
+Interrupting first
+181148 >first : time 4624
+181148 >first : otim 5052
+book key = c00afc92fed83580
+book hit = (NULL)
+181148 >first : f8g6
+silence
+181252 <first : # times @ 46297773
+181252 <first : # 15+15 pieces, centr = (1,1) R=60
+181252 <first :  1   -259        0          9 c3f6 g7f6
+Impossible move g7f6, type = 0
+181255 <first :  1      5        0         11 c3d4
+Impossible move c3d4, type = 0
+181256 <first :  2    -21        0         23 c3d4 e8g8
+Impossible move e8g8, type = 0
+181257 <first :  2    -11        0        107 f3e5 g6f5
+Impossible move g6f5, type = 0
+181257 <first :  3    -11        0        142 f3e5 g6f5
+Impossible move g6f5, type = 0
+181258 <first :  4    -11        0        185 f3e5 g6f5
+Impossible move g6f5, type = 0
+181258 <first :  5    -11        1       3178 f3e5 g6f5
+Impossible move g6f5, type = 0
+181260 <first :  6    -11        6      49426 f3e5 g6f5
+Impossible move g6f5, type = 0
+181676 <first :  7      3       53     430071 f3e5 g6e4 c3e4 f6e4 f1e3 c8d6 d2d4
+Impossible move d2d4, type = 0
+182366 <first :  8     -8      121    1005303 f3e5 g6e4 c3e4 f6e4 d2d3 c8d6 e5e3 e4e6
+Impossible move e4e6, type = 0
+186183 <first :  8     -6      503    4104625 d2d3 e8g8 f1e3 c8d6 e1g1 c7c5 d1c1
+Impossible move d1c1, type = 0
+189056 <first :  8     -2      791    6434564 f1e3 f6e4 c3d5 c7c6 d5b4 a7a5 b4d3 e8g8
+Impossible move e8g8, type = 0
+189764 <first : # times @ 46306400: real=8627 cpu=8615
+189765 <first : # promo = 0 (`) GT = 0
+189765 <first : move f1e3
+Interrupting second
+189765 >second: time 5052
+189765 >second: otim 3863
+book key = a07101722849ee14
+book hit = (NULL)
+189765 >second: f1e3
+silence
+189869 <second: # times @ 46306400
+189869 <second: # 15+15 pieces, centr = (1,1) R=60
+189869 <second:  1   -644        0          3 g6c2
+Impossible move g6c2, type = 0
+189872 <second:  1      3        0          3 g6e4
+Impossible move g6e4, type = 0
+189873 <second:  1      6        0          3 c8d6
+Impossible move c8d6, type = 0
+189875 <second:  2      6        0          4 c8d6
+Impossible move c8d6, type = 0
+189875 <second:  3      6        0         19 c8d6
+Impossible move c8d6, type = 0
+189876 <second:  4      6        0         34 c8d6
+Impossible move c8d6, type = 0
+189876 <second:  5      6        0        224 c8d6
+Impossible move c8d6, type = 0
+189877 <second:  6      6        0        272 c8d6
+Impossible move c8d6, type = 0
+189976 <second:  7     11       20     170496 c8d6 e1g1 e8g8 f3d4 d6c5 f2f4 d7d5
+Impossible move d7d5, type = 0
+191899 <second:  7     12      213    1713913 f6e4 c3a4 c7c6 d2d3 e4e6 e1g1 e8g8
+Impossible move e8g8, type = 0
+192325 <second: # times @ 46308959: real=2559 cpu=2560
+192325 <second: # promo = 0 (`) GT = 0
+192326 <second: move f6e4
+Interrupting first
+192326 >first : time 3863
+192326 >first : otim 4896
+book key = 41a7a5cf00e28d9d
+book hit = (NULL)
+192326 >first : f6e4
+silence
+192430 <first : # times @ 46308959
+192430 <first : # 15+15 pieces, centr = (1,1) R=60
+192430 <first :  1   -265        0         11 c3e4 g6e4
+Impossible move g6e4, type = 0
+192433 <first :  1     -6        0         11 c3d4
+Impossible move c3d4, type = 0
+192434 <first :  1     -5        0         11 c3b4
+Impossible move c3b4, type = 0
+192435 <first :  1     -3        0         11 c3d5
+Impossible move c3d5, type = 0
+192437 <first :  2     -3        0         16 c3d5
+Impossible move c3d5, type = 0
+192437 <first :  3     -3        0         98 c3d5
+Impossible move c3d5, type = 0
+192438 <first :  4     -3        0        270 c3d5
+Impossible move c3d5, type = 0
+192439 <first :  5     -3        0        315 c3d5
+Impossible move c3d5, type = 0
+192439 <first :  6     -3        0        339 c3d5
+Impossible move c3d5, type = 0
+192615 <first :  7     -5       29     238052 c3d5 e8g8 e1g1 e7e6 d5b4 c8b6 d2d4
+Impossible move d2d4, type = 0
+194623 <first :  8     -8      229    1867373 c3d5 c7c6 d5b3 d7d5 e1g1 e8g8 d2d3 e4e6
+Impossible move e4e6, type = 0
+195620 <first :  8     -7      329    2678943 c3d4 c7c5 d4f5 g6f5 f3f5 e8g8 e1g1 c8b6
+Impossible move c8b6, type = 0
+196517 <first : # times @ 46313155: real=4196 cpu=4190
+196517 <first : # promo = 0 (`) GT = 0
+196517 <first : move c3d4
+Interrupting second
+196517 >second: time 4896
+196517 >second: otim 3544
+book key = 316b72837e590b21
+book hit = (NULL)
+196517 >second: c3d4
+silence
+196600 <second: # times @ 46313155
+196600 <second: # 15+15 pieces, centr = (1,1) R=60
+196600 <second:  1   -382        0         41 e4d2 d1d2
+Impossible move d1d2, type = 0
+196602 <second:  1   -377        0         57 e4f2 e3f2
+Impossible move e3f2, type = 0
+196604 <second:  1     -3        0         73 e4f6
+Impossible move e4f6, type = 0
+196605 <second:  1     -2        0         75 e4e6
+Impossible move e4e6, type = 0
+196606 <second:  1      5        0         90 c8b6
+Impossible move c8b6, type = 0
+196608 <second:  1     13        0         92 c8d6
+Impossible move c8d6, type = 0
+196609 <second:  2    -13        0        268 c8d6 e1g1
+Impossible move e1g1, type = 0
+196610 <second:  2      0        0        712 e8g8 e1g1
+Impossible move e1g1, type = 0
+(1-type) castling 4 6
+196611 <second:  2     17        0        763 c7c5
+Impossible move c7c5, type = 0
+196611 <second:  3     17        0        793 c7c5
+Impossible move c7c5, type = 0
+196612 <second:  4     17        0        841 c7c5
+Impossible move c7c5, type = 0
+196613 <second:  5     17        0       1260 c7c5
+Impossible move c7c5, type = 0
+196650 <second:  6      9       12     103669 c7c5 d4f5 e8g8 f5g6 f7g6 e1g1
+Impossible move e1g1, type = 0
+197081 <second:  7     12       56     450617 c7c5 d4f5 e8g8 e1g1 c8d6 f5d6 e7d6
+Impossible move e7d6, type = 0
+197723 <second: # times @ 46314356: real=1201 cpu=1205
+197724 <second: # promo = 0 (`) GT = 0
+197724 <second: move c7c5
+Interrupting first
+197724 >first : time 3544
+197724 >first : otim 4875
+book key = d71aa32d811e005c
+book hit = (NULL)
+197724 >first : c7c5
+silence
+197806 <first : # times @ 46314356
+197806 <first : # 15+15 pieces, centr = (1,1) R=60
+197806 <first :  1   -649        0         11 d4g7 h8g7
+Impossible move h8g7, type = 0
+197808 <first :  1   -264        0         21 d4c3 e4c3 d2c3
+Impossible move d2c3, type = 0
+197810 <first :  1     -2        0         35 d4e5 g6e5 f3e5
+Impossible move f3e5, type = 0
+197812 <first :  2     -5        0         45 d4e5 e8g8 e5g6
+Impossible move e5g6, type = 0
+197813 <first :  3     -5        0        126 d4e5 e8g8 e5g6
+Impossible move e5g6, type = 0
+197814 <first :  4    -15        0       1662 d4e5 g6e5 f3e5 c8d6
+Impossible move c8d6, type = 0
+197814 <first :  4     -8        0       1971 d4f5
+Impossible move d4f5, type = 0
+197815 <first :  5     -8        0       1993 d4f5
+Impossible move d4f5, type = 0
+197816 <first :  6     -8        3      23190 d4f5
+Impossible move d4f5, type = 0
+198092 <first :  7     -5       37     299179 d4f5 e8g8 e1g1 c8b6 d2d4 d7d5 c2c3 g6f5 f3f5
+Impossible move f3f5, type = 0
+198876 <first :  8     -5      115     974586 d4f5 e8g8 e1g1 d7d5 f5g6 h7g6 d2d3 e4e6
+Impossible move e4e6, type = 0
+199610 <first : # times @ 46316244: real=1888 cpu=1886
+199611 <first : # promo = 0 (`) GT = 0
+199611 <first : move d4f5
+Interrupting second
+199611 >second: time 4875
+199611 >second: otim 3455
+book key = 38ffc50f869efee7
+book hit = (NULL)
+199611 >second: d4f5
+silence
+199715 <second: # times @ 46316244
+199715 <second: # 15+15 pieces, centr = (1,1) R=60
+199715 <second:  1      3        0          3 g6f5
+Impossible move g6f5, type = 0
+199718 <second:  1      5        0          3 c8b6
+Impossible move c8b6, type = 0
+199719 <second:  1     13        0          3 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+199721 <second:  2     13        0          4 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+199722 <second:  3     13        0         21 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+199722 <second:  4     13        0         36 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+199723 <second:  5     13        0        101 e8g8
+Impossible move e8g8, type = 0
+(1-type) castling 4 6
+199723 <second:  6      5        4      39496 e8g8 e1g1 c8b6 d2d4 d7d5 c2c3 g6f5 f3f5
+Impossible move f3f5, type = 0
+(1-type) castling 4 6
+199804 <second:  7      5       18     161577 e8g8 e1g1 d7d5 f5g6 h7g6 d2d3 e4e6
+Impossible move e4e6, type = 0
+(1-type) castling 4 6
+200859 <second:  8      1      124    1060146 e8g8 e1g1 c8b6 d2d3 e4e6 f5g6 f7g6 c2c4
+Impossible move c2c4, type = 0
+(1-type) castling 4 6
+202173 <second: # times @ 46318802: real=2558 cpu=2562
+202173 <second: # promo = 0 (`) GT = 0
+202173 <second: move e8g8
+Interrupting first
+202173 >first : time 3455
+202173 >first : otim 4719
+book key = 7e92be2b792e3561
+book hit = (NULL)
+202174 >first : e8g8
+silence
+202255 <first : # times @ 46318802
+202255 <first : # 15+15 pieces, centr = (1,1) R=60
+202255 <first :  1     -5        0         39 f5g6 f7g6
+Impossible move f7g6, type = 0
+202258 <first :  1     -2        0        231 e3d5 g6f5 f3f5
+Impossible move f3f5, type = 0
+202259 <first :  1      2        0        464 c2c4 g6f5 f3f5
+Impossible move f3f5, type = 0
+202261 <first :  1     23        0        642 e1g1 g6f5 f3f5
+Impossible move f3f5, type = 0
+(1-type) castling 4 6
+202262 <first :  2     18        0        738 e1g1 c8d6 f5d6 e7d6
+Impossible move e7d6, type = 0
+(1-type) castling 4 6
+202263 <first :  3     18        1       6002 e1g1 c8d6 f5d6
+Impossible move f5d6, type = 0
+(1-type) castling 4 6
+202264 <first :  3     21        1       6614 f5g6 f7g6 e1g1
+Impossible move e1g1, type = 0
+202264 <first :  4      9        1       8846 f5g6 h7g6 e1g1 c8d6
+Impossible move c8d6, type = 0
+202265 <first :  4     18        3      18411 e1g1 c8d6 f5d6 e7d6
+Impossible move e7d6, type = 0
+(1-type) castling 4 6
+202267 <first :  5     21        6      42135 e1g1 c8b6 d2d4 d7d5 c2c3 g6f5 f3f5
+Impossible move f3f5, type = 0
+(1-type) castling 4 6
+202277 <first :  6     21       11      84331 e1g1 d7d5 f5g6 h7g6 d2d3 e4e6
+Impossible move e4e6, type = 0
+(1-type) castling 4 6
+202569 <first :  7     25       40     329775 e1g1 c8b6 d2d3 e4e6 f5g6 f7g6 c2c4
+Impossible move c2c4, type = 0
+(1-type) castling 4 6
+203227 <first :  8     20      106     906204 e1g1 d7d6 f5g6 h7g6 d2d3 e4g4 e3f4 c8d7
+Impossible move c8d7, type = 0
+(1-type) castling 4 6
+203757 <first : # times @ 46320394: real=1592 cpu=1583
+203757 <first : # promo = 0 (`) GT = 0
+203757 <first : move e1g1
+Interrupting second
+203757 >second: time 4719
+203757 >second: otim 3397
+book key = 36dd428a98296733
+book hit = (NULL)
+203758 >second: e1g1
+silence
+203840 <second: # times @ 46320394
+203840 <second: # 15+15 pieces, centr = (1,1) R=60
+203840 <second:  1      3        0        175 g6f5
+Impossible move g6f5, type = 0
+203842 <second:  1      5        0        215 c8b6
+Impossible move c8b6, type = 0
+203844 <second:  1      8        0        267 c8d6 f5d6 e7d6
+Impossible move e7d6, type = 0
+203846 <second:  2      8        0        271 c8d6 f5d6
+Impossible move f5d6, type = 0
+203847 <second:  3      8        1       7301 c8d6 f5d6 e7d6
+Impossible move e7d6, type = 0
+203847 <second:  4      3        1       8534 c8d6 f5d6 e7d6 c2c4
+Impossible move c2c4, type = 0
+203848 <second:  4      5        3      17496 c8b6 d2d4 d7d5 c2c3 g6f5 f3f5
+Impossible move f3f5, type = 0
+203849 <second:  5      4        6      46799 c8b6 d2d3 g6f5 f3f5 e4e6
+Impossible move e4e6, type = 0
+203851 <second:  5      5        7      62459 d7d5 f5g6 h7g6 d2d3 e4e6
+Impossible move e4e6, type = 0
+203855 <second:  6      0        9      74698 d7d5 f5g6 h7g6 d2d3 e4e6 c2c4
+Impossible move c2c4, type = 0
+203955 <second:  6      1       18     159784 c8b6 d2d3 e4e6 f5g6 f7g6 c2c4
+Impossible move c2c4, type = 0
+204209 <second:  7      2       45     370065 c8b6 d2d3 e4e6 c2c4 d7d5 d1c1 g6f5
+Impossible move g6f5, type = 0
+204278 <second:  7      3       51     430998 c8d6 f5d6 e7d6 d2d4 f7f5 c2c4 a8b8
+Impossible move a8b8, type = 0
+204416 <second:  7      5       65     550094 d7d5 f5g6 h7g6 d2d3 e4e6 c2c4 c8b6
+Impossible move c8b6, type = 0
+204461 <second:  7      6       70     591383 d7d6 f5g6 h7g6 d2d3 e4g4 e3f4 c8d7
+Impossible move c8d7, type = 0
+204773 <second:  8      3      101     879968 d7d6 f5g6 h7g6 d2d3 e4g4 e3f4 c8d7 c2c4
+Impossible move c2c4, type = 0
+205164 <second: # times @ 46321798: real=1404 cpu=1399
+205164 <second: # promo = 0 (`) GT = 0
+205164 <second: move d7d6
+Interrupting first
+205164 >first : time 3397
+205164 >first : otim 4678
+book key = 0f67d4eb4a512e5e
+book hit = (NULL)
+205164 >first : d7d6
+silence
+205246 <first : # times @ 46321798
+205246 <first : # 15+15 pieces, centr = (1,1) R=60
+205246 <first :  1     -4        0          3 f5g6
+Impossible move f5g6, type = 0
+205249 <first :  2     -4        0          7 f5g6 h7g6
+Impossible move h7g6, type = 0
+205249 <first :  3      1        0       1419 f5g6 h7g6 c2c4
+Impossible move c2c4, type = 0
+205250 <first :  4      0        0       3638 f5g6 h7g6 d2d3 e4e6
+Impossible move e4e6, type = 0
+205250 <first :  5      3        1      14429 f5g6 h7g6 d2d3 e4g4 e3f4
+Impossible move e3f4, type = 0
+205251 <first :  6     -4        3      27700 f5g6 h7g6 d2d3 e4g4 e3f4 c8d7
+Impossible move c8d7, type = 0
+205253 <first :  7      0        7      71269 f5g6 h7g6 d2d3 e4g4 e3f4 c8d7 c2c4
+Impossible move c2c4, type = 0
+205420 <first :  8     -5       24     227830 f5g6 h7g6 d2d3 e4g4 e3g5 c8d7 c2c4 g4e5
+Impossible move g4e5, type = 0
+206585 <first :  9     -5      141    1301210 f5g6 h7g6 d2d3 e4f6 c2c4 c8e6 d1c1 a8b8 a1b1
+Impossible move a1b1, type = 0
+208590 <first : # times @ 46325214: real=3416 cpu=3422
+208590 <first : # promo = 0 (`) GT = 0
+208590 <first : move f5g6
+Interrupting second
+208591 >second: time 4678
+208591 >second: otim 3154
+book key = 9ef5f3114f640fba
+book hit = (NULL)
+208591 >second: f5g6
+silence
+208673 <second: # times @ 46325230
+208673 <second: # 15+14 pieces, centr = (1,1) R=52
+208673 <second:  1      3        0          3 h7g6
+Impossible move h7g6, type = 0
+208675 <second:  2      3        0          4 h7g6
+Impossible move h7g6, type = 0
+208676 <second:  3      3        0          8 h7g6
+Impossible move h7g6, type = 0
+208676 <second:  4      3        0         10 h7g6
+Impossible move h7g6, type = 0
+208677 <second:  5      3        0         13 h7g6
+Impossible move h7g6, type = 0
+208677 <second:  6      3        0         16 h7g6
+Impossible move h7g6, type = 0
+208679 <second:  7     -3        7      71593 h7g6 d2d3 e4g4 e3g5 c8d7 c2c4 g4e5
+Impossible move g4e5, type = 0
+209040 <second:  8     -3       43     401765 h7g6 d2d3 e4f6 c2c4 c8e6 d1c1 a8b8 h2h4
+Impossible move h2h4, type = 0
+209529 <second:  9     -3       93     861855 h7g6 d2d3 e4f6 c2c4 c8e6 d1c1 a8b8 h2h4 b8c8
+Impossible move b8c8, type = 0
+209777 <second: # times @ 46326415: real=1185 cpu=1186
+209777 <second: # promo = 0 (`) GT = 0
+209777 <second: move h7g6
+Interrupting first
+209777 >first : time 3154
+209777 >first : otim 4660
+book key = c97e27b8a87f3c8e
+book hit = (NULL)
+209778 >first : h7g6
+silence
+209860 <first : # times @ 46326415
+209860 <first : # 14+14 pieces, centr = (1,1) R=50
+209860 <first :  1   -638        0          9 e3c5 e4c5
+Impossible move e4c5, type = 0
+209862 <first :  1      1        0         13 e3f4
+Impossible move e3f4, type = 0
+209864 <first :  2    -13        0         39 e3f4 c8e6
+Impossible move c8e6, type = 0
+209864 <first :  2      3        0         72 e3d5 e4f6
+Impossible move e4f6, type = 0
+209865 <first :  3      1        0        151 e3d5 e4f6 d5c4
+Impossible move d5c4, type = 0
+209865 <first :  4    -10        0        590 e3d5 e4f6 d5c4 c8g4
+Impossible move c8g4, type = 0
+209866 <first :  4     -9        0       4147 f3d3 e4g4 e3f4 c8f5
+Impossible move c8f5, type = 0
+209868 <first :  4     -3        0       5843 a2a4 c8e6 d2d4 a8b8
+Impossible move a8b8, type = 0
+209869 <first :  5     -3        1      21449 a2a4 c8e6 d2d3 e4g4 e3g5
+Impossible move e3g5, type = 0
+209870 <first :  5     -1        3      24606 e3d5 e4f6 d5c4 c8b6 c4e3
+Impossible move c4e3, type = 0
+209871 <first :  6     -3        3      31102 e3d5 e4f6 d5e3 c8e6 c2c4 f6e4
+Impossible move f6e4, type = 0
+209878 <first :  7      0        9      86425 e3d5 e4f6 d5c4 c8b6 c4b6 d8b6 c2c4
+Impossible move c2c4, type = 0
+210023 <first :  8     -3       23     216852 e3d5 e4f6 d5c4 c8b6 c4b6 d8b6 c2c4 f6e4
+Impossible move f6e4, type = 0
+210427 <first :  8     -1       64     576681 e3f4 c8g4 d2d4 e4f6 f4d3 f6d5 d3e4 g4e6
+Impossible move g4e6, type = 0
+211068 <first :  8      4      127    1168878 c2c4 c8e6 d2d3 e4g4 f3g5 g4e3 g5e6 e3f1
+Impossible move e3f1, type = 0
+211243 <first :  8      8      146    1335381 d2d3 e4f6 c2c4 c8e6
+Impossible move c8e6, type = 0
+211259 <first : # times @ 46327897: real=1482 cpu=1481
+211259 <first : # promo = 0 (`) GT = 0
+211259 <first : move d2d3
+Interrupting second
+211259 >second: time 4660
+211259 >second: otim 3106
+book key = 67dae46decef875a
+book hit = (NULL)
+211260 >second: d2d3
+silence
+211341 <second: # times @ 46327897
+211341 <second: # 14+14 pieces, centr = (1,1) R=50
+211341 <second:  1   -382        0         13 e4f2 f1f2
+Impossible move f1f2, type = 0
+211343 <second:  1     -3        0         31 e4f6
+Impossible move e4f6, type = 0
+211345 <second:  2    -11        0         59 e4f6 c2c3
+Impossible move c2c3, type = 0
+211346 <second:  2     -5        0         75 e4g4 e3f4
+Impossible move e3f4, type = 0
+211346 <second:  3     -2        0        318 e4g4 e3g5 g4f6
+Impossible move g4f6, type = 0
+211347 <second:  4     -4        0        558 e4g4 e3g5 c8d7
+Impossible move c8d7, type = 0
+211347 <second:  4     -3        0       1009 e4f6 c2c4
+Impossible move c2c4, type = 0
+211349 <second:  5     -3        0       1546 e4f6 c2c4
+Impossible move c2c4, type = 0
+211350 <second:  6     -3        0       7488 e4f6 c2c4
+Impossible move c2c4, type = 0
+211350 <second:  7     -3        0       8206 e4f6 c2c4
+Impossible move c2c4, type = 0
+211525 <second:  8     -1       26     236322 e4f6 e3g5 c8g4 h2h3 g4h5 e2e3 e7e5 a2a4
+Impossible move a2a4, type = 0
+211979 <second:  9      0       71     655531 e4f6 e3g5 c8g4 c2c4 d8d7 e2e4 e7e5 g5e3 g4e3
+Impossible move g4e3, type = 0
+212467 <second: 10      0      120    1114248 e4f6 e3g5 c8g4 c2c4 d8d7 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4
+Impossible move d7g4, type = 0
+212622 <second: # times @ 46329254: real=1357 cpu=1362
+212622 <second: # promo = 0 (`) GT = 0
+212622 <second: move e4f6
+Interrupting first
+212622 >first : time 3106
+212622 >first : otim 4623
+book hit = (NULL)
+212622 >first : e4f6
+silence
+212726 <first : # times @ 46329254
+212726 <first : # 14+14 pieces, centr = (1,1) R=50
+212726 <first :  1   -627        0          7 e3c5 d6c5
+Impossible move d6c5, type = 0
+212729 <first :  1     -5        0          9 e3d2
+Impossible move e3d2, type = 0
+212730 <first :  1     -4        0         11 f3d2
+Impossible move f3d2, type = 0
+212732 <first :  1     -1        0         13 f3g5
+Impossible move f3g5, type = 0
+212733 <first :  1      1        0         15 a2a4
+Impossible move a2a4, type = 0
+212735 <first :  1      7        0         15 c2c4
+Impossible move c2c4, type = 0
+212736 <first :  2      7        0         16 c2c4
+Impossible move c2c4, type = 0
+212737 <first :  3      7        0         24 c2c4
+Impossible move c2c4, type = 0
+212737 <first :  4      7        0         31 c2c4
+Impossible move c2c4, type = 0
+212738 <first :  5      7        0         42 c2c4
+Impossible move c2c4, type = 0
+212738 <first :  6      7        0         52 c2c4
+Impossible move c2c4, type = 0
+212740 <first :  7     -4        7      73349 c2c4 c8e6 h2h4 e6f4 e3f4 f6f4 e2e4
+Impossible move e2e4, type = 0
+212920 <first :  7     -3       29     269243 e3g5 c8g4 h2h3 g4h5 e2e3 e7e5 a2a4
+Impossible move a2a4, type = 0
+213296 <first :  8     -4       67     608707 e3g5 c8g4 c2c4 d8c8 e2e4 e7e5 g5e3 g4e3
+Impossible move g4e3, type = 0
+214313 <first : # times @ 46330939: real=1685 cpu=1691
+214314 <first : # promo = 0 (`) GT = 0
+214314 <first : move e3g5
+Interrupting second
+214314 >second: time 4623
+214314 >second: otim 3037
+book hit = (NULL)
+214314 >second: e3g5
+silence
+214418 <second: # times @ 46330939
+214418 <second: # 14+14 pieces, centr = (1,1) R=50
+214418 <second:  1     -8        0          5 a7a5
+Impossible move a7a5, type = 0
+214420 <second:  1      1        0          7 e7e5
+Impossible move e7e5, type = 0
+214422 <second:  1      2        0          9 f6d5
+Impossible move f6d5, type = 0
+214424 <second:  2     -8        0         39 f6d5 c2c4
+Impossible move c2c4, type = 0
+214424 <second:  2     -1        0        147 c8d7 c2c4
+Impossible move c2c4, type = 0
+214425 <second:  2      3        0        154 c8e6 g5e6
+Impossible move g5e6, type = 0
+214425 <second:  3      3        0        280 c8e6 g5e6 f7e6
+Impossible move f7e6, type = 0
+214426 <second:  4     -7        1        767 c8e6 g5e6 f7e6 c2c4
+Impossible move c2c4, type = 0
+214428 <second:  4     -1        1       2128 c8d7 c2c4 d7g4 e2e4
+Impossible move e2e4, type = 0
+214429 <second:  4      1        1       2168 c8g4
+Impossible move c8g4, type = 0
+214429 <second:  5      1        1       2647 c8g4
+Impossible move c8g4, type = 0
+214430 <second:  6      1        1       3111 c8g4
+Impossible move c8g4, type = 0
+214431 <second:  7      1        1       3563 c8g4
+Impossible move c8g4, type = 0
+214432 <second:  8      1        1       4937 c8g4
+Impossible move c8g4, type = 0
+215156 <second:  9      2       84     764470 c8g4 c2c4 d8c8 e2e4 e7e5 g5e3 g4e3 f2e3 a8b8
+Impossible move a8b8, type = 0
+216361 <second: 10      2      205    1908342 c8g4 c2c4 d8c8 e2e4 e7e5 g5e3 f6f4 e3g4 c8g4 a1b1
+Impossible move a1b1, type = 0
+216620 <second: # times @ 46333248: real=2309 cpu=2306
+216621 <second: # promo = 0 (`) GT = 0
+216621 <second: move c8g4
+Interrupting first
+216621 >first : time 3037
+216621 >first : otim 4493
+book hit = (NULL)
+216621 >first : c8g4
+silence
+216725 <first : # times @ 46333248
+216725 <first : # 14+14 pieces, centr = (1,1) R=50
+216725 <first :  1   -278        0          3 g5f6
+Impossible move g5f6, type = 0
+216727 <first :  1      0        0          3 g5e3
+Impossible move g5e3, type = 0
+216729 <first :  2      0        0          9 g5e3 g4e3
+Impossible move g4e3, type = 0
+216729 <first :  3      0        0        415 g5e3 g4e3 f2e3
+Impossible move f2e3, type = 0
+216730 <first :  4     -2        0        951 g5e3 g4e3 f2e3 f6d5
+Impossible move f6d5, type = 0
+216731 <first :  5     -2        1       6087 g5e3 g4e3 f2e3 f6d5 d1c1
+Impossible move d1c1, type = 0
+216731 <first :  6     -2        1       7356 g5e3 g4e3 f2e3 f6d5 d1c1 e7e5
+Impossible move e7e5, type = 0
+216733 <first :  7     -2        7      69511 g5e3 g4d7 e3d2 d7e6 e2e4 e6g4
+Impossible move e6g4, type = 0
+217105 <first :  7      3       48     424429 g5c1 e7e5 e2e4 f6f4 h2h3 g4e6 c1e3
+Impossible move c1e3, type = 0
+217434 <first :  7     10       81     728119 c2c4 d8c8 e2e4 e7e5 h2h3 g4e6 g5e3
+Impossible move g5e3, type = 0
+217531 <first : # times @ 46334168: real=920 cpu=910
+217531 <first : # promo = 0 (`) GT = 0
+217531 <first : move c2c4
+Interrupting second
+217531 >second: time 4493
+217531 >second: otim 3046
+book hit = (NULL)
+217531 >second: c2c4
+silence
+217613 <second: # times @ 46334168
+217613 <second: # 14+14 pieces, centr = (1,1) R=50
+217613 <second:  1   -265        0          7 g4f3 g5f3
+Impossible move g5f3, type = 0
+217616 <second:  1     -5        0         13 g4h5
+Impossible move g4h5, type = 0
+217617 <second:  1     -3        0         19 g4d7
+Impossible move g4d7, type = 0
+217619 <second:  1      0        0         33 a8b8
+Impossible move a8b8, type = 0
+217620 <second:  1      1        0         37 e7e5
+Impossible move e7e5, type = 0
+217622 <second:  2      0        0         75 e7e5 e2e4
+Impossible move e2e4, type = 0
+217622 <second:  3      0        0        315 e7e5 e2e4
+Impossible move e2e4, type = 0
+217623 <second:  4     -1        0        570 e7e5 h2h3 g4d7 g5e3
+Impossible move g5e3, type = 0
+217623 <second:  4      0        0       2075 d8d7 g5e3 g4e3 f2e3
+Impossible move f2e3, type = 0
+217624 <second:  5      0        1      16589 d8d7 g5e3 g4e3 f2e3 e7e5
+Impossible move e7e5, type = 0
+217626 <second:  6      0        3      27107 d8d7 a1b1 e7e5 h2h4 g4e6 g5e6
+Impossible move g5e6, type = 0
+217627 <second:  7      0        6      62750 d8d7 a1b1 e7e5 h2h4 g4e6 g5e6 d7e6
+Impossible move d7e6, type = 0
+217782 <second:  8      0       25     221763 d8d7 a1b1 e7e5 h2h4 a8b8 b1c1 g4e6 g5e6
+Impossible move g5e6, type = 0
+218369 <second:  9      0       82     732785 d8d7 a1b1 e7e5 h2h4 a8b8 b1c1 g4e6 g5e6 d7e6
+Impossible move d7e6, type = 0
+219121 <second: 10      0      159    1415587 d8d7 a1b1 e7e5 h2h4 a8b8 b1c1 b8c8 c1b1 g4e6 g5e6
+Impossible move g5e6, type = 0
+219398 <second: # times @ 46336025: real=1857 cpu=1866
+219398 <second: # promo = 0 (`) GT = 0
+219398 <second: move d8d7
+Interrupting first
+219399 >first : time 3046
+219399 >first : otim 4406
+book hit = (NULL)
+219399 >first : d8d7
+silence
+219481 <first : # times @ 46336025
+219481 <first : # 14+14 pieces, centr = (1,1) R=50
+219481 <first :  1   -265        0          3 g5f6
+Impossible move g5f6, type = 0
+219483 <first :  1      2        0          3 g5e3
+Impossible move g5e3, type = 0
+219484 <first :  2      0        0          9 g5e3 g4e3 f2e3
+Impossible move f2e3, type = 0
+219485 <first :  3      0        0        656 g5e3 g4e3 f2e3
+Impossible move f2e3, type = 0
+219486 <first :  3      1        0        873 g5d2 a8b8 d2e3
+Impossible move d2e3, type = 0
+219486 <first :  4     -1        1       1997 g5d2 a8b8 d2e3 g4e3 f2e3
+Impossible move f2e3, type = 0
+219487 <first :  4      0        1      10852 e2e4 e7e5 g5e3 g4e3
+Impossible move g4e3, type = 0
+219489 <first :  5      0        4      30762 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4
+Impossible move d7g4, type = 0
+219490 <first :  6      0        9      77318 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4
+Impossible move d7g4, type = 0
+219551 <first :  7      0       15     132107 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1
+Impossible move a1b1, type = 0
+219806 <first :  8      0       40     358821 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5
+Impossible move g4h5, type = 0
+220374 <first :  9      0       98     869424 e2e4 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5 b1c1
+Impossible move b1c1, type = 0
+220675 <first : # times @ 46337304: real=1279 cpu=1275
+220676 <first : # promo = 0 (`) GT = 0
+220676 <first : move e2e4
+Interrupting second
+220676 >second: time 4406
+220676 >second: otim 3018
+book hit = (NULL)
+220676 >second: e2e4
+silence
+220758 <second: # times @ 46337304
+220758 <second: # 14+14 pieces, centr = (1,1) R=50
+220758 <second:  1   -265        0          3 g4f3
+Impossible move g4f3, type = 0
+220761 <second:  1     -5        0          3 g4h5
+Impossible move g4h5, type = 0
+220762 <second:  1      2        0          3 g4e6
+Impossible move g4e6, type = 0
+220764 <second:  2      0        0         25 g4e6 g5e6 d7e6
+Impossible move d7e6, type = 0
+220765 <second:  3      0        0        867 g4e6 g5e6 d7e6
+Impossible move d7e6, type = 0
+220765 <second:  3      1        0       1254 e7e5 g5e3 g4e3
+Impossible move g4e3, type = 0
+220766 <second:  4      1        0       1517 e7e5 g5e3 f6f4
+Impossible move f6f4, type = 0
+220766 <second:  5      1        3      24224 e7e5 g5e3 f6f4 e3g4 d7g4
+Impossible move d7g4, type = 0
+220768 <second:  6      1        4      40741 e7e5 g5e3 f6f4 e3g4 d7g4
+Impossible move d7g4, type = 0
+220850 <second:  7      1       17     146709 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5
+Impossible move g4h5, type = 0
+221424 <second:  8      1       74     653909 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5 b1c1
+Impossible move b1c1, type = 0
+224918 <second:  9      1      424    3682045 e7e5 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5 b1c1 h5g4
+Impossible move h5g4, type = 0
+225207 <second: # times @ 46341844: real=4540 cpu=4529
+225207 <second: # promo = 0 (`) GT = 0
+225207 <second: move e7e5
+Interrupting first
+225207 >first : time 3018
+225207 >first : otim 4053
+book hit = (NULL)
+225207 >first : e7e5
+silence
+225289 <first : # times @ 46341844
+225289 <first : # 14+14 pieces, centr = (1,1) R=50
+225289 <first :  1   -265        0         13 g5f6 g4f6
+Impossible move g4f6, type = 0
+225291 <first :  1     -1        0         17 g5e3
+Impossible move g5e3, type = 0
+225293 <first :  2     -1        0         18 g5e3
+Impossible move g5e3, type = 0
+225294 <first :  3     -1        0         33 g5e3
+Impossible move g5e3, type = 0
+225294 <first :  4     -1        0         42 g5e3
+Impossible move g5e3, type = 0
+225295 <first :  5     -1        0         82 g5e3
+Impossible move g5e3, type = 0
+225295 <first :  6     -1        0        112 g5e3
+Impossible move g5e3, type = 0
+225297 <first :  7     -1        0        167 g5e3
+Impossible move g5e3, type = 0
+225298 <first :  8     -1        4      53312 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5 b1c1 h5g4
+Impossible move h5g4, type = 0
+226040 <first :  9     -1       82     737261 g5e3 f6f4 e3g4 d7g4 a1b1 g4h5 b1c1 h5h6 c1b1
+Impossible move c1b1, type = 0
+226538 <first : # times @ 46343170: real=1326 cpu=1331
+226538 <first : # promo = 0 (`) GT = 0
+226539 <first : move g5e3
+Interrupting second
+226539 >second: time 4053
+226539 >second: otim 2985
+book hit = (NULL)
+226539 >second: g5e3
+silence
+226643 <second: # times @ 46343170
+226643 <second: # 14+14 pieces, centr = (1,1) R=50
+226643 <second:  1      2        0          7 g4e3
+Impossible move g4e3, type = 0
+226645 <second:  2      2        0          9 g4e3 f2e3
+Impossible move f2e3, type = 0
+226646 <second:  3      2        0        184 g4e3 f2e3 a8b8
+Impossible move a8b8, type = 0
+226646 <second:  4      2        0        374 g4e3 f2e3 a8b8 a1b1
+Impossible move a1b1, type = 0
+226647 <second:  5      2        0       1072 g4e3 f2e3 a8b8 a1b1 b8c8
+Impossible move b8c8, type = 0
+226648 <second:  6      2        0       4184 g4e3 f2e3 a8b8 a1b1 b8c8 b1c1
+Impossible move b1c1, type = 0
+226649 <second:  7      2        1       8318 g4e3 f2e3 a8b8 a1b1 b8c8 b1c1 c8d8
+Impossible move c8d8, type = 0
+226650 <second:  8      2        4      52184 g4e3 f2e3 a8b8 a1b1 b8c8 b1c1 c8d8 c1b1
+Impossible move c1b1, type = 0
+226952 <second:  8      3       42     389759 f6f4 e3g4 d7g4 a1b1 a8d8 b1c1 g4h5 c1b1
+Impossible move c1b1, type = 0
+227312 <second:  9      3       78     722720 f6f4 e3g4 d7g4 a1b1 a8d8 b1c1 g4h5 c1b1 h5h6
+Impossible move h5h6, type = 0
+228347 <second: 10      3      180    1758671 f6f4 e3g4 d7g4 a1b1 a8d8 b1c1 g4h5 c1b1 h5h6 b1c1
+Impossible move b1c1, type = 0
+228753 <second: # times @ 46345385: real=2215 cpu=2214
+228753 <second: # promo = 0 (`) GT = 0
+228753 <second: move f6f4
+Interrupting first
+228754 >first : time 2985
+228754 >first : otim 3931
+book hit = (NULL)
+228754 >first : f6f4
+silence
+228835 <first : # times @ 46345385
+228835 <first : # 14+14 pieces, centr = (1,1) R=50
+228835 <first :  1     -2        0          3 e3g4
+Impossible move e3g4, type = 0
+228838 <first :  2     -2        0         10 e3g4
+Impossible move e3g4, type = 0
+228838 <first :  3     -2        0         19 e3g4
+Impossible move e3g4, type = 0
+228839 <first :  4     -2        0         24 e3g4
+Impossible move e3g4, type = 0
+228839 <first :  5     -2        0         30 e3g4
+Impossible move e3g4, type = 0
+228840 <first :  6     -2        0         37 e3g4
+Impossible move e3g4, type = 0
+228841 <first :  7     -2        0         44 e3g4
+Impossible move e3g4, type = 0
+228842 <first :  8     -2        3      25098 e3g4 d7g4 a1b1 g4h5 b1c1 h5h6 c1b1 a8b8
+Impossible move a8b8, type = 0
+229089 <first :  9     -2       34     321290 e3g4 d7g4 a1b1 g4h5 b1c1 h5h6 c1b1 a8b8 b1c1
+Impossible move b1c1, type = 0
+229469 <first : 10     -2       71     693521 e3g4 d7g4 a1b1 g4h5 b1c1 h5h6 c1b1 a8b8 b1c1 b8c8
+Impossible move b8c8, type = 0
+230115 <first : # times @ 46346742: real=1357 cpu=1359
+230115 <first : # promo = 0 (`) GT = 0
+230116 <first : move e3g4
+Interrupting second
+230116 >second: time 3931
+230116 >second: otim 2948
+book hit = (NULL)
+230116 >second: e3g4
+silence
+230220 <second: # times @ 46346742
+230221 <second: # 14+13 pieces, centr = (1,1) R=42
+230221 <second:  1      0        0          5 d7g4
+Impossible move d7g4, type = 0
+230223 <second:  2     -3        0        114 d7g4 h2h3
+Impossible move h2h3, type = 0
+230224 <second:  3     -3        0        536 d7g4 h2h3 g4h5
+Impossible move g4h5, type = 0
+230225 <second:  4     -3        1       2180 d7g4 h2h3 g4h5 a1b1
+Impossible move a1b1, type = 0
+230226 <second:  5     -3        1       4337 d7g4 h2h3 g4h5 a1b1 h5h6
+Impossible move h5h6, type = 0
+230227 <second:  6     -3        1      11052 d7g4 h2h3 g4h5 a1b1 h5h6 d1c2
+Impossible move d1c2, type = 0
+230229 <second:  7     -3        3      24091 d7g4 h2h3 g4h5 a1b1 h5h6 d1c2 f4d4
+Impossible move f4d4, type = 0
+230230 <second:  8     -3       12     110137 d7g4 h2h3 g4h5 a1b1 h5h6 d1c2 f4d4 f3d4 c5d4
+Impossible move c5d4, type = 0
+230577 <second:  9     -3       46     465865 d7g4 h2h3 g4h5 a1b1 h5h6 d1c2 f4d4 f3d4 c5d4
+Impossible move c5d4, type = 0
+230937 <second: 10     -3       82     864983 d7g4 h2h3 g4h5 a1b1 h5h6 d1c2 f4d4 f3d4 c5d4 c2e2
+Impossible move c2e2, type = 0
+231191 <second: # times @ 46347819: real=1077 cpu=1075
+231192 <second: # promo = 0 (`) GT = 0
+231192 <second: move d7g4
+Interrupting first
+231192 >first : time 2948
+231192 >first : otim 3924
+book hit = (NULL)
+231192 >first : d7g4
+silence
+231296 <first : # times @ 46347819
+231296 <first : # 13+13 pieces, centr = (1,1) R=40
+231296 <first :  1   -366        0         15 f3e5 g4d1 a1d1 d6e5
+Impossible move d6e5, type = 0
+231299 <first :  1   -103        0         23 f3d2 g4d1 a1d1 f4d3
+Impossible move f4d3, type = 0
+231301 <first :  1     -9        0         37 f3e1
+Impossible move f3e1, type = 0
+231302 <first :  1     -3        0         76 a2a4
+Impossible move a2a4, type = 0
+231304 <first :  1      4        0         86 h2h3
+Impossible move h2h3, type = 0
+231305 <first :  2      4        0         92 h2h3 g4h5
+Impossible move g4h5, type = 0
+231306 <first :  3      4        0       1727 h2h3 g4h5 d1b1
+Impossible move d1b1, type = 0
+231307 <first :  4      4        0       1890 h2h3 g4h5 d1b1 h5h6
+Impossible move h5h6, type = 0
+231307 <first :  5      4        1       4774 h2h3 g4h5 d1b1 h5h6 b1c1
+Impossible move b1c1, type = 0
+231308 <first :  6      4        1      12933 h2h3 g4h5 d1b1 h5h6 b1c1 a8b8
+Impossible move a8b8, type = 0
+231310 <first :  7      4        6      58181 h2h3 g4h5 d1b1 h5h6 b1c1 a8b8 c1d1
+Impossible move c1d1, type = 0
+231451 <first :  8      4       26     256979 h2h3 g4h5 d1b1 h5h6 b1c1 a8b8 c1d1 f4d4
+Impossible move f4d4, type = 0
+231690 <first :  9      4       49     512617 h2h3 g4h5 d1b1 h5h6 b1c1 a8b8 c1d1 f4d4 a1b1
+Impossible move a1b1, type = 0
+232219 <first : # times @ 46348848: real=1029 cpu=1026
+232219 <first : # promo = 0 (`) GT = 0
+232219 <first : move h2h3
+Interrupting second
+232219 >second: time 3924
+232219 >second: otim 2946
+book hit = (NULL)
+232219 >second: h2h3
+silence
+232301 <second: # times @ 46348848
+232301 <second: # 13+13 pieces, centr = (1,1) R=40
+232301 <second:  1   -475        0          7 g4f3 d1f3
+Impossible move d1f3, type = 0
+232303 <second:  1     -3        0         27 g4h5
+Impossible move g4h5, type = 0
+232305 <second:  1      0        0         31 g4e6
+Impossible move g4e6, type = 0
+232306 <second:  2      0        0        118 g4e6 a1b1
+Impossible move a1b1, type = 0
+232307 <second:  3      0        0        839 g4e6 a1b1 f4d4
+Impossible move f4d4, type = 0
+232308 <second:  4      0        0       1975 g4e6 a1b1 f4d4 b1c1
+Impossible move b1c1, type = 0
+232308 <second:  5      0        1       4687 g4e6 a1b1 f4d4 b1c1 d4f4
+Impossible move d4f4, type = 0
+232309 <second:  6      0        1       7986 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+232311 <second:  7      0        3      19972 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+232312 <second:  8      0        6      51616 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+232318 <second:  9      0       10      97674 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+232459 <second: 10      0       25     254029 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+232749 <second: 11      0       53     558533 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+233237 <second: 12      0      101    1071436 g4e6 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+233450 <second: # times @ 46350081: real=1233 cpu=1230
+233450 <second: # promo = 0 (`) GT = 0
+233450 <second: move g4e6
+Interrupting first
+233451 >first : time 2946
+233451 >first : otim 3901
+book hit = (NULL)
+233451 >first : g4e6
+silence
+233555 <first : # times @ 46350081
+233555 <first : # 13+13 pieces, centr = (1,1) R=40
+233555 <first :  1   -368        0          3 f3e5
+Impossible move f3e5, type = 0
+233557 <first :  1   -100        0          3 f3d2
+Impossible move f3d2, type = 0
+233558 <first :  1     -9        0          3 f3e1
+Impossible move f3e1, type = 0
+233560 <first :  1     -1        0          3 f3g5
+Impossible move f3g5, type = 0
+233561 <first :  1      0        0          3 a1b1
+Impossible move a1b1, type = 0
+233563 <first :  2      0        0        115 a1b1 f4d4
+Impossible move f4d4, type = 0
+233563 <first :  3      0        0       1692 a1b1 f4d4 b1c1
+Impossible move b1c1, type = 0
+233564 <first :  4      0        0       2207 a1b1 f4d4 b1c1 d4f4
+Impossible move d4f4, type = 0
+233564 <first :  5      0        1       6032 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+233565 <first :  6      0        1       8616 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+233567 <first :  6      1        1      18898 f3e1 f4h5 e1e3 h5f4 e3d5 f4d4
+Impossible move f4d4, type = 0
+233568 <first :  7      0        6      57381 f3e1 f4d4 e1c2 d4c2 d1c2 e6f6 c2d2
+Impossible move c2d2, type = 0
+233582 <first :  8      0       14     134428 f3e1 f4d4 e1e3 e6f6 e3d5 f6g5 a1b1 g5h4
+Impossible move g5h4, type = 0
+233811 <first :  9      0       35     362927 f3e1 f4d4 e1e3 e6f6 e3d5 f6g5 a1b1 g5h4 b1c1
+Impossible move b1c1, type = 0
+234210 <first : 10     -1       76     776903 f3e1 e6f6 e1e3 f6g5 e3g3 g5f6 g3e3
+Impossible move g3e3, type = 0
+234403 <first : 10      0       95     984369 a1b1 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+234442 <first : # times @ 46351079: real=998 cpu=992
+234442 <first : # promo = 0 (`) GT = 0
+234442 <first : move a1b1
+Interrupting second
+234443 >second: time 3901
+234443 >second: otim 2946
+book hit = (NULL)
+234443 >second: a1b1
+silence
+234538 <second: # times @ 46351079
+234539 <second: # 13+13 pieces, centr = (1,1) R=40
+234539 <second:  1   -377        0         13 f4d3 d1d3
+Impossible move d1d3, type = 0
+234541 <second:  1     -8        0         35 f4h5
+Impossible move f4h5, type = 0
+234543 <second:  1     -2        0         43 f4f6
+Impossible move f4f6, type = 0
+234544 <second:  1      0        0         43 f4d4
+Impossible move f4d4, type = 0
+234545 <second:  2      0        0         44 f4d4
+Impossible move f4d4, type = 0
+234546 <second:  3      0        0         75 f4d4
+Impossible move f4d4, type = 0
+234547 <second:  4      0        0         92 f4d4
+Impossible move f4d4, type = 0
+234547 <second:  5      0        0        147 f4d4
+Impossible move f4d4, type = 0
+234548 <second:  6      0        0        181 f4d4
+Impossible move f4d4, type = 0
+234549 <second:  7      0        0        357 f4d4
+Impossible move f4d4, type = 0
+234550 <second:  8      0        0        426 f4d4
+Impossible move f4d4, type = 0
+234551 <second:  9      0        0        485 f4d4
+Impossible move f4d4, type = 0
+234552 <second: 10      0        0        617 f4d4
+Impossible move f4d4, type = 0
+234588 <second: 11      0       14     145944 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+235215 <second: 12      0       76     801100 f4d4 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+235620 <second: # times @ 46352249: real=1170 cpu=1178
+235621 <second: # promo = 0 (`) GT = 0
+235621 <second: move f4d4
+Interrupting first
+235621 >first : time 2946
+235621 >first : otim 3883
+book hit = (NULL)
+235621 >first : f4d4
+silence
+235702 <first : # times @ 46352249
+235703 <first : # 13+13 pieces, centr = (1,1) R=40
+235703 <first :  1     -1        0          7 f3d4 c5d4
+Impossible move c5d4, type = 0
+235705 <first :  1      0        0          7 b1c1
+Impossible move b1c1, type = 0
+235706 <first :  2      0        0          8 b1c1
+Impossible move b1c1, type = 0
+235707 <first :  3      0        0         10 b1c1
+Impossible move b1c1, type = 0
+235708 <first :  4      0        0         13 b1c1
+Impossible move b1c1, type = 0
+235708 <first :  5      0        0         16 b1c1
+Impossible move b1c1, type = 0
+235709 <first :  6      0        0         19 b1c1
+Impossible move b1c1, type = 0
+235710 <first :  7      0        0         23 b1c1
+Impossible move b1c1, type = 0
+235711 <first :  8      0        0         27 b1c1
+Impossible move b1c1, type = 0
+235712 <first :  9      0        4      40593 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+235735 <first : 10      0       12     118599 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+236009 <first : 11      0       39     394821 b1c1 d4f4 c1b1
+Impossible move c1b1, type = 0
+GameEnds(29, xboard exit, 2)
+GE(29, xboard exit, 2) bare king k=13 color=66
+write FEN 50-move: 0 38 0
+e0. p=-6
+e1. p=-6
+e2. p=-6
+e3. p=-6
+e4. p=-6
+e5. p=-6
+e6. p=-6
+e7. p=-2
+e8. p=-2
+e9. p=-6
+e10. p=-6
+e11. p=-6
+e12. p=-6
+e13. p=-6
+e14. p=-6
+e15. p=-6
+e16. p=-3
+e17. p=-6
+e18. p=-6
+e19. p=-6
+e20. p=-3
+e21. p=-2
+e22. p=-3
+e23. p=-3
+e24. p=-6
+e25. p=-6
+e26. p=-6
+e27. p=-3
+e28. p=-6
+e29. p=-3
+e30. p=-3
+e31. p=-6
+e32. p=-6
+e33. p=-2
+e34. p=-2
+e35. p=-3
+e36. p=-6
+e37. p=-6
+e38. p=-6
+Interrupting first
+236227 >first : result * {xboard exit}
+Interrupting second
+236227 >second: result * {xboard exit}
+236227 >first : force
+236227 >first : ping 10
+236227 >second: force
+236227 >second: ping 4
+236227 >first : quit
+236619 >second: quit
+name = '%APPDATA%\winboard190629.ini', expanded name = 'C:\Users\Makro\AppData\Roaming\winboard190629.ini'

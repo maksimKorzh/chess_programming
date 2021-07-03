@@ -1,0 +1,2446 @@
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 ken smith 9단"]
+[Black "양귀마 성산포각장기 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "137"]
+[Result "1-0"]
+
+ a3b3  i6h6  g0f2  c9d7  h2e2  e6e5
+ e3e4  b7e7  e1e0  g9f7  c0d2  e5e4
+ f2e4  g6g5  f0e1  g5f5  e0f0  f5e5
+ e4f2  d9d8  g3h3  h9f6  f2g4  h6g6
+ e2e6  g6g5  g4f2  c6b6  b2e2  a6a5
+ h3h4  b6b5  h4g4  g5h5  c3c4  e8d9
+ a0a2  b9d6  a2c2  f9e8  c2c3  i9g9
+ i3h3  --  c3g3  a9c9  e2h2  d6a8
+ i0i6  c9c6  e6e2  b5c5  e2c2  c6a6
+ c4c5  a8c5  h2h5  e5d5  b3b4  d5d4
+ b4c4  d4c4  d2c4  a5b5  g3a3  a6a3
+ c4a3  b5b4  c2g2  g9h9  i6f6  e7b7
+ f6f4  b7b0+  d0d1  b4b3  g2g7  h9h8
+ a3b1  b3b2  b1d2  h7h9  h3h4  h9b9
+ h5h2  h8i8  f4a4  b9f9  g7g0  i8i6
+ d2f1  b2b1  h2d2  f7e5  g4f4  i6i1
+ g0e0  i1i5  f4e4  e5f7  h0f3  d9e9
+ f1h2  i5i6  e1f1  b1c1  e4f4+  f7e5
+ d2d8  c5f3  f4f5  f3c5  f5e5  d7e5
+ a4d4  i6i2  d8h8  i2i7  h2g4  c1c0
+ f0e1  e5g4  f2g4  i7d7  d4c4  d7h7
+ c4c5  h7h8  g4f6  e8e7  c5e5  e9d9
+ e5e7  b0d0  e7e9+  d9d8  e9f9
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 불파마지파참 9단"]
+[Black "양귀마 황금빛깔의 푸른 용 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "78"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  i3h3  b7e7
+ e3e4  a6b6  e4e5  d7e5  g0f2  g9f7
+ g3g4  e8e9  g4f4  f9e8  f4e4  e5d7
+ e1d1  h9f6  d0e1  e9f9  e2e0  e7e9
+ h0f3  i6h6  i0i9+  e9i9  h3g3  e8f8
+ g3g4  d9e8  g4f4  g6g5  b0d3  i9d9
+ d1d0  h7e7  e1d1  e7e9  f0e1  b9d6
+ d2b1  f6i4  h2a2  a9c9  f2h1  h6h5
+ b1d2  g5g4  f4f5  c6c5  f3d6  f7d6
+ e4e5  c5c4  e0c0  c9b9  d3b6  d7b6
+ c3b3  c4d4  b3c3  b6d7  a3b3  d6e4
+ a2e2  e4d2  e1d2  d4d3  e2b2  d3d2
+ d1d2  d7e5+  d2e1  e5d7+  d0e0  d7b6
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 대총책# 9단"]
+[Black "양귀마 소양강쏘가리 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "99"]
+[Result "0-1"]
+
+ g0f2  c9d7  h2e2  e6e5  c0d2  b7e7
+ e3e4  i6h6  a3b3  g9f7  f0f1  h9f6
+ h0f3  i9i5  e1f0  e5e4  d2e4  i5f5
+ i3h3  f5f4  f3c1  h7h5  b0d3  h5h8
+ i0i8  d7c5  d3f6  c5e4  c1e4  f4f6
+ d0e1  e8e9  e2e0  b9d6  i8i5  d9e8
+ b2i2  a9a8  i2i9+  f9f8  i5b5  f6f4
+ b5b7  f4i4  i9i3  e7i7  b7b4  i4i5
+ e4h6  g6h6  b4c4  c6c5  c4e4  i7d7
+ c3c4  d7f9  b3b4  a6b6  a0a8  d6a8
+ c4c5  i5c5  b4c4  c5a5  g3g4  h8h5
+ i3f3  f7d6  e4e6  h5h0  h3g3  h6h5
+ f3h3  d6c4  e6i6  h5i5  i6h6  a5h5
+ h6e6  e9d9  e6e4  c4d6  e4a4  d6f5
+ g3f3  a8d6  a4b4  d6f3  g4f4  f5e7
+ b4b6  h5h4  b6d6+  d9e9  d6d4  f9f4
+ d4e4  f4f2+  f1f2
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 양귀마정수 9단"]
+[Black "양귀마 울산안드레 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "119"]
+[Result "1-0"]
+
+ i3h3  g9f7  g0f2  h7e7  e3e4  a6b6
+ h2e2  e6e5  c0d2  c9d7  a0a1  e5e4
+ f2e4  f7e5  e1e0  e7e4  d2e4  b7e7
+ e4d2  h9f6  c3b3  b9d6  a1i1  g6h6
+ i1f1  f6h3  g3h3  i9g9  i0i1  d6b3
+ a3b3  a9a0  f1a1  a0a1  i1a1  g9g0
+ a1h1  e8d8  d0e1  e7c7  e0d0  c7c1
+ h1h2  c1c7  e2e0  g0g4  h2f2  d9e8
+ f2f5  e5c4  d2c4  g4c4  h0e2  h6g6
+ b2f2  c7f7  f2d2+  c6d6  f5a5  c4d4
+ b3c3  b6c6  b0d3  d4f4  a5a8+  d8d9
+ a8a9+  d9d8  e0c0  f9f8  h3h4  i6h6
+ f0e0  f4b4  e0f0  f7c7  a9a3  b4b9
+ c0e0  d8d9  d3g5  g6g5  e2g5  h6g6
+ g5d7  e8d8  a3a8  f8e8  d7g5  g6g5
+ e0e8  d9e8  a8d8+  e8e9  f0f1  c7c3
+ d2f0  c3c9  d8c8  c9f9  c8g8  f9d9+
+ d0e0  b9b5  g8g7  b5e5  g7c7  c6c5
+ c7c9  d6d5  f0d0  e5e8  e0f0  c5b5
+ c9d9+  e8d9  d0d9  e9d9  h4i4
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 ken smith 9단"]
+[Black "양귀마 길거리장기선생 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "92"]
+[Result "0-1"]
+
+ a3b3  i6h6  c0d2  g9f7  b2e2  e6e5
+ e3e4  h7e7  f0f1  c9d7  g0f2  d9d8
+ i0i1  h9f6  e1d1  f9f8  b0d3  d8d9
+ g3g4  e5e4  f2e4  e7e3  g4f4  f6h3
+ h2h4  h6h5  h4h7  g6h6  h7d7  e8d7
+ h0f3  e3g3  i1h1  i9i3  f3h0  h5g5
+ f4f5  g3g9  f5f6  f7d6  d3g5+  d6f5
+ a0a4  d7d8  e4f2  f5g3  a4d4+  b9d6
+ f6e6  h6g6  h1h3  i3h3  f2h3  a6b6
+ d1e1  a9a1+  d0d1  g3e2  e6d6  d8e8
+ g5e2  e8f9  d2e4  d9e8  h0f3  b7b5
+ h3i5  c6c5  d6d7  g9g1+  f1f0  b5d5
+ e4f6  d5d1  d7e8+  f8e8  d4e4  e8f7
+ i5g6  g1g7  e1d0  g7g0+  f0f1  a1a8
+ d0d1  a8d8+  d1e1  g0g8  f3c5  g8g1+
+ e1f0  d8d0+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2020.01~2020.06"]
+[Site "장기 for Kakao"]
+[White "양귀마 통일가든 9단"]
+[Black "양귀마 달빛오광 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "115"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  e6e5  i3h3  h7e7
+ e3e4  c9d7  a3b3  c6c5  c0d2  c5d5
+ c3c4  g6g5  g3g4  e5e4  d2e4  g5g4
+ f2g4  d5e5  e4c5  d7c5  c4c5  b9d6
+ g4f2  d6b3+  e1e0  a9c9  a0a6  c9c5
+ a6b6  b7b5  b6b5  c5b5  b2b5  b3d0
+ e0d0  i6i5  i0i5  i9i5  b5i5  e5d5
+ f2g4  d5d4  f0e1  f7g5  h3h4  g5e4
+ h4h5  h9f6  i5e5  f6h9  e2e0  e4g3
+ h0f3  e8d8  h5h6  d9e8  h6g6  e7e9
+ b0e2  e9g9  g6h6  g9d9  e1d1  h9e7
+ g4f6  e7c4  e0e3  g3f1+  e3e1  d9d6
+ f6d5  c4e1  d1e1  f1h2  f3c1  h2f3
+ e5c5  f3g1  e1f1  d4d3  d0e1  d3d2+
+ e1f0  d2e2  d5f4  e2d2  c1a4  d6d9
+ f4h5  d9f7+  f0e0  d2e2  h6g6  e2f2
+ g6f6  f7f5  h5g3  f5f8  f6e6  e8f7
+ a4d2  f9e8  d2b5+  d8d9  c5a5  f2f1
+ a5e5  f1e1+  e0e1  g1f3+  e1e0  f3e5
+ g3e4
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 배터리가없어 9단"]
+[Black "양귀마 청로아 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "97"]
+[Result "1-0"]
+
+ c0d2  c9d7  d2f1  b7e7  b0e2  g9f7
+ a3b3  b9d6  h2d2  h9f6  e1e0  f9f8
+ f0e1  e7e9  h0f3  d9d8  f3d6  e6d6
+ d2f0  i6h6  b2i2  i9h9  d0d1  e8f9
+ c3d3  d8e8  b3c3  e9g9  a0a4  g9d9
+ i2d2  h7e7  i3h3  e7h7  i0i3  d9g9
+ g0h2  a6b6  a4f4  a9a5  h3h4  g9d9
+ g3g4  d6d5  i3i5  d5e5  f4f3  a5a1
+ g4f4  h7e7  e3e4  e5e4  f4e4  e7h7
+ d3e3  h7e7  c3d3  h9i9  i5i9+  d9i9
+ h4g4  i9d9  g4g5  g6g5  f3f6  e7e3
+ d2d7+  e8d7  f1e3  d9d3  f6f7  a1a0+
+ e1d0  f9e9  f7d7  d3d9  e3g2  f8e8
+ d7d2  h6h5  d1e1  a0a4  d2d4  a4a3
+ g2h0  a3h3  h0f1  h3i3  d4d5  i3i6
+ e2g5  c6d6  d5e5  h5g5  e5g5  b6c6
+ e4e5
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 안병호1 8단"]
+[Black "양귀마 석영식 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "135"]
+[Result "0-1"]
+
+ a3b3  c9d7  g0f2  b7e7  e3e4  c6d6
+ i3h3  h9f6  h2e2  e8e9  b0d3  f9e8
+ c0d2  e7c7  h0f3  d7f8  e1e0  b9e7
+ d0e1  h7d7  f0f1  d7f9  d3b6  d9d8
+ b6e8  d8e8  g3g4  c7f7  g4f4  g6g5
+ h3h4  g9h7  e0d0  i6i5  e2e0  i5h5
+ i0i9  h7i9  h4h5  g5h5  c3d3  i9h7
+ e1d1  h5g5  a0c0  a6a5  f1e1  f9d9
+ c0a0  d9f9  b2e2  a5b5  a0c0  f9d9
+ d3d4  a9a5  e2b2  b5c5  c0b0  c5d5
+ d4d5  d9d5  b0c0  f7f9  b3c3  d5d7
+ c3c4  g5f5  f4f5  a5f5  c0c3  f6i4
+ f2h1  d7d2+  d1d2  f5f3  c3c1  f3h3
+ h1f0  h3d3  c1c2  i4f6  f0g2  f6h3
+ d2d1  h3e1  g2e1  d3a3  b2d2  a3a4
+ e4f4  f9f4  c4b4  a4a9  c2c7  f4f9
+ e1d3  f8g6  c7c8  a9c9  c8a8  h7f8
+ b4b5  c9c3  d3c5  d6d5  c5b7  c3c7
+ b5b6  d5d4  a8a3  e6e5  a3b3  e5e4
+ d2d6  e7g4  d6a6  f9d7  b3g3  c7c1
+ a6d6  g4d6  b7d6  d7d5  g3g1  d5d3+
+ d0e1  d3d6  e1f0  c1d1  g1g2  d1d2+
+ g2d2  d6d2  b6c6
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 일휘 9단"]
+[Black "양귀마 허상백 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "160"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  e6e5  e3e4  h7e7
+ g0f2  c9d7  c3c4  i6h6  c4d4  a6b6
+ e4e5  f7e5  d4e4  e5f7  f0f1  b7b0
+ a0b0  a9a3  h0f3  f9f8  d0d1  e8f9
+ i3h3  h6i6  b0a0  a3a0  i0a0  f8e8
+ a0i0  e7i7  i0g0  b9d6  f3d6  c6d6
+ g3g4  i7e7  g0i0  d6d5  e1d0  h9f6
+ g4f4  g6g5  f1e1  e7e9  e2e0  i6h6
+ i0g0  h6h5  f4f5  e9g9  f5f6  g9g0
+ f2g0  d7f6  g0f2  i9i0  h2e2  f6g4
+ h3g3  g4i5  f2h1  i5h7  e2b2  e8f8
+ b2f2  h7f6  h1f0  i0i6  d2f3  g5g4
+ g3h3  f6d7  e4e5  d7e5  f3e5  d5e5
+ e0e5  g4f4  e5e0  f4f3  f2f4  i6i2
+ f4f1  f3f2  e1f2  i2f2+  d1e1  f2f3
+ f0h1  f3d3+  f1d1  d3h3  h1f2  h3i3
+ d1f1  h5g5  f2e4  g5f5  e4f6  d9e8
+ e0e2  i3i0+  e2e0  i0h0  f6d5  h0h6
+ d5e3  f5f4  e3f5  h6g6  f1d1  f4f3
+ f5d4  g6g3  d1f1  --  d4f5  g3g2
+ e0e2  g2g5  e2e0  f3g3  f5e3  b6b5
+ e3c4  g3f3  c4d2  g5g3  d2e4  g3g2
+ f1f4  f3e3  f4d4  e3d3  d4d1  b5b4
+ d1f1  b4b3  e4d6  d3d2  d6e8  d2e1+
+ d0e1  g2g6  e8c7  g6f6  c7e6  b3c3
+ e6c5  f6f5  c5e6  f5f6  e6d4  c3d3
+ d4b5  d3d2+  e1f0  f6f2
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 하수는 하수다 8단"]
+[Black "양귀마 King Ka 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "185"]
+[Result "1-0"]
+
+ i3h3  a6b6  h0f3  g9f7  c0d2  h7e7
+ e3e4  g6g5  b2e2  e6e5  c3c4  c9d7
+ c4d4  c6c5  b0d3  e5e4  d4e4  e7e3
+ a3a4  b6b5  a0a1  a9a6  e1e0  g5f5
+ a4a5  b5a5  a1a5  a6a5  d3a5  c5b5
+ a5c2  b5b4  g0f2  b7b2  d0e1  b2d2
+ e1d2  b4c4  c2a5  d7b8  a5c8  f7d6
+ f3d6  b8c6  i0i4  b9d6  i4h4  h9e7
+ e4e5  c6d4  e5d5  d6a4  h4e4  e8d8
+ e4e3  e7b5  d2e1  d9e8  d5c5  b5d2
+ e0d0  f9f8  e2e0  i9c9  h2h8  d8d9
+ c8f6  c9c5  e1d1  f8f7  d0e1  d2a0
+ h8h2  f5f4  e3a3  a0d2  a3b3  f4f3
+ g3f3  c4c3  b3b9+  d9d8  h2d2+  d4f3
+ d2d0+  e8d7  b9b8+  d8d9  h3g3  f3e5
+ b8b4  a4c1  b4e4  c1e4  f2e4  c5c6
+ f6h3  f7e8  g3f3  e5g4  f3f4  g4h2
+ f0f1  c3c2  h3f6  d9e9  f1f2  d7e7
+ f6h9  e7f7  f4f5  i6h6  f5f6  f7f8
+ e4d6  e9f9  f6e6  f8f7  e6f6  f7f8
+ e0e6  c6c5  e1e0  h6h5  d1e1  c5d5
+ d0f0  d5d6  e6h6  d6d5  h6h2  c2c1
+ f0d0  d5e5  e0f0  h5g5  h2e2  g5g4
+ f6g6  e5g5  g6h6  g5f5  f0e0  e8f7
+ d0f0  f5d5  h9f6  c1d1  e1d1  d5d1
+ h6g6  f9e8  g6g7  d1d6  g7f7+  f8f7
+ f6c8  g4g3  f2e1  g3f3  f0d0  e8f8
+ d0f0  f8e8  f0d0  e8e9  c8a5  e9f9
+ d0f0  f9e8  a5c2  d6d4  c2a5  e8f8
+ a5c8  d4d6  c8a5  f8e8  a5c2  d6d4
+ c2a5  f3g3  a5c8  d4d6  c8a5
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 공원이보인다 8단"]
+[Black "양귀마 그만자자 8단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "114"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  e6e5  e3e4  h7e7
+ g0f2  c9d7  a3b3  i6h6  c3c4  g6g5
+ g3g4  g5f5  c4d4  c6c5  e4e5  f5e5
+ b3b4  a6a5  b0d3  h9f6  d4e4  c5d5
+ b4c4  a5a4  g4f4  h6g6  a0b0  e8f8
+ e4e5  d5e5  b0b3  b9d6  b3c3  a9c9
+ e2e6  f6d3  f2d3  g6f6  e6e2  e5d5
+ d3f2  f9e8  i0i1  e7e9  i1g1  a4b4
+ f4e4  i9i5  g1g3  b4c4  c3c4  c9c4
+ d2c4  f8f9  h0f3  d6a4  g3h3  i5g5
+ c4a5  b7e7  i3i4  d9d8  f3i5  f6g6
+ h3a3  a4d6  a5c4  d5c5  c4d2  e9i9
+ a3h3  i9i4  h3h9+  f9f8  i5f3  d6a4
+ d2b1  a4c7  b1d2  i4b4  h9b9  c5b5
+ b9c9  d8d9  c9c8  b4b9  f3d6  g5d5
+ c8b8  b9g9  d6a8  f8f9  b8b6  d5g5
+ b6c6  d9d8  f2h3  g5g3  h3i5  g6h6
+ c6f6  g9d9  f6f5  g3e3  e1f2  f9e9
+ i5g4  e3g3  g4h6  d9f9  h6f7+  e8f7
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 가마도로 9단"]
+[Black "양귀마 일휘 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "110"]
+[Result "0-1"]
+
+ g0f2  g9f7  e3e4  e6e5  h2e2  h7e7
+ c0d2  c9d7  g3g4  c6c5  c3c4  c5d5
+ g4f4  i6h6  h0f3  a6b6  b0d3  h9f6
+ d3b6  d7b6  e4e5  d5e5  f3c5+  e8f8
+ c5f7  f8f7  c4c5  b6c4  e1d1  a9a3
+ a0a3  c4a3  c5c6  e7h7  d1e1  f9e8
+ f4e4  e5f5  i3i4  a3c4  i0i3  c4b2
+ e2b2  b7g7  b2e2  g6g5  i3b3  f6i4
+ f2h3  b9e7  h3g5+  h6g6  b3h3  f5g5
+ h3h7  e7g4+  e1d1  g4d2  d1d2  f7f8
+ e4e5  g6f6  c6d6  d9d8  h7h6  g5g4
+ d0e1  g7g3  e2c2  f8f9  c2i2  i9g9
+ h6i6  g3g6  e5d5  i4g1  i2c2  f6f5
+ c2g2  g6g3  i6i1  g1d3  i1f1  f5f4
+ f1h1  g9g5  h1h9+  f9f8  g2c2  g5d5
+ c2f2+  d3f6+  d2e2  d5d6  h9h8+  f8f9
+ h8h6  f9e9  f2f6  e8f9  e2f2  d8e8
+ f2f1  g3g8  h6g6  g8d8  f0e0  d8f8
+ f1f0  e8f7
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 스타클랜-지박령 8단"]
+[Black "양귀마 청로아 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "141"]
+[Result "1-0"]
+
+ c0d2  c9d7  b2e2  c6d6  a3b3  b7e7
+ e3e4  g9f7  i3h3  f9f8  g0f2  e8f9
+ f0f1  d9e8  e1f0  e7e9  h0f3  a6b6
+ a0a9  e9a9  d0e1  a9d9  c3c4  h9f6
+ e2e0  h7e7  e0g0  g6g5  b0d3  g5f5
+ g0b0  d6c6  d3f6  e6f6  b3b4  b9d6
+ g3g4  e7e3  c4d4  c6c5  b0g0  e3e6
+ g0g7  f6g6  g7d7+  e8d7  d4c4  c5d5
+ h3h4  d7e8  f3d6  f7d6  h2e2  e6e9
+ g4f4  d5e5  c4d4  f5f4  e2e5  f4e4
+ d4e4  d6f7  e5e2  i6h6  i0h0  b6c6
+ h4g4  e9e7  f0e0  e7h7  h0g0  d9g9
+ g0g3  i9i0+  f1f0  c6d6  b4c4  h7d7
+ c4d4  d7g7  e4f4  g9d9  d4e4  d6d5
+ d2c4  d5c5  c4e5  f7e5  e4e5  i0i5
+ f4f5  c5d5  e5d5  i5f5  d5d6  f5b5
+ d6e6  g6f6  g3e3  h6g6  e6e7  b5b8
+ e3d3  b8b0+  e1d0  d9g9  e7e8+  f8e8
+ f0e1  g7g4  f2e4  g4g8  d3h3  b0b8
+ h3h9  g8g2  e4g3  g2g4  g3i4  e8e9
+ i4h2  b8g8  h2g4  g6g5  g4e5  g5f5
+ e5f7  f9f8  h9h8  g8h8  f7h8  g9d9
+ h8i6  e9e8  d0d1  f5f4  i6g5  f6g6
+ g5e6+  f8f7  e6f4
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 아침술저녁술취해보자 8단"]
+[Black "양귀마 머짱이 8단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "101"]
+[Result "1-0"]
+
+ g0f2  g9f7  h2e2  e6e5  i3h3  h7e7
+ e3e4  c9d7  a3b3  e5e4  f2e4  d7e5
+ c0d2  b9d6  e4f2  e5d7  c3c4  c6b6
+ h0f3  d6f3  g3f3  a9c9  b3b4  h9f6
+ h3g3  f9f8  f3f4  d9d8  f4f5  f6c4
+ b4c4  i6h6  i0i9  c9i9  b0d3  i9i5
+ f5f6  g6f6  d3f6  i5f5  f6i4  e8f9
+ a0c0  d8e8  c4d4  e7e9  c0c7  b7b4
+ i4g1  b4b9  g1e4  e9e7  c7c3  f5b5
+ e1f1  b9g9  f0e1  b5i5  e2e0  i5i0
+ f2g4  h6g6  b2f2  g6g5  g4e3  g9g3
+ e3g2  g3g9  g2h4  d7e5  d4d5  e5g4
+ c3g3  i0h0  h4g6  e7e3  d2c4  e3e6
+ d5d6  e6h6  g6h8+  f9e9  h8f7  f8f7
+ c4e5  h0h4  e5g4  h6h3  e4b6  f7e7
+ b6e8  g5g4  g3e3  h4h7  e8h6  g4h4
+ d6d7  h3h6  e3e7+  h7e7  d7e7
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 국민안전처 8단"]
+[Black "양귀마 미챠 8단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "104"]
+[Result "0-1"]
+
+ g0f2  g9f7  c3d3  f7d8  f2d1  h9e7
+ h0e2  i6h6  a3b3  b9d6  b3c3  b7g7
+ g3f3  g7a7  a0a6  a7a1+  a6a1  a9a1
+ c0d2  e8e9  c3c4  d9e8  c4d4  h7c7
+ d4d5  d6b9  d2b3  a1b1  h2c2  c9b7
+ e1e0  i9i5  b3d4  i5d5  d0e1  e6d6
+ i3h3  d5a5  c2g2  c7c1  b2f2  b1b0+
+ f2d0  b0a0  i0i9  c1c9  d1b0  a0a3
+ b0c2  a3a0  c2b4  c6c5  d4f5  d6d5
+ f5g7  c5c4  g7e8  e9e8  i9i8+  e8e9
+ b4a2  f9e8  h3g3  a0c0  i8i5  d5c5
+ i5e5  g6f6  g2d2  h6g6  d2f2  f6e6
+ e5i5  g6f6  g3g4  b9d6  g4f4  c9f9
+ f4e4  a5a3  i5i9  --  f0f1  --
+ a2b0  b7a5  b0c2  a3a0  e4d4  a5b3
+ d4c4  c5c4  i9i4  b3c1+  e0f0  c1e2
+ i4c4  d6f3  e3f3  f9f3  f0e0  e2c1+
+ e1d1  c0d0+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2016~2017"]
+[Site "장기 for Kakao"]
+[White "양귀마 야구꽝 8단"]
+[Black "양귀마 그린고래 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 30초 3회"]
+[PlyCount "99"]
+[Result "1-0"]
+
+ c0d2  c9d7  b2e2  e6e5  e3e4  b7e7
+ g0f2  i6h6  a3b3  g9f7  c3c4  e8e9
+ c4d4  c6c5  b3b4  f9e8  g3g4  h7h5
+ a0a3  h5h8  b4c4  c5c4  d2c4  e9f9
+ g4f4  g6g5  c4d2  e5e4  d4e4  h6h5
+ b0d3  i9i6  d3a1  h8a8  a3c3  a8a1
+ h2h9  e7h7  h0f3  i6i9  h9d9  e8d9
+ f3c5  f7h8  e2a2  a6b6  f2d3  d7c5
+ a2f2+  f9e9  c3c5  b9e7  d3e5  d9e8
+ e5g6  h8f7  f4f5  g5f5  c5f5  h5g5
+ f5f3  a1g1  g6e5  f7e5  e4e5  a9a1+
+ e1e0  h7b7  i0i1  b7b0+  d0e1  g1g9
+ e5e6  e7b5  d2e4  a1c1  e4g5  c1c0+
+ f2d0  g9d9  g5e4  b5d2  e6d6  d2a4
+ e1d1  i9g9  i3h3  g9g2  i1e1  g2g6
+ f3c3  c0c3  e4c3  a4d6  c3e4  d6b3
+ d0d2  g6e6  e4c5
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 장긴가 8단"]
+[Black "양귀마 칠단뒤빨차기 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "88"]
+[Result "0-1"]
+
+ g0f2  a6b6  i3h3  g9f7  h2e2  c6d6
+ e3e4  e8e9  c0d2  d9e8  g3g4  f7d8
+ h0f3  b6c6  b0d3  h9e7  d0d1  b7f7
+ f0f1  f9f8  a3b3  f7a7  i0i1  c9b7
+ a0i0  i6i5  i1i5  i9g9  i5i9  e7h9
+ i0i8  a7f7  i8h8  g9g7  h8h9+  f7f9
+ f3d6  b9d6  h3g3  h7e7  h9g9  g7g9
+ i9g9  g6f6  g4f4  c6c5  d3f6  e6f6
+ e4e5  e9d9  f4f5  f6f5  e5f5  e7e9
+ f5g5  a9a4  g9g7  e9e7  f2e4  c5d5
+ c3c4  a4a1  e4f2  a1c1  b2b6  d5c5
+ b3b4  c5c4  d2c4  f9d7  g7g9+  e7e9
+ c4d2  d7d3  e1e0  d3d1  b6b0  d1a1
+ f1f0  c1d1  d2e4  d1b1  g9e9+  e8e9
+ e4d6  b1b0+  e0e1  b7d6
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 phoenix08 9단"]
+[Black "양귀마 맨빅 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "118"]
+[Result "0-1"]
+
+ g0f2  c9d7  h2e2  c6d6  a3b3  b7e7
+ e3e4  i6h6  g3g4  g9f7  c0d2  g6g5
+ g4f4  e8d8  h0f3  i9i8  c3c4  d9e8
+ b0d3  e7e9  i0i2  e6e5  c4d4  d6d5
+ d4d5  e5d5  i3h3  i8i2  e2i2  d5d4
+ e1f1  d4d3  f2d3  h7h3  d3b4  a6b6
+ a0a9  e9a9  b4d5  a9d9  d5b6  d7b6
+ b2b6  d9d2  f3c5  f7h8  f1e1  d2d9
+ b3b4  h6h5  f0f1  h8g6  f1f2  d9d3
+ d0d1  g6e7  i2d2  b9d6  e4d4  e7c8
+ b6b2  d6b3  b4c4  h9e7  e1e0  h3h9
+ f2e1  h9e9  d4d5  h5h4  b2b8+  d8d9
+ c4b4  c8b6  d5d6  b3e5  d6c6  b6a8
+ c6c7  a8b6  f4e4  b6d5  e4e5  d5c7
+ b8b0  c7a6  b4b5  e7b5  e5d5  g5f5
+ d2f0  f5e5  c5e8  f9e8  d5e5  e9e5+
+ e1f2  a6c5  f0d0  c5e4+  f2e1  e4g3+
+ e0f0  g3h1+  f0f1  h4g4  d0f2  g4g3
+ e1e2  b5e7  f2d2  g3f3  d1d0  e7g4
+ --  g4d2  e2d2  f3f2+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 케인데스 8단"]
+[Black "양귀마 탁배기 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "112"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  e6e5  g3f3  h7e7
+ c0d2  c9d7  a0a1  g6g5  c3b3  b9d6
+ a1c1  a6b6  d0d1  d9d8  e1d0  e7c7
+ c1a1  e8d9  f0e1  f9e8  e2e0  d6b3
+ b0d3  c6c5  f3f4  i6h6  e3e4  g5f5
+ f4f5  e5f5  h0f3  f5e5  e4e5  b3e5
+ i0h0  i9i3  f3h6  h9f6  h6e4  c7e7
+ d3g5  d7b8  a3a4  e7e9  g5e2  i3c3
+ h0h5  b8d7  e2g5  d7b8  e4h2  f6c4
+ f2e4  c3c2  e4c5  b6c6  d2c4  c2c4
+ c5e4  b7g7  a4a5  e9c9  b2i2  g7e7
+ i2d2+  d9e9  a1a3  c9f9  h5h9  c4b4
+ d2i2  c6d6  g5e2  b4c4  e2h4  a9c9
+ d1d2  e7e4  h4f7  e4e7  i2f2  b8c6
+ e0e5  c4c0+  d0d1  c6a5  a3a1  a5b3
+ a1b1  c0c1+  b1c1  c9c1+  d1d0  c1c0+
+ d0d1  b3d4  e5e0  d4f3  d2e2  e8f7
+ f2f7  f3e5  h9h7  d8e8  f7i7  f9d9+
+ e2d2  d6e6+  d2e2  e5d3+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 연못가에서 8단"]
+[Black "양귀마 칠단뒤빨차기 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "200"]
+[Result "0-1"]
+
+ c0d2  g9f7  g0f2  i6h6  h2e2  g6f6
+ e3e4  e8e9  b0d3  h6g6  c3b3  d9e8
+ a0c0  f7d8  h0f3  h9e7  f0f1  h7c7
+ c0b0  c7f7  e1f0  f7d9  e2i2  i9h9
+ d0e1  f9f8  g3h3  b7f7  b0b1  c9b7
+ b2b0  c6c5  b0h0  h9g9  h0d0  f6f5
+ b1c1  c5d5  c1c8  e6e5  e4e5  d5e5
+ f3i5  f7f2+  f1f2  d9d3  i5f3  b9d6
+ f3c5  d3d7  i2e2  a6b6  h3g3  b6c6
+ c5f3  f5f4  i3h3  g6f6  i0i8  f8f7
+ e2e0  f6f5  e0g0  g9h9  g0e0  f4f3
+ g3f3  h9h3  i8i9+  d7f9  e0e3  h3h4
+ e3e0  a9c9  c8a8  c6c5  b3c3  c5c4
+ c3c4  e7c4  f2f1  f7e7  a3b3  d6f3
+ d2f3  h4f4  f3d2  e7d7  e0e2  c4e7
+ f0e0  c9a9  a8c8  a9a0  d2c0  a0a5
+ d0f0  f4g4  c0d2  a5c5  c8a8  b7d6
+ a8a9+  e8d9  e2e6+  d7e8  e6e2  d6e4
+ d2b1  e4g3  e2e7+  e8e7  b1c3  e7e8
+ f0c0  e5d5  a9c9  g3e4  c0c5  d5c5
+ c3e4  g4e4  c9c5  f5f4  b3c3  d8e6
+ c5c6  f4f3  i9i6  e6f8  c6c4  e4e7
+ i6i2  d9d8  i2i9  e7h7  e0d0  h7h0+
+ d0d1  f8h9  i9i3  h9f8  c3d3  h0b0
+ c4c3  b0b1+  d1d0  b1b0+  d0d1  b0b1+
+ d1d0  b1b2  i3i9  b2b0+  d0d1  b0b1+
+ d1d2  b1b2+  d2d1  b2b1+  d1d0  b1b0+
+ d0d1  b0b1+  d1d2  b1b2+  d2d1  b2b1+
+ d1d0  b1b0+  d0d1  b0b1+  d1d2  b1b2+
+ d2d1  b2b1+  d1d0  b1b0+  d0d1  b0b1+
+ d1d0  b1b0+  d0d1  b0b9  d3e3  f3e3
+ c3e3  b9b7  e1d2  b7h7  f1e1  f8h9
+ i9i4  f9d9  e1f1  h7h2  f1e1  h2h0
+ e3c3  d8d7
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 이창욱 9단"]
+[Black "양귀마 訓手 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "76"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  c3d3  a6b6
+ i3h3  b7e7  g0f2  g9f7  g3f3  c6c5
+ f3f4  c5d5  e3e4  b6b5  e4e5  d5e5
+ d3d4  b5c5  f4e4  c5d5  d4d5  e5d5
+ h0f3  d5e5  f0f1  e5e4  d2e4  f7e5
+ f3c1  h9f6  h3g3  f6c4+  e1f0  c4f2
+ f1f2  f9f8  d0e1  e8f9  e2e0  d9e8
+ h2a2  e7a7  e4c3  a9a8  c3b5  a7f7+
+ g3f3  a8c8  c1e4  c8c5  a2a9+  f7d9
+ i0h0  i9h9  b0d3  c5b5  f3e3  e5f7
+ a9a2  i6h6  h0i0  h7e7  e0h0  h9i9
+ i0i9+  d9i9  e3f3  i9d9  d3b0  b5h5
+ h0d0  h5h3  b0d3  d9d3
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 터진만두 8단"]
+[Black "양귀마 용달 이 8단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "86"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  e6e5  i3h3  h7e7
+ e3e4  c9d7  a3b3  f9f8  c0d2  e8f9
+ e4e5  f7e5  e1e0  h9f6  d0e1  d9e8
+ e0d0  e7e9  a0a4  b7f7  e2e0  f7d9
+ b0d3  f6d3  e0e5  d7e5  f2d3  b9d6
+ b2f2+  e5f7  h0f3  d6b9  a4i4  a6b6
+ i4i6  i9i6  i0i6  g6g5  i6g6  e9e7
+ f2f7+  f8f7  g6g5  a9a2  d0d1  f9e9
+ g5g8  e7h7  h3i3  h7d7  d1d0  d7d2
+ e1d2  a2d2+  d0e0  d2a2  g8g6  a2a0+
+ e0e1  a0d0+  e1f1  d0d1+  f0e1  d1a1
+ f3h6  a1a5  i3h3  c6d6  g3f3  b6c6
+ h3g3  f7f8  g6f6  a5h5  d3f4  h5h1+
+ f1f0  b9e7  h6e8  f8e8  f4g6  h1h6
+ f0e0  e7h9
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 o지호 8단"]
+[Black "양귀마 전래놀이 101가지 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "115"]
+[Result "0-1"]
+
+ i3h3  a6b6  g0f2  c9d7  c0d2  b7e7
+ e3e4  g9f7  b2e2  e6e5  h0f3  b9d6
+ f0f1  d9d8  e1f0  e8d9  d0e1  e7e4
+ d2e4  e5e4  f3d6  f7d6  e2e0  e4d4
+ i0i4  d6f5  c3d3  d4d3  b0d3  f5h6
+ i4f4  h9f6  d3f6+  g6f6  h2d2  f6f5
+ f4d4  h6f7  d4i4  h7e7  a3a4  f9e8
+ a0a3  i6i5  i4h4  f5g5  f2e4  i5h5
+ h4f4  f7e5  e4c3  c6c5  c3e2  e5c4
+ a3a2  c4d2  a2d2  b6b5  d2d6  i9f9
+ f4d4  a9c9  e0g0  g5f5  a4b4  c9b9
+ b4b5  b9b5  d6c6  d9e9  c6d6  f9i9
+ g0d0  b5b0  f1f2  i9i0+  f0f1  i0i1+
+ f1f0  f5e5  d4g4  i1i0+  f0f1  c5d5
+ g4g9+  e8f9  e2f4  b0b1  d6e6  d8e8
+ f4h5  i0d0  h5g7  e9d9  g7e8  d9e8
+ g9g8+  f9f8  g3f3  d0h0  h3g3  h0h1+
+ f1f0  b1b0+  e1e0  h1h0+  f0f1  b0e0
+ e6e7+  e8e7  g8g7+  e7e8  g7d7+  e8d7
+ f2e1
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 A름다운강산 9단"]
+[Black "양귀마 매실약과22205969 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "118"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  i3h3  a6b6
+ e3e4  b7e7  g0f2  g9f7  g3g4  c6c5
+ g4f4  c5d5  c3c4  e8e9  a0a1  i9i8
+ h3h4  g6h6  h4g4  i8a8  i0i3  e5e4
+ f4e4  a8g8  i3d3  f9e8  d3d5  h7h5
+ d5d3  h9f6  c4d4  h5h8  d3c3  b9d6
+ e4f4  h8f8  d4d5  d6a8  a3b3  a9c9
+ f2e4  c9c3  b3c3  h6g6  d5e5  e9f9
+ e5e6  e7e9  e6f6  g6f6  e1e0  f6f5
+ a1i1  f5f4  g4f4  f8f4  i1i6  g8g0
+ d0e1  g0h0  i6i2  f4f8  e4g3  h0g0
+ i2i3  d7e5  d2e4  b6c6  b0d3  c6c5
+ i3h3  c5d5  c3c4  f8f3  g3f5  f3a3
+ d3g1  g0g1  h3a3  g1g4  e4f2  g4g5
+ f5g3  a8d6  e2g2  g5i5  g2d2  d6g4
+ d2g2  g4e7  a3a5  e5f3  g2e2  i5g5
+ g3i4  g5g4  a5a3  f7e5  i4h6  g4c4
+ h2h8  c4c0+  e1d0  f3d2+  e0e1  d2b1
+ h6f5  c0d0+  e1f1  b1a3  f5g7+  f9f8
+ f2e4  a3c2  e2e5  d5e5
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 희준c 9단"]
+[Black "양귀마 신 독사 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "111"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  g6f6  a3b3  h7e7
+ g3f3  i6h6  c0d2  c9d7  e3e4  b9d6
+ b2b4  c6b6  b0d3  a9c9  f3f4  d9d8
+ h0f3  i9i8  i3i4  e8d9  i4i5  f9e8
+ e2c2  c9b9  c2e2  e7e9  b4b1  e6e5
+ c3c4  e5e4  f4e4  f6f5  b1f1  f5e5
+ e4d4  d6f3  f1f3  h9f6  b3c3  f6d3
+ c3d3  e9c9  f3f1  c9i9  d3e3  b7e7
+ e3e4  e5e4  d2e4  i8i7  i0i3  i9i5
+ f1f7+  e8f7  e4g5  f7e8  f2g4  e7a7
+ a0c0  i5i9  i3i7  a7i7  d4d5  b6c6
+ g5e6  i9c9  g4h6  c6d6  d5d6  c9c0
+ d6d7  d8d7  h6g8  i7a7  c4d4  b9b1+
+ d0d1  b1c1  d4d5  c0c8  g8h6  c1c6
+ d5e5  c8c1+  d1d2  a7e7  h6g4  c1c9
+ e2a2  c6c2  a2a8  a6b6  a8g8  c2c4
+ g4h6  c4e4+  e1d1  e4e5  e6g7  e7b7
+ h6f5  b7g7  f5g7  e5e7  g7f5  e7f7
+ f5d6  f7f0  d6c4
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 산행대장 8단"]
+[Black "양귀마 칠단뒤빨차기 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "86"]
+[Result "0-1"]
+
+ c0d2  i6h6  g0f2  g9f7  h2e2  g6f6
+ e3e4  e8e9  b0d3  h6g6  h0f3  d9e8
+ a3b3  f7d8  e2e0  h9e7  i3h3  i9i0
+ e0i0  h7d7  d0d1  d7d9  i0c0  b7f7
+ e1d0  f9f8  f0e1  f6f5  b2e2  g6f6
+ g3g4  e6e5  e4e5  f5e5  f3i5  f7f9
+ h3h4  f6e6  i5g2  e5d5  d3g5  f9f7
+ g4f4  d5e5  h4g4  b9d6  g2i5  f7c7
+ g5e8  f8e8  c0c6  d8c6  e2e6  d6b3+
+ c3b3  c6d4  e6e2  d4b3  a0c0  c7i7
+ c0c3  a6b6  d0e0  b3a5  c3c5  a5c6
+ i5g2  a9a0+  d1d0  i7c7  c5c6  b6c6
+ f4e4  e5d5  g4f4  e9f9  f4f5  a0a3
+ f5e5  d5e5  g2e5  c6d6  e5h3  a3g3
+ h3f6  c7f7
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 고이도사랑 9단"]
+[Black "양귀마 한수무적 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "121"]
+[Result "1-0"]
+
+ c0d2  c9d7  d2f1  i6h6  a3b3  h9f6
+ b0e2  a9a8  h0f3  c6b6  e1e0  e8e9
+ h2d2  a8c8  g0h2  b7e7  f0e1  e6e5
+ g3g4  d9e8  d0d1  b9d6  g4f4  h7h2
+ f1h2  e7e3  i3i4  d6f3  h2f3  e3e7
+ f3h2  g9f7  d2d0  f6h3  b2f2  f7g5
+ i4i5  g5e6  i0i3  e7a7  a0c0  a7h7
+ d0h0  h3f6  h2f1  h7b7  f2c2  c8a8
+ h0d0  a6a5  c0a0  b6b5  c2i2  b7f7
+ f4g4  e5e4  c3d3  e4f4  g4h4  f4f3
+ b3c3  g6g5  d0f0  d7e5  d3d4  g5g4
+ d4e4  f3f2  f0f2  g4h4  f2a2  a8d8
+ i2d2  h4h3  i3i0  e5g4  i0g0  g4i5
+ e4e5  e6c7  a0c0  d8d4  d2d0  d4e4
+ c3b3  f6c4  g0g5  i5g4  e5d5  i9i1
+ c0c3  c7e6  g5g9  f7d9  d5d6  d9d1
+ d6e6  d1f1  e0f0  f1d1  a2a9  d1g1
+ g9h9  g1g6  e6e7  e8e7  a9f9  e9e8
+ e1d2  e4f4+  f0e0  g6i6  f9f0  i6e6+
+ e2c5+  e7d7  d0d7  e6e9+  h9e9+  e8e9
+ c3e3+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 Emporioarmani 9단"]
+[Black "양귀마 펀치낼로 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "129"]
+[Result "1-0"]
+
+ c0d2  c9d7  b2e2  c6d6  i3h3  a6b6
+ h0f3  b7e7  e3e4  g9f7  g0f2  b6c6
+ f0f1  f9f8  e1f0  h9f6  d0e1  e8d8
+ e2e0  a9a5  a3b3  a5a0  e0a0  d6d5
+ a0d0  e6e5  e4e5  d5e5  d0g0  g6g5
+ g0g5  f6c4  g5g0  c4f2  f1f2  e5f5
+ i0i4  e7b7  b0d3  b9d6  f3d6  c6d6
+ g0d0  d6d5  h2e2  b7e7  c3c4  d8e8
+ d3a5  d7c9  a5c8  c9a8  c8a5  f5e5
+ c4d4  f7h6  i4f4  e5f5  f4f3  d5d4
+ d0d4  h7h5  f3c3  e8f9  c3c6  i9i8
+ d4d0  d9e9  a5d3  f8f7  f0e0  i8e8
+ d0f0  e8g8  d3a1  h5h9  b3c3  e9e8
+ a1c4  e7e9  c4a7  e8d7  e0d0  h9h5
+ e2g2  g8i8  c6g6  i8b8  f0f5+  f9e8
+ f5f0  b8b4  g2e2  b4b5  g6c6  h5h8
+ e2e0+  e9e7  e0e2  e7a7  d2e4+  a7e7
+ d0e0  h8d8  h3h4  b5i5  g3g4  d8h8
+ e4g5  i5i3  c3c4  i3i0  c6f6  e7c7
+ c4c5  c7c4  g5f7  h6f7  f6f7+  e8d8
+ c5d5  a8b6  f7f8+  h8e8  d5d6  d7e7
+ f8f4  e8e5  d6c6
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 8 내 8단"]
+[Black "양귀마 님아 그 요강만은 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "94"]
+[Result "0-1"]
+
+ g0f2  c9d7  h2e2  c6d6  e3e4  e8e9
+ c0d2  f9e8  h0f3  a6b6  b0d3  b6c6
+ c3b3  d7f8  i3h3  b9e7  f0f1  b7f7
+ e2g2  f7f9  e1f0  h7d7  d0e1  g9h7
+ a0c0  d9d8  b2e2  i6h6  i0i9  f9i9
+ e2e0  h6h5  g3g4  g6f6  e0h0  f6f5
+ f3h6  i9f9  h6e8  d8e8  g2g8  e6e5
+ h3h4  h7f6  g8g0  h5h4  g4h4  f6h7
+ e4e5  f5e5  h4g4  f9f2+  f1f2  d7d3
+ c0c3  d3d7  g4h4  a9a5  c3g3  h7f6
+ g0d0  f6e4  d2e4  e5e4  h0e0  e4f4
+ g3g8  f8e6  e0h0  a5g5  g8i8  f4f3
+ f2f1  h9f6  i8i3  g5g3  i3i6  f6h3+
+ f0e0  d7f9  i6f6  e6d4  b3c3  d4c2
+ a3b3  e7h9  f6h6  h9e7  h6f6  e7h9
+ f6h6  f9d9  c3d3  g3g1
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 학생김 8단"]
+[Black "양귀마 님아 그 요강만은 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "108"]
+[Result "0-1"]
+
+ c0d2  i6h6  b2e2  g6f6  a3b3  e8e9
+ e3e4  d9e8  g0f2  g9f7  h0f3  h6g6
+ g3g4  f7d8  c3c4  h9e7  c4d4  b7f7
+ e2e0  f7d9  i3h3  i9g9  e0g0  f9f8
+ f0f1  h7d7  a0a2  c9b7  e1f0  a6b6
+ a2a9  b7a9  d0e1  d8b7  b0d3  d7d3
+ f2d3  d9d3  b3c3  d3d9  g4f4  g9f9
+ h2b2  b7d8  g0d0  f9h9  i0i3  h9h5
+ b2h2  h5a5  i3i5  a5a0  c3c4  c6d6
+ c4c5  b6c6  c5c6  d6c6  f4f5  a9b7
+ f5f6  g6f6  i5b5  c6d6  b5b3  d6d5
+ d4d5  d9d5  h2b2  a0a7  h3h4  d5d9
+ h4g4  b9d6  b3b4  d9f7  g4f4  a7a5
+ f0e0  f6f5  f4g4  e6e5  f3i5  f7d9
+ b2b7  a5a4  b4a4  d6a4  d0d8  a4d2
+ d8d1  d2g4  e4e5  f5e5  b7g7  g4i7
+ i5g2  e5e4  g7g0  e7b9  g0b0  b9d6
+ f1f2  e4e3  d1f1  e3f3  f2e2  f3g3
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 매실약과22205969 9단"]
+[Black "양귀마 신현업 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "78"]
+[Result "0-1"]
+
+ c0d2  g9f7  a3b3  h7e7  e3e4  e6e5
+ b2e2  i6h6  g0f2  d9d8  e4e5  f7e5
+ d2e4  c9d7  c3c4  e5c4  b3c3  c4e5
+ h2h8  a6a5  h8h1  h9f6  b0d3  a5a4
+ h1d1  a9a5  e1e0  f9f8  d0e1  e8d9
+ c3b3  a5b5  a0a4  f6c4  b3c3  c4f2
+ e4f2  e7e3  g3f3  e3c3  a4e4  f8e8
+ i3i4  b7e7  e4d4  c6c5  f3f4  c5c4
+ d4e4  e7e4  f4e4  e5f7  i0i1  c3c7
+ d3a1  c4c3  a1c4  f7d6  e4d4  c3d3
+ d4d5  d6b7  d5d6  b5b0+  e1d0  c7c0+
+ e0e1  b9d6  e2e0  b0b4  c4a7  d6b3+
+ e1f1  d3d2  d1d7+  d8d7  f2d3  i9f9+
+
+[Event "온라인 카장"]
+[Round "친선"]
+[Date "2017~2018"]
+[Site "장기 for Kakao"]
+[White "양귀마 연못가에서 8단"]
+[Black "양귀마 매실약과22205969 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분"]
+[PlyCount "138"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  e3e4  b7e7
+ g0f2  a6b6  i0i1  i6h6  g3h3  h9f6
+ i1g1  g9f7  h0f3  e8e9  f3h6  g6h6
+ h2h6  f7h6  g1g6  f6h3  g6h6  h3f0
+ h6h7  i9i3  c3b3  i3e3  e1f0  d9e8
+ d0e1  e7a7  h7d7  e8d7  e2a2  e5e4
+ f2e4  b9e7  a0a1  d7e8  a1c1  a9d9
+ a2e2  d9d5  f0e0  d5i5  e0d0  i5i0+
+ e2e0  a7f7  b3c3  f7d9+  b0d3  e3e4
+ a3b3  d9d2  d3g1  e4e6  c1c2  d2f0
+ e0e6  f9f8  c2f2  f0c0+  d0d1  c6d6
+ e6b6  c0c9  f2f6  i0i1  g1d3  e7g4
+ b6b1  c9f9  f6g6  i1i4  g6g9  d6d5
+ d3b6  g4e1  b1e1+  i4e4  c3d3  e4e6
+ b3c3  f8f7  d1d0  f7e7  g9g8  e7d7
+ d0e0  f9b9  g8g6  e6e2  g6g5  e9f9
+ g5d5  e2b2  d5f5+  e8f8  e0f0  b2b6
+ d3d4  b9g9  c3c4  g9d9  d4e4  d7e8
+ c4d4  b6b0+  f0f1  b0g0  e4e5  g0g4
+ d4d5  d9f7+  f5f7  f8f7  e1e6  g4g5
+ f1e1  --  e6e2  g5g1+  e1d0  g1f1
+ e2e6  f1f2+  d0d1  f2f1+  d1d0  f1f0+
+ d0d1  f0f1+  e6e1  --  e5e6  f1f5
+
+[Event "제2회 장기노트카페 친선대회"]
+[Round "미상"]
+[Date "2016-09-27"]
+[Site "미상"]
+[White "양귀마 꽃바람되어"]
+[Black "양귀마 은반지"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "93"]
+[Result "1/2-1/2"]
+
+{양귀마대 양귀마}
+ g0f2  g9f7  f2d1
+{양귀마형 면상}
+ h7e7  i3h3  a6b6  h0e2  b9d6  b0d3
+ e6e5  b2g2  g6g5  c0b2  b7b2
+{포하나 주고 마졸을 잡겠다는}
+ d1b2  e7e3+  e1d1  g5f5  c3c4  h9f6
+ a3a4  c9d7  d0e1  e8e9  g2g7  f9e8
+ h2d2  e3e7  g7g0  e7i7
+{초차가 병을 취하면 포장에 차포대를 해야함}
+ i0h0  i7e7  g0c0  i6h6  a4b4
+{차대를 할거였으면 포를 넘기기 전에 차대를 청하는게 }
+ a9a0  b2a0
+{03에 포를 넘겨둔 의도를 한에서 알아차렸다면 19차99를 선수로 해두었을텐데}
+ f5f4  d3b6  c6b6  d2d7
+{이정도되면 알수밖에
+사로 포를 잡으면 다른포가 +후 한차를 잡게되니}
+ i9i1  d7d2  e7e2
+{마를 주는대신 상을 잡고, 앞에서 상병대가 있었으니 큰손해는 아닙니다}
+ h0i0  i1i0  c0i0
+{양차를 없애고 남은 기물로는 완승하기가 쉽지 않을텐데}
+ e2e7  i0e0  d9d8  d2d0  b6c6  d0f2
+ h6g6  e0e5  f6c4  f2f7  e8f7  b4c4
+ f4f3  c4d4  f3g3  h3g3
+{이 정도면 무승부가 거의 확실합니다}
+ d6f9  d4d5  e7g7  e5e0+  e9d9  g3f3
+ g7d7+  e1d2  c6c5  d1e1  c5d5  a0b2
+ f9h6  f3e3  g6f6  e0g0  f6e6  b2a4
+ e6e5  g0d0  d9e8  a4b6  d7g7  b6d5
+ e5d5  d0d5  g7e7+  e1d1  e7e9  e3d3
+
+[Event "제2회 장기노트카페 친선대회"]
+[Round "미상"]
+[Date "2016-10-13"]
+[Site "미상"]
+[White "양귀마 안산족구단"]
+[Black "양귀마 꽃바람되어"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "144"]
+[Result "0-1"]
+
+{양귀마끼리의 대국입니다}
+ c0d2  c9d7  b2e2  d7f8
+{면상으로 두는군요}
+ a3b3  b9e7  i3h3  h9f6  h0f3  h7d7
+ g0f2  g6g5  e3e4  g5f5  f3h6+  e8e9
+ h6f9  e9f9  b0d3  c6d6  d3f6  e6f6
+ d0d1  g9h7  f0f1  d7g7  i0i4  i6i5
+ i4i1  d9e8  h2h6  d6e6  h6h0  b7f7
+ e1d0  f7d9  f1e1  g7i7  i1g1  i5h5
+ g3g4  d9g9  g1i1  a6b6  a0a9+  g9a9
+ h0b0  b6c6  b0f0  c6d6  g4f4  f5f4
+ f0f4  f6f5  f4f0  h5g5  h3g3  a9g9
+ g3f3  e7h5  f2h3  g9d9  f3f4  e6f6
+ f4f5  f6f5  e4e5  i7f7  i1i9+  d9i9
+{무승부쪽으로 가닥이 잡혀가는듯}
+ e5f5  g5f5  h3i1  d6d5  i1g2  d5e5
+ e2e0  i9d9  c3d3  h5e7  b3c3  f9e9
+ g2e3  h7i5  e3g2  f8h7  g2h4  d9h9
+ h4f3  h9d9  f3d4  e9f9  d4c6  h7g5
+ e0e2  e7b9  c6a7  d9g9  d2b3  g5f3
+ f0b0  b9d6  b3a5  f3g1  b0e0  d6f3
+ a7c8  g9d9  c8d6  e8f8  d6f7  f8f7
+ a5c6  e5e4  c6b8  d9g9  d1d2  f5f4
+ b8c6  i5g4  e2c2  g9d9  d0d1  g4f6
+ c6b8  d9g9  c2f2  g1e0  e1e0  g9e9
+ e0e1  f6d5  b8c6  f9e8  f2c2  e4e3
+ d3e3  e9e3  c3d3  e3g3  c6e5  f4e4
+{졸밀고 병으로 잡을때 상을 잡으면 무승부가 거의 확실합니다}
+ c2e2
+{그러나 자살골을.}
+ g3d3+
+
+[Event "제2회 장기노트카페 친선대회"]
+[Round "미상"]
+[Date "2016-10-26"]
+[Site "미상"]
+[White "양귀마 안산족구단"]
+[Black "양귀마 은반지"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "44"]
+[Result "0-1"]
+
+{양귀마끼리의 대국}
+ c0d2  c9d7  b2e2  e6e5  a3b3  i6h6
+ g0f2  b7e7  e3e4
+{양귀마끼리의 대국에서는 일차적으로 중앙에서 밀리면 안됩니다}
+ c6c5  g3g4  g9f7  d0d1  h9f6  e1d0
+ c5d5  e4e5  d5e5  f0e1  b9d6  e2e0
+ f9f8  b0d3  f6d3
+{졸로 잡으면 되는데}
+ f2d3
+{마로 잡으면서 졸을 공짜로 내주네요}
+ d6g4  d2f3  g4e1  d1e1
+{55병을 살리기 위해 35포75로 넘겨도 좋습니다}
+ e8f9  f3e5  d7e5  d3e5  d9e8  e5f7
+ f8f7
+{마구 교환을 해버리고 무승부로 가려는 생각인가요?}
+ h0e2  i9i5
+{초에서는 귀포를 놓고}
+ h2a2
+{헉! 자살골입니다.
+병을 치우면 86+에 차를 잡겠다는 생각이었는데}
+ a9d9+
+{선제공격을 받아 외통을 피할 수 없습니다}
+ e1d1  d9d1+  d0d1  i5d5+
+{졸로 막아도 차로 잡으면 외통입니다.}
+
+[Event "제2회 장기노트카페 친선대회"]
+[Round "미상"]
+[Date "2016-10-26"]
+[Site "미상"]
+[White "양귀마 은반지"]
+[Black "양귀마 안산족구단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "91"]
+[Result "1-0"]
+
+{양귀마대 양귀마}
+ c0d2  c9d7  b2e2  a6b6
+{양귀마끼리의 대국에서는 중앙싸움에서 밀리지 않아야 합니다.
+45병을 잡아버리면 일방적인 게임이 되기 쉽습니다}
+ i3h3  b7e7
+{지금이라도 병을 취하면 유리한데}
+ e3e4  e6d6  g0f2  g9f7  b0d3  d9d8
+ g3g4  e8d9  h0f3  f9e8  f0f1  d6d5
+ e1f0  b9d6  f3d6  c6d6  d0e1  b6c6
+ e2e0  e7e9  e0g0
+{49병48-대차하고-포가 16으로 넘는게 자연스럽습니다}
+ g6h6  h2e2  h9f6  d3f6  d7f6  g4f4
+ h7d7
+{마가 들어갈 자리를 포가 점령하면?}
+ f4f5  f6h7  h3g3  d7f9  f5g5  d5e5
+ g3g4  a9a5  d2c4  a5c5  e2e5  f7e5
+ e4e5  e9e5  c4e5  c5e5
+{너무 쉽게 기물교환이 이루어지는군요}
+ a3b3  h7f6  a0a4  i9i7  g4f4
+{미끼를 던져주나요?}
+ e5g5
+{미끼를 덥석 물었습니다.
+86마67로 나가면 낚시 성공인데}
+ g0d0
+{??? 졸을 그냥 이유없이 죽였나요?}
+ f6d7  f0e0  i7f7  i0i3  d9e9  i3e3
+ f9d9  f4g4  g5g9  a4a9  h6g6  e0f0
+ i6h6  d0g0  g9i9  g0e0
+{포가 하나일때는 보통 면줄에는 안두는게 좋습니다}
+ e9f9  f2d3  i9i4  d3e5  f7i7  f1f2
+{마46으로 가는게 선수인데}
+ d6e6  e5c6
+{병을 공짜로 주네요}
+ f9f8  e3e6
+{병을 두개 그냥 주고서 얻으려는 것이 있나요?}
+ d9f7+  e1f1
+{졸을 잡나요? 아니면 궁수비?}
+ i4i1
+{외통을 노려보는 것은 선수이나}
+ f0e1
+{포다리가 생기면서 한의 궁성이 오히려 위험해졌습니다}
+ i1g1
+{안전불감증.
+11차21이면 외통수순을 피할 수 없습니다}
+ a9g9
+{외통에는 변함 없습니다}
+ i7i8  c6d8
+{사로 마를 잡더라도 17차15 다음에 양차로 입궁이면 끝입니다.}
+
+[Event "제3회 장기사랑카페 챔피언전 예선전"]
+[Round "미상"]
+[Date "2014-01-17"]
+[Site "한게임 청소년방"]
+[White "양귀마 추손생(올챙이)"]
+[Black "양귀마 버라이언트(용사의희망)"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "15분 초읽기 30초 3회"]
+[PlyCount "70"]
+[Result "0-1"]
+
+ c0d2
+{응?선수양귀마 대 후수양귀마입니다.}
+ g9f7  b2e2  e6e5  a3b3  h7e7  e3e4
+ c9d7  i3h3  a9a8
+{양귀마 경험은 올챙이님께서 많으신데 어떨까요}
+ g0f2  c6b6  e4e5  d7e5  h0f3  b9d6
+{76상 잡겠다고 44상이 나온 것 같은데 악수입니다.}
+ f3c5+  e5d7  c5f7  e8f7  f2e4
+{한에서 무너집니다.}
+ d6b3  c3b3  a8c8
+{+은?}
+ e4d6+  f7e8  d6b7  e7b7
+{30수도 안 되었는데 한에서 손실이 너무 크네요}
+ a0a4  b7e7  a4e4
+{초차가 면포를 누르는 것도 좋지만 69로 양차합세를 하는 것은 어떨까싶네요.}
+ e8d8
+{실수입니다.
+그런데 의도했을수도 있습니다. 용사님은 기물을 그냥 주고 형태를 풀거든요. 저와의 대국에서 잘 나타나있죠.}
+ h2h9  i9h9  e4e7  d9e8  e7e4  g6h6
+{병을 변으로 붙이네요}
+ b0d3  h9g9  i0i2
+{차가 그 선으로 올라왔네요}
+ b6c6
+{그 병은 전에 변으로 붙인 병인데..이제 쓰네요}
+ e2e0  a6b6  i2e2
+{응수를 안하면 사 먹어버립니다.}
+ d8d9
+{궁 내리면 됩니다. 초의 모양이 신기하네요}
+ g3g4  h6g6
+{이젠 또 병을 당기네요. 그냥 아까 49병48했으면 하네요}
+ h3h4  i6h6  e4a4  c6c5  a4a9+  c8c9
+ a9a8  g9g8  d3g1  c5d5  e2e6  b6c6
+ g1e4  g6f6
+{대국당시에는 못 봤는데 초차가 35로 가면 살아납니다.}
+ e4b6+  d7b6
+{마로 먹는 것이 정수. 21차와 45차가 걸렸습니다.}
+ a8e8+  g8e8  e6e8+  f9e8  e0e8
+{때려버리네요}
+ d9e8
+{이렇게 빅장으로 한 점수승했습니다.
+초에서 공격을 서두르다가 자멸했는데
+아주 허무하네요...}
+
+[Event "제3회 장기사랑카페 챔피언전 챔피언 결정전"]
+[Round "미상"]
+[Date "2014-02-03"]
+[Site "한게임 청소년방"]
+[White "양귀마 버라이언트(용사의희망)"]
+[Black "양귀마 추손생(올챙이)"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "15분 초읽기 30초 3회"]
+[PlyCount "50"]
+[Result "0-1"]
+
+{이런..양귀마 대 양귀마입니다.
+후수양귀마입장에선 편안한 진행이 예상됩니다.
+올챙이님께서 후수원앙마를 준비하지 않으셨는데 좋은 선택이네요. 제가 볼 때 올챙이님께선 선수든 후수든 양귀마를 둘 때 가장 강합니다.}
+ c0d2  c9d7  b2e2  e6e5  e3e4  b7e7
+ g0f2  a6b6  i3h3  g9f7  f0f1  g6g5
+ c3c4  e5e4
+{이 수로 중앙쪽은 한이 잡게 되었습니다.
+65졸은 없어지고 57병이 55로 갈테니까요.}
+ f2e4  g5f5  h2h4
+{포를 띄웠는데 무슨 의도일까요}
+ b9d6  h4d4  d9d8  e1f0  e8d9  d0e1
+ f5e5  e4f2  h9f6  d4d0
+{포분할을 먼저 하긴 했네요}
+ f9e8  e2e0  e7e9  c4d4  h7e7
+{차를 씌우겠다는 의도}
+ d4e4
+{못 봤군요}
+ e7i7
+{원래 여기서 졸이 왔다갔다하면 차가 안 죽는데 한게임장기라서 반복수로 처리되어 둘 수 없습니다. 그냥 차를 죽여야합니다.}
+ i0i6
+{이렇게 말이죠.}
+ i7i0+  i6i0  i9i0
+{결국 차를 잃습니다.}
+ e4e5  e9e5  b0e2  e5e9  e2g5  f6h3+
+{상이 뜬 수를 의미있게 만드려면 마로 상을 먹어야 합니다.}
+ g3h3
+{어....}
+ f7g5
+{졸을 하나 더 죽인 셈입니다.}
+ d2e4
+{막 두는 듯한 수}
+ g5e4  e0e4  d6b3
+{치명타입니다. 기권.
+1국을 진 상태에서 왜 자신의 주포진인 귀마가 아닌 양귀마를 선택했는지 의문이 듭니다. 같은 양귀마라면 경험이 많은 올챙이님쪽이 유리할 수밖에 없습니다.}
+
+[Event "제3회 장기사랑카페 챔피언전 챔피언 결정전"]
+[Round "미상"]
+[Date "2014-02-03"]
+[Site "한게임 청소년방"]
+[White "양귀마 추손생(올챙이)"]
+[Black "양귀마 버라이언트(용사의희망)"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "15분 초읽기 30초 3회"]
+[PlyCount "53"]
+[Result "1-0"]
+
+{이젠 후수양귀마로 두는군요 }
+ c0d2
+{방어를 잘 하면 좋으련만..}
+ g9f7  b2e2  c6d6
+{상대가 귀마나 원앙마가 아닌데 왜 자신의 상멱을 막았을까요? 중앙 졸병싸움을 대비한 것일까요?
+}
+ h0f3
+{응수를 안 하면 상으로 44병을 먹겠다는 수입니다. 병 먹은 상을 먹으면 45병을 포로 먹어 양득이 됩니다.}
+ h7e7
+{이제는 안 되죠.}
+ e3e4  a6b6  i3h3  a9a8  b0d3  c9d7
+ g0f2  e7e4
+{일리가 있는 수입니다.}
+ d3b6  e4e7  b6d3
+{이러면 65졸을 42병과 바꾼 셈입니다.}
+ e6e5  i0i4  d6d5  i4b4
+{응수를 안 하면 포를 먹죠}
+ e8f8
+{이제 71졸을 계속 올리면 되겠네요.}
+ h2h4
+{중포작전인가요?}
+ h9f6  h4a4  b9d6
+{상이 나오니..}
+ a4h4
+{헛수가 되었습니다.}
+ i6h6  g3g4  f9e8  h4h1  f8f9  h1a1
+ a8b8  a3b3  e7e9  a1f1  b7e7
+{상으로 병을 먹으면?}
+ f3h6+  f7h6
+{상을 잃지 않으려면 이 수밖에 없습니다.
+모양이 나빠졌네요.}
+ a0a6  b8b4  b3b4
+{44상으로 67졸을 먹으면 초마가 그 상을 먹으면서 포+이 나오므로 불가합니다.}
+ d6g8  g4g5  g6g5  a6f6+  h6f7  d3g5
+{결국 손실을 보고야 맙니다. 34마가 걸려있습니다.}
+ d7c9  f2g4
+{치명타네요.}
+ i9i7
+{이러면 더욱 안 좋습니다.}
+ f6f7+
+{기권.
+명색이 챔피언결정전인데 너무 허망하네요.}
+
+[Event "온라인 네오장기"]
+[Round "미상"]
+[Date "2004-12-28"]
+[Site "사이버장기"]
+[White "양귀마 mks0482 9단아마"]
+[Black "양귀마 또장기사랑 9단아마"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "108"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  g6f6  e3e4  a6b6
+ g0f2  i6h6  b0d3  b9e7  h0f3  h6g6
+ g3h3  i9i8  i0g0  g9f7  e1e0  e8e9
+ f0e1  d9e8  e2a2  a9a3  a2a9  a3a0
+ a9f9  e8f9  c3b3  b7b5  b3c3  b5b9
+ c3b3  f9e8  h2h4  i8i5  g0g1  i5f5
+ h4h0  b9f9  e0f0  h7h2  g1g2  h2f2
+ e1f2  e6e5  f2e1  e5e4  h0e0  a0a4
+ d3b6  e4f4  h3g3  f4f3  g3f3  c6b6
+ i3h3  a4i4  h3g3  f7h6  d2f1  b6c6
+ g2c2  c6c5  b3c3  f5d5  f1e3  d5d6
+ c2a2  f6e6+  e3f1  g6f6  a2a8  i4i1
+ e1f2  d6d4  f0e1  d7e5  e0e2  c5c4
+ a8c8  c4c3  c8c7  c3d3  d0d1  d4d7
+ c7c8  d7a7  c8c1  a7a2  e2e0  f9d9
+ f2e2  e7b5  c1b1  h9e7  f3f4  d9f9
+ b1b4  a2a1  e2f2  f9d9  b4d4  d3d2+
+ e1f0  a1d1  f1d2  d9d2  d4d5  i1e1+
+
+[Event "온라인 넷마블"]
+[Round "미상"]
+[Date "2014-12-09"]
+[Site "넷마블"]
+[White "양귀마 8233165 3급"]
+[Black "양귀마 no2no86 2급"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "79"]
+[Result "1-0"]
+
+ g0f2  e8f8  h2e2  g6f6  i3h3  g9f7
+ h0f3  h7e7  i0i4  c9d7  i4g4  f9e8
+ e3d3  a6b6  d3d4  i6h6  g4g8+  f8f9
+ c3c4  e6e5  c0d2  f6f5  g3g4  e7e9
+ b0d3  b9d6  f3h6  f7h6  g8g6  h6g8
+ c4c5  e9g9  g6e6  d6b3  c5c6  b6c6
+ e6c6  b7f7  e1d1  f7f2  d0e1  f2f7
+ d2b3  g9g4  c6g6  g4g7  a0c0  i9i7
+ c0c8  d9d8  g6e6  h9e7  b2b7  a9a3
+ f0e0  a3b3  b7e7  b3d3+  e1d2  g7g9
+ e7c7  e8d9  c7c9+  f9f8  e6d6  i7i1+
+ e0e1  d3a3  d6d7  a3a1+  c9c1  g9g1+
+ e1d0  g1g9+  d2e1  f7f1+  d1d2  d9e8
+ d7e8+
+
+[Event "온라인 넷마블"]
+[Round "미상"]
+[Date "2014-12-09"]
+[Site "넷마블"]
+[White "양귀마 nijoral88 3단"]
+[Black "양귀마 ESSE2809 3단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "65"]
+[Result "1-0"]
+
+ g0f2  g9f7  h2e2  e6e5  c0d2  h7e7
+ e3e4  c9d7  g3g4  c6c5  g4f4  c5d5
+ c3c4  g6g5  i3h3  i6i5  a3b3  a6a5
+ b3b4  i9i6  h0f3  i5i4  h3h4  i4i3
+ h4g4  g5g4  f4g4  e5e4  d2e4  d5e5
+ e4c5  d7c5  f3c5+  e8f8  c5f7  f8f7
+ b0d3  a9a6  e1e0  h9f6  d3g5  e5f5
+ d0e1  b9d6  a0d0  f5g5  g4g5  f7e8
+ g5f5  f6h9  d0d5  i6i4  f5e5  d6g8
+ e5f5  e8e9  i0g0  a6a8  g0g7  a8e8
+ f5f6  i4f4  f6e6  e8d8  e6e7+
+
+[Event "온라인 넷마블"]
+[Round "미상"]
+[Date "2014-12-09"]
+[Site "넷마블"]
+[White "양귀마 tnsdo2366 9단"]
+[Black "양귀마 chaos7857 9단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "72"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  g0f2  b7e7
+ e3e4  i6h6  h0f3  e5e4  d2e4  a6b6
+ b0d3  g9f7  c3b3  d7e5  e2e5  f7e5
+ f3h6  b9d6  a0c0  g6h6  h2e2  d6g8
+ d3b6  c6b6  c0c8+  d9d8  e4g5  h6g6
+ g5e6  a9a5  e6c7+  e5d7  f2e4  g8e5
+ e4c3  e5b3  a3b3  e7c7  g3h3  c7e7
+ i0g0  d7e5  g0g3  g6g5  e1e0  g5g4
+ g3g2  e5d3  f0e1  a5e5  e0f0  i9i5
+ g2g1  i5f5+  g1f1  f5f1+  e1f1  e5e2
+ c3d5  d3f4  f1e1  e2h2  d5f4  g4f4
+ c8c4  f4f3  c4f4  f3e3  f4f9+  e8f9
+
+[Event "온라인 명인장기"]
+[Round "미상"]
+[Date "2011-07-16"]
+[Site "엔씨소프트"]
+[White "양귀마 실전지옥장기 9단"]
+[Black "양귀마 추손생 2급"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "10분 15초 3회"]
+[PlyCount "84"]
+[Result "0-1"]
+
+ a3b3  c9d7  c0d2  b7e7  e3e4  i6h6
+ g0f2  g9f7  h2e2  e6e5  b0d3  c6c5
+ i3i4  c5d5  e4e5  f7e5  d3b6  d9d8
+ e1d1  h9f6  e2e6  f9f8  e6a6  b9d6
+ d2c4  d6g8  c4e5  d5e5  d0e1  i9c9
+ h0f3  c9c8  b6d3  c8a8  f3h6  a8a6
+ a0a6  a9a6  h6f3  f6d3  c3d3  e5e4
+ i4h4  e4f4  d3d4  a6d6  i0i7  d6d4+
+ e1d2  e7b7  h4i4  g8e5  b3c3  h7c7
+ c3d3  d4b4  b2e2+  c7e7  d1e1  b4b3
+ d3d4  b3d3  i7i6  d3d4  i6g6  f4f3
+ g3f3  d4i4  g6h6  i4i3  f3f4  i3f3
+ f4g4  e8d9  f0f1  f8e8  h6h9+  e7e9
+ g4g5  e8f9  h9h8  e9c9  g5g6  f9e8
+
+[Event "온라인 피망장기"]
+[Round "미상"]
+[Date "2015-01-10"]
+[Site "미상"]
+[White "양귀마 실전화살장기"]
+[Black "양귀마 열장하요 5급"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "77"]
+[Result "1-0"]
+
+ c0d2  c9d7  b2e2  b7e7  e2e6  g9f7
+ e6e2  h9f6  e3e4  g6h6  g0f2  i9g9
+ g3g4  b9d6  g4f4  g9g1+  f0f1  c6b6
+ b0d3  a9c9  a3b3  h6g6  d3f6  g6f6
+ c3c4  i6h6  i3h3  f9f8  h0f3  g1g2
+ e1f0  g2g5  d0e1  d9d8  e2e0  e7e9
+ h2e2+  e8f9  e0g0  d8e8  g0d0  f6f5
+ f4f5  g5f5  f3d6  f7d6  d0d6  f5d5
+ d6d4  h7a7  a0c0  a7f7  d4d0  d5f5
+ c0c3  f7d9  c3g3  f8f7  b3b4  h6h5
+ i0i4  f7f8  i4f4  f5a5  g3g8  d9f7
+ f4g4  e8e7  e2e7  h5g5  g4i4  f8e8
+ e7e2  c9d9  i4i8  e9e7  i8i9+
+
+[Event "온라인 피망장기"]
+[Round "미상"]
+[Date "2015-01-25"]
+[Site "미상"]
+[White "양귀마 실전화살장기"]
+[Black "양귀마 all114 1급"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "39"]
+[Result "1-0"]
+
+ c0d2  g9f7  d2f1  e6e5  b0e2  g6h6
+ a3b3  c9d7  e1e0  h9f6  f0e1  c6b6
+ b2f2  b9d6  b3a3  i9g9  f2f0  f9f8
+ c3d3  e8f9  d3d4  a9c9  e3e4  e5e4
+ d4e4  f6c4  h2d2  b7e7  d2d7  c4e1
+ d0e1  d6b3  a3b3  f9e8  h0f3  e8d7
+ f3c5  f7g5  a0d0+
+
+[Event "온라인 피망장기"]
+[Round "미상"]
+[Date "2015-01-25"]
+[Site "미상"]
+[White "양귀마 실전화살장기"]
+[Black "양귀마 막둬 1단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "87"]
+[Result "1-0"]
+
+ g0f2  c9d7  f2d1  b7e7  e1e0  g9f7
+ d0e1  i9i8  i3h3  g6h6  h0f3  i8g8
+ f3h6  i6h6  b0d3  e6e5  a3b3  h9f6
+ i0i3  b9d6  h2h4  h6h5  h4h0  f6h3
+ g3h3  h5g5  e0d0  g5f5  h0e0  d9d8
+ h3g3  e8d9  g3f3  f9e8  c0d2  e7e9
+ f0f1  h7e7  b2f2  c6b6  i3i6  a9b9
+ f2b2  e7a7  a0a6  b6a6  b2b9  g8g4
+ b9b2  e9c9  b2f2  c9f9  f3g3  g4d4
+ i6i9  a7e7  f2f7+  d9e9  f7f2  e7e3
+ g3f3  e3e7  f2f0  a6b6  i9g9  b6b5
+ f3g3  b5b4  b3b4  d4b4  g3g4  b4d4
+ g4g5  f5g5  d3g5  d6g4  g5d7  g4d2
+ f0d2  d8d7  e0e5  d4f4  e5e0  d7d8
+ c3d3  f4a4  d3e3
+
+[Event "[포진법] 양귀마 : 양귀마"]
+[Round "미상"]
+[Date "미상"]
+[Site "미상"]
+[White "양귀마"]
+[Black "양귀마"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "41"]
+[Result "미상"]
+
+ e3e4  g9f7  c0d2  h7c7  c3c4  c7g7
+ i3h3  g7g5  g0f2  g5g9  b2e2  c6d6
+ e4d4+  e8f8  h0f3  i6h6  i0i9  g9i9
+ a3b3  c9d7  e2e0  b7e7+  h2e2  f9e8
+ b3b4  i9e9  a0a3  h9f6  d0d1  g6g5
+ e1d0  e7a7  a3b3  a6b6  f0e1  a7e7
+ e0c0  a9a5  c0f0  f8f9  b0d3
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-05"]
+[Site "한게임"]
+[White "양귀마 흥춘이왔엉 5단"]
+[Black "양귀마 반상위의구라 6단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "100"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  g6f6  a3b3  a6a5
+ i3h3  i6i5  g0f2  h7e7  e3e4  a9a8
+ b0d3  c9d7  c3c4  c6b6  c4d4  b9d6
+ b3c3  d6a4  h0f3  i5i4  f0f1  a5b5
+ e1f0  b5b4  d0e1  e8e9  e2e0  f6f5
+ g3g4  a8c8  e0e3  e6e5  h2e2  h9f6
+ e2c2  b6c6  a0b0  b7b0  e3e0  c6c5
+ d2c0  b0b6  c3c4  f6c4  d4c4  b4c4
+ f3c5  d7c5  e4e5  f5e5  c2i2  i9h9
+ d3g5  e5f5  i2c2  c4c3  c2c4  c5b7
+ c4i4  a4d6  g5i8  c8i8  c0d2  f5g5
+ h3i3  g5g4  d2e4  g4h4  i4f4  h9i9
+ f4d4  i8i3  i0g0  h4g4  d4d7  g4f4
+ e4c5  b7d8  d7d0  d6b3  c5b3  c3b3
+ g0g6  i9i6  g6g8  f4f3  f2d3  i3g3
+ g8g3  f3g3  d3c5  i6c6  c5b3  b6f6+
+ d0f2  c6c3  b3a5  g3g2
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-05"]
+[Site "한게임"]
+[White "양귀마 흥춘이왔엉 5단"]
+[Black "양귀마 반상위의구라 6단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "126"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  g6f6  i3h3  i6i5
+ b0d3  c9d7  d3f6  h9f6  e2e6  h7e7
+ e6e2  b9d6  a3b3  a6a5  g0f2  d9d8
+ e3e4  i9i6  h0f3  a9a6  f0f1  a5a4
+ e1f0  a6a8  d0e1  e8e9  h2h4  d7b6
+ h4h0  f9e8  h0c0  d6b3  c3b3  e9f9
+ b3c3  e8d7  c0g0  b7b4  g0d0  a4a3
+ c3b3  a3b3  a0a8  b6a8  d2b3  f6c4
+ b3d2  c4f2  d0f2  i6i7  g3g4  i5i4
+ e4e5  e7e3  h3h4  d7e8  e5f5  f9e9
+ d2c4  b4d4  f5f6  f7h8  h4i4  e9d9
+ e2e0  e3e9  i4i5  e9a9  i0h0  i7i8
+ h0h7  e8d7  e0i0  a9h9  h7g7  d4i4
+ g7g9+  h9e9  i0e0  i8i9  g9g8  i4c4
+ g8h8  c4c8  h8h7  e9a9  f6f7  c6d6
+ f3d6  a8b6  f7e7  i9f9  e7d7  f9d7
+ h7h6  b6d5  h6e6  d7c7  d6a4  c7c3
+ e6d6  d5e3  e0e2  e3g4  f2d0  a9f9+
+ f0e0  d9e9  d6d8  c8e8  a4d6  c3c2
+ f1f2  g4f2+  d0f2  c2e2  e0d0  e2e5
+ i5i6  e5e6  i6i7  f9d9  i7h7  e6d6+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-05"]
+[Site "한게임"]
+[White "양귀마 흥춘이왔엉 5단"]
+[Black "양귀마 반상위의구라 5단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "112"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  g6f6  a3b3  h7e7
+ e3e4  i6h6  h0f3  c9d7  g3h3  h6g6
+ g0f2  e6e5  h2h4  f6f5  e4e5  d7e5
+ f3i1  h9f6  d0d1  b9d6  e1d0  f5f4
+ f0e1  f4f3  e2i2  i9g9  i1f3  e5f3
+ d2f3  d6f3  b0d3  f6d3  c3d3  f3d6
+ b3c3  g6g5  i0g0  g5g4  h4e4  g4f4
+ g0g9  f7g9  e4e0  f4f3  f2h1  g9f7
+ a0a2  a9a8  a2e2  d6b9  i2d2  a6b6
+ h3g3  f3g3  h1g3  f7h6  e2e6  h6g8
+ g3f5  e8e9  f5e7  g8e7  i3h3  b7f7
+ h3g3  f9f8  g3g4  a8a4  g4f4  a4f4
+ e6i6  d9e8  i6i5  f7f9  i5a5  b9d6
+ a5a7  d6g4  d2d4  f9d9  a7a5  g4e1
+ d1e1  f4d4  e0e7+  e8e7  d0e0  d4i4
+ a5a9  e7e8  a9c9  i4a4  e1e2  a4a0+
+ e0e1  a0c0  c3b3  c0d0+  e1f1  d0d3
+ b3b4  d3d4  b4b5  b6b5  c9c6  d4d1+
+ f1f0  d1d0+  f0f1  d9f9+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-05"]
+[Site "한게임"]
+[White "양귀마 흥춘이왔엉 5단"]
+[Black "양귀마 반상위의구라 6단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "106"]
+[Result "0-1"]
+
+ c0d2  c9d7  a3b3  i6h6  b2e2  e6e5
+ g0f2  b7e7  e3e4  g9f7  g3g4  e5e4
+ d2e4  b9d6  g4f4  i9i8  b0d3  e8e9
+ h0f3  f7g5  f3c1  g5f3  e1d1  g6g5
+ d0e1  a6a5  d1d0  f3h2  e2h2  i8f8
+ i3h3  h7h5  i0i4  a9b9  h3g3  h6g6
+ g3g4  h5d5+  h2d2  a5b5  g4g5  g6g5
+ i4h4  b5c5  h4h9  e7b7  h9g9  d6g8
+ g9i9  f8f4  i9i8  g8e5  i8i6  d7f6
+ d2d4  f6e4  f2e4  f4e4  d4d2  e4e3
+ i6c6  d5f5  c6e6+  d9e8  e6b6  g5g4
+ a0a4  g4g3  b6a6  f9f8  a6a9  b7b2
+ a9b9+  b2b9  a4g4  b9f9  g4b4  f9d9
+ b4b9  f5f9  b3b4  e5h3  f0e0  h3f6
+ d3f6  e3c3  c1e4  f9f6  b4b5  c3b3
+ b9b6  f6f9  e4h6  f9f7  h6e4  g3f3
+ b6b9  b3d3  d0d1  d3d2+  d1d2  c5d5+
+ b9d9+  f7d9+  d2e2  f3e3+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-18"]
+[Site "한게임"]
+[White "양귀마 kiska99(4단)"]
+[Black "양귀마 장기별빛천하(4단)"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 30초 3회"]
+[PlyCount "86"]
+[Result "0-1"]
+
+ e3e4  c9d7  c0d2  b7e7  b2e2  e6e5
+ g0f2  i6h6  e4e5  d7e5  a3b3  g9f7
+ d2e4  b9d6  b0d3  f9f8  f0f1  h7h5
+ a0a4  a6a5  a4d4  a5b5  h0f3  b5c5
+ f3h6  g6h6  d4b4  a9a1+  e1f0  a1a0
+ f1e1  e8f9  e2e0  a0a9  h2d2  d9e8
+ d2i2  e7i7  e4g5  f7g5  d3g5  e5f7
+ b4i4  f7g5  i4i7  i9i7  i2i7  h5f5+
+ e1f1  a9a1  d0e1  f8f7  g3g4  g5i6
+ i3h3  h9e7  h3h4  d6b3  h4h5  c5c4
+ h5h6  c4c3  i0i6  c3c2  i7i1  c2d2
+ i6i9+  f9f8  i9i8+  f8f9  i8i9+  f9f8
+ g4f4  f5f3  i9i8+  f8f9  e1d1  d2d1
+ e0e8  f7e8  i8i9+  f9f8  i9i8+  f8f9
+ i8i3  a1a0+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-07-13"]
+[Site "한게임"]
+[White "양귀마 목단강1호 2단"]
+[Black "양귀마 로스티 5단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "10분"]
+[PlyCount "78"]
+[Result "1/2-1/2"]
+
+ c0d2  g9f7  b2e2  e6e5  e3e4  h7e7
+ g0f2  a6b6  g3g4  i6h6  g4f4  g6g5
+ i0i1  g5f5  b0d3  f5f4  e4f4  c9d7
+ c3b3  b9d6  a0c0  h9f6  d3b6  c6b6
+ f4e4  d6b3  a3b3  e5e4  f2e4  a9a1+
+ d0d1  f6h3+  e4f2  h3e5  c0c4  b7b5
+ i3i4  b5f5  h0f3  f5d5  d2e4  d5d8
+ f3c1  e8e9  e2e0  a1a0  h2e2  f9e8
+ e4c5  d7c5  c4c5  e5b3+  c5c3  a0b0
+ i1i3  b3d6  e0i0  b0b1  i0d0  b1b4
+ d0d6  i9i4  i3i4  b4i4  d6d0  f7e5
+ c3c7  i4c4  c7c4  e5c4  c1e4  h6g6
+ f2g4  b6c6  g4e5  c4e5  e2e5  d8g8
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-07-23"]
+[Site "한게임"]
+[White "양귀마 흥춘이왔엉 6단"]
+[Black "양귀마 dnjsgml 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "20분"]
+[PlyCount "86"]
+[Result "0-1"]
+
+ g0f2  c9d7  h2e2  e6e5  c0d2  b7e7
+ e3e4  i6h6  a3b3  g9f7  d0d1  f9f8
+ b0d3  e8f9  e4e5  f7e5  e1d0  h9f6
+ f0e1  f6d3  e2e0  d3b6  h0f3  e7e3
+ d2c4  e5c4  c3c4  e3g3  f3h6  g3g8
+ b2b4  g6h6  b4f4+  f8e8  f4f1+  f9e9
+ d1d2  b9e7  b3b4  h6h5  f1d1  g8d8
+ i0g0  a9a7  i3h3  c6c5  e0c0  a7a9
+ c4c5  d7c5  b4b5  e7b5  a0a6  c5b7
+ a6b6  a9a0  b6c6  b5e3  c6c1  e3g0
+ d0e0  i9i0  e1f0  d8f8  d2e1  b7d6
+ d1h1  h5g5  e1d1  f8f0  e0f0  g0i3+
+ f0e1  a0c0  c1c0  i0c0  h3i3  e8f7
+ d1d2  h7e7  e1f1  d6f5  i3h3  f5e3+
+ d2e2  e3g2
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-08-16"]
+[Site "한게임장기"]
+[White "양귀마 흥춘이왔엉 4단"]
+[Black "양귀마 kkw4939 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 30초 3회"]
+[PlyCount "73"]
+[Result "1-0"]
+
+ g0f2  g9f7  h2e2  e6e5  i3h3  a6b6
+ c0d2  h7e7  e3e4  c9d7  f0f1  g6g5
+ c3c4  g5f5  c4d4  c6c5  g3g4  c5d5
+ g4f4  f5f4  e4e5  d5e5  i0i4  e5f5
+ d4e4  i6i5  i4h4  f4e4  h4e4  i5h5
+ b0d3  f7e5  e4d4  i9i0  d0d1  e5f3
+ d4g4  h5g5  g4g3  f3d2  d1d2  i0i5
+ a0c0  a9a3  d3g5+  i5g5  g3a3  b9d6
+ a3g3  g5i5  f2e4  d6b3  e4c5  d7c5
+ c0c5  b3e5  c5c4  h9f6  c4d4  b6b5
+ g3g7  e5b3  d4e4  f5e5  e4h4  e5d5
+ h0f3  e8d7  g7f7  d9e8  f7f6  e7e9
+ h4a4
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2007-09-16"]
+[Site "한게임"]
+[White "양귀마 최악의헛수 4단"]
+[Black "양귀마 중국원앙마 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "15분"]
+[PlyCount "71"]
+[Result "1-0"]
+
+ c0d2  e6e5  d2f1  i6h6  a3b3  b9d6
+ b3b4  g9f7  b0e2  b7g7  h0f3  d6f3
+ g3f3  g7g1+  e1e0  h9e7  f0e1  f7g5
+ d0d1  e5e4  c3d3  c6c5  h2d2  c9d7
+ d2f0  e4e3  f3e3  e7g4  b2f2  f9e9
+ i0i2  h7h4  i2g2  g1e1  d1e1  d7f6
+ g2g3  h4h7  g0h2  g4d6  f2d2  d6b3
+ d3c3  i9f9  c3b3  h7h2  f1h2  f6d5
+ h2f1  f9g9  e3d3  a6a5  e2c5+  e8d8
+ d2d5  g5e4  d5d0+  e4d6  d0d6  d9e8
+ d6d2+  e8d7  g3e3  g6g5  d3c3+  d7e8
+ e3d3+  e8d7  d2d7  g9g7  d7d2+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2009-02-23"]
+[Site "한게임"]
+[White "양귀마 디지구싶나 3단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "128"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  e6e5  e3e4  h7e7
+ e4e5  f7e5  a3b3  i6h6  c0d2  c9d7
+ d0d1  h9f6  e1d0  a9a8  f0e1  i9i8
+ e2e0  e8e9  i3h3  a6b6  a0a8  i8a8
+ b0d3  b9d6  i0i4  f6d3  f2d3  e5d3
+ i4d4  b7b3  d2b3  a8a2  b2b4  d6b3+
+ c3b3  d3b4  d4d7  d9e8  d7d4  b4a6
+ h0e2  b6b5  g3f3  a6c7  d4c4  b5c5
+ e2c5  c7e6  h3g3  c6c5  c4c3  g6g5
+ f3e3  a2b2  e3d3  h6g6  g3f3  g6f6
+ f3e3  g5g4  b3a3  g4g3  c3c0  b2h2
+ e0e2  h2h0+  e1e0  e6f4  e2e4  c5d5
+ d1e1  d5e5  e4e2  f4e2  e1e2  g3f3
+ e2e1  f3e3  d3e3  e7e3  c0c9+  e8d9
+ a3b3  h0h4  c9c2  h4d4+  c2d2  d4c4
+ d2d3  c4c0+  d0d1  c0c1+  d1d0  e3e7
+ d3c3  c1b1  c3d3  f6e6  b3c3  e5e4
+ c3b3  e4e3  d3c3  b1b2  e0f0  e3e2
+ e1e2  b2e2  c3d3  e2f2+  d0d1  f2f0
+ d3d2  f0c0  d2f2  e6e5  b3b4  e5e4
+ b4b5  c0g0  b5c5  g0g1+  d1d0  g1g5
+ c5c6  g5d5+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2009-01-29"]
+[Site "한게임"]
+[White "양귀마 장기별빛천하 5단"]
+[Black "양귀마 일지매박쥐 6단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 20초 1회"]
+[PlyCount "68"]
+[Result "0-1"]
+
+ g0f2  c9d7  h2e2  e6e5  i3h3  b7e7
+ e3e4  a6b6  c0d2  g9f7  b0d3  e5e4
+ f2e4  d7e5  d3g1  e5d7  d0d1  h9f6
+ e4f2  f9f8  g1e4  e8f9  a0c0  g6g5
+ a3b3  g5f5  g3g4  f5e5  h3h4  d9e8
+ g4f4  f7h6  f4g4  h6f5  e4b6  c6b6
+ g4g5  f5g3  h0f3  b9d6  i0i3  e7e3
+ g5g6  g3h1  f3i1  h1i3  g6f6  d7f6
+ c3d3  e3b3  d2b3  d6b3+  c0c3  b3d6
+ d3e3  i6h6  e2e5  i3h1  i1g4  h1f2
+ e1f2  h7h4  e5e0  f6g4+  f2e1  i9i2
+ b2b8  i2f2+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2008-12-03"]
+[Site "한게임"]
+[White "양귀마 민수민소 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분20초1회"]
+[PlyCount "101"]
+[Result "1-0"]
+
+ c0d2  c9d7  b2e2  g6f6  i3h3  b7e7
+ e3e4  a6b6  g0f2  e6e5  a0a1  f6f5
+ g3g4  g9f7  g4f4  f5f4  e4f4  b9d6
+ f4e4  e8e9  e4e5  f7e5  d2e4  e5g6
+ b0d3  d6g8  i0i4  i6i5  i4g4  d7e5
+ g4g5  i9i6  e1e0  d9e8  d0e1  b6b5
+ f0f1  c6c5  e0f0  c5d5  d3b0  d5d4
+ e4g3  e7e3  c3b3  a9c9  e2e0  c9c7
+ a1d1  c7d7  h2d2  g8d6  g3f5  e3e6
+ d2g2  i5h5  g5g3  d7f7  g2g6  f7f5
+ d1d4  h5g5  d4d6  i6g6  d6d5  h7h0
+ d5b5  g6i6  b5e5  f5e5  e0e5  h0b0
+ e5e0  h9f6  g3g5  b0b8  h3g3  b8b2
+ g5e5  e6g6  b3c3  b2g2  g3g4  e9d9
+ e5d5+  e8d8  d5f5  g6e6  f2e4  f9e8
+ f5f6  i6f6  e4f6  g2g9  e0e5  g9c9
+ f0e0  c9f9  c3c4  e8f8  f6e4
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2009-08-27"]
+[Site "한게임(Hangame)"]
+[White "양귀마 gongurkk 4단"]
+[Black "양귀마 dock0307 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "10분 30초 3회"]
+[PlyCount "71"]
+[Result "1-0"]
+
+ i3h3  c9d7  g0f2  b7e7  f2d1  a6b6
+ e1e0  b9d6  h0e2  e6e5  d0e1  g9f7
+ f0f1  g6g5  b2f2  h9f6  f2f0  d9d8
+ h2a2  a9c9  c0b2  g5f5  h3h4  e7e9
+ g3f3  i6h6  i0i9  e9i9  c3c4  e8e9
+ a3a4  f9e8  a4b4  i9d9  h4g4  d9f9
+ b0d3  h7e7  f0c0  c9b9  a2d2  h6h5
+ d2f2  h5g5  g4g5  f5g5  f2f6  e7e3
+ f3e3  d7f6  c0f0  f6g4  c4d4  d6b3
+ e1f2  b6b5  b4b5  b9b5  f0b0  b5c5
+ b0b3  c5c2  a0a2  f9d9  a2a4  d9f9
+ f2e1  c2c3  d1c3  f9a9  a4a9+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-11-28"]
+[Site "한게임"]
+[White "양귀마 무서운한수 4단"]
+[Black "양귀마 낙원도 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "163"]
+[Result "1-0"]
+
+ c0d2  g9f7  d2f1  e6e5  e1e0  h7e7
+ f0e1  a6b6  b0e2  b9d6  h2d2  c9d7
+ g0h2  d9d8  d2g2  g6g5  i3i4  g5f5
+ g2i2  h9f6  c3d3  f9f8  b2f2  e7i7
+ i2i6  a9g9  f2f0  f6i4  h2i4  f7g5
+ i4g5  g9g5  a0c0  g5g6  c0c4  i7c7
+ c4i4  f8f7  e3e4  e5e4  i4e4+  c7e7
+ e4i4  e7e9  f0f5  d7f8  f5f0  f8h9
+ i4f4  d8d7  i6f6  i9i0  f0i0  e9e7
+ i0f0  e8e9  d0d1  f7e8  f0d0  h9f8
+ d0g0  g6i6  f6f2  i6e6  e0f0  f8h7
+ f4h4  h7f8  h0f3  d6f3  g3f3  e6g6
+ g0e0  g6g9  h4a4  f8e6  f2d2  g9f9
+ e2h4  e6g7  d3e3  d7d8  f1g3  g7f5
+ g3f5  f9f5  h4f1  f5i5  d2d0  i5g5
+ a4i4  e9d9  d0d2+  d9e9  d2d0  g5g9
+ f1i3  d8d7  i4i6  e7c7  e0e2  c7f7+
+ f0e0  e9d9  d0d2+  d7e7  i6d6+  d9e9
+ i3g6+  e9f9  d6e6  e7d7  d2f0  g9h9
+ g6d4  f9e9  e6f6  f7c7  d4g6+  c7g7
+ f6f4  b7e7  f0d0  e9d9  f4a4  e7e9
+ a4a8  h9f9  a8b8  --  d0d2+  c6d6
+ b8b6  f9f6  g6i3  f6i6  b6b8  e8d8
+ i3f5  i6f6  f5c3  f6g6  c3a6  g6g0+
+ e1f0  g0g2  d1e1  g7g0+  f0f1  g0g8
+ b8b7  d8e8  d2d7  d6c6  e3d3  g2e2
+ d7d0+  e2d2  d3e3+  d2c2  b7d7+  g8d8
+ d7d8+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-11-27"]
+[Site "한게임"]
+[White "양귀마 무서운한수 4단"]
+[Black "양귀마 세상끝을향해 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "101"]
+[Result "1-0"]
+
+ g0f2  g9f7  f2d1  i6h6  e1e0  a6b6
+ h0e2  a9a5  b0d3  c9d7  h2d2  a5i5
+ a3b3  i5i3  i0i3  i9i3  a0a8+  d9d8
+ g3f3  b9d6  d0e1  e6e5  f3f4  i3e3
+ d2d6  e3f3  d6d2  f3f4  d2d7  e8d7
+ d3b6  c6b6  b2b6  b7e7  b6b0  d7e8
+ b0d0  e7e9  e2c5+  h7d7  c5f7  f4f7
+ c3d3  h9f6  d3e3  f6h3  c0b2  h3e1
+ f0e1  e9e7  b3c3  f7f4  b2c4  f4f6
+ c4e5  f6e6  e5g4  g6g5  g4f2  g5f5
+ c3d3  h6h5  d1c3  h5g5  e0f0  e8e9
+ a8d8  f9e8  d8a8  d7f9  f0e0  e6c6
+ f2e4  f5f4  e4d6  f4f3  d6c8+  e8d8
+ c3d5  e7e1  e0e1  c6c1+  e1e2  c1d1
+ d0d2  d1d0  a8a1  f3e3+  d3e3  d0c0
+ c8b6  d8e8  d5f6  c0f0  b6d5  f0f5
+ a1a8  f5e5  e2e1  g5f5  f6g8+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 악동#901 4단"]
+[Black "양귀마 그해여름#342 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "32"]
+[Result "0-1"]
+
+ i3h3  g9f7  a3b3  h7e7  g3f3  e6d6+
+ e1f1  e7e2  d0e1  e2e7  e1d0  h9f6
+ h3g3  c9d7  g0f2  e7e2  f2h1  i9h9
+ i0i2  b7e7  b2b9  a9b9  a0a6  b9b5
+ a6a3  b5h5  h2h9  h5h1+  f1f2  h1h0
+ i2i6  h0f0+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 구렛나루라구해 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "104"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  g6f6  a3b3  h7e7
+ e3e4  b9d6  i3h3  i6i5  c0d2  c9d7
+ h0f3  c6c5  g3g4  e6e5  f3i5  f6g6
+ h3h4  a9a7  e1e0  c5d5  c3c4  g6g5
+ g4f4  i9i6  f0e1  e8d8  i0i2  e5e4
+ f4e4  e7i7  d0d1  b7e7  e0d0  a6a5
+ b0d3  d6a4  b3b4  d5e5  e4d4  e5f5
+ d4e4  i7i5  e2e0  d9e8  a0a1  a7a6
+ a1a3  d8d9  e0a0  a6c6  a0f0  c6h6
+ h4g4  g5g4  f2g4  h6h4  g4f2  h4h0
+ i2g2  i6a6  f2g4  i5d5  g4f2  d5d8
+ g2g0  h0g0  f2g0  d9e9  g0f2  f5e5
+ e4d4  e7e3  a3a0  d7f8  d4e4  e5e4
+ f2e4  f7e5  d3b6  e5c4  b4c4  a6b6
+ a0a3  b6b2  a3e3  a4d2  d0e0  d2g4
+ c4c5  g4e1  d1e1  b2b6  c5d5  d8d4
+ e3a3  b6b5  d5d6  d4d9  a3e3  b5e5
+ e3e2  a5a4
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 구렛나루라구해 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "100"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  g6f6  e3e4  h7e7
+ a3b3  c9d7  i3h3  i6i5  g3g4  b9d6
+ g4f4  c6c5  c0d2  d9d8  h0f3  i5i4
+ f3c5  d6b3  d2b3  e8e9  c3c4  i9i5
+ f0f1  f7h6  e1f0  i5d5  e4d4  d5e5
+ f4e4  e5f5  d0e1  f5f3  b3d2  f3f5
+ e2h2  f6g6  h2h6  g6h6  i0i4  h9f6
+ i4i3  e6d6  b0d3  d6c6  c5f7  f6c4
+ f7i9  c4a7  a0a6  f5b5  b2e2  b5b0+
+ e2e0  c6b6  a6a3  e7e3  h3h4  e3a3
+ d3a5  b0b5  d4d5  b5a5  d5d6  d7f8
+ e4e5  a3a6  e5e6  e9d9  i9f7  f9e9
+ f7d4  b7b5  i3i9  d8e8  d2c4  a5a4
+ c4b6  f8h7  i9i7  h7g9  d6d7  a6e6
+ d7e8+  e9e8  i7i9  d9d8  d4b1  a9b9
+ b6c8  a7d5  b1e3  b5f5  c8d6  a4a1
+ e3b5+  b9b5  d6b5  e6e9
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 구렛나루라구해 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "109"]
+[Result "1-0"]
+
+ i3h3  g9f7  g0f2  h7e7  e3e4  g6f6
+ h2e2  i6i5  a3b3  b9d6  c0d2  c9d7
+ g3g4  c6c5  h0f3  a9c9  a0a6  d6b3
+ c3b3  c5d5  i0i5  i9i5  f3i5  f7h6
+ e1e0  e6e5  f0e1  e5e4  f2e4  h6g4
+ h3h4  g4e5  i5g2  e5g6  h4g4  e7e3
+ g4g5  g6f8  b3c3  b7e7  c3c4  d5e5
+ g2e5  e3e5  a6a3  e5i5  b0d3  i5e5
+ a3a8+  e8e9  d3g1  f9e8  a8a5  e9f9
+ a5b5  e5e3  e0f0  c9a9  e2e0  e3e5
+ b2f2  a9a3  g1i4  f9e9  b5b3  a3b3
+ d2b3  f8e6  e4c5  e6c5  b3c5  d7b6
+ c4d4  e5b5  c5d3  b5b9  d4e4  d9d8
+ e4e5  b9f9  d3c5  e9d9  e5e6  f6e6
+ c5e6  e8f7  g5g6  b6d5  e0e5  d8d7
+ e6g7  e7g7  g6g7  f7e8  d0d1  d5e7
+ e5e0  e7f5  e0g0  h9e7  f0e0  e7c4
+ f2d0  c4e1  d1e1+  d9e9  d0f2  f5g3
+ i4g1
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 구렛나루라구해 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "88"]
+[Result "0-1"]
+
+ i3h3  g9f7  g0f2  h7e7  e3e4  g6f6
+ a3b3  c9d7  h2e2  i6i5  g3g4  b9d6
+ g4f4  c6c5  h0f3  i5i4  c0d2  a6a5
+ f3c5  d6b3  d2b3  a5a4  c3c4  i9i8
+ b0d3  a4a3  b3a5  a3b3  b2b4  b3c3
+ d3f6  h9f6  f4f5  f7h6  f5f6  e6f6
+ h3h4  c3d3  h4h5  i4h4  i0i8+  h6i8
+ e4f4  d3e3  e2e4  i8g7  h5g5  g7e6
+ f4f5  f6f5  g5f5  e6c5  c4c5  d7c5
+ f0f1  e3e2+  e1f0  e2f2  f1f2  c5e4
+ d0e1  e4c3  f5e5  e7e9  a0a3  e9e5
+ a3c3  a9a5  c3e3  h4g4  e3e4  g4g3
+ f2e2  g3f3  b4f4  d9d8  f4f1  d8d7
+ e1e0  b7f7  e4f4  f3e3  e2f2  f7f2
+ f4f2  a5a0  f2d0  a0a2
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-12-29"]
+[Site "한게임"]
+[White "양귀마 구렛나루라구해 6단"]
+[Black "양귀마 반상위의구라 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "90"]
+[Result "0-1"]
+
+ i3h3  g9f7  g0f2  h7e7  e3e4  e6e5
+ h2e2  e5e4  f2e4  a6b6  c0d2  c9d7
+ e1e0  f9f8  h0f3  f7e5  f0e1  h9f6
+ h3h4  i9h9  h4g4  i6h6  g4f4  b7b5
+ b0d3  e8f9  d0d1  g6g5  e0d0  g5f5
+ g3g4  f5f4  g4f4  h6g6  e2e0  f9e8
+ a3b3  a9a0+  e0a0  e8f9  b3b4  b5b7
+ d3b6  h9h4  a0f0  c6b6  f4f5  e7e4
+ f5e5  f6h3  i0h0  e4e9  e5d5  h4b4
+ c3b3  b4h4  d5d6  b9d6  f3d6+  f9e8
+ b2e2  h4h7  h0h2  h3e1  h2h7  b7h7
+ d1e1  h7b7  e2e0+  e9e6  d6f3  b7f7
+ f3i5  d9d8  d2c4  f7d9  f0d2  b6a6
+ i5f3  g6g5  b3c3  d7f6  f3i1  g5f5
+ c4e3  f5e5  e3g4  f6g4  i1g4  e6e3
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-05-22"]
+[Site "한게임"]
+[White "양귀마 나는람보르기니 3단"]
+[Black "양귀마 berze 3단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 30초 3회"]
+[PlyCount "93"]
+[Result "1-0"]
+
+ g0f2  g9f7  h2e2  e6e5  c0d2  h7e7
+ e3e4  i6h6  a3b3  c9d7  b0d3  a9a8
+ d0d1  h9f6  e1d0  f9f8  f0e1  e8f9
+ e2e0  e5e4  f2e4  d9e8  d3f6  g6f6
+ e4f6  e7i7  i3h3  d7f6  i0i4  b9d6
+ i4c4  f7d8  c4a4  c6b6  a4f4  f6d7
+ f4d4  d6b3  c3b3  a8c8  b2f2+  b7f7
+ d4d6  i9h9  h0f3  h6h5  e0e2  c8c9
+ d0e0  d8b7  d6i6  h9h7  a0a4  e8d8
+ a4g4  f9e9  i6e6+  e9d9  d2e4  d8e8
+ g4g9+  f7f9  f2d0  c9c0  f3h6  i7f7
+ e1f0  b7d8  d1e1  b6c6  b3c3  a6b6
+ e4f6  c0d0+  e0d0  d7f6  e6f6  b6b5
+ c3d3  b5c5  g3f3  c5d5  f3e3  c6c5
+ f6a6  d8b7  a6b6  b7d8  h3g3  d9e9
+ g3f3  e9d9  f3f4
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2013-05-22"]
+[Site "한게임"]
+[White "양귀마 berze 3단"]
+[Black "양귀마 나는람보르기니 3단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 30초 3회"]
+[PlyCount "92"]
+[Result "0-1"]
+
+ c0d2  c9d7  b2e2  e6e5  e3e4  b7e7
+ a3b3  i6h6  g0f2  g9f7  i0i1  f9f8
+ g3h3  h9f6  i1g1  e8f9  h0f3  e7g7
+ g1h1  g7g5  b0d3  g5g9  f3h6  g6h6
+ h1g1  h7e7  g1g8  d9e8  d0d1  g9d9
+ e1d0  e7e9  e4e5  d7e5  f0e1  b9d6
+ e2e0  f6d3  c3d3  e5d3  f2d3  d9d3
+ b3c3  d3d9  h2c2  c6b6  c2f2  a9c9
+ a0c0  e9e7  c3c4  i9i5  c0c3  i5a5
+ h3g3  a5a1  i3h3  f9e9  f2f8  f7e5
+ g8h8  e5g6  h8h6  g6f8  h6d6  c9c6
+ d6d5  c6i6  c3c0  b6c6  g3f3  a6b6
+ h3g3  c6d6  d5c5  b6c6  c5b5  i6i1
+ b5b9  f8e6  b9d9+  e9d9  f3e3  e7e3
+ d2e4  e3e5  e0e2  i1i0+  e1e0  a1a3
+ c4c5  a3e3
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2010-07-16"]
+[Site "한게임"]
+[White "양귀마 r1357246 4단"]
+[Black "양귀마 tkrhk015 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "10분 20초 1회"]
+[PlyCount "74"]
+[Result "0-1"]
+
+ g0f2  g9f7  h2e2  f7d8  h0f3  h9e7
+ c0d2  e8e9  g3h3  d9e8  i0g0  i9g9
+ b0d3  b9d6  e3e4  f9f8  c3b3  h7c7
+ e1e0  c7f7  f0e1  f7f9  a0c0  f9d9
+ f3d6  c6d6  c0c8  i6h6  g0g3  d9f9
+ b2b4  a9a8  c8c5  a6b6  c5i5  b6c6
+ b4b1  b7g7  g3e3  g6f6  e4e5  e9d9
+ e5e6  d6e6  b1f1  g7d7  d3f6  f9f6
+ e3e6  f6f9  f1f8  e8f8  e6e7  f9f2
+ d2e4  f2d0  e1d0  c6d6  i5g5  h6g6
+ g5g6  g9f9  e4d6  d7d0  e0d0  a8a5
+ e7c7  c9a8  c7c8  f8e8  d6e4  f9f0+
+ d0d1  a5d5+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2010-06-03"]
+[Site "한게임(Hangame)"]
+[White "양귀마 qwer5107 4단"]
+[Black "양귀마 초고수18급 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 40초 3회"]
+[PlyCount "114"]
+[Result "0-1"]
+
+ c0d2  g9f7  d2f1  i6h6  b0e2  a6b6
+ h2c2  b9d6  i3i4  f7g5  g0h2  e6f6
+ g3g4  d6g4+  e1e0  g4d6  f0e1  h9e7
+ d0d1  h7h3  i4i5  h3h8  c3d3  b7i7
+ i5h5  h8h5  h0f3  d6f3  e3f3  h5e5
+ h2g4  g5i6  i0i6  h6i6  g4e5  i9h9
+ d3e3  i7i0  a0a1  h9h0+  e1f0  h0h5+
+ f0e1  h5e5  a3a4  i0i7  c2f2  e8e9
+ f2d0  i7d7  b2g2  f9e8  f3f4  d7f9
+ e3e4  e5i5  a1a3  i6h6  g2c2  c9d7
+ c2f2  d9d8  f2d2  f6f5  f4f5  i5f5
+ f1g3  f5i5  g3f1  i5i4  e4d4  d7c5
+ a4a5  c5e6  d4d5  i4i5  d2f0  f9d9
+ a3e3  e6g7  d5e5  a9a5  e5e6  a5e5
+ e6e7  e5e7  e3e7  e8e7  d0d8  i5e5
+ d8d0  e7e8  d0f2  c6d6  d1d2  b6c6
+ f0d0  g6f6  e0f0  f6e6  d0g0  d9f9
+ g0e0  e5f5  d2d1  g7h5  e2b0  h5g3
+ e1e2  g3h1+  f0e1  h1f2  e2f2  f9f2
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2010-06-03"]
+[Site "한게임(Hangame)"]
+[White "양귀마 초고수18급 4단"]
+[Black "양귀마 qwer5107 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "5분 40초 3회"]
+[PlyCount "88"]
+[Result "0-1"]
+
+ c0d2  g9f7  b2e2  f7d8  i3h3  h9e7
+ a3b3  b9d6  h0f3  e8e9  f3d6  c6d6
+ b0d3  d9e8  a0a4  i6i5  e2a2  b7b2
+ b3a3  c9b7  a4a6  a9c9  a6b6  b2g2
+ a3b3  c9c5  a2e2  c5a5  b6b4  a5a1+
+ d0d1  h7c7  e2c2  a1a2  c2e2  c7c1+
+ e1e0  a2a0+  d1d0  c1c9  e3f3  g6f6
+ b4f4  i9i6  f0e1  f9f8  f4h4  f6f5
+ h4h6  i6i9  h6h7  e6e5  g0i1  i5h5
+ e2e7+  e8e7  h7e7+  f8e8  e7c7  g2c2
+ c7g7  h5g5  d2f1  e8f7  g7g8  c2c8
+ e1f2  c8g8  h2e2+  e9f9  f1d2  g8c8
+ e0e1  a0a1+  e1f0  c8c0+  d2c0  c9c0+
+ d0e1  c0i0  i1g2  a1a0+  e2e0  i9i2
+ g2i3  i0i3  h3i3  i2i3
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2014-07-24"]
+[Site "한게임"]
+[White "양귀마 신통말통한수 4단"]
+[Black "양귀마 낙화유수77 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "80"]
+[Result "0-1"]
+
+ c0d2  c9d7  d2f1  a6b6  e1e0  h7c7
+ e3d3  i6h6  b0e2  h9f6  h2d2  d7e5
+ d3e3  c7c3  e3e4  e5c4  a0c0  c3i3
+ c0c4  i3e3+  f1e3  i9i0  g0h2  i0i3
+ h2f1  a9a3  c4d4  e6d6  h0f3  i3i5
+ g3g4  i5a5  d2g2  g9f7  f0e1  a5a4
+ d4d1  a4e4  f3i1  a3a5  g2d2  e4d4
+ d1c1  a5i5  i1f3  i5b5  d2g2  b9e7
+ g4h4  f6h3  b2f2  f7e5  f3h6  g6h6
+ c1a1  e5g6  a1a8+  e8e9  a8a7  b7g7
+ a7a9  b5i5  f2d2  f9e8  a9a3  i5i0+
+ f1h0  g6f4  e3f5  f4e2  f5d4  i0h0+
+ d2f0  e2d4  a3g3  h3f0  e1f0  h0f0+
+ e0f0  d4e2+
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2014-07-24"]
+[Site "한게임"]
+[White "양귀마 신통말통한수 4단"]
+[Black "양귀마 낙화유수77 7단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "60"]
+[Result "0-1"]
+
+ c0d2  c9d7  d2f1  a6b6  b0e2  i6h6
+ c3d3  b9e7  h2d2  i9i5  h0f3  h9f6
+ g0h2  g9f7  e1e0  i5b5  d2g2  b5a5
+ i3h3  h7h5  b2f2  a5a3  a0a3  a9a3
+ f0e1  f6d3  e3d3  f7e5  d3e3  h5h2
+ f1h2  a3e3  i0i8+  e8e9  f3h6  g6h6
+ g2g9+  f9f8  i8f8  d9e8  f8f5  b7b5
+ f5f4  e3a3  h2f3  b5b9  f4e4  b9f9
+ d0d1  a3a0+  f2d0  h6g6  f3e5  e6e5
+ e4h4  e5d5  g3f3  d7e5  h3g3  e5f7
+
+[Event "온라인 한게임"]
+[Round "친선"]
+[Date "2014-08-08"]
+[Site "한게임"]
+[White "양귀마 비갠아침#038 4단"]
+[Black "양귀마 새털이 4단"]
+[FEN "rbna1anbr/4k4/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/4K4/RBNA1ANBR w - - 0 1"] [VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[Variant "janggi"]
+[TimeControl "미상"]
+[PlyCount "87"]
+[Result "1-0"]
+
+ a3b3  c9d7  e3e4  b7e7  c0d2  e6e5
+ b2e2  g9f7  i3h3  e5f5  e1d1  h9f6
+ e2e6  f5e5  e6g6  f6h3  g0f2  e5e4
+ d2e4  c6b6  g6g0  e7a7  h2a2  h3f6
+ g0e0+  e8d8  b0d3  f7d6  e4g5  h7b7
+ g5e6+  b7e7  d3f6  d9e8  f6d3  d8d9
+ d0e1  e7e9  e6d4  i6h6  i0i9  e9i9
+ h0f3  d6f7  e0g0  b9d6  f3d6  f7d6
+ g0g9+  d7e9  f0f1  d6f7  g9e9  d9e9
+ a0i0  a9d9  c3c4  f7e5  a2g2  e5c4
+ g2g9+  f9f8  g9d9  e9d9  i0i9+  f8f9
+ i9i5  c4b2+  d1d0  e8d7  i5c5  f9e8
+ c5c9+  d9d8  d4e6+  a7e7  c9c2  b2a0
+ c2c8+  d8d9  c8c9+  d9d8  e6c7  h6g6
+ c7b9  e7b7  c9e9+
+

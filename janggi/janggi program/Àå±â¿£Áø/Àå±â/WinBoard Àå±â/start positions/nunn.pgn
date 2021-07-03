@@ -1,0 +1,260 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sveshnikov"]
+[Black "?"]
+[Result "*"]
+[ECO "B33"]
+[PlyCount "26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 Nf6 6. N1c3 d6 7. Bf4 e5 8.
+Bg5 a6 9. Na3 b5 10. Bxf6 gxf6 11. Nd5 f5 12. c3 Bg7 13. exf5 Bxf5 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Siz1"]
+[Black "?"]
+[Result "1-0"]
+[ECO "B89"]
+[PlyCount "20"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 e6 7. Be3 a6 8. Qe2
+Qc7 9. O-O-O Be7 10. Bb3 O-O 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "French"]
+[Black "?"]
+[Result "1-0"]
+[ECO "C19"]
+[PlyCount "21"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Nf3 Ne7 8. a4
+b6 9. Bb5+ Bd7 10. Bd3 Nbc6 11. O-O 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Spanish closed"]
+[Black "?"]
+[Result "1-0"]
+[ECO "C99"]
+[PlyCount "23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 O-O 8. c3
+d6 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "QGExch"]
+[Black "?"]
+[Result "1-0"]
+[ECO "D36"]
+[PlyCount "20"]
+
+1. d4 d5 2. c4 c6 3. Nf3 e6 4. cxd5 exd5 5. Nc3 Nf6 6. Bg5 Be7 7. Qc2 Nbd7 8.
+e3 O-O 9. Bd3 Re8 10. O-O Nf8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gruenfeld"]
+[Black "?"]
+[Result "1-0"]
+[ECO "D85"]
+[PlyCount "19"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Rb1 O-O 9. Be2 cxd4 10. cxd4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Queens Indian"]
+[Black "?"]
+[Result "1-0"]
+[ECO "E15"]
+[PlyCount "25"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 c6 8. Bc3
+d5 9. Ne5 Nfd7 10. Nxd7 Nxd7 11. Nd2 O-O 12. O-O Rc8 13. e4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KI Classical"]
+[Black "?"]
+[Result "0-1"]
+[ECO "E98"]
+[PlyCount "19"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Ne8 10. Be3 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "English c4/e5"]
+[Black "?"]
+[Result "0-1"]
+[ECO "A25"]
+[PlyCount "15"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 Nge7 6. Nge2 O-O 7. O-O d6 8. d3
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Size pawn chase"]
+[Black "?"]
+[Result "1-0"]
+[ECO "B97"]
+[PlyCount "18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2
+Qxb2 9. Rb1 Qa3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Siz1"]
+[Black "?"]
+[Result "1-0"]
+[ECO "B89"]
+[PlyCount "20"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 e6 7. Be3 a6 8. Qe2
+Qc7 9. O-O-O Be7 10. Bb3 O-O 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "French"]
+[Black "?"]
+[Result "1-0"]
+[ECO "C19"]
+[PlyCount "21"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Nf3 Ne7 8. a4
+b6 9. Bb5+ Bd7 10. Bd3 Nbc6 11. O-O 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Spanish closed"]
+[Black "?"]
+[Result "1-0"]
+[ECO "C99"]
+[PlyCount "23"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Be7 7. Re1 O-O 8. c3
+d6 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "QGExch"]
+[Black "?"]
+[Result "1-0"]
+[ECO "D36"]
+[PlyCount "20"]
+
+1. d4 d5 2. c4 c6 3. Nf3 e6 4. cxd5 exd5 5. Nc3 Nf6 6. Bg5 Be7 7. Qc2 Nbd7 8.
+e3 O-O 9. Bd3 Re8 10. O-O Nf8 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gruenfeld"]
+[Black "?"]
+[Result "1-0"]
+[ECO "D85"]
+[PlyCount "19"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.
+Rb1 O-O 9. Be2 cxd4 10. cxd4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Queens Indian"]
+[Black "?"]
+[Result "1-0"]
+[ECO "E15"]
+[PlyCount "25"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 Bb4+ 6. Bd2 Be7 7. Bg2 c6 8. Bc3
+d5 9. Ne5 Nfd7 10. Nxd7 Nxd7 11. Nd2 O-O 12. O-O Rc8 13. e4 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KI Classical"]
+[Black "?"]
+[Result "0-1"]
+[ECO "E98"]
+[PlyCount "19"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5
+Ne7 9. Ne1 Ne8 10. Be3 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "English c4/e5"]
+[Black "?"]
+[Result "0-1"]
+[ECO "A25"]
+[PlyCount "15"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e3 Nge7 6. Nge2 O-O 7. O-O d6 8. d3
+0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Size pawn chase"]
+[Black "?"]
+[Result "1-0"]
+[ECO "B97"]
+[PlyCount "18"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2
+Qxb2 9. Rb1 Qa3 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sveshnikov"]
+[Black "?"]
+[Result "*"]
+[ECO "B33"]
+[PlyCount "26"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 Nf6 6. N1c3 d6 7. Bf4 e5 8.
+Bg5 a6 9. Na3 b5 10. Bxf6 gxf6 11. Nd5 f5 12. c3 Bg7 13. exf5 Bxf5 *
+

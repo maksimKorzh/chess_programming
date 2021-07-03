@@ -1,121 +1,111 @@
-recognized 'normal' (-1) as variant normal
-recognized 'normal' (-1) as variant normal
+recognized 'janggi' (-1) as variant janggi
+recognized 'janggi' (-1) as variant janggi
 shuffleOpenings = 0
-Unable to load lite texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
-Unable to load dark texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
 Version: WinBoard 4.9.210131
 Reset(1, 0) from gameMode 0
-recognized 'normal' (-1) as variant normal
-GameEnds(0, (null), 2)
-shuffleOpenings = 0
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-recognized '' (-1) as variant normal
-Reset(1, 1) from gameMode 0
 recognized 'janggi' (-1) as variant janggi
 GameEnds(0, (null), 2)
 shuffleOpenings = 0
- 
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-              or specify new theme below: 
-         Theme name: [______________________________________] 
-[x] Use board textures         
-Light-square texture [______________________________________] 
-Dark-square texture: [______________________________________] 
-Light reorientation  [    +/-] Dark reorientation m [    +/-]
-[x] Draw border around board   
-Optional border bitm [______________________________________] 
-        Beware: a specified piece font wi 
-Directory with piece [______________________________________] 
-[x] Use piece font                   Font size (%): [    +/-]
-          Font name: [______________________________________] 
- Font piece to char: [______________________________________] 
-Unable to load lite texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
-Unable to load dark texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
- 
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-              or specify new theme below: 
-         Theme name: [______________________________________] 
-[x] Use board textures         
-Light-square texture [______________________________________] 
-Dark-square texture: [______________________________________] 
-Light reorientation  [    +/-] Dark reorientation m [    +/-]
-[x] Draw border around board   
-Optional border bitm [______________________________________] 
-        Beware: a specified piece font wi 
-Directory with piece [______________________________________] 
-[x] Use piece font                   Font size (%): [    +/-]
-          Font name: [______________________________________] 
- Font piece to char: [______________________________________] 
-Unable to load lite texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
-Unable to load dark texture bitmap 'Z:\home\maksim\Desktop_CMK\chess_programming\jiangi\theme_winboard\janggi\Janggi.bmp'
- 
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-                               
-              or specify new theme below: 
-         Theme name: [______________________________________] 
-[x] Use board textures         
-Light-square texture [______________________________________] 
-Dark-square texture: [______________________________________] 
-Light reorientation  [    +/-] Dark reorientation m [    +/-]
-[x] Draw border around board   
-Optional border bitm [______________________________________] 
-        Beware: a specified piece font wi 
-Directory with piece [______________________________________] 
-[x] Use piece font                   Font size (%): [    +/-]
-          Font name: [______________________________________] 
- Font piece to char: [______________________________________] 
 Unload first
-StartChildProcess (dir="Z:\home\maksim\Desktop\WinBoard\Jiangi") Jianqi.exe
+StartChildProcess (dir="Z:\home\maksim\Desktop_CMK\chess_programming\janggi\WinBoard\WinBoard") janggi.exe
+nice engine proc to 10
+5299 >first : xboard
+recognized 'janggi' (-1) as variant janggi
+5301 >first : new
+random
+5301 >first : variant janggi
+5301 >first : level 40 5 0
+5302 >first : post
+5302 >first : hard
+5302 >first : easy
+ÇÑ¼ö½° #
+Impossible move , type = 0
+recognized 'janggi' (-1) as variant janggi
+5323 >first : new
+random
+5323 >first : variant janggi
+5323 >first : level 40 5 0
+5323 >first : post
+5323 >first : hard
+5323 >first : easy
+ÇÑ¼ö½° #
+Impossible move , type = 0
+ 
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                    or specify one below: 
+Engine (.exe or .jar [______________________________________] 
+     Engine protocol [ COMBO ] 
+Nickname (optional): [______________________________________] 
+[x] Use nickname in PGN tag    [x] Add this engine to the li 
+[x] Force current variant wit  [x] Must not use GUI book     
+command-line paramet [______________________________________] 
+Special WinBoard opt [______________________________________] 
+          directory: [______________________________________] 
+(Directory will be derived from engine pa 
+14479 >first : quit
+Unload first
+StartChildProcess (dir="Z:\home\maksim\Desktop_CMK\chess_programming\janggi\WinBoard\WinBoard") janggi.exe
+nice engine proc to 10
+15066 >first : xboard
+recognized 'janggi' (-1) as variant janggi
+15067 >first : new
+random
+15067 >first : variant janggi
+15067 >first : level 40 5 0
+15068 >first : post
+15068 >first : hard
+15068 >first : easy
+ÇÑ¼ö½° #
+Impossible move , type = 0
+Reset(1, 1) from gameMode 0
+recognized 'janggi' (-1) as variant janggi
+GameEnds(0, (null), 2)
+15077 >first : force
+shuffleOpenings = 0
+15084 >first : new
+random
+15084 >first : variant janggi
+15085 >first : level 40 5 0
+15085 >first : post
+15085 >first : hard
+15085 >first : easy
+ÇÑ¼ö½° #
+Impossible move , type = 0
+recognized 'janggi' (-1) as variant janggi
+15119 >first : new
+random
+15119 >first : variant janggi
+15120 >first : level 40 5 0
+15120 >first : post
+15120 >first : hard
+15120 >first : easy
+ÇÑ¼ö½° #
+Impossible move , type = 0
+19743 >first : black
+19743 >first : time 30000
+19744 >first : otim 30000
+19744 >first : white
+book hit = (NULL)
+19744 >first : go
+nps: w=-1, b=-1
+Interrupting first
+24553 >first : force
+24558 <first : move c3c4
+Undoing extra move from first, gameMode 6
+24558 >first : undo
 GameEnds(30, xboard exit, 2)
+25902 >first : quit
 name = '%APPDATA%\winboard190629.ini', expanded name = 'C:\users\maksim\Application Data\winboard190629.ini'

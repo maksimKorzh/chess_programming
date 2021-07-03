@@ -1,0 +1,1114 @@
+## WinBoard language file
+##
+## LANGUAGE NAME IN ENGLISH / TRANSLATED
+## v1.0 beta 1
+##
+## Translation by NAME (DATE)
+## SAME AS ABOVE, TRANSLATED
+## WEB ADDRESS OF TRANSLATOR
+##
+## If you revise this, please insert your date, name and description.
+## TRANSLATION OF MESSAGE ABOVE
+##
+## For example:
+## TRANSLATION OF FOR EXAMPLE
+##   24-ago-2010. Juan P?ez (j@xyz.p). Corrected translation for xyzzy.
+
+## Notes for translators (can be deleted from he file after translation):
+##   Just write the translations between the second pair of quotes
+##   Things like %s, %d and %c must be preserved in the original order
+##   Empty translated strings will be ignored, so there is no reason
+##   to delete those for which you don't know a translation,
+##   and you can start testing everything immediately.
+##   Simply rename this file to LANGUAGE.lng, and WinBoard should see it,
+##   and allow you to use the option /language=LANGUAGE.
+##   You are encouraged to call up the corresponding WinBoard dialog while
+##   working on the translation, to see in which context the strings are used.
+##   This is why the strings below are sorted by dialog
+##
+##   Of duplicats, only the first occurrence will be used, even if it was in
+##   a different dialog! For this reason you will only see an 'OK' in the
+##   About Box. After you translated it there, this translation will be used
+##   for all other dialogs as well.
+## o Use ## for comments, to make iteasy to find them scattered throughout the translation
+## o Careful with temptation of direct translation, by example 'movimiento' for 'move' when 'jugada' is better.
+## o Try to use short phrases, more text doesn't imply more clearness.
+## o Check that your translation is right, does it mean what it does?
+## o Test your translation, check every dialog.
+## o For standard chess names check Wikipedia for confirmation.
+## o For menus, assign shortcuts (character &) until you finish the translation.
+##   preferably it should be unique in the applicable menu, so it depends on translation of other items!
+
+winboard.rc
+
+MENUS:
+## Pleace keep the accelerator-key indications on the menu items, and keep 
+## the keystrokes the same (for now). (Alt, Ctrl and Shift can be translated.)
+
+"&New Game\tCtrl-N" === "새 게임\tCtrl-N"
+"New Sh&uffle Game..." === "새로운 혼합 게임(사용금지)"
+"New &Variant...\tAlt+Shift+V" === "새로운 변형\tAlt+Shift+V"
+"&Load Game...\tCtrl-O" === "게임 열기\tCtrl-O"
+"&Save Game...\tCtrl-S" === "게임 저장\tCtrl-S"
+"L&oad Position...\tCtrl+Shift+O" === "판(위치) 열기  =포진선택=\tCtrl+Shift+O"
+"S&ave Position...\tCtrl+Shift+S" === "판(위치) 저장\tCtrl+Shift+S"
+"Save as &Diagram..." === "장기판 캡쳐"
+"&Quit" === "종료"
+## Next six currently not used
+"Load &Next Game\tAlt+PgDn" === "다음 판(위치) 열기\tAlt+PgDn"
+"Load &Previous Game\tAlt+PgUp" === "이전 판(위치) 열기\tAlt+PgUp"
+"&Reload Same Game" === "동일한 게임 다시 열기"
+"Load N&ext Position\tAlt+Shift+PgDn" === "다음 판(위치) 열기\tAlt+PgDn"
+"Load Pre&vious Position\tAlt+Shift+PgUp" === "이전 판(위치) 열기\tAlt+PgUp"
+"Reload Sa&me Position" === "동일한 판(위치) 다시 열기"
+
+"&Copy Game To Clipboard\tCtrl+C" === "클립보드에 게임 복사\tCtrl+C"
+"C&opy Position To Clipboard\tCtrl+Shift+C" === "클립보드에 판(위치) 복사\tCtrl+Shift+C"
+"Copy Game List to Clipboard" === "클립보드에 게임 리스트 복사"
+"&Paste Game From Clipboard\tCtrl+V" === "클립보드에서 게임 붙여넣기\tCtrl+V"
+"P&aste Position From Clipboard\tCtrl+Shift+V" === "클립보드에서 판(위치) 붙여넣기\tCtrl+Shift+V"
+"&Edit Game\tCtrl+E" === "게임 편집\tCtrl+E"
+"E&dit Position\tCtrl+Shift+E" === "판(위치) 편집\tCtrl+Shift+E"
+"Edit Ta&gs..." === "기보정보 편집"
+"Edit Comment..." === "해설 편집"
+"Enter &Username..." === "사용자 이름 입력"
+"&Revert\tHome" === "되돌리기\tHome"
+"&Annotate" === "주석 달기"
+"&Truncate Game\tEnd" === "게임 자르기\tEnd"
+"&Backward\tAlt+Left" === "한수 뒤로 이동\tAlt+Left"
+"&Forward\tAlt+Right" === "한수 앞으로 이동\tAlt+Right"
+"Back to &Start\tAlt+Home" === "첫수로 이동\tAlt+Home"
+"For&ward to End\tAlt+End" === "마지막 수로 이동\tAlt+End"
+
+"Flip &View\tF2" === "상하-좌우 반전\tF2"
+"&Swap Clocks" === "시계 교환"
+"Engine &Output\tAlt+Shift+O" === "엔진 출력\tAlt+Shift+O"
+"Move &History\tAlt+Shift+H" === "이동 기록\tAlt+Shift+H"
+"Evaluation &Graph\tAlt+Shift+E" === "평가 그래프\tAlt+Shift+E"
+"Game &List\tAlt+Shift+G" === "게임 리스트\tAlt+Shift+G"
+"Open &New Chat Window" === "새 채팅창 열기"
+"Type In &Move...\tAlt+I" === "좌표 입력\tAlt+I"
+"&Tags" === "기보정보 편집"
+"&Comments" === "해설 편집"
+"&Game List Tags..." === "게임 리스트 옵션"
+"&Board..." === "테마"
+"&Fonts..." === "폰트(글꼴)"
+
+"Machine &White\tCtrl+W" === "컴퓨터가 White(초)\tCtrl+W"
+"Machine &Black\tCtrl+B" === "컴퓨터가 Black(한)\tCtrl+B"
+"&Two Machines\tCtrl+T" === "컴퓨터끼리\tCtrl+T"
+"Machine Both" === "둘다 컴퓨터"
+"&Analysis Mode\tCtrl+A" === "분석 모드\tCtrl+A"
+"Analyze &File\tCtrl+F" === "파일 분석\tCtrl+F"
+"&Edit Game\tCtrl+E" === "게임 편집\tCtrl+E"
+"E&dit Position\tCtrl+Shift+E" === "판(위치) 편집\tCtrl+Shift+E"
+"Trai&ning" === "수읽기 훈련"
+"&ICS Client" === ""
+"&Machine Match" === "컴퓨터 매치"
+"&Pause\tPause" === "일시 중지\tPause"
+
+"&Accept\tF3" === "동의\tF3"
+"D&ecline\tF4" === "사양\tF4"
+"Re&match\tF12" === "재대결\tF12"
+"Call &Flag\tF5" === "깃발 호출"
+"&Draw\tF6" === "무승부\tF6"
+"Ad&journ\tF7" === "휴정"
+"A&bort\tF8" === "게임 중단\tF8"
+"&Resign\tF9" === "기권\tF9"
+"Stop &Observing\tF10" === "관찰 중지\tF10"
+"Stop E&xamining\tF11" === "검토 중지\tF11"
+"&Upload to Examine" === "검토로 업로드"
+"Adjudicate to &White" === "White(초) 승리로 판정 (사용불가)"
+"Adjudicate to &Black" === "Black(한) 승리로 판정 (사용불가)"
+"Adjudicate &Draw" === "무승부로 판정 (사용불가)"
+
+"Install 1st..." === "첫번째 설치"
+"Install 2nd..." === "두번째 설치"
+"Engine #&1 Settings..." === "#1 엔진 셋팅"
+"Engine #&2 Settings..." === "#2 엔진 셋팅"
+"&Hint..." === "힌트 (사용불가)"
+"&Book..." === "책 (사용불가)"
+"&Move Now\tCtrl+M" === "즉시 둠\tCtrl+M"
+"&Retract Move\tCtrl+X" === "무르기\tCtrl+X"
+
+"&Mute all Sounds" === "음소거"
+"&General..." === "일반 옵션 설정"
+"&Time Control...\tAlt+Shift+T" === "대국 시간 설정\tAlt+Shift+T"
+#"Common &Engine...\tAlt+Shift+U" === "공통 엔진 설정\tAlt+Shift+U"
+"Common &Settings...\tAlt+Shift+U" === "공통 엔진 설정\tAlt+Shift+U"
+"Ad&judications...\tAlt+Shift+J" === "대국 판결 설정\tAlt+Shift+J"
+"&Load Game...\tAlt+Shift+L" === "게임 열기 옵션\tAlt+Shift+L"
+"&Save Game...\tAlt+Shift+S" === "게임 저장 옵션\tAlt+Shift+S"
+"G&ame List..." === "게임 리스트 옵션"
+"Soun&ds..." === "사운드"
+"&ICS..." === ""
+"Add ICS..." === "ICS 추가"
+"Comm&unications..." === "커뮤니케이션"
+"Save Settings &Now" === "지금 셋팅 저장"
+"Save Settings on E&xit" === "종료시 셋팅 저장"
+
+"Help &Contents\tF1" === "도움말 내용\tF1"
+"Help &Index" === "도움말 색인"
+"How to &Use Help" === "도움말 사용법"
+"&About WinBoard" === "윈보드 정보"
+
+"White" === "White(초)"
+"Promote" === "-"
+"Pawn" === "-"
+"Knight" === "마"
+"Bishop" === "-"
+"Rook" === "차"
+"Queen" === "사"
+"King" === ""
+## The next 2 are pieces for Capablanca Chess. Use the names from the Wikipedia entry for this,
+## rather than litteral translations of the English names!
+"Archbishop" === "-"
+"Chancellor" === "졸/병"
+## Next 2 Xiangqi (Chinese Chess) pieces. Google for 'Xiangqi' in the target language to get the standard translation.
+"Elephant" === "상"
+"Cannon" === "포"
+"Empty Square" === "기물 한개 삭제"
+"Black" === "Black(한)"
+"Demote" === "-"
+"Clear Board    " === "기물 전부 삭제"
+## Next 3: Shogi pieces.
+"Gold" === ""
+"Silver" === ""
+"Lance" === ""
+
+"Drop" === ""
+
+"Cop&y and Paste" === ""
+"&Copy" === ""
+"&Paste" === ""
+
+"&Undo" === ""
+"Cu&t" === ""
+"&Copy" === ""
+"&Paste" === ""
+"Select &All" === ""
+
+DIALOGS:
+
+ABOUTBOX
+
+## Pehaps copyright notices best left untranslated?
+"About WinBoard" === "윈보드 정보"
+"OK" === ""
+"Chessboard for Windows" === "스톡피쉬 장기동호회 영혼의시"
+"Copyright 1991 Digital Equipment Corporation" === "https://cafe.naver.com/janggibogo"
+"Enhancements Copyright 1992-2015  Free Software Foundation" === "스톡피쉬 장기동호회 영혼의시(Janggi Korea) 작성"
+"Enhancements Copyright 2005\r\nAlessandro Scotti" === "무단복제 금지"
+## What happened with H.G.Muller? [He sold his copyrights to FSF for $1]
+## The following string of 6 spaces can be translated to an acknowledgement of the translator,
+## like "Traducci? por ?car Toledo G.".
+"      " === ""
+"WinBoard 0.0.0" === ""
+
+ABOUTBOX2
+
+## Weird, it is needed? [Normally not. It is a built-in 'Easter Egg' joke.]
+"galactic" === "은하계"
+
+TIME CONTROL DIALOG
+
+"Time Control" === "시간 설정"
+"Conventional chess clock" === "대국당 제한 시간 설정"
+"Incremental clock" === "증분 시계 사용 설정"
+"Cancel" === ""
+
+## Next is there really only for the benefit of blind users of the JAWS version...
+"Use arrow keys to specify which clock setting type, then press tab to alter values." === "키보드 화살표 키를 사용하여 시계 설정 유형을 지정한 다음 탭(Tab)키를 눌러 값을 변경하십시오."
+"Fixed time per move" === "한수당 시간 설정"
+"Number of moves:" === "이동 횟수"
+"Within number of minutes:" === "분 단위 이내"
+"Initial number of minutes:" === "초기 시간(분)"
+"Plus number of seconds per move:" === "한수당 시간(초) 추가"
+"Maximum seconds per move:" === "한수당 최대 초"
+"Time-Odds Factors:" === "시간 변동 요인"
+"Engine #1:" === "#1 엔진"
+"Engine #2:" === "#2 엔진"
+
+LOAD OPTIONS DIALOG
+
+"Load Game Options" === "게임 열기 옵션"
+"Load games with &automatic stepping" === "게임 로드시 자동이동"
+"&seconds per move" === "한수당 초"
+"when filtering game list on position, use thresholds:" === "게임 목록에서 형태를 검색할때 사용되는 설정값"
+"Search Mode: " === "검색모드"
+"Match exact &position" === "정확하게 형태가 일치하는 대국"
+"Match if position is s&ubset" === "부분적으로 형태가 일치하는 대국"
+"Match material with e&xact pawn structure" === "기물이 같고 졸병구조가 정확한 대국 "
+"Match &material" === "기물이 같은 대국"
+"Material &range (upper board-half is optional)" === "재료 범위(상단 절반은 선택 사항)"
+"Material &difference (optional material balanced)" === "기물이 다름(선택적인 기물 균형)"
+"Also match reversed &colors" === "반전 색상도 일치"
+"Also match &left-right mirror image" === "좌-우 회전 형태도 일치"
+"minimum Elo for &best player" === "최고선수를 위한 최소 Elo"
+"minimum Elo for &weakest players" === "약한선수를 위한 최소 Elo"
+"or later &year" === "마지막 년도"
+"co&nsecutive positions" === "연속적인 위치"
+
+SAVE OPTIONS DIALOG
+
+"Save Game Options" === "게임 저장 옵션"
+"Save As: " === "파일 저장 형식"
+"Save games automatically" === "자동으로 게임 저장"
+"Prompt for filename" === "파일 이름 확인 후 저장"
+"To file:" === "파일 선택"
+"PGN" === ""
+"Old" === ""
+"Browse..." === ""
+"Save out of book info in PGN" === "기보파일에(PGN) 책 정보 저장"
+
+1536
+## This dialog is only used in some older Windows versions, so you might not be ableto test it.
+
+"Open" === ""
+"File &Name:" === "파일 이름"
+"&Directories:" === "디렉토리"
+"List Files of &Type:" === ""
+"Dri&ves:" === ""
+"&Help" === "도움말"
+
+"&Index number:" === "색인 번호"
+
+COMMPORT
+## Always disabled if you are not actually using an ICS through a comport, so difficult to test.
+
+"Communication Port Settings" === ""
+"Net&work..." === ""
+"&Port:" === ""
+"Data &Rate:" === ""
+"Data &Bits:" === ""
+"P&arity:" === ""
+"&Stop Bits:" === ""
+"F&low:" === ""
+
+EDIT COMMENT
+
+"Edit Comment" === "해설 편집"
+"&Clear" === ""
+"&Edit" === ""
+
+PROMOTION POPUP
+
+"Promote to:" === ""
+## next used in Shogi as promotion-popup header
+"Promote?" === ""
+"Promotion" === ""
+"&Queen" === ""
+"&Rook" === ""
+"&Bishop" === ""
+"K&night" === ""
+"&King" === ""
+"&Cancel" === ""
+
+"Chance&llor" === ""
+"&Archbishop" === ""
+"YES" === ""
+"NO" === ""
+"C&entaur" === ""
+
+GAME LIST
+
+"Game List" === "게임 리스트"
+"&Load" === "로드"
+"&Prev" === ""
+"&Next" === "다음"
+"&Close" === ""
+"Filter" === "필터"
+
+EDIT TAGS
+
+"Edit Tags" === "태그 편집"
+
+ERROR
+
+"ICS Interaction" === ""
+"Dialog" === ""
+"Error" === ""
+## I don't think the next will really appear ever.
+"Sorry Charlie" === ""
+
+COLORIZE
+
+"I C S Interaction Colors" === ""
+"Interaction Colors" === ""
+"Premove" === ""
+"Alarm" === ""
+"Colors" === ""
+"&Choose Color..." === ""
+"&Bold" === ""
+"&Italic" === ""
+"&Underline" === ""
+"&Strikeout" === ""
+
+QUESTION
+
+## next one seems only a placeholder, and never appears? [might also be just a programmer's joke...]
+"Enter a chess engine command or just type something stupid that will completely screw things up." === ""
+"Question" === "질문"
+"Enter" === "입력"
+
+STARTUP DIALOG
+
+"WinBoard Startup" === "WinBoard 시작"
+"What would you like to do?" === "당신은 무엇을 하고 싶으세요?"
+"&Play against a chess engine or match two engines" === "장기(체스) 엔진과 게임 하거나 두개의 엔진을 매치"
+"&Use an Internet Chess Server" === "인터넷 체스 서버 사용"
+"Just &view or edit game files" === "게임 파일만 보거나 편집"
+"Specify Chess &Engines:" === "장기(체스)엔진 선택"
+"Specify Chess &Server:" === "체스 서버 선택"
+"&Additional options" === "추가 옵션"
+
+INDEX (IN FILE-BROWSE DIALOG)
+
+"Inde&x number:" === "인덱스(색인) 번호"
+
+MOVE TYPE-IN
+
+"Type in a move" === "이동 입력"
+
+USER-NAME TYPE-IN
+
+"Type in your name" === "이름 입력"
+
+SOUND DIALOG
+
+"Sounds" === "사운드"
+
+"&Event:" === ""
+"&No sound" === "소리끔"
+"&Default beep" === "기본 신호음"
+"&Built-in sound:" === "내장 사운드"
+"&WAV file:" === ""
+
+"B&rowse..." === ""
+"&Play" === ""
+"&Defaults" === "기본값"
+
+GENERAL OPTIONS DIALOG
+## pleace keep the indication of the accelerator keys for the same keystroke
+## Note: finely tuned spaces to align keys at right
+
+"General Options" === "일반 옵션"
+"Always on &Top" === "장기판을 최상위 창으로 표시"
+"Always &Queen            Ctrl+Shift+Q" === "항상 여왕(승급옵션)     Ctrl+Shift+Q"
+"Animate &Dragging" === "애니메이션 드래그"
+"&Animate Moving         Ctrl+Shift+A" === "애니메이션 이동           Ctrl+Shift+A"
+"Auto &Flag                   Ctrl+Shift+F" === "자동 깃발                      Ctrl+Shift+F"
+"Auto Flip &View" === "자동 상하-좌우 반전"
+"Auto &Raise Board" === "자동 라이즈 장기판"
+"&Blindfold" === "기물 감추기 (맹기연습)"
+"auto-Display &Tags" === "PGN 정보 자동 표시"
+"Highlight Dra&gging" === "드래그 강조 표시"
+"Highlight Last &Move" === "마지막 이동 강조 표시"
+"Periodic &Updates" === "주기적 업데이트"
+"Ponder &Next Move  Ctrl+Shift+P" === "다음수 생각                  Ctrl+Shift+P"
+"&Popup Exit Message" === "종료 메세지 팝업창 표시"
+"Popup Move &Errors" === "이동 오류 팝업창 표시"
+"Show Butt&on Bar" === "이동 막대버튼 표시"
+"Show &Coordinates" === "장기판에 영문좌표 표시"
+"&Show Thinking" === "생각 보이기"
+"Test &Legality            Ctrl+Shift+L" === "이동 합법성 테스트          Ctrl+Shift+L"
+"&Hide Thinking          Ctrl+Shift+H" === "생각 숨기기                   Ctrl+Shift+H"
+"&Info in Move History   Ctrl+Shift+I" === "이동 기록 정보 확장       Ctrl+Shift+I"
+"&Send Engine Think" === "엔진 생각 보내기"
+"E&xtended PGN Info    Ctrl+Shift+X" === "PGN 정보 확장              Ctrl+Shift+X"
+"Highlight with Arro&w" === "기물 이동 화살표로 강조 표시"
+"Displa&y Logos" === "로고 표시"
+"One-Click Move" === "원클릭 이동"
+
+ICS OPTIONS
+
+"ICS Options" === "ICS 옵션"
+"&Auto Comment" === "자동 해설"
+"Auto &Observe" === "자동 관찰"
+"&Get Move List" === "이동 목록 가져오기"
+"&Local Line Editing" === "로컬 라인 편집"
+"&Quiet Play" === "조용한 플레이"
+"&Premove" === "미리 이동"
+"&White first move" === "White(초) 첫번째 이동"
+"&Black first move" === "Black(한) 첫번째 이동"
+"&Sound alarm at" === "알람 시간"
+"seconds" === "두번째"
+"Choose..." === "선택"
+"Do &not colorize messages" === "메세지에 색상 지정안함"
+"&Auto Kibitz" === "자동 훈수"
+"Auto Kibit&z" === "자동 훈수"
+"See&k Graph" === "그래프 탐색"
+"auto-&Refresh" === "자동-새로고침"
+"Bckgnd Obser&ve" === "백그라운드 관찰"
+"&Dual Board" === "듀얼 보드"
+"One-Click &Move" === ""
+"Background..." === "배경"
+"&Defaults..." === "기본값"
+"Startup &Chat Boxes:" === "시작 대화 상자:"
+"General" === "일반"
+
+BOARD OPTIONS
+## (NOTE: AllWhite uses the white (outline-style) piece bitmaps for both sides
+##        FlipBlack draws the black pieces upside down)
+
+"Board Options" === "장기판 및 기물 옵션 설정"
+"Defaults" === "기본값"
+"Light Squares" === "밝은 사각 지역"
+"Dark Squares" === "어두운 사각 지역"
+"White Pieces" === "초 기물 색상"
+"Black Pieces" === "한 기물 색상"
+"Square Highlights" === "사각 하이라이트"
+"Premove Highlights" === "이동 하이라이트"
+"Monochrome" === "모노(단색)"
+"All White" === "모두 초의 기물로"
+"Flip Black" === "기물방향 바꾸기"
+"Use Board Textures" === "사용자 장기판 사용"
+"Use Piece Font" === "기물 폰트 사용"
+"Suppress Grid" === "격자 무늬 숨기기"
+"Size" === "장기판 크기"
+
+BOARD SIZES (translate as number?)
+## Don't put numbers, or nobody will translate them. [True. But do we really want them translated?]
+## This is a space for imagination!
+"&Tiny" === ""
+"T&eeny" === ""
+"&Dinky" === ""
+"&Petite" === ""
+"Sl&im" === "슬림"
+"&Small" === "작다"
+"Medi&ocre" === "보통"
+"&Middling" === ""
+"&Average" === "평균"
+"Mode&rate" === ""
+"Medi&um" === "중간"
+"Bul&ky" === ""
+"&Large" === "크다"
+"&Big" === "큰"
+"&Huge" === ""
+"&Giant" === "거대한"
+"&Colossal" === ""
+"Tita&nic" === "타이타닉"
+
+FONTS
+
+"Fonts" === "폰트(글꼴) 옵션"
+"Current Board Size" === "현재 보드 크기"
+"All Board Sizes" === "모든 보드 크기"
+"&Revert to Defaults" === "기본값으로 되돌리기"
+"Clocks" === "시계(한, 초)"
+"Messages" === "상단 메세지"
+"Coordinates" === "장기판 좌표"
+"Tags" === "태그"
+"Comments" === "해설"
+"I C S Interaction" === "ICS 상호작용"
+"Piece Font" === "기물 폰트"
+
+"&Color..." === "색상/보드 크기"
+"Move History, Engine Output" === "이동기록, 엔진출력"
+
+ADJUDICATIONS DIALOG
+
+"Adjudications" === "대국 판결"
+"Ponder Next Move" === "다음수 생각"
+"Enable and Show Thinking (recommended)" === "생각 사용 및 표시(권장)"
+"Hide Thinking when Playing against Human" === "컴퓨터 생각 숨기기"
+"Periodic Updates (for Analysis Mode)" === "정기적 업데이트(분석 모드의 경우)"
+"Adjudications in non-ICS games" === "ICS 게임이 아닐때 판결"
+"Adjudicate draw after:" === "이동 후 비김"
+"moves" === "이동"
+"Win/loss adjudication threshold:" === "승/패 판정 점수"
+"centipawns" === "센티폰"
+"&Verify Engine Claims" === "엔진 클레임 확인"
+"Detect &Mates" === "장군(Mates) 감지"
+"Draw if &Insufficient Material" === "기물이 부족한 경우 비김"
+"Adjudicate &Trivial Draws" === "사소한 판결 무승부"
+"Apply" === "적용"
+## next 2 are suffixed to a text-edit containing a number (50 or 3)
+"-move rule" === "이동 규칙"
+"-fold repeats" === "반복수"
+"Engine #1 Score is Absolute" === "#1 엔진 점수는 절대적임"
+"Engine #2 Score is Absolute" === "#2 엔진 점수는 절대적임"
+
+COMMON ENGINE DIALOG
+
+"Common Engine Settings" === "공통 엔진 설정"
+"Polyglot Directory:" === "Polyglot 디렉토리"
+"Hash Size (MB):" === "Hash 크기 (MB)"
+"EGTB Path:" === ""
+"EGTB Size (MB):" === "EGTB 크기 (MB):"
+"Use Book:" === "책 사용"
+"Max nr of CPUs:" === "최대 CPU 갯수"
+"First has Own Book" === "첫번째 엔진: 책 있음"
+"Second has Own Book" === "두번째 엔진: 책 있음"
+"Book Depth:" === "책 깊이 (1=2수)"
+"Book Variation:" === "책 변형(0/50/100)"
+"Default Match Games:" === "기본 매치 게임"
+
+NEW-VARIANT DIALOG
+## (NOTE: the 'holdings' are the pieces standing next to the board ('in hand')
+
+"Variants" === "변형 내용"
+"Variant" === "변형"
+"Board size:" === "보드 사이즈"
+"ranks" === ""
+"files" === ""
+"Holdings with room for:" === "보드안에 있는 기물 갯수:"
+"pieces" === ""
+"('-1' means defaults for selected variant)" === "-1은 선택된 엔진의 기본값을 의미함"
+
+VARIANT NAMES: 
+"&normal" === ""
+"&FRC" === ""
+"&wildcastle" === ""
+"&nocastle" === ""
+"&losers" === ""
+"&giveaway" === ""
+"s&uicide" === ""
+"&3Check" === ""
+"&twokings" === ""
+"&atomic" === ""
+"cra&zyhouse" === ""
+"&bughouse" === ""
+"&Twilight" === ""
+"Sp&artan" === ""
+"&shogi" === ""
+"su&per" === ""
+"&knightmate" === ""
+"&Berolina" === ""
+"c&ylinder" === ""
+"&fairy" === ""
+"&makruk" === ""
+"&gothic" === ""
+"&capablanca" === ""
+"&Janus" === ""
+"&CRC" === ""
+"&Falcon" === ""
+"cou&rier" === ""
+"&Great" === ""
+"&Shatranj" === ""
+"&xiangqi" === ""
+
+NEW SHUFFLE GAME
+
+"New Shuffle Game" === "새 혼합 게임"
+"&Start Position Number:" === "시작 위치 번호"
+"Random" === "랜덤"
+
+GAME-LIST OPTIONS DIALOG
+
+"Game List Options" === "게임 리스트 옵션"
+"PGN &Tags:" === "PGN 정보"
+"&Up" === "위로"
+"&Down" === "아래로"
+"Default" === "기본값"
+"Factory" === "초기값"
+"Restore to:" === "복원 위치"
+
+MOVE HISTORY WINDOW
+
+"Move History" === "이동 기록"
+
+EVALUATION GRAPH
+
+"Evaluation Graph" === "평가 그래프"
+
+ENGINE OUTPUT WINDOW
+
+"Engine Output" === "엔진 출력"
+"%s (%d reversible plies)" === ""
+"Engine #1" === "#1 엔진"
+"NPS" === ""
+"Engine #2" === "#2 엔진"
+
+CHAT BOXES
+
+"Chat Window" === ""
+"Chat partner:" === ""
+"Clear" === ""
+"Send" === "보내다"
+
+winboard.c
+
+"&File" === "파일"
+"&Edit" === "편집"
+"&View" === "보기"
+"&Mode" === "모드"
+"&Action" === "동작"
+"&Step" === ""
+"E&ngine" === "엔진"
+"&Options" === "옵션"
+"&Help" === "도움말"
+"You can only start a match from the initial position." === "당신은 초기 위치에서만 경기를 시작할 수 있습니다"
+"Font name too long:" === "폰트(글꼴) 이름이 너무 깁니다."
+"Font point size missing:" === "폰트(글꼴) 포인트 크기 누락"
+"Can't parse color name %s" === "색상 이름을 확인할 수 없음"
+"Unrecognized board size value" === "인식할수 없는 보드 크기값"
+"Unrecognized argument" === "인식할수 없는 인수"
+"No value provided for argument" === "인수에 제공된 값 없음"
+"Incomplete \\ escape in value for" === ""
+"Failed to open indirection file" === "간접적으로 파일을 열지 못했습니다."
+"Unrecognized boolean argument value" === "인식 할 수없는 boolean 인수값"
+"Unrecognized argument" === "인식할수 없는 인수"
+"Too many colors" === "색상이 너무 많음"
+"&Minimize\tCtrl+F4" === "최소화\tCtrl+F4"
+"White: %s" === "White(초):"
+"We only care about the height here" === "우리는 오직 높이만 신경쓴다"
+"Cannot build game list" === "게임 목록을 작성할 수 없음"
+"Load Game from File" === "파일에서 게임 열기"
+"Load Position from File" === "파일에서 판(위치) 로드"
+"Save Game to File" === "게임을 파일로 저장"
+"Save Diagram to File" === "파일에 다이어그램(도표) 저장"
+"Save Position to File" === "파일에 위치 저장"
+"%s does not support analysis" === "분석을 지원하지 않음"
+"Analyze Game from File" === "파일에서 게임 분석"
+"Unable to activate help" === "도움말을 활성화할 수 없음"
+"Send to chess program:" === "체스 프로그램으로 보내기"
+"Send to second chess program:" === "두 번째 체스 프로그램으로 보내기"
+"Direct Command" === "직접 명령"
+"Error loading sound %s" === "사운드 로드 오류"
+"Error playing sound %s" === "사운드 재생 오류"
+"File open failed" === "파일 열기 실패"
+"Internal error in file dialog box" === "파일 대화 상자의 내부 오류"
+"Option Error" === "옵션 오류"
+"Choose an option, or cancel to exit" === "옵션을 선택하거나 취소하여 종료"
+"Unable to activate help" === "도움말을 활성화할 수 없음"
+"Displayed move is not current" === "표시된 이동이 현재가 아님"
+"Could not parse move" === "이동을 구문 분석할 수 없음"
+"%s:\nError code %d" === "코드 오류"
+"Error" === "오류"
+"Fatal Error" === "치명적 오류"
+"Exiting" === "종료중"
+"%s:\nError code %d" === "코드 오류"
+"Note" === "참고"
+"Error writing to chess program" === "체스 프로그램에 쓰는 중 오류 발생"
+"User" === "사용자"
+"Unknown" === "알 수 없음"
+"White" === "White(초)"
+"Black" === "Black(한)"
+"Save Game to File" === "파일로 게임 저장"
+"Not implemented" === "구현되지 않음"
+
+"Shout Text" === ""
+"SShout/CShout" === ""
+"Channel 1 Text" === ""
+"Channel Text" === ""
+"Kibitz Text" === ""
+"Tell Text" === ""
+"Challenge Text" === ""
+"Request Text" === ""
+"Seek Text" === ""
+"Normal Text" === ""
+"None" === ""
+"Pawn" === ""
+"Knight" === "마"
+"Bishop" === ""
+"Rook" === "차"
+"Queen" === "사"
+"Information" === "정보"
+
+wclipbrd.c
+
+"Unable to convert position to FEN." === "위치를 FEN으로 변환할 수 없음"
+"Unable to copy FEN to clipboard." === "FEN을 클립보드에 복사할 수 없음"
+"Cannot create temporary file name." === "임시 파일 이름을 만들 수 없음"
+"Cannot open temporary file." === "임시 파일을 열 수 없음"
+"Cannot write to temporary file." === "임시 파일에 쓸 수 없음"
+"Cannot reopen temporary file." === "임시 파일을 다시 열 수 없음"
+"Cannot determine size of file." === "파일 크기를 확인할 수 없음"
+"Cannot allocate clipboard buffer." === "클립보드 버퍼를 할당할 수 없음."
+"Cannot read from temporary file." === "임시 파일에서 읽을 수 없음."
+"Error reading from temporary file." === "임시 파일을 읽는 중 오류 발생."
+"Cannot copy text to clipboard" === "텍스트를 클립보드에 복사할 수 없음"
+"Unable to allocate memory for clipboard." === "클립보드에 메모리를 할당할 수 없음."
+"Unable to lock clipboard memory." === "클립보드 메모리를 잠글 수 없음."
+"Cannot unlock clipboard memory." === "클립보드 메모리를 잠금 해제할 수 없음."
+"Cannot open clipboard." === "클립보드를 열 수 없음."
+"Cannot empty clipboard." === "클립보드를 비울 수 없음."
+"Cannot copy text to clipboard." === "텍스트를 클립보드에 복사할 수 없음."
+"Cannot close clipboard." === "클립보드를 닫을 수 없음."
+"Unable to paste FEN from clipboard." === "클립보드에서 FEN을 붙여넣을 수 없음."
+"Unable to create temporary file." === "임시 파일을 만들 수 없음."
+"Error writing to temporary file." === "임시 파일에 쓰는 중 오류 발생."
+"Unable to open clipboard." === "클립보드를 열 수 없음."
+"No text in clipboard." === "클립보드에 텍스트가 없음."
+"Unable to lock clipboard memory." === "클립보드 메모리를 잠글 수 없음."
+"Unable to allocate memory for text string." === "텍스트 문자열에 메모리를 할당할 수 없음."
+"Unable to unlock clipboard memory." === "클립보드 메모리를 잠금 해제할 수 없음."
+"Unable to close clipboard." === "클립보드를 닫을 수 없음."
+
+woptions.c
+
+## For now, do NOT translate sound names, because WinBoard will no longer recognize them
+"Move" === ""
+"Bell" === ""
+"ICS Alarm" === ""
+"ICS Win" === ""
+"ICS Loss" === ""
+"ICS Draw" === ""
+"ICS Unfinished" === ""
+"Shout" === ""
+"SShout/CShout" === ""
+"Channel 1" === ""
+"Channel" === ""
+"Kibitz" === ""
+"Tell" === ""
+"Challenge" === ""
+"Request" === ""
+"Seek" === ""
+## end of sound names
+
+"Browse for Sound File" === "사운드 파일 찾아보기"
+"Can't parse com port settings" === "COM 포트 설정을 파싱 할 수 없습니다"
+"Option Error" === "옵션 오류"
+"Invalid data rate" === "잘못된 데이터 속도"
+"Option Error" === "옵션 오류"
+"Failed to set comm port state;\r\ninvalid options?" === "통신 포트 상태 설정 실패;\r\ninvalid options?"
+"Failed to set comm port state" === "통신 포트 상태를 설정하지 못함"
+"Invalid load game step rate" === "잘못된 로드 게임 단계 속도"
+"Invalid save game file name" === "잘못된 게임 파일 이름 저장"
+"Browse for Auto Save File" === "자동 저장 파일 찾아보기"
+"Invalid moves per time control" === "시간 컨트롤당 잘못된 이동"
+"Invalid minutes per time control" === "시간당 잘못된 분 제어"
+"Invalid increment" === "잘못된 증분"
+"Invalid initial time" === "잘못된 초기 시간"
+"Changing time control during a game is not implemented" === "게임 중 시간 컨트롤 변경이 구현되지 않음"
+
+"Variant %s not supported by %s" === "지원하지 않는 변형"
+"Warning: second engine (%s) does not support this!" === "경고: 두번째 엔진이 이를 지원하지 않음!"
+"Invalid ICS Alarm Time" === "잘못된 ICS 알람 시간"
+"Invalid max time per move" === "한수당 최대 시간이 잘못됨"
+"Invalid time-odds factor" === "잘못된 시간 설정"
+"Choose Folder" === "폴더 선택"
+"Choose Book" === "책 선택"
+"Choose Polyglot Directory" === "Polyglot 디렉토리 선택"
+"Choose EGTB Directory:" === "EGTB 디렉토리 선택"
+"Polyglot was not found in the specified folder!" === "지정된 폴더에서 Polyglot을 찾을 수 없음!"
+
+wgamelist.c
+
+"No game selected" === "선택된 게임이 없습니다"
+"Can't go forward any further" === "더 이상 진행할 수 없음"
+"Can't back up any further" === "더 이상 백업할 수 없음"
+"No game list" === "게임 목록 없음"
+"Game List" === "게임 목록"
+"Game list not loaded or empty" === "게임 목록이 로드되지 않았거나 비어 있음"
+"%s - %d/%d games" === "게임"
+
+wedittags.c
+
+"Edit Tags" === "태그 편집"
+"Tags" === "태그"
+"Error replacing tags." === "태그 교체 오류"
+
+wsettings.c
+
+"%s Engine Settings (%s)" === "Engine 셋팅"
+"OK" === ""
+"Cancel" === ""
+
+wchat.c
+
+"Chat Window %s" === ""
+
+backend.c
+
+"bad timeControl option %s" === "시간 설정 옵션이 잘못됨"
+"bad searchTime option %s" === "검색시간 옵션이 잘못됨"
+## following to will appear in combinationslike "first engine" 
+"first" === "첫번째"
+"second" === "두번째"
+"protocol version %d not supported" === "지원되지 않는 프로토콜 버전"
+"Variant %s supported only in ICS mode" === "ICS 모드에서만 지원되는 변형"
+"Unknown variant name %s" === "변형 이름을 알 수 없음"
+"Starting chess program" === "체스 프로그램 시작중"
+"Could not open comm port %s" === "통신 포트를 열 수 없음"
+"Could not connect to host %s, port %s" === "포트와 호스트에 연결할 수 없음"
+"Unknown initialMode %s" === "초기 모드를 알 수 없음"
+"Can't have a match with no chess programs" === "체스 프로그램 없이 시합할 수 없음."
+"Bad game file" === "잘못된 게임 파일"
+"Bad position file" === "잘못된 판(위치) 파일"
+"AnalyzeFile mode requires a game file" === "파일 분석 모드에는 게임 파일이 필요함"
+"Analysis mode requires a chess engine" === "분석 모드에서는 체스 엔진이 필요함"
+"Analysis mode does not work with ICS mode" === "ICS 모드에서는 분석 모드가 작동하지 않음"
+"MachineWhite mode requires a chess engine" === "MachineWhite 모드에는 체스 엔진이 필요함"
+"MachineWhite mode does not work with ICS mode" === "MachineWhite 모드는 ICS 모드에서 작동하지 않음"
+"MachineBlack mode requires a chess engine" === "MachineBlack 모드에는 체스 엔진이 필요함"
+"MachineBlack mode does not work with ICS mode" === "MachineBlack 모드는 ICS 모드에서 작동하지 않음"
+"TwoMachines mode does not work with ICS mode" === "TwoMachines 모드는 ICS 모드에서 작동하지 않음"
+"TwoMachines mode requires a chess engine" === "TwoMachines 모드에는 체스 엔진이 필요함"
+"Training mode requires a game file" === "수읽기 훈련 모드에는 게임 파일이 필요함"
+"Error writing to ICS" === "ICS에 쓰는 중 오류 발생"
+"Error reading from keyboard" === "키보드 읽기 오류"
+"Got end of file from keyboard" === "키보드에서 파일의 끝 가져오기"
+"Error writing to ICS" === "ICS에 쓰는 중 오류 발생"
+"Error writing to display" === "디스플레이 쓰기 오류"
+"Error gathering move list: two headers" === "이동 목록 수집 오류: 두개의 머리글"
+"Error gathering move list: nested" === "이동 목록 수집 오류: 중복"
+"Connection closed by ICS" === "ICS에 의해 연결이 종료"
+"Error reading from ICS" === "ICS에서 읽는 중 오류 발생"
+"Failed to parse board string:\n\"%s\"" === "보드 문자열을 구문 분석하지 못함"
+"Game too long; increase MAX_MOVES and recompile" === "게임이 너무 깁니다. MAX_MOVES를 늘리고 다시 컴파일하십시오."
+"Error gathering move list: extra board" === "이동 목록 수집 오류: 추가 보드"
+"Illegal move \"%s\" from ICS" === "ICS에서 잘못된 이동"
+"Couldn't parse move \"%s\" from ICS" === "ICS에서 이동을 구문 분석할 수 없음"
+## The leading 'say' is used as ICS command here, and should NOT be translated. Only the message behind it.
+"say Internal error; bad moveType %d (%d,%d-%d,%d)" === "내부 오류, 잘못된 이동유형"
+"You are playing Black" === "당신은 Black(한) 입니다."
+"You are playing White" === "당신은 White(초) 입니다"
+"It is White's turn" === "White(초) 차례 입니다."
+"It is Black's turn" === "Black(한) 차례 입니다"
+"Displayed position is not current" === "현재 표시된 위치가 아닙니다"
+"Illegal move" === "불법 이동"
+"End of game" === "게임 종료"
+"Incorrect move" === "잘못된 이동"
+## next 6: Second (first 3) or first (other) '%s' will be substituted for 'first' or 'second'.
+"Illegal move \"%s\" from %s machine" === "불법 이동"
+"Illegal move \"%s\" (rejected by %s chess program)" === "불법 이동 (체스 프로그램에서 거부됨)"
+"Failed to start %s chess program %s on %s: %s\n" === "체스 프로그램을 시작하지 못했습니다."
+"Error writing to %s chess program" === "체스 프로그램에 쓰는 중 오류 발생"
+"Error: %s chess program (%s) exited unexpectedly" === "오류: 체스 프로그램이 예기치 않게 종료됨"
+"Error reading from %s chess program (%s)" === "체스 프로그램에서 읽는 중 오류 발생"
+"Forfeit due to illegal move" === "불법 이동으로 인한 몰수"
+"%s does not support analysis" === "분석을 지원하지 않음"
+"Hint: %s" === "힌트"
+"Machine accepts your draw offer" === "컴퓨터가 귀하의 무승부 제안을 수락함"
+"Machine offers a draw\nSelect Action / Draw to agree" === "컴퓨터가 무승부를 제안 / 동의를 위해서 동작모드에서 선택하시오."
+"%s (only move)" === "(오직 이동)"
+"Ambiguous move in ICS output: \"%s\"" === "ICS 출력의 모호한 이동:"
+"Illegal move in ICS output: \"%s\"" === "ICS 출력의 잘못된 이동:"
+"Gap in move list" === "이동 목록의 간격"
+"Game too long; increase MAX_MOVES and recompile" === "게임이 너무김; increase MAX_MOVES and recompile"
+"Variant %s not supported by %s" === "변형이 지원되지 않음"
+"Startup failure on '%s'" === "시작 실패"
+"Waiting for first chess program" === "첫번째 체스 프로그램을 기다리는 중"
+"Waiting for second chess program" === "두번째 체스 프로그램을 기다리는 중"
+"Match %s vs. %s: final score %d-%d-%d" === ""
+"Stalemate" === "교착 상태(수가막힘)"
+"Illegal move: %d.%s%s" === "불법 이동"
+"Ambiguous move: %d.%s%s" === "애매 모호한 움직임"
+"Can't open \"%s\"" === "열수 없음"
+"Cannot build game list" === "게임 목록을 작성할 수 없음"
+"No more games in this message" === "이 메시지안에 더이상 게임 없음"
+"No game has been loaded yet" === "아직 게임이로드되지 않았습니다"
+"Can't back up any further" === "더 이상 백업할 수 없음"
+"Game number out of range" === "게임 번호가 범위를 벗어남"
+"Can't seek on game file" === "게임 파일을 찾을 수 없음"
+"Game not found in file" === "파일에서 게임을 찾을 수 없음"
+"Bad FEN position in file" === "파일의 잘못된 FEN 위치"
+"No moves in game" === "게임에서 이동 없음"
+"No position has been loaded yet" === "위치가 아직 로드되지 않았습니다."
+"Can't back up any further" === "더 이상 백업할 수 없음"
+"Can't open \"%s\"" === "열수 없음"
+"Can't seek on position file" === "위치(판) 파일에서 찾을 수 없습니다"
+"Position not found in file" === "파일에서 위치를 찾을 수 없습니다"
+"Bad FEN position in file" === "파일의 잘못된 FEN 위치"
+"Black to play" === "Black(한) 시작"
+"White to play" === "White(초) 시작"
+"Can't open \"%s\"" === "열수 없음"
+"You have edited the game history.\nUse Reload Same Game and make your move again." === "게임 기록을 편집하셨습니다. 동일한 게임을 다시 로드하여 다시 이동하십시오."
+"You have entered too many moves.\nBack up to the correct position and try again." === "너무 많은 수를 입력하셨습니다. 올바른 위치로 백업하고 다시 시도하십시오."
+"Displayed position is not current.\nStep forward to the correct position and try again." === "현재 표시된 위치가 아닙니다. 올바른 위치로 다시 시도하십시오."
+"You have not made a move yet" === "아직 움직이지 않았습니다."
+"The cmail message is not loaded.\nUse Reload CMail Message and make your move again." === "메일 메시지가 로드되지 않음. 메일 메시지를 다시 로드하여 이동하십시오."
+"No unfinished games" === "완료되지 않은 게임 없음"
+"You have already mailed a move.\nWait until a move arrives from your opponent.\nTo resend the same move, type\n\"cmail -remail -game %s\"\non the command line." === ""
+"Failed to invoke cmail" === "메일 호출 실패"
+"Waiting for reply from opponent\n" === "상대방의 회신을 기다리는 중"
+"Still need to make move for game\n" === "여전히 게임을 위해 이동 해야함"
+"Still need to make moves for both games\n" === "여전히 두 게임 모두 이동 해야함"
+"Still need to make moves for all %d games\n" === "여전히 모든 게임을 이동 해야함."
+"Still need to make a move for game %s\n" === "여전히 게임을 위해 이동 해야함"
+"No unfinished games\n" === "완료되지 않은 게임 없음"
+"Ready to send mail\n" === "메일 보낼 준비 완료"
+"Still need to make moves for games %s\n" === "여전히 게임을 위해 이동 해야함"
+"Edit comment" === "해설 편집"
+"Edit comment on %d.%s%s" === "해설 편집"
+"Starting analysis mode...\nIf this message stays up, your chess program does not support analysis." ===  "분석 모드를 시작하는 중...이 메시지가 계속 유지되면 체스 프로그램이 분석을 지원하지 않음"
+"It is not White's turn" === "White(초) 차례가 아닙니다"
+"It is not Black's turn" === "Black(한) 차례가 아닙니다"
+"Wait until your turn,\nor select Move Now" === "차례가 올 때까지 기다리거나.\n지금 이동을 선택하십시오."
+"Starting second chess program" === "두번째 체스 프로그램 시작 중"
+"Training mode off" === "수읽기 훈련 모드 종료"
+"Training mode on" === "수읽기 훈련 모드 상태"
+"Already at end of game" === "이미 게임이 종료됨"
+"Warning: You are still playing a game" === "경고: 당신은 아직 게임을 하고 있다."
+"Warning: You are still observing a game" === "경고: 당신은 여전히 게임을 관찰하고 있다."
+"Warning: You are still examining a game" === "경고 : 당신은 아직 게임을 검토 중입니다."
+"It is Black's turn" === "Black(한)의 차례입니다."
+"It is White's turn" === "White(초)의 차례입니다."
+"That square is occupied" === "그곳은 점령되었다"
+"There is no pending offer on this move" === "이 이동에 대한 보류중인 제안이 없습니다"
+"Your opponent is not out of time" === "상대방은 대국시간이 있다."
+"Black offers a draw" === "Black(한) 무승부 제안"
+"White offers a draw" === "White(초) 무승부 제안"
+"You must make your move before offering a draw" === "무승부를 제시하기 전에 먼저 행동을 취해야 한다."
+"You are not examining a game" === "당신은 게임을 검토하고 있지 않습니다"
+"You can't revert while pausing" === "일시 정지 중에는 되돌릴 수 없음"
+"Wait until your turn,\nor select Move Now" === "차례가 올 때까지 기다리거나, 지금 이동을 선택하십시오."
+"It is your turn" === "당신 차례입니다"
+"Wait until your turn" === "차례가 올 때까지 기다리세요"
+"No hint available" === "사용 가능한 힌트 없음"
+"Analysis (%s)" === "분석"
+"Comment" === "해설"
+"Comment on %d.%s%s" === "해설"
+"Both flags fell" === ""
+"White's flag fell" === ""
+"Black's flag fell" === ""
+"Bad FEN position in clipboard" === "클립보드의 잘못된 FEN 위치"
+"No response from ICS" === "ICS에서 응답 없음"
+"You cannot do this while you are playing or observing" === "게임중 이거나 관찰중일 때는 이 작업을 수행할 수 없음"
+"Click in holdings to choose piece" === "클릭하여 기물을 선택하십시오."
+"failed writing PV" === "PV 쓰기 실패"
+"Bad Seek" === "안좋은 탐색"
+"vs." === ""
+"%s (%d reversible plies)" === ""
+"Reading game file (%d)" === "게임 파일 읽기"
+"Click clock to clear board" === "보드를 지우려면 시계를 클릭하십시오."
+"Pull pawn backwards to under-promote" === ""
+
+END-OF-GAME MESSAGES (should they be translated?)
+## I think that only for visualization and not for PGN, as PGN files are shared all around the world
+## [OK, I adapted the source that way. So please translate.]
+
+"Game aborted" === "게임이 중단됨"
+"White wins on time" === "White(초) 시간승"
+"Black wins on time" === "Black(한) 시간승"
+"Both players ran out of time" === "두 선수 모두 시간이 부족"
+"White resigns" === "White(초) 기권"
+"Black resigns" === "Black(한) 기권"
+"White mates" === "White(초) 장군"
+"Black mates" === "Black(한) 장군"
+"Draw" === "무승부"
+"Draw agreed" === "무승부 동의"
+"Xboard adjudication: King destroyed" === "판결 : 왕이 잡혔습니다"
+"Xboard adjudication: Bare king" === "판결 : 왕이 노출됨"
+"Xboard adjudication: 3rd check" === "판결 : 세번째 확인"
+"Xboard adjudication: Stalemate" === "판결 : 교착 상태(수가 막힘)"
+"Xboard adjudication: Checkmate" === "판결 : 외통"
+"Xboard adjudication: Insufficient mating material" === "판결: 기물이 부족함"
+"Xboard adjudication: Trivial draw" === "판결 : 사소한 비김"
+"XBoard adjudication: repetition draw" === "반복수로 비김"
+"Xboard adjudication: perpetual checking" === "판결: 만년장"
+"Xboard adjudication: perpetual chasing" === ""
+"%Xboard adjudication: perpetual chasing of" === "판결 : 영원적인 추적"
+"Xboard adjudication: 50-move rule" === "판결: 50이동 규칙"
+"Draw claim: 50-move rule" === "무승부 주장: 50-이동 규칙"
+"Draw claim: 3-fold repetition" === "무승부 주장: 3수 반복수"
+"Draw claim: insufficient mating material" === "무승부 주장: 기물부족"
+"Xboard adjudication: long game" === "Xboard 판결 : 긴 게임"
+"Xboard: Forfeit due to invalid move: %s (%c%c%c%c) res=%d" === "Xboard: 잘못된 이동으로 인한 몰수"
+"Xboard: Forfeit due to illegal move: %s (%c%c%c%c)%c" === "Xboard: 불법 이동으로 인한 몰수"
+"Xboard adjudication" === "Xboard 판결"
+"User adjudication" === "사용자 판결"
+"False win claim: '%s'" === "잘못된 승리 주장"
+"False draw claim: '%s'" === "잘못된 무승부 주장"
+"xboard exit" === "xboard 종료"
+
+
+# NEW STRINGS FOR EXPERIMENTAL TM VERSION:
+
+# MENU
+
+"Edit Boo&k..." === "책 편집"
+"Edit Engine List..." === "엔진 리스트 편집"
+"Load Engine..." === "엔진 로드"
+"Tournament..." === "토너먼트"
+
+# LOAD ENGINE DIALOG
+
+"First" === "첫번째"
+"Second" === "두번째"
+"Choose File" === "파일 선택"
+"Choose Folder:" === "폴더 선택"
+"Select engine from list:" === "목록에서 엔진 선택"
+"or specify one below:" === "혹은 아래에서 지정하세요"
+"Nickname (optional):" === "닉네임 (선택사항)"
+"Use nickname in PGN tag" === "PGN 정보에 닉네임 사용"
+"Engine (*.exe):" === "엔진파일 (*.exe):"
+"command-line parameters:" === "명령-라인 매개변수"
+"directory:" === "디렉토리"
+"(Directory will be derived from engine path when left empty)" === "(디렉토리가 비어 있으면 엔진 경로로 설정됨)"
+"Add this engine to the list" === "이 엔진을 목록에 추가"
+"Must not use GUI book" === "GUI 책 사용금지"
+"UCI" === ""
+"WB protocol v1 (skip waiting for features)" === ""
+"UCCI / USI (uses specified /uxiAdapter)" === ""
+"Force current variant with this engine" === "이 엔진으로 현재 변형을 적용"
+"Load mentioned engine as" === "언급된 엔진을 로드"
+"Load Engine" === "엔진 로드"
+"You did not specify the engine executable" === "엔진 실행 파일을 지정하지 않음"
+"Select single engine from the group" === "그룹에서 단일 엔진 선택"
+
+# TOURNAMENT OPTIONS DIALOG
+
+"Tournament file:" === "토너먼트 파일"
+"If you specify an existing file, the rest of this dialog will be ignored." === "기존 파일을 지정하면 이 대화 상자의 나머지 부분은 무시됨"
+"Otherwise, the file will be created, with the settings you specify below:" === "그렇지 않으면 아래에 지정한 설정으로 파일이 생성됨"
+"Select Engine:" === "엔진 선택"
+"Use Swiss pairing engine (cycles = rounds)" === "스위스 페어링 엔진 사용(사이클=라운드)"
+"Tourney type (0=RR, 1=gauntlet):" === "토너먼트 타입 (0=RR, 1=gauntlet)"
+"Sync after cycle" === "사이클 후 동기화"
+"Number of tourney cycles:" === "토너먼트 사이클 횟수"
+"Sync after round" === "라운드 후 동기화"
+"Games per Match / Pairing:" === "매치/페어링당 게임 횟수"
+"File for saving tourney games:" === "토너먼트 게임 저장 파일"
+"Game File with Opening Lines:" === "오프닝라인이 있는 게임파일"
+"Game Number:" === "게임 번호"
+"File with Start Positions:" === "시작 위치가 있는 파일"
+"Position Number:" === "위치 번호"
+"Step through lines/positions in file" === "파일의 라인/위치 까지 단계별"
+"Rewind after (0 = never):" === "되감기 (0 = 없음)"
+"Use each line/position twice" === "각 라인/위치를 두 번 사용"
+"Pause between Games (ms):" === "게임 일시 중지(ms)"
+"Tournament and Match Options" === "토너먼트 및 경기 옵션"
+"Tourney participants:" === "토너먼트 참가자"
+"Replace Engine" === "엔진 교체"
+"Upgrade Engine" === "엔진 업그레이드"
+"Time Control..." === "시간 설정"
+"Common Engine..." === "공통 엔진"
+"Clone Tourney" === "클론 토너먼트"
+"Make all use GUI book by default" === "기본적으로 모두 GUI 책 사용"
+"You must supply a tournament file,\nfor storing the tourney progress" === "토너먼트 진행 상황을 저장하려면 토너먼트 파일이 있어야 합니다."
+"Not enough participants" === "참가자 부족"
+"Continue Later" === "나중에 계속"
+"First you must specify an existing tourney file to clone" === "먼저 복사할 기존 토너먼트 파일을 지정해야 합니다"
+"No engine %s is installed" === "엔진이 설치되지 않았습니다"
+
+# THEMES DIALOG
+
+"Board themes" === " 사용자 장기판 및 기물 선택"
+"Select theme from list:" === "목록에서 장기판을 선택,"
+"or specify new theme below:" === "또는 아래에 새로운 장기판과 기물 폰트(글꼴)를 설정하여 저장 하십시오"
+"Theme name:" === "장기판 이름"
+"Use board textures" === "장기판 그림파일 사용"
+"Light-square texture:" === "밝은-사각형 텍스처"
+"Dark-square texture:" === "어두운-사각형 텍스처"
+"Dark reorientation mode:" === "어두운 방향 전환 모드"
+"Light reorientation mode:" === "밝은 방향 전환 모드"
+"Draw border around board" === "장기판 주변에 테두리 만들기"
+"Optional border bitmap:" === "테두리 비트맵 선택"
+"        Beware: a specified piece font will prevail over piece bitmaps" === "주의 : 지정된 기물 폰트가 기물 비트맵보다 우선합니다."
+"Directory with piece bitmaps:" === "기물 비트맵 디렉토리"
+"Use piece font" === "기물 폰트(글꼴) 사용"
+"Font size (%):" === "폰트 크기 (%)"
+"Font name:" === "폰트(글꼴) 이름"
+"Font piece to char:" === "기물 폰트 문자열"
+"Delete Theme" === "장기판 설정 삭제"
+"Select single theme from the group" === "그룹에서 단일 테마 선택"
+
+# book.c
+
+"Could not create book" === "책을 만들 수 없음"
+"Polyglot book not valid" === "Polyglot 책이 유효하지 않음"
+"Hash keys are different" === "해시 키(key)가 다릅니다"
+"Book Fault" === "책 결함"
+"Book file exists! Try again for overwrite." === "책 파일이 존재함! 덮어쓰기 다시 시도"
+
+# NEW MENU ITEMS IN 4.7
+
+"Save Games to &Book" === "책으로 게임 저장"
+"Colo&rs..." === "장기판/기물 옵션"
+"Load &First Engine..." === "첫번째 엔진 로드"
+"Load &Second Engine..." === "두번째 엔진 로드"
+"&Board Themes..." === "장기판/기물 선택"
+"Auto &Create Logon" === "로고온 자동생성"

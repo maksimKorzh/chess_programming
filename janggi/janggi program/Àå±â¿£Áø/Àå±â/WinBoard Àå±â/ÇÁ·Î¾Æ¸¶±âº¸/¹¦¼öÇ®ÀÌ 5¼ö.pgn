@@ -1,0 +1,90 @@
+[Event "묘수풀이"]
+[Site "DESKTOP-DA"]
+[Date "2020.07.25"]
+[Round "-"]
+[White "공격"]
+[Black "방어"]
+[Result "1-0"]
+[TimeControl "40/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "3ka1NC1/3r2R1C/9/9/9/9/9/9/4A4/3AK4 w 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . k a . N C .
+. . . r . . R . C
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . A . . . .
+. . . A K . . . .
+white to play
+--------------}
+1. Cxd8 {+1000.03/180} Af9 {-1000.02/245 0.6} 2. Cxf9 {+1000.02/245 0.5} --
+{-1000.01/245 0.5} 3. Ci9 {+1000.01/245 0.4}
+{White wins} 1-0
+
+[Event "묘수풀이"]
+[Site "DESKTOP-DA"]
+[Date "2020.07.25"]
+[Round "-"]
+[White "공격"]
+[Black "방어"]
+[Result "1-0"]
+[TimeControl "40/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "3Rck2C/4aa3/7N1/6bpC/9/9/9/9/4A4/4KA3 w 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . R c k . . C
+. . . . a a . . .
+. . . . . . . N .
+. . . . . . b p C
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . A . . . .
+. . . . K A . . .
+white to play
+--------------}
+1. Ng9 {+1000.03/245} Bxi9 {-5.22/1 0.1} 2. Cf6 {+1000.02/245 0.6} Aef7
+{-1000.01/245 0.6} 3. Re8 {+1000.01/245 0.5}
+{White wins} 1-0
+
+[Event "묘수풀이"]
+[Site "DESKTOP-DA"]
+[Date "2020.07.25"]
+[Round "-"]
+[White "공격"]
+[Black "방어"]
+[Result "1-0"]
+[TimeControl "40/300"]
+[Variant "janggicasual"]
+[VariantMen "N:nN;R:RB;A:WF;B:mafsmafW;P:fsWfF;C:pRpB;K:WF"]
+[FEN "3nkaR2/4a4/2R1cc3/3N5/9/3C1Bb2/9/9/9/9 w 0 1"]
+[SetUp "1"]
+
+{--------------
+. . . n k a R . .
+. . . . a . . . .
+. . R . c c . . .
+. . . N . . . . .
+. . . . . . . . .
+. . . C . B b . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+. . . . . . . . .
+white to play
+--------------}
+1. Nc8 {+1000.03/245} Ad8 {-13.33/1 0.1} 2. Rd7 {+1000.02/245 0.6} Cf3
+{-1000.01/245 0.5} 3. Bh7 {+1000.01/245 0.6}
+{White wins} 1-0
+
